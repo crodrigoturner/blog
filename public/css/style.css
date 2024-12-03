@@ -58,7 +58,7 @@ nav {
     margin: 0;
     padding: 10px 20px;
     margin: 10px 0px;
-    font: 400 .9em / 2.1 var(--font);
+    font: 400 1em / 2.1 var(--font);
     z-index: 9999;
     background: #FFF;
     border-radius: 7px;
@@ -83,22 +83,7 @@ nav ul li {
     padding: 0;
 }
 
-nav ul li:first-child a {
-    content: '';
-    border-radius: 50%;
-    height: 1.6em;
-    width: 1.6em;
-    background: #FFD800;
-    float: left;
-    top: 3px;
-    position: relative;
-    margin: 0;
-}
 
-.home nav ul li:first-child {
-    display: none;
-    padding: 0;
-}
 
 nav ul li:first-child:before,
 .home nav ul li:nth-child(2):before {
