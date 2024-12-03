@@ -1,6 +1,37 @@
 ---js
 const numberOfLatestPostsToShow = 5;
 ---
+
+
+<span class="intro"> <span class="welcome">
+<script>
+currentTime=new Date();
+//getHour() function will retrieve the hour from current time
+if(currentTime.getHours()<13)
+document.write("Good morning!");
+else if(currentTime.getHours()<17)
+document.write("Good afternoon!");
+else 
+document.write("Good evening!");
+var weekday = new Array(7)
+weekday[0] = " Sunday"
+weekday[1] = " Monday"
+weekday[2] = " Tuesday"
+weekday[3] = " Wednesday"
+weekday[4] = " Thursday"
+weekday[5] = " Friday"
+weekday[6] = " Saturday"
+var currentDate = new Date()
+weekdayValue = currentDate.getDay()
+document.write(
+" I hope you're having a great" + weekday[weekdayValue] + "."
+)
+</script>
+My name is Carlos Rodrigo, welcome to my corner of the internet.
+</span>
+
+
+
 <h2>What's new</h2>
 
 <p>

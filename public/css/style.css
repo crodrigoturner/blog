@@ -151,7 +151,7 @@ h1 {
 }
 
 h2,
-h3 {
+h3, .intro {
     font: 600 1.5em/1.6 var(--font);
     margin: 0;
     padding: 0;
