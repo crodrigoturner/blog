@@ -153,13 +153,13 @@ h1 {
 h2,
 h3 {
     font: 600 1.5em/1.6 var(--font);
-    margin: 0;
+ 
     padding: 0;
     text-align: left;
     float: left;
     width: 100%;
     color: var(--black);
-    margin: 0px 0px 10px;
+    margin: 10px 0px;
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
