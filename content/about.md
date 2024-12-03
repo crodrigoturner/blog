@@ -3,8 +3,9 @@ const eleventyNavigation = {
 	key: "About",
 	order: 3
 };
+title: About
 ---
-# About
+## About
 
 Hi, I'm Carlos, a data specialist with 7+ years of experience in leveraging data to drive businesses forward. I am passionate about helping make data-driven decisions that lead to growth and success. 
 

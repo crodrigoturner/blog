@@ -14,7 +14,7 @@ html {
 }
 
 body {
-    font: 400 15px/1.6 var(--font);
+    font: 500 16px/1.6 var(--font);
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
     text-rendering: optimizeLegibility !important;
     -webkit-font-smoothing: antialiased !important;
@@ -628,7 +628,7 @@ footer {
             margin: 0;
     }
 
-    section {
+    main {
             float: left;
             width: calc(100% - 40px);
             padding: 0px 20px;
