@@ -84,8 +84,8 @@ nav ul li {
 }
 
 nav ul li:first-child a:before{font-family: "FontAwesome";content:"\f007";margin:0 10px 0 0;}
-nav ul li::nth-child(2) a:before{font-family: "FontAwesome";content:"\f304";margin:0 10px 0 0;}
-nav ul li::nth-child(3) a:before{font-family: "FontAwesome";content:"\f0b1"; margin:0 10px 0 0;}
+nav ul li:nth-child(2) a:before{font-family: "FontAwesome";content:"\f304";margin:0 10px 0 0;}
+nav ul li:nth-child(3) a:before{font-family: "FontAwesome";content:"\f0b1"; margin:0 10px 0 0;}
 
 .home nav ul li:nth-child(2):before {
     display: none;
