@@ -4,18 +4,16 @@ const numberOfLatestPostsToShow = 5;
 <h2>What's new</h2>
 
 <p>
-*reading*:Artemis Fowl 2
-Watching: Shrinking + The day of the jackal
-Listening: Complexity
+<ul>
+<li><b>Reading</b>:Artemis Fowl 2</li>
+<li><b>Watching</b>: Shrinking + The day of the jackal</li>
+<li><b>Listening</b>: Complexity</li>
+</ul>
 <p>
-
-
-
-<h2>Latests posts</h2>
 
 {% set postsCount = collections.posts | length %}
 {% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
-<h1>Latest {{ latestPostsCount }} Post{% if latestPostsCount != 1 %}s{% endif %}</h1>
+<h2>Latest {{ latestPostsCount }} Post{% if latestPostsCount != 1 %}s{% endif %}</h2>
 
 {% set postslist = collections.posts | head(-1 * numberOfLatestPostsToShow) %}
 {% set postslistCounter = postsCount %}
@@ -37,9 +35,15 @@ Listening: Complexity
 
 <h2>Links</h2>
 <p>
-- books
-- films
-- likes
-- Projects
+<ul>
+<li><a href="">Books</a></li>
+<li><a href="">Films</a></li>
+<li><a href="">Podcasts</a></li>
+<li><a href="">Documentaries</a></li>
+<li><a href="">Likes</a></li>
+<li><a href="">Projects</a></li>
+
+</ul>
+
 </p>
 
