@@ -258,7 +258,7 @@ blockquote,
     opacity: 0.666;
     margin: 0;
     float: left;
-    padding: 0;
+    padding: 0 5px 0 0;
     font-size: .85em;
     line-height:1.88;
 }
