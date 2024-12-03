@@ -59,11 +59,9 @@ nav {
     margin: 10px 0px;
     font: 500 1em / 2.1 var(--font);
     z-index: 9999;
-    background: #FFF;
-    border-radius: 7px;
-    box-shadow: 0 0 6.3444108963px 0 rgba(0, 0, 0, .07);
+   
     color: var(--grey);
-border: 1px solid var(--grey);
+
 }
 
 nav a {
@@ -83,9 +81,9 @@ nav ul li {
     width:100%;
 }
 
-nav ul li:first-child a:before{font-family: "FontAwesome";content:"\f007";margin:0 10px 0 0;}
-nav ul li:nth-child(2) a:before{font-family: "FontAwesome";content:"\f304";margin:0 10px 0 0;}
-nav ul li:nth-child(3) a:before{font-family: "FontAwesome";content:"\f0b1"; margin:0 10px 0 0;}
+nav ul li:first-child a:before{font-family: "FontAwesome";content:"\f007";margin:0 20px 0 0;}
+nav ul li:nth-child(2) a:before{font-family: "FontAwesome";content:"\f304";margin:0 20px 0 0;}
+nav ul li:nth-child(3) a:before{font-family: "FontAwesome";content:"\f0b1"; margin:0 20px 0 0;}
 
 
 
