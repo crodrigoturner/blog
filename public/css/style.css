@@ -254,16 +254,12 @@ text-transform:uppercase;
 
 blockquote,
 .meta,
-.wp-caption-text {
+.postlist-date{
     opacity: 0.666;
     margin: 0;
     float: left;
     padding: 10px 0;
     width: 100%;
-}
-
-.meta,
-.wp-caption-text {
     font-size: .85em;
 }
 
