@@ -3,8 +3,8 @@ const eleventyNavigation = {
 	key: "Work",
 	order: 5
 };
+Title: Work
 ---
-# Work
 
 <h4 id="intro"><span>Intro</span></h4>
 
