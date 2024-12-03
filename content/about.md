@@ -1,6 +1,6 @@
 ---js
 const eleventyNavigation = {
-	key: "<i class="fa-regular fa-address-card"></i> About",
+	key: "About",
 	order: 3
 };
 title: About
