@@ -3,7 +3,7 @@ title: Principles
 tags: personal
 ---
 
-<h3 id="about">0. About this set of principles</h3>
+ 0. About this set of principles
 They are in constant evolution.  
 They are always incomplete and outdated.  
 The benefits of these principles increase as compound interest. Beliefs are corrected over time and built upon each other.  
@@ -11,7 +11,7 @@ Some of these beliefs will be wrong.
 I am open to changing my mind at any time, if challenged with arguments based on facts or evidence.  
 Having clear principles and a philosophy of life prevents me from facing each situation as if it were the first time.
 
-<h3 id="general">1. General</h3> 
+1. General 
 My love is not free. To love indiscriminately is not to love. People must earn love.  
 My respect is not free. To respect indiscriminately is no to respect. People must earn respect.  
 We all must work through voluntary decisions to be worthy of the love and respect of others.  
@@ -121,17 +121,17 @@ Have stuff to look forward to. You can’t engineer happiness, but you sure can 
 Articulate your assumptions and question them. If you identify a bad one, you can get rid of it and have a marginally better life, instantly.  
 If you don’t decide, you’re letting someone else decide.
 
-<h3 id="fears">2. Fears</h3>
+2. Fears
 It is important to be aware of our fears in order to work on them and/or prevent them.  
 
-<h3 id="productivity">3. Productivity</h3>
+3. Productivity
 Know the tools you use.  
 Own the best tools you can afford.  
 Seek inertia to be productive and avoid procrastination.  
 Productivity is a muscle that grows the more we work on it.  
 Concentrate and avoid multitasking.
 
-<h3 id="health">4. Health</h3>
+4. Health
 It is as important to know which habits we should practice and which we should avoid.  
 Habits are what form and deform your life. Humans are short-sighted. Build a ritual that will, much like compound interest, build an amazing life.  
 Current health services are based on the care of the sick, not on the prevention of the disease.  
@@ -156,7 +156,7 @@ Being healthy and fit allows us to enjoy more of everything.
 Exercise, do not smoke, drink and eat in moderation, and walk a lot.  
 “Eat food. Not too much. Mostly plants.” - Michael Pollan
 
-<h3 id="relations">5. Relations, friends and family</h3>
+5. Relations, friends and family
 Having friends, family and a partner is essential to being happy.  
 Be honest with yourself and others.  
 There are those who add value and those who take it away, forget those in the second group.  
@@ -167,7 +167,7 @@ Everyone has the same problems. We all feel and have the same concerns, nerves, 
 The quality of our life depends on the quality of our relationships.
 Family is the group of people who really love you, and you love back.
 
-<h3 id="material">6. Material things</h3>
+6. Material things
 I prefer clean, minimalist, organized and collected environments.
 I throw away what you haven’t used in 6 months (except for seasonality).
 Buy things based on €/use, the lower the €/use the better the purchase it is.  
@@ -176,7 +176,7 @@ If I don’t have the memory in my head, I don’t want the material memento.
 To avoid decisional fatigue, have a daily clothing “uniform”.  
 Quality over quantity.
 
-<h3 id="money">7. Money</h3>
+7. Money
 Nobody gets rich by renting their time.  
 Money allows us to buy time and freedom.  
 Money gives us independence and autonomy.  
@@ -199,7 +199,7 @@ There are five sources of edge:
 4) Be willing to fail more than your competition  
 5) Wait longer than your competition.
 
-<h3 id="work">8. Work</h3>
+8. Work
 It is better to work to have an impact on learning and on something interesting than changing time for money.  
 Nobody has professional careers anymore; we are constantly changing.  
 WHO matters most, then WHY, then HOW, then WHAT, then WHEN.   
@@ -227,14 +227,14 @@ Optimize your income - Do you know how much you should be earning?
 Spend 2 hours to compare the salaries of the different careers you’re interested in?  
 Clear rules reduce the need for approval, the stress of trying to have everything both ways, and the necessity of constantly explaining yourself.  
 
-<h3 id="about">9. Learning</h3>
+9. Learning
 It is essential to learn to learn.   
 It is better to have a broad and diversified knowledge than to be ultra-specialized.  
 Take advantage of learning and compound knowledge.  
 We must always learn or improve our skills.  
 Learning does not end.
 
-<h3 id="society">10. Society</h3>
+10. Society
 Group activities are always more comfortable.   
 Small talk is the door to deep friendship. You must make small talk first.  
 Letting go of the thought that people must like you is the best decision you will ever make.  
@@ -249,7 +249,7 @@ The best alternative to improve the world is generate growth through business.
 Being a good person lets us have better relationships with others.   
 What we think as being good is based on what makes us get along with others and live in society.
 
-<h3 id="politics">11. Politics</h3>
+11. Politics
 I consider myself a Liberal, everyone should do what they want.  
 I believe that the best system is a meritocracy. (Though none truly exists)  
 I believe that a monarchic system is not a full democracy.  
