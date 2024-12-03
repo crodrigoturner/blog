@@ -82,7 +82,7 @@ nav ul li {
     padding: 0;
 }
 
-nav ul li:first-child:before{content:"\f007";}
+nav ul li:first-child a:before{content:"\f007";}
 
 .home nav ul li:nth-child(2):before {
     display: none;
@@ -151,7 +151,7 @@ h1 {
 }
 
 h2,
-h3, .intro {
+h3 {
     font: 600 1.5em/1.6 var(--font);
     margin: 0;
     padding: 0;
