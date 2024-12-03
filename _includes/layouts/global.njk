@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en" {% if slug %}class="html--{{ slug }}"{% endif %}>
+{% include "head.njk" %}
+<body class="body--{% if slug %}{{ slug }}{% else %}{{ title | slug }}{% endif %}">
+  {% include "header.njk" %}
+  {% include "icon-defs.njk" %}
+  <main role="main" id="main">
+    {{ content | safe }}
+  </main>
+  {% include "footer.njk" %}
+  </body>
+</html>
