@@ -1,6 +1,6 @@
 ---js
 const eleventyNavigation = {
-	key: "&#129485; Work",
+	key: "Work",
 	order: 5
 };
 Title: Work
