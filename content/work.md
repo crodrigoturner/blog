@@ -81,9 +81,4 @@ Title: Work
 </ul>
 
 <h4 id="interests">Special interests</h4>
-Data, data driven decision making, AI, Webdesign, Internet
-
-
-
-
-
+<p>Data, data driven decision making, AI, Webdesign, Internet</p>
