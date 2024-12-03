@@ -1,6 +1,6 @@
 ---js
 const eleventyNavigation = {
-	key: "<i class="fa-solid fa-briefcase"></i> Work",
+	key: "Work",
 	order: 5
 };
 Title: Work
