@@ -84,7 +84,6 @@ nav ul li {
 
 nav ul li:first-child:before{content:"\f007";}
 
-nav ul li:first-child:before,
 .home nav ul li:nth-child(2):before {
     display: none;
 }
