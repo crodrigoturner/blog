@@ -4,8 +4,20 @@ const eleventyNavigation = {
 	order: 1
 };
 
-const numberOfLatestPostsToShow = 10;
+const numberOfLatestPostsToShow = 5;
 ---
+<h2>What's new</h2>
+
+<p>
+*reading*:Artemis Fowl 2
+Watching: Shrinking + The day of the jackal
+Listening: Complexity
+<p>
+
+
+
+<h2>Latests posts</h2>
+
 {% set postsCount = collections.posts | length %}
 {% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
 <h1>Latest {{ latestPostsCount }} Post{% if latestPostsCount != 1 %}s{% endif %}</h1>
@@ -28,22 +40,11 @@ const numberOfLatestPostsToShow = 10;
 </ul>
 #}
 
-
-<h2>What's new</h2>
-
-*reading*:Artemis Fowl 2
-Watching: Shrinking + The day of the jackal
-Listening: Complexity
-
-
-<h2>Latests posts</h2>
-
-{{ content | safe }}
-
-
 <h2>Links</h2>
-
+<p>
 - books
 - films
 - likes
 - Projects
+</p>
+
