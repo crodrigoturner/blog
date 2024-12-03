@@ -82,17 +82,17 @@ nav ul li {
     padding: 0;
 }
 
-nav ul li:first-child a:before{content:"\f007";}
+nav ul li:first-child a:before{font-family: "FontAwesome";content:"\f007";}
 
 .home nav ul li:nth-child(2):before {
     display: none;
 }
 
-nav ul li:before {
+/*nav ul li:before {
     content: '|';
     padding: 0 0px 0 10px;
     margin: 0 10px 0 0;
-}
+}*/
 
 nav ul li a {
     align-items: center;
