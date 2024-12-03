@@ -6,3 +6,8 @@ const eleventyNavigation = {
 title: Favourites
 ---
 ## Favourites
+
+### Books
+### Films
+### Podcasts
+### Documentaries
