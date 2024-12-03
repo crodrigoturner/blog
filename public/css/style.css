@@ -159,7 +159,7 @@ p {
 }
 
 h1 {
-    display: none;
+   
     font: 700 1.5em / 1.6 var(--font);
     margin: 0 0 10px;
     padding: 0 0px;
@@ -202,9 +202,7 @@ h1::before {
 }
 
 
-.home h1 {
-    display: block;
-}
+
 
 
 h5,

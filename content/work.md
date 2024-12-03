@@ -6,6 +6,8 @@ const eleventyNavigation = {
 Title: Work
 ---
 
+## Work
+
 <h4 id="intro"><span>Intro</span></h4>
 
 <a href="https://www.carlosrodrigo.com/how-i-work/">How I work</a> · <a href="https://www.linkedin.com/in/crodrigoturner/">Linkedin</a> · <a href="/cv/">CV</a>
