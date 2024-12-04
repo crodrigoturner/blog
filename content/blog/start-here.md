@@ -1,6 +1,7 @@
 ---
 title: Start Here
 tags: meta
+date: 03/12/2024
 ---
 
 The main purpose of this website/blog is to share what I'm up to, thoughts I'm having, media I'm consuming, and designing and redesigning the site <em>ad nauseam</em>.
