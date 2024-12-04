@@ -9,7 +9,7 @@ title: Contact
 
 I’m always looking for new people to connect with and learn from, here is how I prefer to keep in touch:
 
-I prefer <strong>e-mail</strong> (<script>document.write('<a href="mailto:'+'e'+'m'+'a'+'i'+'l'+'@'+'c'+'a'+'r'+'l'+'o'+'s'+'r'+'o'+'d'+'r'+'i'+'g'+'o'+'.'+'c'+'o'+'m'+'">email</a>');</script>) over everything else, so if you want to talk my inbox is always open.
+I prefer <script>document.write('<a href="mailto:'+'e'+'m'+'a'+'i'+'l'+'@'+'c'+'a'+'r'+'l'+'o'+'s'+'r'+'o'+'d'+'r'+'i'+'g'+'o'+'.'+'c'+'o'+'m'+'">email</a>');</script> over everything else, so if you want to talk my inbox is always open.
 
 I rarely use <a href="https://twitter.com/crodrigoturner">Twitter</a> and/or <a href="http://@crodrigoturner@mastodonapp.uk">Mastodon</a>.
 
