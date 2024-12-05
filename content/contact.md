@@ -20,4 +20,5 @@ If you want to connect professionally, I’m on <a href="https://www.linkedin.co
 I do not use Facebook.
 
 I keep bits of code in <a href="https://codepen.io/crodrigoturner">Codepen</a> and <a href="https://github.com/crodrigoturner">Github</a>
+
 <blockquote>* Based on Alastair Johnston's <a href="https://alastairjohnston.com/hello/">Hello page</a></blockquote>
