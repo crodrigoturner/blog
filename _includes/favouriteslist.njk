@@ -1,9 +1,0 @@
-{%- css %}.favouritelist { counter-reset: start-from {{ (favouriteslistCounter or favouriteslist.length) + 1 }} }{% endcss %}
-<ul reversed class="favouritelist">
-{%- for favourite in favouriteslist | reverse %}
-	<li class="favouritelist-item{% if favourite.url == url %} favouritelist-item-active{% endif %}">
-		<time class="favouritelist-date" datetime="{{ favourite.date | htmlDateString }}">{{ favourite.date | readableDate("ddMMyyyy") }}</time>  · <a href="{{ favourite.url }}" class="favouritelist-link">{% if favourite.data.title %}{{ favourite.data.title }}{% else %}<code>{{ favourite.url }}</code>{% endif %}</a>
-	
-	</li>
-{%- endfor %}
-</ul>
