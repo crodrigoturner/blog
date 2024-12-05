@@ -55,10 +55,6 @@ export default async function(eleventyConfig) {
 			name: "posts",
 			limit: 10,
 		},
-		collection: {
-			name: "favourites",
-			limit: 10,
-		},
 		metadata: {
 			language: "en",
 			title: "carlos rodrigo",
@@ -69,6 +65,12 @@ export default async function(eleventyConfig) {
 			}
 		}
 	});
+
+	
+		eleventyConfig.addCollection("Favourites", function(collection) {
+			return collection.getFilteredByGlob("/favourites/*.md");
+		});
+	
 
 	// Image optimization: https://www.11ty.dev/docs/plugins/image/#eleventy-transform
 	eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
