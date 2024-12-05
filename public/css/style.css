@@ -81,21 +81,11 @@ nav ul li {
     width:100%;
 }
 
-nav ul li:first-child a:before{font-family: "FontAwesome";content:"\f007";margin:0 20px 0 0;}
-nav ul li:nth-child(2) a:before{font-family: "FontAwesome";content:"\f304";margin:0 20px 0 0;}
-nav ul li:nth-child(3) a:before{font-family: "FontAwesome";content:"\f0b1"; margin:0 20px 0 0;}
+nav ul li.About a:before{font-family: "FontAwesome";content:"\f007";margin:0 20px 0 0;}
+nav ul li.Blog a:before{font-family: "FontAwesome";content:"\f304";margin:0 20px 0 0;}
+nav ul li.Work a:before{font-family: "FontAwesome";content:"\f0b1"; margin:0 20px 0 0;}
 nav ul li.likes a:before{font-family: "FontAwesome";content:"\f0e0"; margin:0 20px 0 0;}
-nav ul li:nth-child(4) a:before{font-family: "FontAwesome";content:"\f005"; margin:0 20px 0 0;}
-
-
-
-
-
-/*nav ul li:before {
-    content: '|';
-    padding: 0 0px 0 10px;
-    margin: 0 10px 0 0;
-}*/
+nav ul li.Contact a:before{font-family: "FontAwesome";content:"\f005"; margin:0 20px 0 0;}
 
 nav ul li a {
     align-items: center;
