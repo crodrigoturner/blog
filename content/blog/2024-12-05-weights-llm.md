@@ -1,8 +1,7 @@
 ---
 title: Weight in llm
 summary: Numerical values assigned to the connections between neurons in the model's neural network
-tags: concept
-date: 04/25/2024
+tags: AI
 ---
 
 ## Weights in Large Language Models
