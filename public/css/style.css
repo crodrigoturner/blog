@@ -233,23 +233,23 @@ text-transform:uppercase;
 
 
 
-.sitemap li {
+.tags li {
     display: inline;
 }
 
-.sitemap li::after {
+.tags li ::after {
     content: ', ';
 }
 
-.sitemap li:last-child::after {
+.tags li :last-child::after {
     content: '.';
 }
 
-.sitemap li:nth-last-child(2)::after {
+.tags li:nth-last-child(2)::after {
     content: ' ';
 }
 
-.sitemap li:last-child::before {
+.tags li:last-child::before {
     content: ' and ';
 }
 
