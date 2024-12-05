@@ -3,6 +3,8 @@ eleventyExcludeFromCollections: true
 title: Life in squares
 ---
 
+## My life in squares
+
 This is a timeline of the most important events I have experienced. 
 
 Each square is a month.

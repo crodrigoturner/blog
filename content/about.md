@@ -14,4 +14,6 @@ I have worked in architecture studios, big energy companies, luxury brands, and 
 
 I live in Madrid with Mar, Lucas, Nicolás and <a href="/blog/pancho.md">Pancho</a>.
 
+---
+
 - <a href="/life-in-squares.md">My life in squares</a>
