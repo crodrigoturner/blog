@@ -4,6 +4,7 @@ const eleventyNavigation = {
 	order: 1
 };
 title: About
+layout: layouts/about.njk
 ---
 ## About
 

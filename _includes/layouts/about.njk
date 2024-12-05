@@ -1,0 +1,10 @@
+---
+layout: layouts/about.njk
+---
+
+{% set posts = collections.posts | contains("data.tags", 'meta') %}
+<ul>
+{%- for offer in offers %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+{%- endfor -%}
+</ul>
