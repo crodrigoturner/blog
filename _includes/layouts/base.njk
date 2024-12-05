@@ -20,8 +20,7 @@
 </a>
 		
 			<nav>
-				
-				<ul class="nav">
+<ul class="nav">
 				{%- for entry in collections.all | eleventyNavigation %}
 					<li class="nav-item {{entry.title}}"><a href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a></li>
 				{%- endfor %}
