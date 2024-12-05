@@ -67,9 +67,7 @@ export default async function(eleventyConfig) {
 	});
 
 	
-		eleventyConfig.addCollection("Favourites", function(collection) {
-			return collection.getFilteredByGlob("/favourites/*.md");
-		});
+		
 	
 
 	// Image optimization: https://www.11ty.dev/docs/plugins/image/#eleventy-transform
