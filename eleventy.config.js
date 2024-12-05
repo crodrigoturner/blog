@@ -55,13 +55,17 @@ export default async function(eleventyConfig) {
 			name: "posts",
 			limit: 10,
 		},
+		collection: {
+			name: "favourite",
+			limit: 10,
+		},
 		metadata: {
 			language: "en",
-			title: "Blog Title",
-			subtitle: "This is a longer description about your blog.",
-			base: "https://example.com/",
+			title: "carlos rodrigo",
+			subtitle: "A personal website.",
+			base: "https://carlosrodrigo.com/",
 			author: {
-				name: "Your Name"
+				name: "Carlos"
 			}
 		}
 	});
