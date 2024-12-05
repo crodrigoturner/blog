@@ -56,7 +56,7 @@ export default async function(eleventyConfig) {
 			limit: 10,
 		},
 		collection: {
-			name: "favourite",
+			name: "favourites",
 			limit: 10,
 		},
 		metadata: {
