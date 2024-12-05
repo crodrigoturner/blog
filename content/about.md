@@ -35,6 +35,7 @@ Inspired by [Melanie Richards](https://melanie-richards.com/), [Andrew Conner](h
 ### Other pages about me
 
 - <a href="/life-in-squares.md">My life in squares</a>
+- [What I use?](blog/uses.md)
 
 
 ### Contact
