@@ -1,5 +1,5 @@
 ---
-Title: Two podcasts and why I read/listen to biographies
+title: Two podcasts and why I read/listen to biographies
 tags: 
 - likes
 - journal
