@@ -3,13 +3,15 @@ const eleventyNavigation = {
 	key: "Favourites",
 	order: 5
 };
+
+eleventyExcludeFromCollections: ["post"]
 ---
 <h2>Favourites</h2>
 
 <ul>
 {% for tag in collections | getKeys | filterTagList %}
 	{% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
-	<li><a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a></li>
+	<li><a href="{{ tagUrl }}" class="favourite-tag">{{ tag }}</a></li>
 {% endfor %}
 </ul>
 
