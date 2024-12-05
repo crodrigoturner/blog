@@ -1,0 +1,17 @@
+---js
+const eleventyNavigation = {
+	key: "Favourites",
+	order: 5
+};
+---
+<h2>Favourites</h2>
+
+<ul>
+{% for tag in collections | getKeys | filterTagList %}
+	{% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
+	<li><a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a></li>
+{% endfor %}
+</ul>
+
+{% set postslist = collections.favourites %}
+{% include "postslist.njk" %}
