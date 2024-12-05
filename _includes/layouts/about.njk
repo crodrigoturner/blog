@@ -1,6 +1,8 @@
 ---
-layout: layouts/about.njk
+layout: layouts/base.njk
 ---
+
+{{ content | safe }}
 
 {% set posts = collections.posts | contains("data.tags", 'meta') %}
 <ul>
