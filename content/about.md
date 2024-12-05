@@ -13,3 +13,5 @@ Hi, I'm Carlos, a data specialist with 7+ years of experience in leveraging data
 I have worked in architecture studios, big energy companies, luxury brands, and small companies. I currently work at <a href="http://tecnicayavance.com">Técnica y Avance</a>.
 
 I live in Madrid with Mar, Lucas, Nicolás and <a href="/blog/pancho.md">Pancho</a>.
+
+- <a href="/life-in-squares.md">My life in squares</a>
