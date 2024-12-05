@@ -1,8 +1,7 @@
 ---
 title: What is the best path to learn AI? 
 summary: The best path to learn about AI
-tags: concept
-date: 04/10/2024
+tags: AI
 ---
 
 ## What is the best path to learn AI? 

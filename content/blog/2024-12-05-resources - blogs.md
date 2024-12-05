@@ -1,8 +1,7 @@
 ---
 title: Resources - blogs
 summary: Most relevant blogs on AI
-tags: resources
-date: 04/10/2024
+tags: AI
 ---
 
 ## Resources - blogs

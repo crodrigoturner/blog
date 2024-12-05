@@ -1,8 +1,7 @@
 ---
 title: Deep Learning
 summary: What is deep learning?
-tags: concept
-date: 04/10/2024
+tags: AI
 ---
 
 

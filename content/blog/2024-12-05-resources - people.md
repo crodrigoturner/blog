@@ -1,8 +1,7 @@
 ---
 title: Resources - People
 summary: Most knowlegable people on AI
-tags: resources
-date: 04/10/2024
+tags: AI
 ---
 
 ## Resources - People

@@ -1,8 +1,7 @@
 ---
 title: Resources - links
 summary: Tools, links, other resources...
-tags: resources
-date: 04/10/2024
+tags: AI
 ---
 
 ## Resources - Links

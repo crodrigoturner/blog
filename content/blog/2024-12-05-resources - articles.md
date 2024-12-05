@@ -1,8 +1,7 @@
 ---
 title: Resources - articles
 summary: Some of the best articles on AI
-tags: resources
-date: 04/10/2024
+tags: AI
 ---
 
 ## Resources - articles

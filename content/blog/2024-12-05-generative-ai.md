@@ -1,8 +1,7 @@
 ---
 title: Generative AI
 summary: Artificial intelligence systems that can produce new content
-tags: concept
-date: 04/25/2024
+tags: AI
 ---
 
 ## Generative AI

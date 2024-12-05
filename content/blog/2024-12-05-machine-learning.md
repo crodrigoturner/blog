@@ -1,8 +1,7 @@
 ---
 title: Machine Learning
 summary: What is machine learning?
-tags: concept
-date: 04/10/2024
+tags: AI
 ---
 
 

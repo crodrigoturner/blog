@@ -1,8 +1,7 @@
 ---
 title: Key people on AI
 summary: Who are some of the most relevant people on AI?
-tags: concept
-date: 04/25/2024
+tags: AI
 ---
 
 ## Key people on AI 
