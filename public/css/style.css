@@ -243,7 +243,8 @@ float:left;
 	padding:5px 0;
 }
 
-td{width:20%;}
+td{width:calc(40%/3);}
+td:first-child, td:nth-child(2){width:30%}
 
 tr {
 	display:flex;
