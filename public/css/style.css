@@ -244,8 +244,8 @@ float:left;
     text-align:left;
 }
 
-td, th{width:calc(40%/3);}
-td:first-child, td:nth-child(2), th:first-child, th:nth-child(2), td:nth-child(3), th:nth-child(3){width:20%}
+td, th{width:calc(25%/3);}
+td:first-child, td:nth-child(2), th:first-child, th:nth-child(2), td:nth-child(3), th:nth-child(3){width:25%}
 
 tr {
 	display:flex;
