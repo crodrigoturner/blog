@@ -233,7 +233,7 @@ text-transform:uppercase;
 table {
 	width:100%;
     float:left;
-    font: 500 15px / 1 var(--font);
+    font: 500 14px / 1 var(--font);
 }
 
 th {
