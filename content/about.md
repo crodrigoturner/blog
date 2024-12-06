@@ -14,6 +14,7 @@ I have worked in architecture studios, big energy companies, luxury brands, and 
 
 I live in Madrid with Mar, Lucas, Nicolás and <a href="/blog/pancho.md">Pancho</a>.
 
+---
 ### Big important concepts
 
 Evolution and survival of the fittest
@@ -22,7 +23,7 @@ Compounding
 
 Biomimicry
 
-
+---
 ### About this site
 
 Built with Eleventy and deployed on Netlify.
@@ -31,7 +32,7 @@ The font is *IBM Plex sans* served by Google Fonts.
 
 Inspired by [Melanie Richards](https://melanie-richards.com/), [Andrew Conner](https://andrewconner.com/), [Chris Glass](https://chrisglass.com/) and [V.H. Belvadi](https://vhbelvadi.com/) 
 
-
+---
 ### Other pages about me
 
 - <a href="/life-in-squares.md">My life in squares</a>
