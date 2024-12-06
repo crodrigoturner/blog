@@ -232,20 +232,23 @@ text-transform:uppercase;
 
 table {
 	width:100%;
+    float:left;
 	border:1px solid #f9f9f9;
 }
 
 th {
-	display:flex;
+float:left;
 	width:100%;
-	background:#000;
-	padding:10px 0;
+	font-weight:bold;
+	padding:5px 0;
 }
+
+td{width:20%;}
 
 tr {
 	display:flex;
 	width:100%;
-	padding:10px 0;}
+	padding:5px 0;}
 	
     tr:nth-of-type(odd) {
 		background:#ffffff;
