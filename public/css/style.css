@@ -241,6 +241,7 @@ float:left;
 	width:100%;
 	font-weight:bold;
 	padding:5px 0;
+    text-align:left;
 }
 
 td{width:calc(40%/3);}
