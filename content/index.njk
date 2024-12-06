@@ -28,7 +28,12 @@ document.write(
 )
 </script></p>
 
-
+{%- set item = collections.all | getpage("/status/") | first -%}
+{% if item %}
+  <p>{{ post.description }}</p>
+{% else %}
+  <p>Page not found</p>
+{% endif %}
 
 <h2>What's new</h2>
 
