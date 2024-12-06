@@ -4,8 +4,8 @@ title: Reading
 
 ## Reading
 
-|  Book | Author | Status | Note | Link  |
-|---|---|---|---|---|
+|  Book | Collection | Author | Status | Note | Link  |
+|---|---|---|---|---|---|
 |1984||George Orwell|To read||
 |100 of the Most Outrageous Comments about How to Live: Or a Life of Montaigne in One Question and Twenty Attempts at an Answer||Jake Bing|To read||
 |1984: The Graphic Novel||Fido Nesti|Reading||
