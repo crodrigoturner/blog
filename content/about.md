@@ -28,7 +28,7 @@ Biomimicry
 
 Built with Eleventy and deployed on Netlify.
 
-The font is *IBM Plex sans* served by Google Fonts.
+The font is *IBM Plex sans* served by Google Fonts. Icons are served by Fontawesome.
 
 Inspired by [Melanie Richards](https://melanie-richards.com/), [Andrew Conner](https://andrewconner.com/), [Chris Glass](https://chrisglass.com/) and [V.H. Belvadi](https://vhbelvadi.com/) 
 
