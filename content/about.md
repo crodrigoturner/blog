@@ -38,7 +38,7 @@ Inspired by [Melanie Richards](https://melanie-richards.com/), [Andrew Conner](h
 - <a href="/life-in-squares.md">My life in squares</a>
 - [What I use?](blog/uses.md)
 
-
+---
 ### Contact
 
 If you want to get in touch, please send me an <script>document.write('<a href="mailto:'+'e'+'m'+'a'+'i'+'l'+'@'+'c'+'a'+'r'+'l'+'o'+'s'+'r'+'o'+'d'+'r'+'i'+'g'+'o'+'.'+'c'+'o'+'m'+'">email</a>');</script>.
