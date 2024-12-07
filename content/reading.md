@@ -4,7 +4,7 @@ title: Reading
 
 ## Reading
 
-|  Book | Collection | Author | Status | Note | Link  |
+|  Book | Collection | Author | Status | Rating | Link  |
 |---|---|---|---|---|---|
 |1984||George Orwell|To read||
 |100 of the Most Outrageous Comments about How to Live: Or a Life of Montaigne in One Question and Twenty Attempts at an Answer||Jake Bing|To read||
@@ -127,26 +127,26 @@ title: Reading
 |Slough House (Slough House, #7)|Slough House|Mick Herron|Read||
 |Slow Horses (Slough House, #1)|Slough House|Mick Herron|Read||
 |Stoicism: A Very Short Introduction||Brad Inwood|To read||
-|Summary & Study Guide The Blind Watchmaker by Richard Dawkins||BookRags|To read||
-|Summary & Study Guide The Richest Man in Babylon by George Samuel Clason||BookRags|To read||
-|Summary and Analysis of The Age of Spiritual Machines: When Computers Exceed Human Intelligence By Ray Kurzweil||Acesprint|To read||
-|Summary and Analysis: The Inevitable by Kevin Kelly||Titan Read|To read||
-|Summary and Study Guide of The Great Mental Models: General Thinking Concepts by Shane Parrish and Rhiannon Beaubien||Martina|To read||
-|SUMMARY Benjamin Franklin | Walter Isaacson | Ebook | Highlights and Key Concepts | Save Money and Time Reading Summaries||Joseph Bellvis|To read||
-|Summary Edition: The Catcher in the Rye and J.D. Salinger||Jonathan Coupland|To read||
-|Summary of 12 Rules for Life by Jordan B. Peterson: An Antidote to Chaos (Self-Help Book Summaries)||FlashBooks Book Summaries|Read||
-|Summary of Beyond Order: 12 More Rules for Life by Jordan B. Peterson||Empress Publish|To read||
-|Summary of Factfulness By Hans Rosling, Anna Rosling RÃ¶nnlund and Ola Rosling: Ten Reasons We're Wrong About the World--and Why Things Are Better Than You Think||Concise Reading|To read||
-|Summary of How to Take Smart Notes by SÃ¶nke Ahrens: One Simple Technique to Boost Writing, Learning and Thinking â€“ for Students, Academics and Nonfiction Book Writers||getAbstract AG|To read||
-|Summary of Michio Kaku's The Future of Humanity||Everest Media|To read||
+|The Blind Watchmaker by ||Richard Dawkins|To read||
+|The Richest Man in Babylon by ||George Samuel Clason|To read||
+|The Age of Spiritual Machines: When Computers Exceed Human Intelligence||Ray Kurzweil|To read||
+|The Inevitable by ||Kevin Kelly|To read||
+|The Great Mental Models: General Thinking Concepts ||Shane Parrish and Rhiannon Beaubien|To read||
+|Benjamin Franklin |  |Walter Isaacson||Joseph Bellvis|To read||
+|The Catcher in the Rye and J.D. Salinger||Jonathan Coupland|To read||
+|12 Rules for Life: An Antidote to Chaos||by Jordan B. Peterson|Read||
+|Beyond Order: 12 More Rules for Life||Jordan B. Peterson|To read||
+|Factfulness By Hans Rosling, Anna Rosling RÃ¶nnlund and Ola Rosling: Ten Reasons We're Wrong About the World--and Why Things Are Better Than You Think||Concise Reading|To read||
+|How to Take Smart Notes by SÃ¶nke Ahrens: One Simple Technique to Boost Writing, Learning and Thinking â€“ for Students, Academics and Nonfiction Book Writers||getAbstract AG|To read||
+|Michio Kaku's The Future of Humanity||Everest Media|To read||
 |Summary of Principles by Ray Dalio||Better Me|To read||
-|Summary of Sapiens by Yuval Noah Harari||Book Summary|To read||
+|Sapiens by Yuval Noah Harari||Book Summary|To read||
 |Summary of Seven Brief Lessons on Physics by Carlo Rovelli | Conversation Starters||BookHabits|To read||
 |Summary Of Superintelligence by Nick Bostrom: Paths, Dangers, Strategies||Don Nicholson|To read||
-|Summary of The Compound Effect by Darren Hardy||BookSuma Publishing|To read||
-|Summary: 21 Lessons for the 21st Century by Yuval Noah Harari||In A Nutshell Publishing|To read||
-|Summary: Homo Deus by Yuval Noah Harari (Great Books Fast)||GBF Summary|To read||
-|Superforecasting: The Art and Science of Prediction by Philip E. Tetlock and Dan Gardner | Key Takeaways, Analysis & Review||Instaread Summaries|To read||
+|The Compound Effect by Darren Hardy||BookSuma Publishing|To read||
+|21 Lessons for the 21st Century by ||Yuval Noah Harari|To read||
+|Homo Deus||Yuval Noah Harari|To read||
+|Superforecasting: The Art and Science of Prediction|||Philip E. Tetlock and Dan Gardner |To read||
 |Superintelligence: Paths, Dangers, Strategies||Nick Bostrom|To read||
 |The Age of Reason||Thomas Paine|To read||
 |The Almanack of Naval Ravikant: A Guide to Wealth and Happiness||Eric Jorgenson|Read|3|
