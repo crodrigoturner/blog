@@ -5,9 +5,7 @@ const eleventyNavigation = {
 };
 ---
 <h2>Blog</h2>
-
 <hr/>
-
 <ul class="tags">
 {% for tag in collections | getKeys | filterTagList %}
 	{% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
