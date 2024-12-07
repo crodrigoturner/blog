@@ -6,7 +6,8 @@ const eleventyNavigation = {
 ---
 <h2>Blog</h2>
 
----
+<hr/>
+
 <ul class="tags">
 {% for tag in collections | getKeys | filterTagList %}
 	{% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
@@ -14,6 +15,6 @@ const eleventyNavigation = {
 	</li>
 {% endfor %}
 </ul>
----
+<hr/>
 {% set postslist = collections.posts %}
 {% include "postslist.njk" %}
