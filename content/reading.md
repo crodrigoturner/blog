@@ -1,6 +1,6 @@
 ---
 title: Reading
-layout: reading.njk
+layout: layots/reading.njk
 ---
 
 ## Reading
