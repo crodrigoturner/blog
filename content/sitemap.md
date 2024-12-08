@@ -1,6 +1,7 @@
+##Sitemap
 
 <ul>
 	{%- for entry in collections.all %}
-	<li><a href="{{ entry.url }}"><code>{{ entry.url }}</code></a></li>
+	<li><a href="{{ entry.url }}">{{ entry.title }}</a></li>
 	{%- endfor %}
 </ul>
