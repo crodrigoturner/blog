@@ -81,7 +81,7 @@ nav ul li {
 }
 
 
-nav ul li a {opacity: 0.666;padding:10px 0;}
+nav ul li a {opacity: 0.666;padding:15px 0;}
 nav ul li a.active, nav ul li:hover a{opacity: 1;}
 
 nav ul li a:before {font-family: "FontAwesome";margin:0 20px 0 0;}
