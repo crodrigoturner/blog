@@ -1,5 +1,6 @@
 ---
 title: Reading
+layout: reading.njk
 ---
 
 ## Reading

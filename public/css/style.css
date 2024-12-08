@@ -104,6 +104,13 @@ main {
     margin: 0;
 }
 
+main {
+    padding: 15px 20% 100px;
+    width: 60%;
+    float: left;
+    margin: 0;
+}
+
 article {
     float: left;
     width:100%;
