@@ -108,7 +108,7 @@ main {
     margin: 0;
 }
 
-main {
+.wide {
     padding: 15px 20% 100px;
     width: 60%;
     float: left;
