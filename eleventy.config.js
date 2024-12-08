@@ -67,7 +67,16 @@ export default async function(eleventyConfig) {
 	});
 
 	
-		
+eleventyConfig.addShortcode('excerpt', post => extractExcerpt(post));
+
+	function extractExcerpt(post) {
+		if(!post.templateContent) return '';
+		if(post.templateContent.indexOf('</p>') > 0) {
+			let end = post.templateContent.indexOf('</p>');
+			return post.templateContent.substr(0, end+4);
+		}
+		return post.templateContent;
+	}
 	
 
 	// Image optimization: https://www.11ty.dev/docs/plugins/image/#eleventy-transform
