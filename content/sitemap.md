@@ -1,4 +1,4 @@
-##Sitemap
+## Sitemap
 
 <ul>
 	{%- for entry in collections.all %}
