@@ -82,8 +82,10 @@ nav ul li {
 }
 
 
+nav ul li a{color:#97917480;}
+
 nav ul li a:before {font-family: "FontAwesome";margin:0 20px 0 0;}
-nav ul li:hover a:before {color:#FFD800;}
+nav ul li:hover a{color:var(--black);}
 nav ul li.Home a:before{content:"\f015";}
 nav ul li.About a:before{content:"\f007";}
 nav ul li.Blog a:before{content:"\f304";}
