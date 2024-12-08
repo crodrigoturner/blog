@@ -14,15 +14,7 @@ I have worked in architecture studios, big energy companies, luxury brands, and 
 
 I live in Madrid with Mar, Lucas, Nicolás and <a href="/blog/pancho.md">Pancho</a>.
 
-[//]: <> (---This is also a comment.
-### Big important concepts
 
-Evolution and survival of the fittest
-
-Compounding
-
-Biomimicry
-)
 ---
 ### About this site
 
