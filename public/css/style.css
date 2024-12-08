@@ -224,13 +224,13 @@ h6 {
 }
 
 h4 {
-    font: 300 .9em/1 var(--font);
+    font: 400 1em/1 var(--font);
     text-wrap: balance;
     padding: 10px 0;
     float: left;
     width: 100%;
     margin: 0;
-    color: #CCC;
+    color: #BBB;
 text-transform:uppercase;
 }
 

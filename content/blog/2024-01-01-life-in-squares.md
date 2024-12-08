@@ -1,6 +1,7 @@
 ---
 eleventyExcludeFromCollections: true
 title: Life in squares
+tags: projects
 ---
 
 ## My life in squares
