@@ -22,7 +22,7 @@
 			<nav>
 <ul class="nav">
 				{%- for entry in collections.all | eleventyNavigation %}
-					<li class="nav-item {{entry.title}}" {% if page.url == '{{entry.url}}' %} active{% endif %}""><a href="{{ entry.url }}" {% if entry.url == page.url %} class="active"{% endif %}>{{ entry.title }}</a></li>
+					<li class="nav-item {{entry.title}}"><a href="{{ entry.url }}" {% if entry.url == page.url %} class="active"{% endif %}>{{ entry.title }}</a></li>
 				{%- endfor %}
 			
 				</ul>
