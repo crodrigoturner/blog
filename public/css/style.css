@@ -82,7 +82,7 @@ nav ul li {
 }
 
 
-nav ul li a{color:#97917480;}
+nav ul li a{opacity: 0.666;}
 
 nav ul li a:before {font-family: "FontAwesome";margin:0 20px 0 0;}
 nav ul li:hover a{color:var(--black);}
