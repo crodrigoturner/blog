@@ -6,6 +6,9 @@ layout: layouts/base.njk
 
 ## Reading
 
+<div id="literal-widget" handle="crodrigoturner" status="IS_READING" layout="list"></div>
+<script src="https://literal.club/js/widget.js"></script>
+
 |  Book | Collection | Author | Status | Rating | Link  |
 |---|---|---|---|---|---|
 |Twas the Nightshift Before Christmas||Adam Kay|To read||
