@@ -31,8 +31,8 @@ This website is <a href="https://www.websitecarbon.com/website/carlosrodrigo-com
 ---
 ### Other pages about me
 
-- <a href="/life-in-squares.md">My life in squares</a>
-- [What I use?](blog/uses.md)
+- <a href="/blog/2024-01-01-life-in-squares.md">My life in squares</a>
+- [What I use?](/blog/2024-12-05-uses.md)
 
 ---
 ### Contact
