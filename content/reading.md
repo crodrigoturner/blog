@@ -1,6 +1,7 @@
 ---
 title: Reading
-layout: layouts/reading.njk
+class: reading
+layout: layouts/base.njk
 ---
 
 ## Reading
