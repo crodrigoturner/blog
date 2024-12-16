@@ -4,9 +4,6 @@ summary: What is machine learning?
 tags: AI
 ---
 
-
-## Machine Learning
-
 Machine learning is a subset of artificial intelligence (AI) that focuses on the **development of algorithms and statistical models that enable computers to learn from and make predictions or decisions based on data, without being explicitly programmed to do so. The primary goal of machine learning is to enable computers to learn from past experiences or data and improve their performance over time without human intervention.**
 
 There are several types of machine learning approaches:
