@@ -1,12 +1,12 @@
 ---js
 const eleventyNavigation = {
-	key: "Info",
+	key: "About",
 	order: 2
 };
-title: Info
+title: About
 ---
 
-## Info
+## About
 
 Hi, I'm Carlos, a data specialist with 7+ years of experience in leveraging data to drive businesses forward. I am passionate about helping make data-driven decisions that lead to growth and success. 
 
