@@ -50,7 +50,7 @@ document.write(
 <hr/> -->
 {% set postsCount = collections.posts | length %}
 {% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
-<p>Latest {{ latestPostsCount }} Post{% if latestPostsCount != 1 %}s{% endif %}, {{ morePosts }} more post{% if morePosts != 1 %}s{% endif %} in <a href="blog.njk">the blog</a>.</p>
+<p>Latest {{ latestPostsCount }} post{% if latestPostsCount != 1 %}s{% endif %}, {{ morePosts }} more post{% if morePosts != 1 %}s{% endif %} in <a href="blog.njk">the blog</a>.</p>
 
 {% set postslist = collections.posts | head(-1 * numberOfLatestPostsToShow) %}
 {% set postslistCounter = postsCount %}
