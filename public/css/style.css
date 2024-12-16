@@ -321,7 +321,7 @@ a:hover {
     background: none;
 }
 
-a[href^='http']:not([href^='https://muan.co/'],.hidden-link,:has(img)):after{
+a[target=_blank]:after{
     content: '┓' / ', external';
 font-family: var(--sansserif);
 font-size: 0.5em;
