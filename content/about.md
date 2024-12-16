@@ -20,9 +20,13 @@ I live in Madrid with Mar, Lucas, Nicolás and <a href="/blog/pancho.md">Pancho<
 
 Built with Eleventy and deployed on Netlify.
 
-The font is *IBM Plex sans* served by Google Fonts. Icons are served by Fontawesome.
+The font is *IBM Plex sans* served by Google Fonts. 
+
+Icons are served by Fontawesome.
 
 Inspired by [Melanie Richards](https://melanie-richards.com/), [Andrew Conner](https://andrewconner.com/), [Chris Glass](https://chrisglass.com/) and [V.H. Belvadi](https://vhbelvadi.com/) 
+
+This website is <a href="https://www.websitecarbon.com/website/carlosrodrigo-com/">climate friendly</a>.
 
 ---
 ### Other pages about me
