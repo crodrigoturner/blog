@@ -3,8 +3,6 @@ title: Life in squares
 tags: projects
 ---
 
-## My life in squares
-
 This is a timeline of the most important events I have experienced. 
 
 Each square is a month.
