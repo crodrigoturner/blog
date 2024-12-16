@@ -4,13 +4,13 @@ layout: layouts/base.njk
 
 <h2>{{ title }}</h2>
 
-<span class="meta"><a href="/blog/">Blog</a> >  {%- for tag in tags | filterTagList %}
-	{%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
-<a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a>{%- if not loop.last %}, {% endif %}
-	{%- endfor %}</span>
+<span class="meta"></span>
 
 
 {{ content | safe }}
 
 <hr/>
-<span class="meta"><time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time></span>
+<span class="meta"><a href="/">home</a> &sext; <a href="/blog/">blog</a> &sext; {%- for tag in tags | filterTagList %}
+	{%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
+<a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a>{%- if not loop.last %}, {% endif %}
+	{%- endfor %} | <time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time></span>
