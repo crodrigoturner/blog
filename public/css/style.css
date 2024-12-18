@@ -108,7 +108,7 @@ nav ul li a {
 
 
 main {
-    padding: 15px 35% 100px;
+    padding: 20px 35% 200px;
     width: 30%;
     float: left;
     margin: 0;
@@ -529,7 +529,7 @@ img {
     height: auto;
 }
 
-img.hero{border-radius:5px;}
+img.hero{border-radius:5px;margin:0 0 20px;}
 
 .image {
     position: relative;
