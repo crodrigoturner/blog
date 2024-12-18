@@ -26,6 +26,8 @@ Icons are served by <a href="https://fontawesome.com/v6/search?o=r&m=free">Fonta
 
 Inspired by [Melanie Richards](https://melanie-richards.com/), [Andrew Conner](https://andrewconner.com/), [Chris Glass](https://chrisglass.com/) and [V.H. Belvadi](https://vhbelvadi.com/) 
 
+Most of the images from this website are made with Midjourney.
+
 This website is <a href="https://www.websitecarbon.com/website/carlosrodrigo-com/">climate friendly</a>.
 
 ---
