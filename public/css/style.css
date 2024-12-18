@@ -43,7 +43,7 @@ header {
 
 .bio {
     font: 400 .5em / 2 var(--font);
-    color: var(--blue);
+    color: var(--grey);
     text-transform: uppercase;
     float: right;
     width: 100%;
