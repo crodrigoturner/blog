@@ -1,8 +1,8 @@
 ---
-title: Favourites
+title: Blogroll
 ---
 
-## Favourites
+## Blogroll
 
 These are the blogs that I more frequently visit:
 

@@ -4,7 +4,7 @@ title: Favourites
 
 ## Favourites
 
-These are my favourite "things", they may be others, but these are mine...
+These are my favourite "things". There may be others, but these are mine...
 
 Songs &rarr; [https://open.spotify.com/playlist/3kSJwnnQ9ebUYD2g8djOCE?si=60ce462291a54913](https://open.spotify.com/playlist/3kSJwnnQ9ebUYD2g8djOCE?si=60ce462291a54913)
 
