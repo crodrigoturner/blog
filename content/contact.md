@@ -7,8 +7,6 @@ title: Contact
 ---
 ## Contact
 
-Hi,
-
 I very much prefer <script>document.write('<a href="mailto:'+'e'+'m'+'a'+'i'+'l'+'@'+'c'+'a'+'r'+'l'+'o'+'s'+'r'+'o'+'d'+'r'+'i'+'g'+'o'+'.'+'c'+'o'+'m'+'">email</a>');</script> over everything else, my inbox is always open.
 
 I have a <a href="https://twitter.com/crodrigoturner">Twitter</a> account and a <a href="http://@crodrigoturner@mastodonapp.uk">Mastodon</a> account. I mainly use them to read, not write.
