@@ -4,7 +4,7 @@
     --blue: #0277bd;
     --yellow: #FFD800;
     --font: "IBM Plex Sans", Inter, sans-serif;
-    --serif:"Domine", serif;
+    --serif: "Domine", serif;
 
 }
 
@@ -29,7 +29,7 @@ body {
 }
 
 header {
-    width:16%;
+    width: 16%;
     float: left;
     padding: 20px;
     margin: 0 7%;
@@ -38,8 +38,6 @@ header {
     left: 0;
     z-index: 9999;
 }
-
-
 
 .bio {
     font: 400 .5em / 2 var(--font);
@@ -50,8 +48,6 @@ header {
     padding: 0;
 }
 
-
-
 nav {
     float: left;
     margin: 0;
@@ -59,14 +55,14 @@ nav {
     margin: 10px 0px;
     font: 500 1em / 2.1 var(--font);
     z-index: 9999;
-   
+
     color: var(--grey);
 
 }
 
 nav a {
     text-decoration: none;
-  
+
 }
 
 nav ul {
@@ -77,35 +73,59 @@ nav ul {
 
 nav ul li {
     float: left;
-    width:100%;
+    width: 100%;
 }
 
 
-nav ul li a {opacity: 0.666;margin:15px 0;}
-nav ul li.active a, nav ul li a:hover{opacity: 1;}
+nav ul li a {
+    opacity: 0.666;
+    margin: 15px 0;
+}
 
-nav ul li a:before {width:18px;font-family: "FontAwesome";margin:0 20px 0 0;float:left;}
+nav ul li.active a,
+nav ul li a:hover {
+    opacity: 1;
+}
 
-nav ul li.Home a:before{content:"\f015";}
-nav ul li.About a:before{content:"\f4fb";}
-nav ul li.Blog a:before{content:"\f304";}
-nav ul li.Work a:before{content:"\f0b1";}
-nav ul li.Contact a:before{content:"\f0e0";}
-nav ul li.Likes a:before{content:"\f005";}
-nav ul li.Sitemap a:before{content:"\f0e8";}
-nav ul li.Updates a:before{content:"\f017";}
+nav ul li a:before {
+    width: 18px;
+    font-family: "FontAwesome";
+    margin: 0 20px 0 0;
+    float: left;
+}
 
+nav ul li.Home a:before {
+    content: "\f015";
+}
 
+nav ul li.About a:before {
+    content: "\f4fb";
+}
+
+nav ul li.Blog a:before {
+    content: "\f304";
+}
+
+nav ul li.Work a:before {
+    content: "\f0b1";
+}
+
+nav ul li.Contact a:before {
+    content: "\f0e0";
+}
+
+nav ul li.Sitemap a:before {
+    content: "\f0e8";
+}
+
+nav ul li.Updates a:before {
+    content: "\f017";
+}
 
 nav ul li a {
     align-items: center;
     margin: 0 0 10px;
 }
-
-
-.current-menu-item{display:none;}
-
-
 
 main {
     padding: 20px 35% 200px;
@@ -114,19 +134,13 @@ main {
     margin: 0;
 }
 
-.reading main{
+.reading main {
     padding: 15px 20% 100px;
     width: 60%;
     float: left;
     margin: 0;
 }
 
-article {
-    float: left;
-    width:100%;
-    padding: 0;
-    margin: 0px;
-}
 
 
 .clear {
@@ -152,7 +166,7 @@ p {
 }
 
 h1 {
-   
+
     font: 700 1.5em / 1.6 var(--font);
     margin: 0 0 10px;
     padding: 0 0px;
@@ -162,7 +176,7 @@ h1 {
 
 h2 {
     font: 600 1.5em/1.5 var(--font);
- 
+
     padding: 0;
     text-align: left;
     float: left;
@@ -177,26 +191,14 @@ h2 {
 
 h3 {
     font: 600 1.2em/1.5 var(--font);
- 
+
     padding: 0;
     text-align: left;
     float: left;
     width: 100%;
     color: var(--black);
     margin: 10px 0px;
-   
-}
 
-.intro {
-    font: 400 1.3em/1.6 var(--serif);
-    margin: 0;
-    padding: 0;
-    text-align: left;
-    float: left;
-    width: 100%;
-    color: var(--black);
-    margin: 0px 0px 10px;
- 
 }
 
 h1 a {
@@ -216,10 +218,6 @@ h1::before {
     margin: 0 7px 0 0;
 }
 
-
-
-
-
 h5,
 h6 {
     font: 700 1em/1.5 var(--font);
@@ -237,34 +235,48 @@ h4 {
     width: 100%;
     margin: 0;
     color: #BBB;
-text-transform:uppercase;
+    text-transform: uppercase;
 }
 
 
 table {
-	width:100%;
-    float:left;
+    width: 100%;
+    float: left;
     font: 500 13px / 1 var(--font);
 }
 
 th {
-float:left;
-	width:100%;
-	font-weight:bold;
-	padding:5px 0;
-    text-align:left;
+    float: left;
+    width: 100%;
+    font-weight: bold;
+    padding: 5px 0;
+    text-align: left;
 }
 
-td, th{width:calc(25%/3);}
-td:first-child,th:first-child{width:40%}
-td:nth-child(2), th:nth-child(2), td:nth-child(3), th:nth-child(3){width:calc(35%/2);}
+td,
+th {
+    width: calc(25%/3);
+}
+
+td:first-child,
+th:first-child {
+    width: 40%
+}
+
+td:nth-child(2),
+th:nth-child(2),
+td:nth-child(3),
+th:nth-child(3) {
+    width: calc(35%/2);
+}
 
 tr {
-	display:flex;
-	width:100%;
-	padding:5px 0;
-    border-bottom:1px solid #EEE;}
-	
+    display: flex;
+    width: 100%;
+    padding: 5px 0;
+    border-bottom: 1px solid #EEE;
+}
+
 .tags li {
     display: inline;
 }
@@ -279,13 +291,13 @@ tr {
 
 blockquote,
 .meta,
-.postlist-date{
+.postlist-date {
     opacity: 0.666;
     margin: 0;
     float: left;
     padding: 0 5px 0 0;
     font-size: .85em;
-    line-height:1.88;
+    line-height: 1.88;
 }
 
 a {
@@ -300,18 +312,21 @@ a:hover {
     background: none;
 }
 
-a[target=_blank]:after{
+a[target=_blank]:after {
     content: '┓' / ', external';
-font-family: var(--sansserif);
-font-size: 0.5em;
-line-height: 0;
-text-decoration: none;
-position: absolute;
-margin-top: calc(1rem - 1.7em);
-line-height: 1em;}
+    font-family: var(--sansserif);
+    font-size: 0.5em;
+    line-height: 0;
+    text-decoration: none;
+    position: absolute;
+    margin-top: calc(1rem - 1.7em);
+    line-height: 1em;
+}
 
-.more{float:left;
-padding:15px 0 0 0;}
+.more {
+    float: left;
+    padding: 15px 0 0 0;
+}
 
 h3 a:hover {
     color: var(--black);
@@ -334,7 +349,8 @@ h3 a:hover {
     font-size: .8em;
 }
 
-.button, .button:hover{
+.button,
+.button:hover {
     float: left;
     margin: 0;
     padding: 10px;
@@ -344,13 +360,21 @@ h3 a:hover {
     background: #FFF;
     border-radius: 7px;
     box-shadow: 0 0 6.3444108963px 0 rgba(0, 0, 0, .07);
- 
-border: 1px solid var(--grey);
+
+    border: 1px solid var(--grey);
 }
 
-a.button:hover, .posts a:hover{opacity:.7;}
+a.button:hover,
+.posts a:hover {
+    opacity: .7;
+}
 
-.posts a{width:100%; float:left; border-bottom:1px solid var(--grey); padding:5px 0;}
+.posts a {
+    width: 100%;
+    float: left;
+    border-bottom: 1px solid var(--grey);
+    padding: 5px 0;
+}
 
 .attachment-post-thumbnail {
     position: relative;
@@ -482,7 +506,10 @@ img {
     height: auto;
 }
 
-img.hero{border-radius:5px;margin:0 0 15px;}
+img.hero {
+    border-radius: 5px;
+    margin: 0 0 15px;
+}
 
 .image {
     position: relative;
@@ -564,69 +591,69 @@ footer {
 
 @media (max-width: 1360px) {
     body {
-            padding: 0;
-            font-size: 16px;
+        padding: 0;
+        font-size: 16px;
     }
 
     header {
-            float: left;
-            width: 100%;
-            margin: 0 0 20px;
-            padding: 15px 0 0;
-            left: 0px;
-            z-index: 99999;
-            position: relative;
+        float: left;
+        width: 100%;
+        margin: 0 0 20px;
+        padding: 15px 0 0;
+        left: 0px;
+        z-index: 99999;
+        position: relative;
 
     }
 
     h1 {
-            width: calc(100% - 40px);
-            float: left;
-            padding: 0 20px 10px;
-            position: relative;
-            top: 0;
-            left: 0;
-            margin: 0;
+        width: calc(100% - 40px);
+        float: left;
+        padding: 0 20px 10px;
+        position: relative;
+        top: 0;
+        left: 0;
+        margin: 0;
     }
 
     h2 {
-            line-height: 1.6em;
+        line-height: 1.6em;
     }
 
     #posts a h3 {
-            width: 100%;
-            line-height: 2;
+        width: 100%;
+        line-height: 2;
     }
 
 
 
 
     nav {
-            float: left;
-            margin: 0 20px;
-            top: 0px;
-            right: 0;
-            z-index: 1;
-            width: calc(100% - 80px);
+        float: left;
+        margin: 0 20px;
+        top: 0px;
+        right: 0;
+        z-index: 1;
+        width: calc(100% - 80px);
     }
 
     .welcome {
-            display: none !important;
+        display: none !important;
     }
 
 
     hr.mobile {
-            display: block;
+        display: block;
     }
 
     ul {
-            margin: 0;
+        margin: 0;
     }
 
     main {
-            float: left;
-            width: calc(100% - 40px);
-            padding: 0px 20px 200px;
-            margin: 0;
+        float: left;
+        width: calc(100% - 40px);
+        padding: 0px 20px 200px;
+        margin: 0;
     }
 }
