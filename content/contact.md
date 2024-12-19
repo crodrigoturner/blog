@@ -18,5 +18,8 @@ For coding and snippets, you may find me at <a href="https://codepen.io/crodrigo
 I do not use Facebook.
 
 I write on this website fairly regularly.
+
+I am currently and obsesively creating things on [Midjourney](https://www.midjourney.com/explore?user_id=4388cbbb-5a67-4ce1-8d17-ca923704d9cb)
+
 <hr/>
 <blockquote>The idea for this “hello” page comes from Alastair Johnston </blockquote>

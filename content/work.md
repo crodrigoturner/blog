@@ -1,10 +1,8 @@
----js
-const eleventyNavigation = {
-	key: "Work",
-	order: 4
-};
+---
 Title: Work
 ---
+
+<img class="hero" src="/img/work.png" alt="work"/> 
 
 ## Work
 
