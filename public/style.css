@@ -204,7 +204,7 @@ h3 {
 h1 a {
     text-transform: lowercase;
     color: var(--black);
-    text-align:center;
+ 
 }
 
 h1 a::before {
@@ -215,7 +215,7 @@ h1 a::before {
     background: #FFD800;
     float: left;
     top: 9px;
-    left:30px;
+
     position: relative;
     margin: 0 7px 0 0;
 }
@@ -619,6 +619,10 @@ footer {
         text-align:center;
         border-bottom:1px solid #EEE;
     }
+
+    h1 a::before{    left:30px;}
+
+
 
     h2 {
         line-height: 1.6em;
