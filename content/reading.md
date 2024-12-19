@@ -2,6 +2,7 @@
 title: Reading
 class: reading
 layout: layouts/base.njk
+tags: projects
 ---
 
 ## Reading
