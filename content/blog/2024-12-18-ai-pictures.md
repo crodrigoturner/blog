@@ -1,5 +1,6 @@
 ---
 title: AI pictures
+tags: projects
 ---
 
 ## AI pictures
