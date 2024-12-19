@@ -1,6 +1,6 @@
-## Sitemap
-
 <img class="hero" src="/img/sitemap.png" alt="storr"/> 
+
+## Sitemap
 
 <ul>
 	{%- for entry in collections.all %}

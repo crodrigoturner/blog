@@ -1,6 +1,8 @@
 ---
 title: Ethical Web Principles
-tags: internet, webdesign
+tags: 
+- internet 
+- webdesign
 ---
 
 ## Ethical Web Principles
