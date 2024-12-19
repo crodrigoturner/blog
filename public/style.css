@@ -204,6 +204,7 @@ h3 {
 h1 a {
     text-transform: lowercase;
     color: var(--black);
+    text-align:center;
 }
 
 h1 a::before {
