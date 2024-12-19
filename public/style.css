@@ -265,17 +265,11 @@ tr {
 	padding:5px 0;
     border-bottom:1px solid #EEE;}
 	
-   
-
-
-
-
-
 .tags li {
     display: inline;
 }
 
-.tags li:after {
+.tags li::after {
     content: ' · ';
 }
 
