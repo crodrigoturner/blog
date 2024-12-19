@@ -1,5 +1,5 @@
 ---js
-const numberOfLatestPostsToShow = 10;
+const numberOfLatestPostsToShow = 1000;
 
 ---
 
@@ -47,9 +47,18 @@ document.write(
 </ul>
 <p>
 <hr/> -->
+
+<ul class="tags">
+{% for tag in collections | getKeys | filterTagList %}
+	{% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
+	<li><a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a>
+	</li>
+{% endfor %}
+</ul>
+<hr/>
 {% set postsCount = collections.posts | length %}
 {% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
-<p>Latest {{ latestPostsCount }} post{% if latestPostsCount != 1 %}s{% endif %}, {{ morePosts }} more post{% if morePosts != 1 %}s{% endif %} in <a href="blog.njk">the blog</a>.</p>
+<p>{{ latestPostsCount }} posts</p>
 
 {% set postslist = collections.posts | head(-1 * numberOfLatestPostsToShow) %}
 {% set postslistCounter = postsCount %}
