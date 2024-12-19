@@ -1,5 +1,6 @@
 ---
 title: Favourites
+tags: personal
 ---
 
 ## Favourites
