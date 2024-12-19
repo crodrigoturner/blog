@@ -276,19 +276,11 @@ tr {
 }
 
 .tags li:after {
-    content: ', ';
+    content: ' · ';
 }
 
 .tags li:last-child::after {
-    content: '.';
-}
-
-.tags li:nth-last-child(2)::after {
     content: ' ';
-}
-
-.tags li:last-child::before {
-    content: ' and ';
 }
 
 blockquote,
@@ -305,8 +297,6 @@ blockquote,
 a {
     color: var(--blue);
     text-decoration: none;
-    /*border-bottom: 1px solid var(--blue);*/
-
 }
 
 a:hover {
@@ -339,14 +329,6 @@ h3 a:hover {
     background-image: linear-gradient(35deg, var(--yellow), var(--blue));
 }
 
-
-h1 a.current {
-    opacity: 1;
-    background: none;
-    color: var(--black);
-    border: none;
-}
-
 .description,
 .small,
 .caption {
@@ -375,9 +357,6 @@ border: 1px solid var(--grey);
 a.button:hover, .posts a:hover{opacity:.7;}
 
 .posts a{width:100%; float:left; border-bottom:1px solid var(--grey); padding:5px 0;}
-
-
-
 
 .attachment-post-thumbnail {
     position: relative;
@@ -416,26 +395,6 @@ hr.mobile {
     display: none;
 }
 
-summary {
-    font: 600 1.1em / 2 var(--font);
-    margin: 0;
-    cursor: pointer;
-    border-radius: 5px;
-    padding: 0;
-}
-
-details[open] summary {
-    margin: 0px 0 10px;
-}
-
-ul.two {
-    float: left
-}
-
-ul.two li {
-    width: 48%;
-    float: left;
-}
 
 hr.short {
     width: 60px;
@@ -673,7 +632,7 @@ footer {
     main {
             float: left;
             width: calc(100% - 40px);
-            padding: 0px 20px;
+            padding: 0px 20px 200px;
             margin: 0;
     }
 }
