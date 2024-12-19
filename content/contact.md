@@ -1,9 +1,10 @@
 ---
 title: Contact
 ---
-## Contact
 
 <img class="hero" src="/img/contact.png" alt="contact"/> 
+
+## Contact
 
 I very much prefer <script>document.write('<a href="mailto:'+'e'+'m'+'a'+'i'+'l'+'@'+'c'+'a'+'r'+'l'+'o'+'s'+'r'+'o'+'d'+'r'+'i'+'g'+'o'+'.'+'c'+'o'+'m'+'">email</a>');</script> over everything else, my inbox is always open.
 
@@ -19,7 +20,7 @@ I do not use Facebook.
 
 I write on this website fairly regularly.
 
-I am currently and obsesively creating things on [Midjourney](https://www.midjourney.com/explore?user_id=4388cbbb-5a67-4ce1-8d17-ca923704d9cb)
+I am currently and obsesively creating things on [Midjourney](https://www.midjourney.com/explore?user_id=4388cbbb-5a67-4ce1-8d17-ca923704d9cb).
 
 <hr/>
 <blockquote>The idea for this “hello” page comes from Alastair Johnston </blockquote>

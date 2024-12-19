@@ -1,11 +1,9 @@
 ---
 title: About
 ---
+<img class="hero" src="/img/about.png" alt="storr"/> 
 
 ## About
-
-<img class="hero" src="/img/aiart00003.png" alt="storr"/> 
-
 
 ### Hi! I'm Carlos,
 
