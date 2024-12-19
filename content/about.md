@@ -8,6 +8,9 @@ title: About
 
 ## About
 
+<img class="hero" src="/img/aiart00003.png" alt="storr"/> 
+
+
 ### Hi! I'm Carlos,
 
 I'm a data specialist with 7+ years of experience in leveraging data to drive businesses forward. I am passionate about helping make data-driven decisions that lead to growth and success. 
