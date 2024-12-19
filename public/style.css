@@ -206,7 +206,7 @@ h1 a {
     color: var(--black);
 }
 
-.circle {
+h1 a::before {
     content: '';
     border-radius: 50%;
     height: .9em;
