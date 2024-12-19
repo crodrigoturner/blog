@@ -87,7 +87,7 @@ nav ul li.active a, nav ul li a:hover{opacity: 1;}
 nav ul li a:before {width:18px;font-family: "FontAwesome";margin:0 20px 0 0;float:left;}
 
 nav ul li.Home a:before{content:"\f015";}
-nav ul li.About a:before{content:"\f007";}
+nav ul li.About a:before{content:"\f4fb";}
 nav ul li.Blog a:before{content:"\f304";}
 nav ul li.Work a:before{content:"\f0b1";}
 nav ul li.Contact a:before{content:"\f0e0";}
