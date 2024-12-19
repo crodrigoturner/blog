@@ -33,12 +33,6 @@ Most of the images from this website are made with Midjourney.
 This website is <a href="https://www.websitecarbon.com/website/carlosrodrigo-com/">climate friendly</a>.
 
 ---
-### Other pages about me
-
-- <a href="/blog/2024-01-01-life-in-squares.md">My life in squares</a>
-- [What I use?](/blog/2024-12-05-uses.md)
-
----
 ### Contact
 
-If you want to get in touch, please send me an <script>document.write('<a href="mailto:'+'e'+'m'+'a'+'i'+'l'+'@'+'c'+'a'+'r'+'l'+'o'+'s'+'r'+'o'+'d'+'r'+'i'+'g'+'o'+'.'+'c'+'o'+'m'+'">email</a>');</script>.
+If you want to get in touch, please send me an <a href="mailto:rodrigoturner.carlos@gmail.com">email</a>, you may also find me <a href="/contact/">elsewhere</a>.
