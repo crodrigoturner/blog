@@ -4,7 +4,6 @@ summary: The best path to learn about AI
 tags: AI
 ---
 
-## What is the best path to learn AI? 
 
 Learning AI involves a multidisciplinary approach that includes understanding concepts from mathematics, computer science, and domain-specific knowledge. Here's a suggested path to learn AI:
 

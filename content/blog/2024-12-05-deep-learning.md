@@ -5,8 +5,6 @@ tags: AI
 ---
 
 
-## Deep Learning
-
 Deep learning is a subset of machine learning that focuses on artificial neural networks with multiple layers, also known as deep neural networks. Deep learning algorithms are designed to automatically learn representations of data through the composition of multiple nonlinear transformations. These networks are capable of learning intricate patterns and relationships within large amounts of data, leading to state-of-the-art performance in various tasks, especially in fields such as computer vision, natural language processing, and speech recognition.
 
 ### Key components and concepts

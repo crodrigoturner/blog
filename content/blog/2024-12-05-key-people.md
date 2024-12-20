@@ -4,7 +4,7 @@ summary: Who are some of the most relevant people on AI?
 tags: AI
 ---
 
-## Key people on AI 
+
 
 Several key figures have significantly contributed to the field of artificial intelligence. Here are some of them:
 
