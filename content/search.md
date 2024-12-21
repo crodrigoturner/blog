@@ -3,7 +3,6 @@
 ## Search
 
 <form action="https://duckduckgo.com">
-  <label for="search">Search</label>
   <input name="q" id="search" />
   <input type="hidden" name="sites" value="oliverjam.es" />
   <input type="hidden" name="ko" value="-2" />
