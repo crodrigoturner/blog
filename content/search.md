@@ -4,7 +4,7 @@
 
 <form action="https://duckduckgo.com">
   <input name="q" id="search" />
-  <input type="hidden" name="sites" value="oliverjam.es" />
+  <input type="hidden" name="sites" value="carlosrodrigo.com" />
   <input type="hidden" name="ko" value="-2" />
   <input type="hidden" name="k1" value="-1" />
   <input type="hidden" name="kz" value="-1" />
