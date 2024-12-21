@@ -112,8 +112,8 @@ nav ul li.Contact a:before {
     content: "\f0e0";
 }
 
-nav ul li.Sitemap a:before {
-    content: "\f0e8";
+nav ul li.Search a:before {
+    content: "\f002";
 }
 
 nav ul li.Updates a:before {
