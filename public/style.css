@@ -300,6 +300,15 @@ blockquote,
     font-size: 1em;
 }
 
+.postlist-item
+    {
+    float: left;
+    width: 100%;
+    margin: 0 0 20px;
+    padding: 0;
+    border-bottom: 1px solid #EEE;
+    }
+
 a {
     color: var(--blue);
 }
