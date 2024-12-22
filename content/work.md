@@ -8,7 +8,6 @@ Title: Work
 
 <a href="/blog/how-i-work.md">How I work</a> · [Skills](https://carlosrodrigo.com/blog/2024-12-22-skills/) · [Philosophy & values](https://carlosrodrigo.com/blog/2024-12-22-work-ethics/) · Interests ·  <a href="https://www.linkedin.com/in/crodrigoturner/">Linkedin</a>
 
-<h3 id="timeline">Timeline</h3>
 <ul>
 <li><h5>2015-Now › Técnica y Avance</h5>
 <p>Sparepart co-manager</p></li>
