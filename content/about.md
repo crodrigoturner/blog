@@ -15,7 +15,7 @@ I live in Madrid with Mar, Lucas, Nicolás and <a href="/blog/pancho.md">Pancho<
 
 
 ---
-### About this site
+### Colophon / About this site
 
 Built with Eleventy and deployed on Netlify.
 
