@@ -22,7 +22,3 @@ Title: Work
 <p>Lodging manager during the Pope's visit in 2011.</p>
 </li>
 </ul>
-
-
-
-
