@@ -118,6 +118,14 @@ eleventyConfig.addShortcode('excerpt', post => extractExcerpt(post));
 	// eleventyConfig.setServerPassthroughCopyBehavior("passthrough");
 };
 
+
+	 // To create excerpts
+	 eleventyConfig.setFrontMatterParsingOptions({
+		excerpt: true,
+		excerpt_alias: 'post_excerpt',
+		excerpt_separator: '<!-- excerpt -->'
+	  });
+
 export const config = {
 	// Control which files Eleventy will process
 	// e.g.: *.md, *.njk, *.html, *.liquid
@@ -142,6 +150,7 @@ export const config = {
 		data: "../_data",          // default: "_data" (`input` relative)
 		output: "_site"
 	},
+
 
 	// -----------------------------------------------------------------
 	// Optional items:
