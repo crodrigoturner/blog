@@ -279,14 +279,15 @@ tr {
 }
 
 .tags li a{
-    display: inline;
+float:left;
+padding:0 5px 0 0;
 }
 
 .tags li a::after {
     content: ' · ';
 }
 
-.tags li a:last-child::after {
+.tags li:last-child a::after {
     content: ' ';
 }
 
