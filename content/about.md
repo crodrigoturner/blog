@@ -21,7 +21,7 @@ Built with Eleventy and deployed on Netlify.
 
 The font is *Atkinson Hyperlegible* served by Google Fonts. 
 
-Icons are served by <a href="https://fontawesome.com/v6/search?o=r&m=free">Fontawesome</a>.
+Icons are from [Iconsvg](https://iconsvg.xyz/).
 
 Inspired by [Melanie Richards](https://melanie-richards.com/), [Andrew Conner](https://andrewconner.com/), [Chris Glass](https://chrisglass.com/) and [V.H. Belvadi](https://vhbelvadi.com/) 
 
