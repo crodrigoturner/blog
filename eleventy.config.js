@@ -15,6 +15,13 @@ export default async function(eleventyConfig) {
 		}
 	});
 
+		 // To create excerpts
+		 eleventyConfig.setFrontMatterParsingOptions({
+			excerpt: true,
+			excerpt_alias: 'post_excerpt',
+			excerpt_separator: '<!-- excerpt -->'
+		  });
+
 	// Copy the contents of the `public` folder to the output folder
 	// For example, `./public/css/` ends up in `_site/css/`
 	eleventyConfig
@@ -119,12 +126,7 @@ eleventyConfig.addShortcode('excerpt', post => extractExcerpt(post));
 };
 
 
-	 // To create excerpts
-	 eleventyConfig.setFrontMatterParsingOptions({
-		excerpt: true,
-		excerpt_alias: 'post_excerpt',
-		excerpt_separator: '<!-- excerpt -->'
-	  });
+
 
 export const config = {
 	// Control which files Eleventy will process
