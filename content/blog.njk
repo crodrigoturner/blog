@@ -1,18 +1,7 @@
----js
-const eleventyNavigation = {
-	key: "Blog",
-	order: 3
-};
+---
 ---
 <h2>Blog</h2>
 <hr/>
-<ul class="tags">
-{% for tag in collections | getKeys | filterTagList %}
-	{% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
-	<li><a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a>
-	</li>
-{% endfor %}
-</ul>
-<hr/>
+
 {% set postslist = collections.posts %}
 {% include "postslist.njk" %}
