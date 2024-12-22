@@ -278,7 +278,7 @@ tr {
     border-bottom: 1px solid #EEE;
 }
 
-.postlist-item a {
+.postlist-item a.title {
     float: left;
     width: 90%;
     margin: 0;
@@ -286,7 +286,7 @@ tr {
 
 }
 
-.tags {
+.tag {
     float: right;
     width: 10%;
     margin: 0;
