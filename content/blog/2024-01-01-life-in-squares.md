@@ -1,7 +1,7 @@
 ---
 title: Life in squares
 tags: projects
-description: this is a test
+excerpt: This is a timeline of the most important events I have experienced. 
 ---
 
 This is a timeline of the most important events I have experienced. 
