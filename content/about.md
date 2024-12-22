@@ -19,7 +19,7 @@ I live in Madrid with Mar, Lucas, Nicolás and <a href="/blog/pancho.md">Pancho<
 
 Built with Eleventy and deployed on Netlify.
 
-The font is *IBM Plex sans* served by Google Fonts. 
+The font is *Atkinson Hyperlegible* served by Google Fonts. 
 
 Icons are served by <a href="https://fontawesome.com/v6/search?o=r&m=free">Fontawesome</a>.
 
