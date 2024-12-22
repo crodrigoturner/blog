@@ -278,15 +278,15 @@ tr {
     border-bottom: 1px solid #EEE;
 }
 
-.tags li {
+.tags li a{
     display: inline;
 }
 
-.tags li::after {
+.tags li a::after {
     content: ' · ';
 }
 
-.tags li:last-child::after {
+.tags li a:last-child::after {
     content: ' ';
 }
 
