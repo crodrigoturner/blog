@@ -1,7 +1,7 @@
 ---
 title: Ethical Web Principles
-tags: 
-- internet 
+tags: internet 
+date: Last Modified
 ---
 
 The [W3C released a statement](https://www.w3.org/blog/2024/w3c-statement-on-ethical-web-principles-guides-the-community-to-build-a-better-web/) with the following principles for a better internet for everyone. They're spot on.
