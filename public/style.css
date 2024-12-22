@@ -91,7 +91,7 @@ nav ul li a:before {
     margin: 0 20px 0 0;
     float: left;
 }
-
+/*
 nav ul li.Home a:before {
     content: "\f015";
 }
@@ -118,7 +118,7 @@ nav ul li.Search a:before {
 
 nav ul li.Updates a:before {
     content: "\f017";
-}
+}*/
 
 nav ul li a {
     align-items: center;
