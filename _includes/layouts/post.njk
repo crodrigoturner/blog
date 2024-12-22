@@ -14,4 +14,4 @@ layout: layouts/base.njk
 {%- for tag in tags | filterTagList %}
 	{%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
 <a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a>{%- if not loop.last %}, {% endif %}
-	{%- endfor %} · <time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate("dd.MM.yyyy") }}</time></span>
+	{%- endfor %} · Last modified: <time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate("dd.MM.yyyy") }}</time></span>
