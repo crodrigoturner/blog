@@ -36,24 +36,9 @@ document.write(
 <p><a href="/about/">More about me</a> &sext; <a href="mailto:rodrigoturner.carlos@gmail.com">Email me</a> &sext; <a href="/updates/">Updates</a></p>
 
 <hr/>
-
-
-<ul class="tags">
-{% for tag in collections | getKeys | filterTagList %}
-	{% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
-	<li><a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a>
-	</li>
-{% endfor %}
-</ul>
-<hr/>
 {% set postslist = collections.posts | head(-1 * numberOfLatestPostsToShow) %}
 {% set postslistCounter = postsCount %}
 {% include "postslist.njk" %}
-<br/>
-{% set morePosts = postsCount - numberOfLatestPostsToShow %}
-{% if morePosts > 0 %}
-
-{% endif %}
 
 
 
