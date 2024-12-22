@@ -85,13 +85,18 @@ nav ul li a:hover {
     opacity: 1;
 }
 
+nav li svg{position:relative;
+float:left; top:5px; margin:0 5px 0 0;}
+
+
+/*
 nav ul li a:before {
     width: 18px;
     font-family: "FontAwesome";
     margin: 0 20px 0 0;
     float: left;
 }
-/*
+
 nav ul li.Home a:before {
     content: "\f015";
 }
