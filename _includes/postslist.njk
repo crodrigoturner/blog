@@ -1,23 +1,20 @@
-{%- for post in postslist | reverse %}
-<div class="py-4">
-  <p>
-    <span class="text-2xl sm:text-4xl font-bold hover:text-blue-700 leading-tight"><a href="{{ post.url }}">{{ post.data.title }}</a></span>
-  
-  </p>
-
-  <p class="mt-4">{{ post.data.post_excerpt }}...</p>
-  
-  <div class="flex justify-between items-center mt-4">
-    <div class="flex-1 pr-4">
+<ul>
+	{%- for post in postslist | reverse %}
+<li class="postlist-item{% if post.url == url %} postlist-item-active{% endif %}">
+<h3><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
+  <p>{{ post.data.post_excerpt }}</p>
+<ul class=="tags">
       {% for tag in post.data.tags %}
         {% if tag != "posts" %}
+    <li>
           <a href="/tags/{{ tag }}" class="">
             <div class="post-tag">{{ tag }}</div>
           </a>
+    </li>
         {% endif %}
       {% endfor %}
-    </div>
-
-    <a class="flex-none hover:underline font-semibold text-blue-700" href="{{ post.url }}">Read this post &rarr;</a>
-  </div>
+    </ul>
+ <a class="flex-none hover:underline font-semibold text-blue-700" href="{{ post.url }}">Read this post &rarr;</a>
+</li>
 {%- endfor %}
+</ul>
