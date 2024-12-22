@@ -292,7 +292,7 @@ tr {
 
 blockquote,
 .meta,
-.postlist-date {
+.postlist-date, .tag {
     opacity: 0.666;
     margin: 0;
     float: left;
