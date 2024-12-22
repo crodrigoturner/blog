@@ -29,8 +29,6 @@ Most of the images from this website are made with Midjourney.
 
 This website is <a href="https://www.websitecarbon.com/website/carlosrodrigo-com/">climate friendly</a>.
 
-<div id="wcb" class="carbonbadge"></div>
-<script src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js" defer></script>
 
 ---
 ### Contact
