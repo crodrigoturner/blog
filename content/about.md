@@ -27,7 +27,7 @@ Inspired by [Melanie Richards](https://melanie-richards.com/), [Andrew Conner](h
 
 Most of the images from this website are made with Midjourney.
 
-This website is <a href="https://www.websitecarbon.com/website/carlosrodrigo-com/">climate friendly</a>.
+This website is climate friendly. 98% cleaner than of all web pages globally according to [Website carbon calculator](https://www.websitecarbon.com/website/carlosrodrigo-com/) and [Ecograder](https://ecograder.com/report/ui51eop7QVAu1piHLdKCnYav).
 
 
 ---
