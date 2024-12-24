@@ -6,7 +6,7 @@ Title: Work
 
 ## Work
 
-<a href="/blog/how-i-work.md">How I work</a> · [Skills](https://carlosrodrigo.com/blog/2024-12-22-skills/) · [Philosophy & values](https://carlosrodrigo.com/blog/2024-12-22-work-ethics/) · [Interests](https://carlosrodrigo.com/blog/2024-12-22-interests/) ·  <a href="https://www.linkedin.com/in/crodrigoturner/">Linkedin</a>
+<a href="https://carlosrodrigo.com/blog/2024-12-01-how-i-work/">How I work</a> · [Skills](https://carlosrodrigo.com/blog/2024-12-22-skills/) · [Philosophy & values](https://carlosrodrigo.com/blog/2024-12-22-work-ethics/) · [Interests](https://carlosrodrigo.com/blog/2024-12-22-interests/) ·  <a href="https://www.linkedin.com/in/crodrigoturner/">Linkedin</a>
 
 <ul>
 <li><h5>2015-Now › Técnica y Avance</h5>
