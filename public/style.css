@@ -520,6 +520,7 @@ ol {
 
 ol {
     list-style-type: decimal;
+    padding-left:30px;
 }
 
 ul ul,
