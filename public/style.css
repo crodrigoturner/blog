@@ -648,7 +648,7 @@ footer {
         position: relative;
         top: 0;
         left: 0;
-        padding: 0 calc(50% - 125px);
+        padding: 0 calc(50% - 125px) 7px;
         text-align:center;
         border-bottom:1px solid #EEE;
     }
