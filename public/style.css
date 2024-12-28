@@ -140,7 +140,7 @@ main {
     margin: 40px 0 0;
     z-index:10;
     background:#FFF;
-    min-height:calc(100vh - 401px)
+    min-height:calc(100vh - 162px)
 }
 
 footer{
