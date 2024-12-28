@@ -36,7 +36,7 @@ header {
     background:#ffd500;
 }
 
-.face{height: 75px; width:75px;border-radius:50%; margin:0 20px 20px 0;}
+.face{height: 75px; width:75px;border-radius:50%; margin:0 20px 20px 0;float:left;}
 
 .bio {
     font: 400 .5em / 2 var(--font);
@@ -137,13 +137,13 @@ main {
     padding: 0px 35% 50px;
     width: 30%;
     float: left;
-    margin: 40px 0;
+    margin: 40px 0 0;
     z-index:10;
     background:#FFF;
 }
 
 footer{
-    padding: 20px 35% ;
+    padding: 40px 35% ;
     width: 30%;
     float: left;
     margin: 0;
