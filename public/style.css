@@ -179,11 +179,10 @@ p {
 
 h1 {
 text-align:center;
-    font: 700 1px / 1 var(--font);
-    margin: 0 calc(50% - 143.5px);
+    margin: 0;
     padding: 0;
     float: left;
-    width: 287px;
+    font: 600 2em/1.6 Piazzolla, serif;
     
 }
 
@@ -210,7 +209,7 @@ h3 {
 
 h1 a {
     text-transform: lowercase;
-    color:#ffd500;
+    color:#FFF;
     text-decoration:none;
  
 }
