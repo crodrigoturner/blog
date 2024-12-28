@@ -33,7 +33,7 @@ header {
 
     z-index: 9999;
     text-align:center;
-    background:#ffd500;
+    background:#FDBE00;
 }
 
 .face{height: 75px; width:75px;border-radius:50%; margin:0 20px 20px 0;float:left;}
@@ -182,7 +182,7 @@ text-align:center;
     margin: 0;
     padding: 0;
     float: left;
-    font: 600 2em/1.6 Piazzolla, serif;
+    font: 600 3em/1.6 Piazzolla, serif;
     
 }
 
