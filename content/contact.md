@@ -21,6 +21,3 @@ I do not use Facebook.
 I write on this website fairly regularly.
 
 I am currently and obsesively creating things on [Midjourney](https://www.midjourney.com/explore?user_id=4388cbbb-5a67-4ce1-8d17-ca923704d9cb).
-
-I log what I watch in [IMDB](https://www.imdb.com/user/ur178111487/?ref_=nv_usr_prof_2), and what I read in [ Goodreads](https://www.goodreads.com/user/show/168190126-carlos-rodrigo-turner).
-
