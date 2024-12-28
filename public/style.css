@@ -639,6 +639,8 @@ input {
 
     }
 
+    footer{padding:40px 20px; width:calc(100% - 40px);}
+
     h1 {
       
         float: left;
