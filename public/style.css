@@ -148,7 +148,7 @@ footer{
     float: left;
     margin: 0;
     text-align:center;
-    font: 600 2em/1 var(--font);
+    font: 600 2em/1 Piazzolla, serif;
     bottom: 0;
     position: sticky;
   background:#EEE;
