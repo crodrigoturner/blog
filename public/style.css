@@ -630,7 +630,7 @@ input {
     header {
         float: left;
         width: 100%;
-        margin: 0 0 20px;
+        margin: 0;
         padding: 5px 0;
         left: 0px;
         z-index: 99999;
@@ -645,9 +645,6 @@ input {
         position: relative;
         top: 0;
         left: 0;
-       
-     
-        border-bottom:1px solid #EEE;
     }
 
     h1 a::before{    left:30px;}
@@ -669,11 +666,10 @@ input {
 
     nav {
         float: left;
-        margin: 0 20px;
-        top: 0px;
-        right: 0;
+        margin: 0 0px 20px;
         z-index: 1;
-        width: calc(100% - 80px);
+        width: calc(100% - 20px);
+        padding: 10px;
     }
 
     .welcome {
@@ -692,7 +688,7 @@ input {
     main {
         float: left;
         width: calc(100% - 40px);
-        padding: 0px 20px 200px;
+        padding: 0px 20px 50px;
         margin: 0;
     }
 }
