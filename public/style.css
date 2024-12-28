@@ -53,11 +53,12 @@ nav {
     float: left;
     margin: 0;
     padding: 10px 35%;
-    margin: 78px 0px 0;
+    margin: 0;
     font: 500 1em / 2 var(--font);
     z-index: 9999;
 width:30%;
 background:#ffd500;
+position:fixed; top:78px;
 }
 
 nav a {
@@ -312,6 +313,8 @@ blockquote,
     padding: 0 5px 0 0;
     font-size: 1em;
 }
+
+.breadcrumbs a{color: var(--black); font-size:.9em;}
 
 .postlist-item
     {
