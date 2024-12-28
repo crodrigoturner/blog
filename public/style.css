@@ -36,6 +36,8 @@ header {
     background:#ffd500;
 }
 
+.face{height: 150px; width:150px; background:url('/img/face.jpg');border-radius:50%; margin:0 20px 20px 0;}
+
 .bio {
     font: 400 .5em / 2 var(--font);
     color: var(--grey);
