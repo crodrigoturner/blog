@@ -139,18 +139,20 @@ main {
     float: left;
     margin: 150px 0 0 0;
     z-index:10;
+    background:#FFF;
 }
 
 footer{
-    padding: 0px 35% 200px;
+    padding: 20px 35% ;
     width: 30%;
     float: left;
-    margin: 50px 0;
+    margin: 0;
     text-align:center;
-    font: 600 2em/1.6 var(--font);
+    font: 600 2em/1 var(--font);
     bottom: 0;
     position: sticky;
   background:#EEE;
+  z-index:-1;
 }
 
 .clear {
@@ -617,13 +619,7 @@ input {
 
 
 
-footer {
-    margin: 40px 0;
-    float: left;
-    width: 100%;
-    font-size: .8em;
-    color: var(--grey);
-}
+
 
 @media (max-width: 1360px) {
     body {
