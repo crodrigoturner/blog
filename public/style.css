@@ -132,10 +132,10 @@ nav ul li a {
 }
 
 main {
-    padding: 40px 35%;
+    padding: 0px 35%;
     width: 30%;
     float: left;
-    margin: 0;
+    margin: 40px 0;
     z-index:10;
     background:#FFF;
 }
