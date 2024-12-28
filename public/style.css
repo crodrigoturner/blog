@@ -37,7 +37,7 @@ header {
 }
 
 .face{height: 75px; width:75px;border-radius:50%; margin:0 20px 20px 0;float:left;}
-.logo{height: 62px; width:59px; margin:0 10px 0px 0;float:left;}
+.logo{height: 62px; width:316px;float:left;}
 .bio {
     font: 400 .5em / 2 var(--font);
     color: var(--grey);
@@ -179,7 +179,7 @@ p {
 
 h1 {
 text-align:center;
-    font: 700 2.5em / 1 var(--font);
+    font: 700 1px / 1 var(--font);
     margin: 0;
     padding: 0;
     float: left;
