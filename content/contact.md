@@ -6,9 +6,9 @@ title: Contact
 
 ## Contact
 
-I very much prefer <script>document.write('<a href="mailto:'+'e'+'m'+'a'+'i'+'l'+'@'+'c'+'a'+'r'+'l'+'o'+'s'+'r'+'o'+'d'+'r'+'i'+'g'+'o'+'.'+'c'+'o'+'m'+'">email</a>');</script> over everything else, my inbox is always open.
+I very much prefer <script>document.write('<a href="mailto:'+'e'+'m'+'a'+'i'+'l'+'@'+'c'+'a'+'r'+'l'+'o'+'s'+'r'+'o'+'d'+'r'+'i'+'g'+'o'+'.'+'c'+'o'+'m'+'">email</a>');</script> over everything else, my inbox is always open. ([email is good](https://email-is-good.com/))
 
-I have a <a href="https://twitter.com/crodrigoturner">Twitter</a> account and a <a href="http://@crodrigoturner@mastodonapp.uk">Mastodon</a> account. I mainly use them to read, not write.
+I have a <a href="https://twitter.com/crodrigoturner">Twitter</a> account and a <a href="https://mastodonapp.uk/@crodrigoturner">Mastodon</a> account. I mainly use them to read, not write.
 
 I post on <a href="https://instagram.com/crodrigoturner">Instagram</a> to brag about my family.
 
