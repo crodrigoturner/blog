@@ -40,6 +40,8 @@ Most of the images from this website are made with Midjourney.
 
 This website is climate friendly. Cleaner than 98% of all web pages globally according to [Website carbon calculator](https://www.websitecarbon.com/website/carlosrodrigo-com/) and [Ecograder](https://ecograder.com/report/ui51eop7QVAu1piHLdKCnYav).
 
+The astronaut logo was creater by Ariyanto Deni for Noun project.
+
 
 ---
 ### Contact
