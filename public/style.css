@@ -179,18 +179,12 @@ h1 {
 }
 
 h2 {
-    font: 600 1.5em/1.5 var(--font);
-
+    font: 600 2em/1 var(--font);
     padding: 0;
     text-align: left;
     float: left;
     width: 100%;
     color: var(--black);
-    margin: 5px 0px;
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-image: linear-gradient(35deg, var(--yellow), var(--blue));
 }
 
 h3 {
@@ -220,7 +214,6 @@ h1 a::before {
     background: #FFD800;
     float: left;
     top: 9px;
-
     position: relative;
     margin: 0 7px 0 0;
 }
@@ -642,19 +635,20 @@ footer {
     }
 
     h1 {
-        width: 250px;
+      
         float: left;
         margin: 0 0 10px;
         position: relative;
         top: 0;
         left: 0;
-        padding: 0 calc(50% - 125px) 7px;
-        text-align:center;
+       
+     
         border-bottom:1px solid #EEE;
     }
 
     h1 a::before{    left:30px;}
 
+    .bio{display:none}
 
 
     h2 {

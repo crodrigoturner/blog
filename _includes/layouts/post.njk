@@ -2,16 +2,16 @@
 layout: layouts/base.njk
 ---
 
-<h2>{{ title }}</h2>
-
-<span class="meta"></span>
-
-
-{{ content | safe }}
-
-<hr/>
-<span class="meta"><a href="mailto:rodrigoturner.carlos@gmail.com">Reply by email</a> · <a href="/">home</a> &triangleright; <a href="/blog/">blog</a> &triangleright; 
+<pan class="breadcrumbs"><a href="/">home</a>/<a href="/blog/">blog</a>/
 {%- for tag in tags | filterTagList %}
 	{%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
 <a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a>{%- if not loop.last %}, {% endif %}
-	{%- endfor %} · <time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate("dd.MM.yyyy") }}</time></span>
+	{%- endfor %}</span>
+
+<h2>{{ title }}</h2>
+
+<span class="meta"></span>
+{{ content | safe }}
+
+<hr/>
+<span class="meta"><a href="mailto:rodrigoturner.carlos@gmail.com">Reply by email</a> · <time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate("dd.MM.yyyy") }}</time></span>
