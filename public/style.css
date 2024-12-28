@@ -184,7 +184,7 @@ text-align:center;
     padding: 0;
     float: left;
     width: 316px;
-    color:#ffd500;
+    
 }
 
 h2 {
@@ -210,7 +210,7 @@ h3 {
 
 h1 a {
     text-transform: lowercase;
-    color: white;
+    color:#ffd500;
     text-decoration:none;
  
 }
@@ -639,7 +639,7 @@ input {
 
     }
 
-    footer{padding:40px 20px; width:calc(100% - 40px);}
+    footer{padding:40px 20px; width:calc(100% - 40px); font-size:1.5em;}
 
     h1 {
       
