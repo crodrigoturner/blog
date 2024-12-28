@@ -42,7 +42,7 @@ This website is climate friendly. Cleaner than 98% of all web pages globally acc
 
 There is no tracking in this website.
 
-This website is astronaut theme because they're cool, they combine discipline with health, knowledge and  are an inspiration for my day to day life.
+This website is astronaut-themed because they're cool, they combine discipline with health, team-work, courage and knowledge and are an inspiration for my day to day life.
 
 ---
 ### Contact
