@@ -207,7 +207,7 @@ h1 a {
     text-decoration:none;
  
 }
-
+/*
 h1 a::before {
     content: '';
     border-radius: 50%;
@@ -218,7 +218,7 @@ h1 a::before {
     top: 9px;
     position: relative;
     margin: 0 7px 0 0;
-}
+}*/
 
 h5,
 h6 {
