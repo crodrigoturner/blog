@@ -140,6 +140,7 @@ main {
     margin: 40px 0 0;
     z-index:10;
     background:#FFF;
+    min-height:calc(100vh - 401px)
 }
 
 footer{
@@ -671,6 +672,7 @@ input {
         z-index: 1;
         width: calc(100% - 20px);
         padding: 10px;
+        font-size:.9em;
     }
 
     .welcome {
