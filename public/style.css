@@ -257,7 +257,7 @@ h4 {
 
 }
 
-.status{float:left; width:calc(100% - 40px); margin:40px 0; padding:5px 10px;background:#EEE;font: 400 1em/1.5 Piazzolla, serif;}
+.status{float:left; width:calc(100% - 20px); margin:40px 0; padding:5px 10px;background:#EEE;font: 400 1em/1.5 Piazzolla, serif;}
 .mastodon-logo{    width: 24px;
     float: left;
     height: 24px;
