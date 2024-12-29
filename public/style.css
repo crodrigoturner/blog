@@ -257,7 +257,7 @@ h4 {
 
 }
 
-.status{float:left; width:calc(100% - 40px); margin:40px 0; padding:5px 20px;background:#EEE;font: 400 1em/1.5 Piazzolla, serif;}
+.status{float:left; width:calc(100% - 40px); margin:40px 0; padding:5px 10px;background:#EEE;font: 400 1em/1.5 Piazzolla, serif;}
 .mastodon-logo{    width: 24px;
     float: left;
     height: 24px;
@@ -265,6 +265,8 @@ h4 {
     position: relative;
     top: 10px;
 }
+
+.status p{ float:left;   width: calc(100% - 30px);}
 .status div, .feed-title, .feed-item-title, .feed-item-desc{display:none;}
 
 table {
