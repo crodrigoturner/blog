@@ -267,7 +267,7 @@ h4 {
 }
 
 .status p{ float:left;   width: calc(100% - 30px);}
-.status div, .feed-title, .feed-item-title, .feed-item-desc{display:none;}
+.status div, .feed-title, .feed-item-title, .feed-item-desc,.status p:nth-child(3){display:none;}
 
 table {
     width: 100%;
