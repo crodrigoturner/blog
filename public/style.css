@@ -156,6 +156,9 @@ footer{
   z-index:-1;
 }
 
+footer span{background:#FFF;    padding: 40px 35% ;
+    width: 30%;}
+
 .clear {
     width: 100%;
     clear: both;
