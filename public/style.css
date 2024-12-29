@@ -246,9 +246,9 @@ h4 {
 
 }
 
-.status{float:left; width:calc(100% - 40px); padding:20px;background:#EEE;font: 400 1em/1 Piazzolla, serif;}
+.status{float:left; width:calc(100% - 40px); padding:5px 20px;background:#EEE;font: 400 1em/1.5 Piazzolla, serif;}
 .status svg, .status p{float:left;}
-.status svg{width:10%;}
+.status svg{width:24px;margin:0 10px 0 0;}
 .status p{width:90%}
 
 .status div, .feed-title, .feed-item-title{display:none;}
