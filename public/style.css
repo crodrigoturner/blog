@@ -254,7 +254,7 @@ h4 {
 .mastodon-logo{width:24px;float:left; height:24px; margin:0 10px 0 0;}
 .status p{width:90%}
 
-.status div, .feed-title, .feed-item-title, .feed-item-desc{{display:none;}
+.status div, .feed-title, .feed-item-title, .feed-item-desc{display:none;}
 
 table {
     width: 100%;
