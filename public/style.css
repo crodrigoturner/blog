@@ -247,6 +247,8 @@ h4 {
 }
 
 
+.status div, .feed-title, .feed-item-title{display:none;}
+
 table {
     width: 100%;
     float: left;
