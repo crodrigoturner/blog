@@ -5,6 +5,8 @@ const numberOfLatestPostsToShow = 1000;
 
 <img class="hero" src="/img/astronaut_bg.png" alt="astronaut"/> 
 
+
+
 <p>
 
 <script>
@@ -33,6 +35,8 @@ document.write(
 )
 </script></p>
 
+<h3> Status</h3>
+<script src="//rss.bloople.net/?url=https%3A%2F%2Fmastodonapp.uk%2F%40crodrigoturner.rss&limit=1&showtitle=false&type=js"></script>
 
 <hr/>
 {% set postslist = collections.posts | head(-1 * numberOfLatestPostsToShow) %}
