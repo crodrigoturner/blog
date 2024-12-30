@@ -155,17 +155,10 @@ footer{
     position: sticky;
   background:#EEE;
   z-index:-1;
-}
-
-
-footer .quote{
 
     font: 600 2em/1.6 Piazzolla, serif;
 
 }
-
-footer span{background:#FFF;    padding: 40px 35% ;
-    width: 100%;}
 
 .clear {
     width: 100%;
@@ -257,7 +250,7 @@ h4 {
 
 }
 
-.status{float:left; width:calc(100% - 20px); margin:40px 0; padding:5px 10px;background:#EEE;font: 400 1em/1.5 Piazzolla, serif;}
+.status{float:left; width:calc(100% - 20px); margin:20px 0; padding:5px 10px 0 10px;background:#EEE;font: 400 1em/1.5 Piazzolla, serif;}
 .mastodon-logo{    width: 24px;
     float: left;
     height: 24px;
@@ -267,7 +260,7 @@ h4 {
 }
 
 .status p{ float:left;   width: calc(100% - 30px);}
-.status div, .feed-title, .feed-item-title, .feed-item-desc,.status p:nth-child(3){display:none;}
+.status div, .feed-title, .feed-item-title, .feed-item-desc,p:last-child{display:none;}
 
 table {
     width: 100%;
