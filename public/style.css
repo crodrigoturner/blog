@@ -260,7 +260,7 @@ h4 {
 }
 
 .status p{ float:left;   width: calc(100% - 30px);}
-.status div, .feed-title, .feed-item-title, .feed-item-desc,p:last-child{display:none;}
+.status div, .feed-title, .feed-item-title, .feed-item-desc,.status p:last-child{display:none;}
 
 table {
     width: 100%;
