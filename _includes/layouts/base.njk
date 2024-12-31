@@ -113,10 +113,6 @@ if(isset($_GET["url"])) {
     $desc = eschtml(isset($desc) ? $desc->textContent : "");
     if($striphtml) $desc = remtags($desc);
 
-    $image = search("url", $channel);
-    $image = (isset($image) ? $image->textContent : "");
-
-    if($showicon && $image != "") $title = "<img class=\"feed-title-image\" src=\"$image\">$title";
 
     if($showempty || (!$showempty && $title != "")) echo "<h3 class=\"feed-title\">$title</h3>\n";
     if($showtitledesc && ($showempty || (!$showempty && $desc != ""))) echo "<p class=\"feed-desc\">$titledescprefix$desc</p>\n";
