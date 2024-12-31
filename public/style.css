@@ -259,7 +259,7 @@ h4 {
     top: 10px;
 }
 
-.status p{ float:left;   width: calc(100% - 30px);}
+.status p{ float:left;   width: calc(100% - 30px); margin:0;}
 .status div, .feed-title, .feed-item-title, .feed-item-desc,.status p:last-child, .status p:nth-child(2){display:none;}
 
 table {
