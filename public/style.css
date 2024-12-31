@@ -438,13 +438,15 @@ a.button:hover,
 
 
 hr,
-hr.mobile .minimal {
+hr.mobile, .minimal {
     border: 0;
     float: left;
-    border-top: 1px solid #eeeeee;
+    background: #fdbe0040;
     width: 100%;
     margin: 15px 0;
     content: '';
+    border-radius: 2px;
+    height: 4px;
 }
 
 .home hr,
