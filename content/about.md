@@ -49,4 +49,4 @@ This website is astronaut-themed because they're cool, they combine discipline w
 ---
 ### Contact
 
-Please send me an <a href="mailto:rodrigoturner.carlos@gmail.com">email</a>.
+Please send me an email. rodrigoturner.carlos(@)gmail(.)com
