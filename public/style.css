@@ -32,12 +32,24 @@ header {
     margin: 0px;
 
     z-index: 9999;
-    text-align:center;
-    background:#FDBE00;
+    text-align: center;
+    background: #FDBE00;
 }
 
-.face{height: 75px; width:75px;border-radius:50%; margin:0 20px 20px 0;float:left;}
-.logo{height: 62px; width:287px;float:left;}
+.face {
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    margin: 0 20px 20px 0;
+    float: left;
+}
+
+.logo {
+    height: 62px;
+    width: 287px;
+    float: left;
+}
+
 .bio {
     font: 400 .5em / 2 var(--font);
     color: var(--grey);
@@ -45,7 +57,7 @@ header {
     float: right;
     width: 100%;
     padding: 0;
-    display:none;
+    display: none;
 }
 
 nav {
@@ -55,14 +67,14 @@ nav {
     margin: 0;
     font: 500 1em / 2 var(--font);
     z-index: 9999;
-width:30%;
-background:#FDBE00;
+    width: 30%;
+    background: #FDBE00;
 
 }
 
 nav a {
     text-decoration: none;
-color:white;
+    color: white;
 }
 
 nav ul {
@@ -74,7 +86,7 @@ nav ul {
 nav ul li {
     float: left;
     width: 25%;
-    margin:0;
+    margin: 0;
 }
 
 
@@ -88,8 +100,12 @@ nav ul li a:hover {
     opacity: .666;
 }
 
-nav li svg{position:relative;
-float:left; top:2px; margin:0 15px 0 0;}
+nav li svg {
+    position: relative;
+    float: left;
+    top: 2px;
+    margin: 0 15px 0 0;
+}
 
 
 /*
@@ -138,23 +154,23 @@ main {
     width: 30%;
     float: left;
     margin: 40px 0 0;
-    z-index:10;
-    background:#FFF;
-    min-height:calc(100vh - 162px)
+    z-index: 10;
+    background: #FFF;
+    min-height: calc(100vh - 162px)
 }
 
 
 
-footer{
-    padding: 40px 35% ;
+footer {
+    padding: 40px 35%;
     width: 30%;
     float: left;
     margin: 0;
-    text-align:center;
+    text-align: center;
     bottom: 0;
     position: sticky;
-  background:#EEE;
-  z-index:-1;
+    background: #EEE;
+    z-index: -1;
 
     font: 600 2em/1.6 Piazzolla, serif;
 
@@ -183,12 +199,12 @@ p {
 }
 
 h1 {
-text-align:center;
+    text-align: center;
     margin: 0;
     padding: 0;
     float: left;
     font: 600 3em/1.6 Piazzolla, serif;
-    width:100%;
+    width: 100%;
 }
 
 h2 {
@@ -201,7 +217,8 @@ h2 {
 }
 
 h3 {
-    font: 600 1.2em/1.5 Piazzolla, serif;;
+    font: 600 1.2em/1.5 Piazzolla, serif;
+    ;
 
     padding: 0;
     text-align: left;
@@ -214,10 +231,11 @@ h3 {
 
 h1 a {
     text-transform: lowercase;
-    color:#FFF;
-    text-decoration:none;
- 
+    color: #FFF;
+    text-decoration: none;
+
 }
+
 /*
 h1 a::before {
     content: '';
@@ -242,7 +260,7 @@ h6 {
 
 h4 {
     font: 400 1em/1 Piazzolla, serif;
-   
+
     padding: 10px 0;
     float: left;
     width: 100%;
@@ -250,17 +268,40 @@ h4 {
 
 }
 
-.status{float:left; width:calc(100% - 20px); margin:20px 0; padding:5px 10px;background:#EEE;font: 400 1em/1.5 Piazzolla, serif;}
-.mastodon-logo{    width: 24px;
+.status {
+    float: left;
+    width: calc(100% - 20px);
+    border-radius: 4px;
+    margin: 20px 0;
+    padding: 5px 10px;
+    background: #EEE;
+    font: 400 1em/1.5 Piazzolla, serif;
+}
+
+.mastodon-logo {
+    width: 24px;
     float: left;
     height: 24px;
     margin: 0 5px 0 0;
     position: relative;
     top: 10px;
+
 }
 
-.status p{ float:left;   width: calc(100% - 30px); margin:0;}
-.status div, .feed-title, .feed-item-title, .feed-item-desc,.status p:last-child, .status p:nth-child(2){display:none;}
+.status p {
+    float: left;
+    width: calc(100% - 30px);
+    margin: 0;
+}
+
+.status div,
+.feed-title,
+.feed-item-title,
+.feed-item-desc,
+.status p:last-child,
+.status p:nth-child(2) {
+    display: none;
+}
 
 table {
     width: 100%;
@@ -314,15 +355,15 @@ tr {
     margin: 0;
     padding: 0;
     list-style-type: none;
-    text-align:right;
-    text-decoration:none;
-    font-size:.9em;
-    opacity:.9;
+    text-align: right;
+    text-decoration: none;
+    font-size: .9em;
+    opacity: .9;
 }
 
-.tags li a{
-float:left;
-padding:0 5px 0 0;
+.tags li a {
+    float: left;
+    padding: 0 5px 0 0;
 }
 
 .tags li a::after {
@@ -343,16 +384,18 @@ blockquote,
     font-size: 1em;
 }
 
-.breadcrumbs a{color: var(--black); font-size:.9em;}
+.breadcrumbs a {
+    color: var(--black);
+    font-size: .9em;
+}
 
-.postlist-item
-    {
+.postlist-item {
     float: left;
     width: 100%;
     margin: 0;
     padding: 7px 0;
     border-bottom: 1px solid #EEE;
-    }
+}
 
 a {
     color: var(--blue);
@@ -438,7 +481,8 @@ a.button:hover,
 
 
 hr,
-hr.mobile, .minimal {
+hr.mobile,
+.minimal {
     border: 0;
     float: left;
     background: #fdbe0040;
@@ -540,7 +584,7 @@ ol {
 
 ol {
     list-style-type: decimal;
-    padding-left:30px;
+    padding-left: 30px;
 }
 
 ul ul,
@@ -655,10 +699,14 @@ input {
 
     }
 
-    footer{padding:40px 20px; width:calc(100% - 40px); font-size:1.5em;}
+    footer {
+        padding: 40px 20px;
+        width: calc(100% - 40px);
+        font-size: 1.5em;
+    }
 
     h1 {
-      
+
         float: left;
         margin: 0 0 10px;
         position: relative;
@@ -666,9 +714,13 @@ input {
         left: 0;
     }
 
-    h1 a::before{    left:30px;}
+    h1 a::before {
+        left: 30px;
+    }
 
-    .bio{display:none}
+    .bio {
+        display: none
+    }
 
 
     h2 {
@@ -689,7 +741,7 @@ input {
         z-index: 1;
         width: calc(100% - 20px);
         padding: 10px;
-        font-size:.9em;
+        font-size: .9em;
     }
 
     .welcome {
