@@ -6,4 +6,4 @@ title: Contact
 
 ## Contact
 
-I very much prefer <script>document.write('<a href="mailto:'+'e'+'m'+'a'+'i'+'l'+'@'+'c'+'a'+'r'+'l'+'o'+'s'+'r'+'o'+'d'+'r'+'i'+'g'+'o'+'.'+'c'+'o'+'m'+'">email</a>');</script> over everything else, my inbox is always open. ([email is good](https://email-is-good.com/))
+Please sen me an <script>document.write('<a href="mailto:'+'e'+'m'+'a'+'i'+'l'+'@'+'c'+'a'+'r'+'l'+'o'+'s'+'r'+'o'+'d'+'r'+'i'+'g'+'o'+'.'+'c'+'o'+'m'+'">email</a>');</script>. ([email is good](https://email-is-good.com/))
