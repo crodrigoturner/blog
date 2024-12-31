@@ -107,43 +107,6 @@ nav li svg {
     margin: 0 15px 0 0;
 }
 
-
-/*
-nav ul li a:before {
-    width: 18px;
-    font-family: "FontAwesome";
-    margin: 0 20px 0 0;
-    float: left;
-}
-
-nav ul li.Home a:before {
-    content: "\f015";
-}
-
-nav ul li.About a:before {
-    content: "\f4fb";
-}
-
-nav ul li.Blog a:before {
-    content: "\f304";
-}
-
-nav ul li.Work a:before {
-    content: "\f0b1";
-}
-
-nav ul li.Contact a:before {
-    content: "\f0e0";
-}
-
-nav ul li.Search a:before {
-    content: "\f002";
-}
-
-nav ul li.Updates a:before {
-    content: "\f017";
-}*/
-
 nav ul li a {
     align-items: center;
     margin: 0 0 10px;
