@@ -32,7 +32,7 @@ My full name is Carlos Roberto Rodrigo Turner.
 
 Built with Eleventy and deployed on Netlify.
 
-The font is *Atkinson Hyperlegible* served by Google Fonts. 
+The font is *Atkinson Hyperlegible* and *Piazzolla* served by Google Fonts. 
 
 Icons are from [Iconsvg](https://iconsvg.xyz/).
 
