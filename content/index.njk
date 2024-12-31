@@ -30,11 +30,12 @@ document.write(
 " My name is Carlos Rodrigo Turner, I hope you're having a great" + weekday[weekdayValue] + "."
 )
 </script></p>
-<span class="status">
-<img class="mastodon-logo" src="/img/mastodon.svg" alt="mastodon logo">
-<script src="//rss.bloople.net/?url=https%3A%2F%2Fmastodonapp.uk%2F%40crodrigoturner.rss&limit=1&showtitle=false&type=js"></script>
-</span
 <hr/>
 {% set postslist = collections.posts | head(-1 * numberOfLatestPostsToShow) %}
 {% set postslistCounter = postsCount %}
 {% include "postslist.njk" %}
+
+<span class="status">
+<img class="mastodon-logo" src="/img/mastodon.svg" alt="mastodon logo">
+<script src="//rss.bloople.net/?url=https%3A%2F%2Fmastodonapp.uk%2F%40crodrigoturner.rss&limit=1&showtitle=false&type=js"></script>
+</span>
