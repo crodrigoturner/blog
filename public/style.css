@@ -39,16 +39,15 @@ header {
 
 nav {
     float: left;
+    padding: 3px 15px;
     margin: 0;
-    padding: 10px 20px;
-    margin: 0;
-    font: 500 1em / 2 var(--font);
+    font: 500 1em / 1.6 var(--font);
     z-index: 9999;
-    width: 100px;
     background: #FDBE00;
-    position:fixed;
-    top:20px;
-    left: calc(35% - 140px);
+    position: fixed;
+    top: 20px;
+    left: calc(35% - 113.17px);
+    border-radius: 4px;
 }
 
 .home nav{display:none;}
@@ -143,15 +142,22 @@ p {
 }
 
 h1 {
-    text-align: center;
+   
     margin: 0;
     padding: 0;
     float: left;
-    font: 600 3em/1.6 Piazzolla, serif;
-    width: 100%;
+    font: 600 2em/1.6 Piazzolla, serif;
+ 
     position:fixed;
     top:20px;
     left:20px;
+}
+
+h1 a {
+    text-transform: lowercase;
+    color: var(--black);
+    text-decoration: none;
+
 }
 
 h1 a::before {
@@ -189,12 +195,7 @@ h3 {
 
 }
 
-h1 a {
-    text-transform: lowercase;
-    color: var(--black);
-    text-decoration: none;
 
-}
 
 h5,
 h6 {
