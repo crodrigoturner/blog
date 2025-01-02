@@ -70,8 +70,6 @@ main {
     float: left;
     margin:0;
     z-index: 10;
-    background: #FFF;
-    min-height: calc(100vh - 162px)
 }
 
 
