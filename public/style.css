@@ -281,14 +281,7 @@ tr {
 }
 
 
-.post-tag::before {
-    float: left;
-    height: 8px;
-    width: 8px;
-    margin-right: 5px;
-    border-radius: 50%;
-    content:'';position:relative; top:5px;
-}
+
 
 .post-tag::after {
     float: right;
@@ -301,14 +294,14 @@ tr {
     top:6px;
 }
 
-a.likes{
-  color: rgb(240, 131, 131);
+.likes .post-tag::after {
+  background: rgb(240, 131, 131);
 }
-.work .post-tag::before {
-    background: var(--blue);
+.work .post-tag::after {
+    background: var(--grey);
 }
 .about .post-tag::after {
-    background: #dfdf72;
+    background: var(--yellow);
 }
 
 .tags li a {
