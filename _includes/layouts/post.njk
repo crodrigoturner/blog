@@ -7,7 +7,7 @@ layout: layouts/base.njk
 {%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
 <a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a>{%- if not loop.last %}, {% endif %}
 {%- endfor %} · {{title}}</h2>
-
+<hr/>
 {{ content | safe }}
 
 <hr/>
