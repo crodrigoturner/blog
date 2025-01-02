@@ -3,7 +3,7 @@
     --grey: #48575e;
     --blue: #0277bd;
     --yellow: #FFD800;
-    --font: "Atkinson Hyperlegible", serif;
+    --font: "Inter", serif;
 }
 
 html {
@@ -40,12 +40,22 @@ nav {
     z-index: 9999;
     position: fixed;
     top: 25px;
-    left: 22%; 
+    left: 22%;
 }
 
-nav svg{ margin:0 5px 0 0;position:relative; top:3px;padding:0;width:28px; height:28px;stroke-width:4px;}
+nav svg {
+    margin: 0 5px 0 0;
+    position: relative;
+    top: 3px;
+    padding: 0;
+    width: 28px;
+    height: 28px;
+    stroke-width: 4px;
+}
 
-.home nav{display:none;}
+.home nav {
+    display: none;
+}
 
 nav a {
     text-decoration: none;
@@ -60,7 +70,7 @@ nav a:hover {
     color: var(--black);
     border-radius: 4px;
     background: #FFD800;
-    opacity:.7;
+    opacity: .7;
 }
 
 
@@ -68,7 +78,7 @@ main {
     padding: 0px 35% 50px;
     width: 30%;
     float: left;
-    margin:0;
+    margin: 0;
     z-index: 10;
 }
 
@@ -99,15 +109,15 @@ p {
 }
 
 h1 {
-   
+
     margin: 0;
     padding: 0;
     float: left;
-    font: 600 2em/1 Piazzolla, serif;
- 
-    position:fixed;
-    top:20px;
-    left:20px;
+    font: 600 2em/1 var(--font);
+
+    position: fixed;
+    top: 20px;
+    left: 20px;
 }
 
 h1 a {
@@ -131,18 +141,18 @@ h1 a::before {
 
 
 h2 {
-    font: 600 2em/1 Piazzolla, serif;
+    font: 600 2em/1 var(--font);
     padding: 0;
     text-align: left;
     float: left;
     width: 100%;
     color: var(--black);
-    margin:20px 0;
-    text-transform:lowercase;
+    margin: 20px 0;
+    text-transform: lowercase;
 }
 
 h3 {
-    font: 600 1.2em/1.5 Piazzolla, serif;
+    font: 600 1.2em/1.5 var(--font);
     ;
 
     padding: 0;
@@ -257,6 +267,7 @@ tr {
 .postlist-item:last-child {
     border-bottom: none;
 }
+
 .tag {
     float: right;
     width: 20%;
@@ -501,7 +512,9 @@ ul ol {
     margin-bottom: 0
 }
 
-li{float:left;}
+li {
+    float: left;
+}
 
 nav ul {
     list-style-type: none;
