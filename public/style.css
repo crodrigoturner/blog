@@ -285,7 +285,6 @@ tr {
 blockquote,
 .meta,
 .postlist-date {
-    opacity: 0.666;
     margin: 0;
     float: left;
     padding: 0 5px 0 0;
@@ -501,6 +500,8 @@ ol ol,
 ul ol {
     margin-bottom: 0
 }
+
+li{float:left;}
 
 nav ul {
     list-style-type: none;
