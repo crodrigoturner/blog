@@ -43,7 +43,7 @@ nav {
     margin: 0;
     font: 500 1em / 1.6 var(--font);
     z-index: 9999;
-    background: #FDBE00;
+    background: #FFD800;
     position: fixed;
     top: 20px;
     left: calc(35% - 113.17px);
@@ -146,7 +146,7 @@ h1 {
     margin: 0;
     padding: 0;
     float: left;
-    font: 600 2em/1.6 Piazzolla, serif;
+    font: 600 2em/1 Piazzolla, serif;
  
     position:fixed;
     top:20px;
@@ -167,9 +167,9 @@ h1 a::before {
     width: .9em;
     background: #FFD800;
     float: left;
-    top: 9px;
+    top: 5px;
     position: relative;
-    margin: 0 7px 0 0;
+    margin: 0 15px 0 0;
 }
 
 
