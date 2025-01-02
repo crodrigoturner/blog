@@ -280,6 +280,11 @@ tr {
     opacity: .9;
 }
 
+.tag::before{float:left; height:14px; width:14px; margin-right:5px; border-radius:50%;}
+
+a.likes::before{background:var(--blue);}
+
+
 .tags li a {
     float: left;
     padding: 0 5px 0 0;
@@ -311,12 +316,13 @@ blockquote,
     float: left;
     width: 100%;
     margin: 0;
-    padding: 7px 0;
+    padding: 5px 0;
     border-bottom: 1px solid #EEE;
 }
 
 a {
     color: var(--blue);
+    text-decoration:none;
 }
 
 a:hover {
