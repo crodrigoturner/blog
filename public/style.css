@@ -26,11 +26,10 @@ body {
 }
 
 header {
-    width: 35%;
+    width: 32.5%;
     float: left;
     padding: 20px 0;
     margin: 0px;
-
     z-index: 9999;
     text-align: center;
 }
@@ -42,7 +41,7 @@ nav {
     z-index: 9999;
     position: fixed;
     top: 25px;
-    left: 25%; 
+    left: 22%; 
 }
 
 nav svg{ margin:0 5px 0 0;position:relative; top:3px;padding:0;width:14px; height:14px;}
@@ -51,19 +50,18 @@ nav svg{ margin:0 5px 0 0;position:relative; top:3px;padding:0;width:14px; heigh
 
 nav a {
     text-decoration: none;
-    color: white;
+    color: var(--black)
     border-radius: 4px;
     background: #FFD800;
     padding: 3px 15px;
 }
 
-
 nav a:hover {
     text-decoration: none;
-    color: white;
+    color: var(--black)
     border-radius: 4px;
     background: #FFD800;
-    opacity:1;
+    opacity:.7;
 }
 
 

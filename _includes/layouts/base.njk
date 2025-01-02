@@ -13,7 +13,7 @@
 {%- css %}{% include "public/style.css" %}{% endcss %}
 <style>{% getBundle "css" %}</style>
 </head>
-<body class="{{ class }}">
+<body class="{%- if classes and classes.body %} {{ classes.body }}{% endif -%}>
 <header>
 <h1><a href="/">{{ metadata.title }}</a></h1>
 </header>
