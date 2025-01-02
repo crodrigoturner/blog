@@ -37,15 +37,12 @@ header {
 
 nav {
     float: left;
-    padding: 3px 15px;
     margin: 0;
     font: 500 1em / 1.6 var(--font);
     z-index: 9999;
-    background: #FFD800;
     position: fixed;
     top: 25px;
-    left: calc(32.5% - 113.17px);
-    border-radius: 4px;
+    left: calc(32.5% - 113.17px); 
 }
 
 nav svg{ margin:0 5px 0 0;position:relative; top:3px;padding:0;width:14px; height:14px;}
@@ -55,6 +52,9 @@ nav svg{ margin:0 5px 0 0;position:relative; top:3px;padding:0;width:14px; heigh
 nav a {
     text-decoration: none;
     color: white;
+    border-radius: 4px;
+    background: #FFD800;
+    padding: 3px 15px;
 }
 
 
