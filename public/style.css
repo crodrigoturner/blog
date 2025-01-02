@@ -1,5 +1,5 @@
 :root {
-    --black: #374151;
+    --black: #000;
     --grey: #48575e;
     --blue: #0277bd;
     --yellow: #FFD800;
@@ -37,14 +37,14 @@ header {
 nav {
     float: left;
     margin: 0;
-    font: 500 1em / 1.6 var(--font);
+    font: 600 2em / 1.6 var(--font);
     z-index: 9999;
     position: fixed;
     top: 25px;
     left: 22%; 
 }
 
-nav svg{ margin:0 5px 0 0;position:relative; top:3px;padding:0;width:14px; height:14px;}
+nav svg{ margin:0 5px 0 0;position:relative; top:3px;padding:0;width:28px; height:28px;stroke-width:4px;}
 
 .home nav{display:none;}
 
