@@ -1,6 +1,6 @@
 ---
 title: Pocketmoney
-tags: parenting
+tags: thoughts
 ---
 
 I read this <a href="https://mikekarnj.com/posts/compounding-for-kids">post from Michael Karnjanaprakorn about he handles his girl's allowance.</a>
