@@ -270,11 +270,11 @@ tr {
 
 .tag {
     float: right;
-
+width:20%; 
     margin: 0;
     padding: 0;
     list-style-type: none;
-    text-align: right;
+    text-align: left;
     text-decoration: none;
     font-size: .9em;
     opacity: .9;
@@ -287,10 +287,10 @@ tr {
     width: 8px;
     margin-right: 5px;
     border-radius: 50%;
-    content:'';position:relative; top:2px;
+    content:'';position:relative; top:5px;
 }
-.likes .post-tag::before {
-    background: rgb(240, 131, 131);
+a.likes{
+  color: rgb(240, 131, 131);
 }
 .work .post-tag::before {
     background: var(--blue);
