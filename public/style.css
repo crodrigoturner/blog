@@ -153,8 +153,6 @@ h2 {
 
 h3 {
     font: 600 1.2em/1.5 var(--font);
-    ;
-
     padding: 0;
     text-align: left;
     float: left;
@@ -164,26 +162,23 @@ h3 {
 
 }
 
-
-
-h5,
-h6 {
-    font: 700 1em/1.5 Piazzolla, serif;
-    margin: 10px 0 0;
-    text-wrap: balance;
-    float: left;
-    width: 100%;
-}
-
 h4 {
-    font: 400 1em/1 Piazzolla, serif;
-
+    font: 400 1em/1 var(--font);
     padding: 10px 0;
     float: left;
     width: 100%;
     margin: 0;
-
 }
+
+h5,
+h6 {
+    font: 700 1em/1.5 var(--font);
+    margin: 10px 0 0;
+    float: left;
+    width: 100%;
+}
+
+
 
 .status {
     float: left;
@@ -272,16 +267,13 @@ tr {
     float: right;
 
     margin: 0;
-    padding: 0;
+    padding: 1px 0 0 0;
     list-style-type: none;
     text-align: right;
     text-decoration: none;
     font-size: .9em;
     opacity: .9;
 }
-
-
-
 
 .post-tag::after {
     float: right;
@@ -291,7 +283,7 @@ tr {
     border-radius: 50%;
     content:'';
     position:relative; 
-    top:6px;
+    top:8px;
 }
 
 .likes .post-tag::after {
@@ -662,12 +654,7 @@ input {
     }
 
     h1 {
-
-        float: left;
-        margin: 0 0 10px;
-        position: relative;
-        top: 0;
-        left: 0;
+font-size:1px; visibility:hidden;
     }
 
     h1 a::before {
