@@ -283,7 +283,7 @@ tr {
     border-radius: 50%;
     content:'';
     position:relative; 
-    top:8px;
+    top:7px;
 }
 
 .likes .post-tag::after {
