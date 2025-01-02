@@ -295,13 +295,21 @@ tr {
 }
 
 .likes .post-tag::after {
-  background: rgb(240, 131, 131);
+  background: #ffab91;
 }
 .work .post-tag::after {
-    background: var(--grey);
+    background: #b0bec5;
 }
 .about .post-tag::after {
-    background: var(--yellow);
+    background: #ffecb3;
+}
+
+.thoughts .post-tag::after {
+    background: #a1887f;
+}
+
+.projects .post-tag::after {
+    background: #b2dfdb;
 }
 
 .tags li a {
