@@ -1,6 +1,6 @@
 ---
 title: Principles
-tags: personal
+tags: about
 ---
 
  0. About this set of principles
