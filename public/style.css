@@ -48,7 +48,7 @@ nav {
     background: #FDBE00;
     position:fixed;
     top:20px;
-    left: calc(35% - 140px))
+    left: calc(35% - 140px);
 }
 
 .home nav{display:none;}
