@@ -280,9 +280,17 @@ tr {
     opacity: .9;
 }
 
-.tag::before{float:left; height:14px; width:14px; margin-right:5px; border-radius:50%;}
 
-a.likes .post-tag::before{float:left; height:14px; width:14px; margin-right:5px; border-radius:50%;background:var(--blue);}
+a.likes .post-tag::before {
+    float: left;
+    height: 14px;
+    width: 14px;
+    margin-right: 5px;
+    border-radius: 50%;
+    background: var(--blue);
+    content:'';
+}
+
 
 
 .tags li a {
