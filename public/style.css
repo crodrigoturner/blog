@@ -50,7 +50,7 @@ nav svg{ margin:0 5px 0 0;position:relative; top:3px;padding:0;width:14px; heigh
 
 nav a {
     text-decoration: none;
-    color: var(--black)
+    color: var(--black);
     border-radius: 4px;
     background: #FFD800;
     padding: 3px 15px;
@@ -58,7 +58,7 @@ nav a {
 
 nav a:hover {
     text-decoration: none;
-    color: var(--black)
+    color: var(--black);
     border-radius: 4px;
     background: #FFD800;
     opacity:.7;
