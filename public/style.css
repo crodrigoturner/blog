@@ -1,5 +1,5 @@
 :root {
-    --black: #000;
+    --black: #1d1d1d;
     --grey: #48575e;
     --blue: #0277bd;
     --yellow: #FFD800;
@@ -139,6 +139,7 @@ h2 {
     float: left;
     width: 100%;
     color: var(--black);
+    margin:20px 0;
 }
 
 h3 {
