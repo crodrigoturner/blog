@@ -281,7 +281,7 @@ tr {
 }
 
 
-a.likes .post-tag::before {
+.likes .post-tag::before {
     float: left;
     height: 14px;
     width: 14px;
@@ -289,6 +289,8 @@ a.likes .post-tag::before {
     border-radius: 50%;
     background: var(--blue);
     content:'';
+    top: 5px;
+    position: relative;
 }
 
 
