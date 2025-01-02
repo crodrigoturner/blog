@@ -3,7 +3,7 @@ const numberOfLatestPostsToShow = 1000;
 
 ---
 
-<p>
+<h2>
 <script>
 currentTime=new Date();
 //getHour() function will retrieve the hour from current time
@@ -28,7 +28,7 @@ weekdayValue = currentDate.getDay()
 document.write(
 " Have a great" + weekday[weekdayValue] + "."
 )
-</script></p>
+</script></h2>
 <p><a href="/tags/about/">About me</a> · <a href="/tags/work/">Work</a> · <a href="mailto:rodrigoturner.carlos@gmail.com">Send me an email</a></p>
 <hr/>
 {% set postslist = collections.posts | head(-1 * numberOfLatestPostsToShow) %}
