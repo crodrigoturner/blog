@@ -63,7 +63,7 @@ main {
     padding: 0px 32.5% 50px;
     width: 35%;
     float: left;
-    margin: 40px 0 0;
+    margin: 20px 0 0;
     z-index: 10;
     background: #FFF;
     min-height: calc(100vh - 162px)
