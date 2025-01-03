@@ -436,25 +436,9 @@ hr.mobile,
     height: 4px;
 }
 
-.home hr,
-.blog hr {
-    margin: 0;
-}
-
-details {
-    width: 100%;
-    float: left;
-}
-
-
-#toggler {
-    display: none;
-}
-
 hr.mobile {
     display: none;
 }
-
 
 hr.short {
     width: 60px;
