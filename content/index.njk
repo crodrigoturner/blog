@@ -35,3 +35,13 @@ document.write(
 {% set postslist = collections.posts | head(-1 * numberOfLatestPostsToShow) %}
 {% set postslistCounter = postsCount %}
 {% include "postslist.njk" %}
+
+
+<ul class="postlist">
+{% for tag in collections.tagList%}
+	{% set tagUrl %}/tags/{{ tag }}/{% endset %}
+	<li class="postlist-item">
+		<a href="{{ tagUrl | url }}" class="postlist-link">{{ tag }}</a> ({{ collections[tag].length }})
+	</li>
+{% endfor %}
+</ul>
