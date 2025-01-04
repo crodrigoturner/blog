@@ -3,7 +3,7 @@
     --grey: #48575e;
     --blue: #0277bd;
     --yellow: #FFD800;
-    --font: "Inter", serif;
+    --font: "Geologica", serif;
 }
 
 html {
@@ -176,43 +176,6 @@ h6 {
     margin: 10px 0 0;
     float: left;
     width: 100%;
-}
-
-
-
-.status {
-    float: left;
-    width: calc(100% - 20px);
-    border-radius: 4px;
-    margin: 20px 0;
-    padding: 5px 10px 8px;
-    background: #EEE;
-    font: 400 1em/1.5 Piazzolla, serif;
-}
-
-.mastodon-logo {
-    width: 24px;
-    float: left;
-    height: 24px;
-    margin: 0 5px 0 0;
-    position: relative;
-    top: 3px;
-
-}
-
-.status p {
-    float: left;
-    width: calc(100% - 30px);
-    margin: 0;
-}
-
-.status div,
-.feed-title,
-.feed-item-title,
-.feed-item-desc,
-.status p:last-child,
-.status p:nth-child(2) {
-    display: none;
 }
 
 table {
