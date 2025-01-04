@@ -386,31 +386,15 @@ a.button:hover,
 }
 
 
-hr,
-hr.mobile,
-.minimal {
+hr {
     border: 0;
     float: left;
-    background: #fdbe0040;
+    background: #EEE;
     width: 100%;
-    margin: 15px 0;
+    margin: 20px 0;
     content: '';
-    border-radius: 2px;
-    height: 4px;
-}
-
-hr.mobile {
-    display: none;
-}
-
-hr.short {
-    width: 60px;
-    margin: 10px 0 !important;
-    border: none !important;
-    background: var(--grey);
-    height: 1px;
-    float: left;
-    clear: both;
+  
+    height: 2px;
 }
 
 .sq {
