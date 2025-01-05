@@ -134,7 +134,7 @@ h1 a::before {
     width: .9em;
     background: #FFD800;
     float: left;
-    top: 5px;
+    top: 3px;
     position: relative;
     margin: 0 15px 0 0;
 }
