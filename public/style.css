@@ -246,7 +246,7 @@ tr {
     border-radius: 50%;
     content:'';
     position:relative; 
-    top:7px;
+    top:6px;
 }
 
 .likes .post-tag::after {
