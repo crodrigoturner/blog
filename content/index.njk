@@ -39,5 +39,5 @@ document.write(
 {% include "postslist.njk" %}
 <hr/>
 <span>2024</span>
-					<img src="https://v1.sparkline.11ty.dev/120x30/{{ collections.posts | getYearlyPostCount }}/{{ '#94b388' | encodeUriComponent }}/" width="120" height="30" alt="Sparkline representing frequency of posts written from 2007 to {{ currentYear }}" loading="lazy" decoding="async" class="spark-img">
+					<img src="https://v1.sparkline.11ty.dev/120x30/{{ collections.posts | getYearlyPostCount }}/" width="120" height="30" alt="Sparkline representing frequency of posts written from 2007 to {{ currentYear }}" loading="lazy" decoding="async" class="spark-img">
 					<span>{{ currentYear }}</span>
