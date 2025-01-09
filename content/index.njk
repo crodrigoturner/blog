@@ -33,9 +33,9 @@ document.write(
 <p><a href="/tags/about/">About me</a> · <a href="/tags/work/">Work</a> · <a href="mailto:rodrigoturner.carlos@gmail.com" target="_blank">Send me an email</a> · <a href="https://carlosrodrigo.com/feed/feed.xml" target="_blank">RSS</a></p>
 <hr/>
 <a href="/web/" class="spark hide-singlecol">
-					<span>2007</span>
+					
 					<img src="https://v1.sparkline.11ty.dev/500x30/{{ collections.posts | getYearlyPostCount }}/{{ '#94b388' | encodeUriComponent }}/" width="500" height="30" alt="Sparkline representing frequency of posts written from 2007 to {{ currentYear }}" loading="lazy" decoding="async" class="spark-img">
-					<span>{{ currentYear }}</span>
+					
 				</a>
 
 {% set postslist = collections.posts | head(-1 * numberOfLatestPostsToShow) %}
