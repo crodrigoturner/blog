@@ -116,7 +116,7 @@ eleventyConfig.addShortcode('excerpt', post => extractExcerpt(post));
 				}
 				return true;
 			}).filter(function(post) {
-				return post.data.page.date.getFullYear() === parseInt(year, 15);
+				return post.data.page.date.getFullYear() === parseInt(year, 10);
 			}).length;
 			years.push(count);
 		}
