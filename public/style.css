@@ -23,6 +23,7 @@ body {
     position: relative;
     min-height: 100vh;
     padding: 0;
+    background: #fff8e18a;
 }
 
 header {
@@ -392,7 +393,7 @@ a.button:hover,
 hr {
     border: 0;
     float: left;
-    background: #EEE;
+    background: #ffe08270;
     width: 100%;
     margin: 20px 0;
     content: '';
