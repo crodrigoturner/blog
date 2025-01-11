@@ -38,6 +38,6 @@ document.write(
 {% set postslistCounter = postsCount %}
 {% include "postslist.njk" %}
 <hr/>
-<span>2024</span>
-					<img src="https://v1.sparkline.11ty.dev/120x30/{{ collections.posts | getYearlyPostCount }}/" width="120" height="30" alt="Sparkline representing frequency of posts written from 2007 to {{ currentYear }}" loading="lazy" decoding="async" class="spark-img">
+<span>1985->2024</span>
+					<img src="https://v1.sparkline.11ty.dev/500x20/{{ collections.posts | getYearlyPostCount }}/" height="20" alt="Sparkline representing frequency of posts written from 2007 to {{ currentYear }}" loading="lazy" decoding="async" class="spark-img">
 					<span>{{ currentYear }}</span>
