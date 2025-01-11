@@ -3,7 +3,7 @@
     --grey: #48575e;
     --blue: #0277bd;
     --yellow: #FFD800;
-    --font: "Fira Code", serif;
+    --font: "Mono", serif;
 }
 
 html {
@@ -561,8 +561,15 @@ input {
 }
 
 
+@font-face {
+    font-family: "Mono";
+    src: url("/public/martian300.woff");
+  }
 
-
+  @font-face {
+    font-family: "Mono bold";
+    src: url("/public/martian700.woff2");
+  }
 
 @media (max-width: 1360px) {
     body {
