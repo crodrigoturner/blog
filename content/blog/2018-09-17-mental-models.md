@@ -1,5 +1,5 @@
 ---
-Title: Mental Models
+title: Mental Models
 tags: notes
 ---
 

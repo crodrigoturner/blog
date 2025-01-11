@@ -1,5 +1,5 @@
 ---
-Title: What Is Intelligence, Anyway?
+title: What Is Intelligence, Anyway?
 tags: notes
 ---
 
