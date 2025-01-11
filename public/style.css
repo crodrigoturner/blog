@@ -564,7 +564,7 @@ input {
 
 @font-face {
     font-family: "Mono";
-    src: url("/public/martian300.woff");
+    src: url("/martian300.woff");
   }
 
   @font-face {
