@@ -570,7 +570,7 @@ input {
 
   @font-face {
     font-family: "Mono bold";
-    src: url("/public/martian700.woff2");
+    src: url("/martian700.woff2");
   }
 
 @media (max-width: 1360px) {
