@@ -4,6 +4,7 @@
     --blue: #0277bd;
     --yellow: #FFD800;
     --font: "Mono", serif;
+    --bold: "Mono bold", serif;
 }
 
 html {
@@ -13,7 +14,7 @@ html {
 }
 
 body {
-    font: 400 14px/1.6 var(--font);
+    font: 400 13px/1.6 var(--font);
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
     text-rendering: optimizeLegibility !important;
     -webkit-font-smoothing: antialiased !important;
@@ -117,7 +118,7 @@ h1 {
     margin: 0;
     padding: 0;
     float: left;
-    font: 700 2em/1 var(--font);
+    font: 700 2em/1 var(--bold);
 
     position: fixed;
     top: 20px;
@@ -145,7 +146,7 @@ h1 a::before {
 
 
 h2 {
-    font: 700 2em/1 var(--font);
+    font: 700 2em/1 var(--bold);
     padding: 0;
     text-align: left;
     float: left;
@@ -156,7 +157,7 @@ h2 {
 }
 
 h3 {
-    font: 600 1.2em/1.5 var(--font);
+    font: 700 1.2em/1.5 var(--bold);
     padding: 0;
     text-align: left;
     float: left;
@@ -176,7 +177,7 @@ h4 {
 
 h5,
 h6 {
-    font: 700 1em/1.5 var(--font);
+    font: 700 1em/1.5 var(--bold);
     margin: 10px 0 0;
     float: left;
     width: 100%;
