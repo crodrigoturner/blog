@@ -103,7 +103,7 @@ eleventyConfig.addShortcode('excerpt', post => extractExcerpt(post));
 		}
 	});
 
-	eleventyConfig.addFilter("getYearlyPostCount", (posts, startYear = 2023) => {
+	eleventyConfig.addFilter("getYearlyPostCount", (posts, startYear = 1985) => {
 		let years = [];
 		for(let j = startYear; j <= (new Date()).getFullYear(); j++) {
 			let year = j;
