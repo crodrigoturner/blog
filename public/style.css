@@ -251,7 +251,7 @@ tr {
     border-radius: 50%;
     content:'';
     position:relative; 
-    top:6px;
+    top:8px;
 }
 
 .likes .post-tag::after {

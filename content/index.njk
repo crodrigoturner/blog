@@ -42,9 +42,9 @@ document.write(
 					<img src="https://v1.sparkline.11ty.dev/500x20/{{ collections.posts | getYearlyPostCount }}/" height="20" alt="Sparkline representing frequency of posts written from 2007 to {{ currentYear }}" loading="lazy" decoding="async" class="spark-img">
 
 					<hr/>
-					<ul class="tags">
+					<span class="tags">
 {% for tag in collections | getKeys | filterTagList %}
 	{% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
-	<li><a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a></li>
+<a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a>
 {% endfor %}
-</ul>
+</span>
