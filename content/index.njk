@@ -45,6 +45,6 @@ document.write(
 					<span class="tags">
 {% for tag in collections | getKeys | filterTagList %}
 	{% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
-<a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a>
+<a href="{{ tagUrl }}">{{ tag }}</a>
 {% endfor %}
 </span>

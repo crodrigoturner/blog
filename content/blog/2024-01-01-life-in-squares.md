@@ -481,9 +481,9 @@ Each square is a month.
 <div class="sq alive" title="08/2024"></div>
 <div class="sq alive" title="09/2024"></div>
 <div class="sq alive" title="10/2024"></div>
-<div class="sq " title=""></div>
-<div class="sq " title=""></div>
-<div class="sq " title=""></div>
+<div class="sq alive" title="11/2024"></div>
+<div class="sq alive" title="12/2024"></div>
+<div class="sq alive" title="01/2025"></div>
 <div class="sq " title=""></div>
 <div class="sq " title=""></div>
 <div class="sq " title=""></div>
