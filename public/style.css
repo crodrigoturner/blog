@@ -3,8 +3,8 @@
     --grey: #48575e;
     --blue: #0277bd;
     --yellow: #FFD800;
-    --font: "Mono", serif;
-    --bold: "Mono bold", serif;
+    --font: "Regular", serif;
+    --bold: "Bold", serif;
 }
 
 html {
@@ -14,7 +14,7 @@ html {
 }
 
 body {
-    font: 400 13px/1.6 var(--font);
+    font: 400 17px/1.6 var(--font);
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
     text-rendering: optimizeLegibility !important;
     -webkit-font-smoothing: antialiased !important;
@@ -564,13 +564,13 @@ input {
 
 
 @font-face {
-    font-family: "Mono";
-    src: url("/martian300.woff");
+    font-family: "Regular";
+    src: url("/regular.ttf");
   }
 
   @font-face {
-    font-family: "Mono bold";
-    src: url("/martian700.woff2");
+    font-family: "Bold";
+    src: url("/bold.ttf");
   }
 
 @media (max-width: 1360px) {
