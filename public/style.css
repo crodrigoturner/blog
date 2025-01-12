@@ -272,6 +272,8 @@ tr {
     background: #b2dfdb;
 }
 
+.tags{float:left; width:100%;}
+
 .tags li a {
     float: left;
     padding: 0 5px 0 0;
