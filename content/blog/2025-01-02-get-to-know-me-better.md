@@ -7,4 +7,3 @@ tags: about
 * [People that inspire me](https://carlosrodrigo.com/blog/2024-12-18-people/)   
 * [What I use](https://carlosrodrigo.com/blog/2024-12-05-uses/)   
 * [What I like](https://carlosrodrigo.com/tags/likes/)   
-* [Get in touch](https://carlosrodrigo.com/contact/)   
