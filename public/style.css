@@ -274,16 +274,16 @@ tr {
 
 .tags{float:left; width:100%;}
 
-.tags li a {
+.tags a {
     float: left;
     padding: 0 5px 0 0;
 }
 
-.tags li a::after {
+.tags a::after {
     content: ' · ';
 }
 
-.tags li:last-child a::after {
+.tags a:last-child::after {
     content: ' ';
 }
 
