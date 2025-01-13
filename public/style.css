@@ -75,7 +75,7 @@ nav a:hover {
     opacity: .7;
 }
 
-.big{float:left; width:100%;    font: 700 2em/1 var(--bold);}
+.big{float:left; width:100%;    font: 700 1.5em/1 var(--bold);}
 
 main {
     padding: 0px 34% 50px;
@@ -169,13 +169,13 @@ h3 {
 }
 
 h4 {
-    font: 400 .8em/1 var(--bold);
-    padding: 10px 0;
+    font: 400 .9em / 1 var(--bold);
+    padding: 5px 0;
     float: left;
     width: 100%;
-    margin: 0;
-    color:var(--grey);
-    text-transform:uppercase;
+    margin: 20px 0;
+    color: #78909C;
+    border-bottom: 1px solid #CFD8DC;
 }
 
 h5,
