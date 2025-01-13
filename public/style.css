@@ -3,7 +3,7 @@
     --grey: #48575e;
     --blue: #0277bd;
     --yellow: #FFD800;
-    --font: "Bitter", serif;
+    --font: "Monolisa", serif;
     --bold: "Inter Tight", serif;
 }
 
@@ -570,8 +570,8 @@ input {
 
 
 @font-face {
-    font-family: "Regular";
-    src: url("/regular.ttf");
+    font-family: "Monolisa";
+    src: url("/MonolisaFont.ttf");
   }
 
   @font-face {
