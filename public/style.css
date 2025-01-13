@@ -14,7 +14,7 @@ html {
 }
 
 body {
-    font: 400 16px/1.6 var(--font);
+    font: 400 15px/1.6 var(--font);
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
     text-rendering: optimizeLegibility !important;
     -webkit-font-smoothing: antialiased !important;
@@ -24,7 +24,7 @@ body {
     position: relative;
     min-height: 100vh;
     padding: 0;
-    background: #ff6f0029;
+    background: #EEE;
 }
 
 header {
@@ -243,7 +243,7 @@ tr {
     opacity: .75;
 }
 
-.post-tag::after {
+.postlist-item a:before {
     float: right;
     height: 8px;
     width: 8px;
@@ -254,21 +254,21 @@ tr {
     top:8px;
 }
 
-.likes .post-tag::after {
+.postlist-item a.likes::before {
   background: #ffab91;
 }
-.work .post-tag::after {
+.postlist-item a.work::before{
     background: #b0bec5;
 }
-.about .post-tag::after {
+.postlist-item a.about::before {
     background: #ffecb3;
 }
 
-.notes .post-tag::after {
+.postlist-item a.notes::before {
     background: #a1887f;
 }
 
-.projects .post-tag::after {
+.postlist-item a.projects::before {
     background: #b2dfdb;
 }
 
@@ -303,10 +303,12 @@ blockquote,
 
 .postlist-item {
     float: left;
-    width: 100%;
-    margin: 0;
-    padding: 5px 0;
-    border-bottom: 1px solid #CFD8DC;
+    width: calc(100% - 40px);
+    background: #FFF;
+    margin: 0 0 5px 0;
+    padding: 12px 20px;
+    border: 1px solid #ECEFF1;
+    border-radius: 4px;
 }
 
 a {
