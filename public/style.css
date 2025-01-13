@@ -24,7 +24,7 @@ body {
     position: relative;
     min-height: 100vh;
     padding: 0;
-    background: #fff8e18a;
+    background: #ff6f0029;
 }
 
 header {
@@ -306,7 +306,7 @@ blockquote,
     width: 100%;
     margin: 0;
     padding: 5px 0;
-    border-bottom: 1px solid #EEE;
+    border-bottom: 1px solid #CFD8DC;
 }
 
 a {
@@ -619,9 +619,6 @@ font-size:1px; visibility:hidden;
         width: 100%;
         line-height: 2;
     }
-
-
-
 
     nav {
         float: left;
