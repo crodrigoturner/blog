@@ -75,6 +75,8 @@ nav a:hover {
     opacity: .7;
 }
 
+.big{font-size:2em;
+font-weight:700;}
 
 main {
     padding: 0px 34% 50px;
