@@ -255,6 +255,7 @@ tr {
     content:'';
     position:relative; 
     top:6px;
+    border: 1px solid #607D8B;
 }
 
 .postlist-item a.likes::before {

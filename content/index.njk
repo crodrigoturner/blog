@@ -27,7 +27,7 @@ weekday[6] = " Saturday"
 var currentDate = new Date()
 weekdayValue = currentDate.getDay()
 document.write(
-"I'm Carlos. I hope you're having a a great " + weekday[weekdayValue] + "."
+"<br/>" + "I hope you're having a a great " + weekday[weekdayValue] + "."
 )
 </script></h2>
 <h4>Short intro</h4>
@@ -38,7 +38,7 @@ I have worked in architecture studios, big energy companies, luxury brands, and 
 I live in Madrid with Mar, Lucas, Nicolás and <a href="/blog/pancho.md">Pancho</a>.
 <p><a href="/about/">About</a> · <a href="/notes/">Notes</a> · <a href="/tags/work/">Work</a> · <a href="mailto:rodrigoturner.carlos@gmail.com" target="_blank">Email</a> · <a href="https://carlosrodrigo.com/feed/feed.xml" target="_blank">RSS</a></p>
 
-<h3><a href="/notes/">NOTES -></a></h3>
+<h4>Notes</h4>
 {% set postslist = collections.posts | head(-1 * numberOfLatestPostsToShow) %}
 {% set postslistCounter = postsCount %}
 {% include "postslist.njk" %}
