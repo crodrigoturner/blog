@@ -1,5 +1,5 @@
 ---js
-const numberOfLatestPostsToShow = 10;
+const numberOfLatestPostsToShow = 6;
 
 ---
 <h2>
@@ -31,21 +31,18 @@ document.write(
 )
 </script></h2>
 <hr/>
-<p><a href="/tags/about/">About me</a> · <a href="/tags/work/">Work</a> · <a href="mailto:rodrigoturner.carlos@gmail.com" target="_blank">Email</a> · <a href="https://carlosrodrigo.com/feed/feed.xml" target="_blank">RSS</a></p>
+<p><a href="/tags/about/">About</a> · <a href="/notes/">Notes</a> · <a href="/tags/work/">Work</a> · <a href="mailto:rodrigoturner.carlos@gmail.com" target="_blank">Email</a> · <a href="https://carlosrodrigo.com/feed/feed.xml" target="_blank">RSS</a></p>
 <hr/>
 <h3><a href="/notes/">NOTES -></a></h3>
 {% set postslist = collections.posts | head(-1 * numberOfLatestPostsToShow) %}
 {% set postslistCounter = postsCount %}
 {% include "postslist.njk" %}
-<hr/>
-<span>1985 - today</span>
-					<img src="https://v1.sparkline.11ty.dev/500x20/{{ collections.posts | getYearlyPostCount }}/" height="20" alt="Sparkline representing frequency of posts written from 2007 to {{ currentYear }}" loading="lazy" decoding="async" class="spark-img">
-<hr/>
+
 					<span class="tags">
 {% for tag in collections | getKeys | filterTagList %}
 	{% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
 <a href="{{ tagUrl }}">{{ tag }}</a>
 {% endfor %}
 </span>
-
-<a href="mailto:email@carlosrodrigo.com">email@carlosrodrigo.com-></a>
+<hr/>
+<a class="big" href="mailto:email@carlosrodrigo.com">email@carlosrodrigo.com-></a>
