@@ -239,8 +239,8 @@ tr {
     list-style-type: none;
     text-align: right;
     text-decoration: none;
-    font-size: .9em;
-    opacity: .9;
+
+    opacity: .75;
 }
 
 .post-tag::after {
