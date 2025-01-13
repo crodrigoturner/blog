@@ -31,12 +31,16 @@ document.write(
 )
 </script></h2>
 <hr/>
-<p><a href="/tags/about/">About</a> · <a href="/notes/">Notes</a> · <a href="/tags/work/">Work</a> · <a href="mailto:rodrigoturner.carlos@gmail.com" target="_blank">Email</a> · <a href="https://carlosrodrigo.com/feed/feed.xml" target="_blank">RSS</a></p>
+<p><a href="/about/">About</a> · <a href="/notes/">Notes</a> · <a href="/tags/work/">Work</a> · <a href="mailto:rodrigoturner.carlos@gmail.com" target="_blank">Email</a> · <a href="https://carlosrodrigo.com/feed/feed.xml" target="_blank">RSS</a></p>
 <hr/>
 <h3><a href="/notes/">NOTES -></a></h3>
 {% set postslist = collections.posts | head(-1 * numberOfLatestPostsToShow) %}
 {% set postslistCounter = postsCount %}
 {% include "postslist.njk" %}
+
+{% for post in collections.projects %}
+    <a href="{{ page.url }}">{{ projects.data.title }}</a>
+{% endfor %}
 
 					<span class="tags">
 {% for tag in collections | getKeys | filterTagList %}
