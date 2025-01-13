@@ -14,7 +14,7 @@ html {
 }
 
 body {
-    font: 400 16px/1.6 var(--font);
+    font: 400 18px/1.6 var(--font);
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
     text-rendering: optimizeLegibility !important;
     -webkit-font-smoothing: antialiased !important;
@@ -314,8 +314,8 @@ blockquote,
 }
 
 a {
-    color: var(--blue);
-    text-decoration:none;
+    color: var(--black);
+    text-decoration:underline;
 }
 
 a:hover {
