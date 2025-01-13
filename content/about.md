@@ -1,11 +1,10 @@
 ---
 title: About
 ---
-<img class="hero" src="/img/about.png" alt="storr"/> 
 
 ## About
 
-### Hi! I'm Carlos,
+My Name is Carlos Roberto Rodrigo Turner.
 
 I'm a data specialist with 7+ years of experience in leveraging data to drive businesses forward. I am passionate about helping make data-driven decisions that lead to growth and success. 
 
@@ -14,8 +13,16 @@ I have worked in architecture studios, big energy companies, luxury brands, and 
 I live in Madrid with Mar, Lucas, Nicolás and <a href="/blog/pancho.md">Pancho</a>.
 
 
----
-### Colophon / About this site
+#### Get to know me
+
+* [Life in squares](https://carlosrodrigo.com/blog/2024-01-01-life-in-squares/)
+* [Interests](https://carlosrodrigo.com/blog/2024-12-22-interests/)
+* [People that inspire me](https://carlosrodrigo.com/blog/2024-12-18-people/)
+* [What I use](https://carlosrodrigo.com/blog/2024-12-05-uses/)
+* [What I like](https://carlosrodrigo.com/tags/likes/)
+
+
+#### Colophon / About this site
 
 Built with Eleventy and deployed on Netlify.
 
@@ -27,10 +34,6 @@ Inspired by [Melanie Richards](https://melanie-richards.com/), [Andrew Conner](h
 
 Most of the images from this website are made with Midjourney.
 
-This website is climate friendly. 98% cleaner than of all web pages globally according to [Website carbon calculator](https://www.websitecarbon.com/website/carlosrodrigo-com/) and [Ecograder](https://ecograder.com/report/ui51eop7QVAu1piHLdKCnYav).
+This website is climate friendly. Cleaner than 98% of all web pages globally according to [Website carbon calculator](https://www.websitecarbon.com/website/carlosrodrigo-com/) and [Ecograder](https://ecograder.com/report/ui51eop7QVAu1piHLdKCnYav).
 
 
----
-### Contact
-
-If you want to get in touch, please send me an <a href="mailto:rodrigoturner.carlos@gmail.com">email</a>, you may also find me <a href="/contact/">elsewhere</a>.
