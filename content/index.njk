@@ -46,14 +46,19 @@ I live in Madrid with Mar, Lucas, Nicolás and <a href="/blog/pancho.md">Pancho<
 
 
 <ul>
-{%- for projects in collections.projects -%}{% for tag in peojects.data.tags %}
-        {% if tag != "projects" %}
-  <li><a href="{{ page.url }}class="{{tag}}"><span class="{{tag}}"></span>{{ projects.data.title }}</a></li>       {% endif %}
+{%- for projects in collections.projects -%}
+{% for tag in peojects.data.tags %}
+{% if tag != "projects" %}
+  <li><a href="{{ page.url }}" class="{{tag}}"><span class="{{tag}}"></span>{{ projects.data.title }}</a></li>       {% endif %}
       {% endfor %}
 {%- endfor -%}
 </ul>
 
-
+<ul>
+{%- for projects in collections.projects -%}
+  <li>{{ projects.data.title }}</li>
+{%- endfor -%}
+</ul>
 
 <h4>Get in touch</h4>
 <a class="big" href="mailto:email@carlosrodrigo.com">email@carlosrodrigo.com-></a>
