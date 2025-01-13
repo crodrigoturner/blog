@@ -78,8 +78,8 @@ nav a:hover {
 a.big{float:left; width:100%;    font: 700 1.5em/1 var(--bold); color: #bf360c;}
 
 main {
-    padding: 0px 34% 50px;
-    width: 32%;
+    padding: 0px 40% 50px;
+    width: 30%;
     float: left;
     margin: 0;
     z-index: 10;
