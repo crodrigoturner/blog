@@ -17,3 +17,42 @@ layout: layouts/work.njk
 <p>Lodging manager during the Pope's visit in 2011.</p>
 </li>
 </ul>
+
+#### Skills
+
+Understanding of data   
+Analytical skills   
+Attention to detail   
+Research abilities   
+Adaptability   
+Proactiveness   
+Critical thinking   
+Customer service   
+English · Spanish · French   
+Windows / MAC OS   
+Office   
+Filemaker   
+HTML   
+CSS   
+JS   
+Wordpress   
+Accessibility   
+Competitive analysis   
+Cross-organizational collaboration   
+Customer research & discovery   
+Data analysis   
+Data-driven decision making   
+Experimentation   
+Market research   
+Open source   
+Product metrics   
+Product vision & strategy   
+Project management   
+Public speaking   
+Risk management   
+Roadmap development   
+Stakeholder management   
+Technical writing   
+UX/UI design   
+Web development   
+Web standards   

@@ -1,7 +1,9 @@
---- 
-title: Colophon
-tags: about
 ---
+layout: layouts/work.njk
+---
+
+## Colophon
+
 Built with Eleventy and deployed on Netlify.
 
 The font is Public sans. 
