@@ -88,7 +88,7 @@ main {
 .notes{float:left; width:60%;}
 .projects{float:left; width:40%;}
 
-footer{width:100%; float:left; border-top:1px solid #EEE;}
+footer{width:100%; float:left; border-top:1px solid #EEE; margin:0px 30%; padding:40px 0;font: 400 1em/1 var(--bold);}
 
 .clear {
     width: 100%;
