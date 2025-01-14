@@ -7,8 +7,8 @@ layout: layouts/base.njk
 {%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
 <a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a>{%- if not loop.last %}, {% endif %}
 {%- endfor %} ›</h3><h2> {{title}}</h2>
-<hr/>
+
 {{ content | safe }}
 
-<hr/>
+
 <span class="meta"><a href="mailto:rodrigoturner.carlos@gmail.com">Reply by email</a> · <time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate("dd.MM.yyyy") }}</time></span>
