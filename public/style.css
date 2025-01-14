@@ -253,7 +253,7 @@ tr {
 
     opacity: .75;
 }
-
+/*
 .postlist-item a:before {
     float: left;
     height: 8px;
@@ -293,7 +293,7 @@ tr {
 
 .tags a::after {
     content: ' · ';
-}
+}*/
 
 .tags a:last-child::after {
     content: ' ';
