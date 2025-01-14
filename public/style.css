@@ -130,6 +130,7 @@ h1 a {
     text-transform: lowercase;
     color: var(--black);
     text-decoration: none;
+    border:none;
 
 }
 
@@ -169,7 +170,7 @@ h3 {
 }
 
 h4 {
-    font: 400 .9em / 1 var(--bold);
+    font: 400 .75em / 1 var(--bold);
     padding: 5px 0;
     float: left;
     width: 100%;
@@ -314,9 +315,9 @@ blockquote,
 }
 
 a {
-    color: var(--black);
-    text-decoration:none;
-    border-bottom:1px solid #CCC;
+    color: #01579B;
+    text-decoration: none;
+    border-bottom: 1px solid #E0E0E0;
 }
 
 a:hover {
@@ -326,7 +327,7 @@ a:hover {
     background: none;
 }
 
-a[target=_blank]:after {
+/*a[target=_blank]:after {
     content: '┓' / ', external';
     font-family: var(--sansserif);
     font-size: 0.5em;
@@ -335,7 +336,7 @@ a[target=_blank]:after {
     position: absolute;
     margin-top: calc(1rem - 1.7em);
     line-height: 1em;
-}
+}*/
 
 .more {
     float: left;
