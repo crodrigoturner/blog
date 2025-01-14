@@ -14,17 +14,14 @@ layout: layouts/base.njk
 {% endfor %}
 </span>
 
+
+<h2><a href="/">home</a> › {{ tag }}</h2>
+<hr/>
+{% set postslist = collections[ tag ] %}
 <ul>
 	{%- for post in postslist | reverse %}
 <li class="postlist-item{% if post.url == url %} postlist-item-active{% endif %}">
-{% for tag in post.data.tags %}
-        {% if tag != "posts" %}
-<a href="{{ post.url }}" class="{{tag}}"><span class="{{tag}}"></span> {{ post.data.title }}</a>
-   
-
-        {% endif %}
-      {% endfor %}
-
+<a href="{{ post.url }}" class="title">{{ post.data.title }}</a>
 </li>
 {%- endfor %}
 </ul>
