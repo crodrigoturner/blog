@@ -85,10 +85,11 @@ main {
     z-index: 10;
 }
 
-.notes{float:left; width:60%;}
-.projects{float:left; width:40%;}
+article.notes{float:left; width:60%;}
+article.projects{float:left; width:40%;}
+article.updates li p{margin:0; padding:0;}
 
-footer{width:40%; float:left; border-top:1px solid #EEE; margin:0px; padding:40px 30%;font: 400 1em/1 var(--font);}
+footer{width:40%; float:left; border-top:1px solid #EEE; margin:0px; padding:20px 30%;font: 400 1em/1 var(--font);}
 
 .clear {
     width: 100%;

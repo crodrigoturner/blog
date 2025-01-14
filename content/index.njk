@@ -43,7 +43,7 @@ document.write(
 <h4>Projects</h4>
 <ul>
 {%- for projects in collections.projects -%}
-{{ collections[tag].length }}
+
   <li><a href="{{projects.url}}">{{ projects.data.title }}</a></li>
 {%- endfor -%}
 </ul>
