@@ -18,7 +18,7 @@ title: Work
 </li>
 </ul>
 
-### Work values
+#### Work values
 
 My philosophy and values at work are the following:
 

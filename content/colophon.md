@@ -1,6 +1,7 @@
 ---
 layout: layouts/base.njk
 ---
+<span class="postnav"><a href="/">home</a> ›</span>
 
 ## Colophon
 
