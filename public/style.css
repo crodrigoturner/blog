@@ -169,6 +169,8 @@ h3 {
 
 }
 
+nav.post{ font: 600 .75em/1.5 var(--bold);}
+
 h4 {
     font: 400 .75em / 1 var(--bold);
     padding: 5px 0;
