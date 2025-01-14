@@ -89,7 +89,7 @@ main {
 
 article.notes{float:left; width:60%;}
 article.projects{float:left; width:40%;}
-article.updates {margin:40px 0; padding:0;}
+article.updates {margin:40px 0; padding:0;    float: left;}
 article.updates li p{margin:0; padding:0;}
 
 footer{position:fixed; bottom:0; left:0; width:calc(30% - 40px); float:left; margin:0px; padding:20px;font: 400 1em/1 var(--font);}
