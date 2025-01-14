@@ -2,7 +2,6 @@
 layout: layouts/work.njk
 ---
 
-## Work
 
 <ul>
 <li><h5>2015-Now › Técnica y Avance</h5>
