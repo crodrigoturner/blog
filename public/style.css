@@ -428,6 +428,7 @@ hr {
     min-width: 17px;
     height: 17px;
     text-align: center;
+    line-height: 1;
 }
 
 .alive {
