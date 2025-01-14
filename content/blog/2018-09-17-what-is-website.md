@@ -1,6 +1,8 @@
 ---
 title: What is a website?
-tags: notes
+tags: 
+- notes
+- internet
 ---
 
 <p>In the widest sense of the word, a website is a set of words and images placed together in order to share through internet an idea or message from one computer to another.</p>

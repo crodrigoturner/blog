@@ -1,6 +1,8 @@
 ---
 title: What Is Intelligence, Anyway?
-tags: notes
+tags: 
+- notes
+- intelligence
 ---
 
 <p>A short story from Isaac Asimov</p>
