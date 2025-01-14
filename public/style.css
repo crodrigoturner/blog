@@ -36,13 +36,13 @@ header {
 }
 
 nav {
-    float: left;
+    float: right;
     margin: 0;
     font: 600 2em / 1.6 var(--font);
     z-index: 9999;
     position: fixed;
-    top: 25px;
-    left: 22%;
+    top: 50px;
+    left: 50px;
 }
 
 nav svg {
@@ -63,7 +63,7 @@ nav a {
     text-decoration: none;
     color: var(--black);
     border-radius: 4px;
-    background: #FFD800;
+
     padding: 3px 15px;
 }
 
