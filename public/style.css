@@ -160,7 +160,7 @@ h2 {
     text-transform: lowercase;
 }
 
-.intro h2{line-height:2;font-family:"Markazi Text", serif;}
+.intro h2{ font: 700 1.5em/1 "Markazi Text", serif;}
 
 h3 {
     font: 700 1.2em/1.5 var(--bold);
