@@ -1,7 +1,7 @@
 ---
 title: About
 ---
-
+<span class="postnav"><a href="/">home</a> ›</span>
 
 ## About
 
@@ -21,7 +21,3 @@ I live in Madrid with Mar, Lucas, Nicolás and <a href="/blog/pancho.md">Pancho<
 * [People that inspire me](https://carlosrodrigo.com/blog/2024-12-18-people/)
 * [What I use](https://carlosrodrigo.com/blog/2024-12-05-uses/)
 * [What I like](https://carlosrodrigo.com/tags/likes/)
-
-
-
-

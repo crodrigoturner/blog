@@ -4,6 +4,10 @@ title: Blogroll
 tags: likes
 ---
 
+<span class="postnav"><a href="/">home</a> ›</span>
+
+## Blogroll
+
 These are the blogs that I frequently visit:
 
 <ul>
