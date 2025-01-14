@@ -169,7 +169,7 @@ h3 {
 
 }
 
-nav.post{ font: 600 .75em/1.5 var(--bold);}
+.postnav{ font: 600 .75em/1.5 var(--bold); background:none;}
 
 h4 {
     font: 400 .75em / 1 var(--bold);
