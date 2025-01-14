@@ -38,11 +38,12 @@ header {
 nav {
     float: right;
     margin: 0;
-    font: 600 2em / 1.6 var(--font);
+    font: 600 1.5em / 1.6 var(--font);
     z-index: 9999;
     position: fixed;
     top: 50px;
    right: 50px;
+   text-align:right;
 }
 
 nav svg {
