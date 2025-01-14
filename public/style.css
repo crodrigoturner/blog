@@ -14,7 +14,7 @@ html {
 }
 
 body {
-    font: 300 18px/1.6 var(--font);
+    font: 300 16px/1.6 var(--font);
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
     text-rendering: optimizeLegibility !important;
     -webkit-font-smoothing: antialiased !important;
@@ -78,8 +78,8 @@ nav a:hover {
 a.big{float:left;    font: 700 1.5em/1 var(--bold); color: #bf360c;}
 
 main {
-    padding: 0px 30% 50px;
-    width: 40%;
+    padding: 0px 35% 50px;
+    width: 30%;
     float: left;
     margin: 0;
     z-index: 10;
