@@ -11,6 +11,7 @@ html {
     text-rendering: optimizeLegibility;
     height: 101%;
     margin: 0px !important;
+    
 }
 
 body {
@@ -22,8 +23,9 @@ body {
     word-wrap: break-word;
     margin: 0;
     position: relative;
-    min-height: 100vh;
+
     padding: 0;
+    min-height: 100%;
 
 }
 
@@ -80,8 +82,9 @@ main {
     padding: 0px 30% 50px;
     width: 40%;
     float: left;
-    margin: 0;
+    min-height: 100%;
     z-index: 10;
+    margin: 0 0 -100px;
 }
 
 article.notes{float:left; width:60%;}
@@ -89,6 +92,8 @@ article.projects{float:left; width:40%;}
 article.updates li p{margin:0; padding:0;}
 
 footer{width:40%; float:left; border-top:1px solid #EEE; margin:0px; padding:20px 30%;font: 400 1em/1 var(--font);}
+
+footer, .push{height:100px;}
 
 .clear {
     width: 100%;
