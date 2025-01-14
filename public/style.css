@@ -152,7 +152,7 @@ h1 a::before {
 */
 
 h2 {
-    font: 700 2em/1 var(--bold);
+    font: 700 2em/1 "Piazzolla";
     padding: 0;
     text-align: left;
     float: left;
