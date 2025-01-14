@@ -583,8 +583,8 @@ input {
 
 @font-face {
 	font-family: 'Darby Sans Web';
-	src: url('/DarbySans-Light-Web.woff2') format('woff2'),
-		 url('/DarbySans-Light-Web.woff') format('woff');
+	src: url('https://carlosrodrigo.com/DarbySans-Light-Web.woff2') format('woff2'),
+		 url('https://carlosrodrigo.com/DarbySans-Light-Web.woff') format('woff');
 	font-weight: 300;
 	font-style: normal;
 	}
