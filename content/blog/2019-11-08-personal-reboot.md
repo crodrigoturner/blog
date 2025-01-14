@@ -1,6 +1,8 @@
 ---
 title: Personal Reboot
-tags: notes
+tags: 
+- productivity
+- notes
 ---
 
 A person is very much like a computer, with a hardware (i.e: body) and a software (i.e: mind).
