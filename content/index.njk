@@ -35,31 +35,32 @@ I'm a data specialist with 7+ years of experience in leveraging data to drive bu
 </p>
 
 <p><a href="/about/">About</a> · <a href="/notes/">Notes</a> · <a href="/work/">Work</a></p>
-
+<article class="notes">
 <h4>Notes</h4>
 <ul>
 {%- for notes in collections.notes -%}
   <li><a href="{{notes.url}}">{{ notes.data.title }}</a></li>
 {%- endfor -%}
 </ul>
-
+</article>
+<article class="projects">
 <h4>Projects</h4>
 <ul>
 {%- for projects in collections.projects -%}
   <li><a href="{{projects.url}}">{{ projects.data.title }}</a></li>
 {%- endfor -%}
 </ul>
-
+</article>
+<article class="updates">
 <h4>Updates</h4>
 <ul>
 {%- for updates in collections.updates -%}
   <li>{{updates.templateContent | safe }}</li>
 {%- endfor -%}
 </ul>
+</article>
 
-<h4>Links</h4>
-
-<p><a href="/blogroll">Blogroll</a> · <a href="/tags/now/">Now</a></p>
-
-<h4>Get in touch</h4>
+<footer>
 <p><a class="big" href="mailto:email@carlosrodrigo.com">email@carlosrodrigo.com-></a></p>
+<p><a href="/blogroll">Blogroll</a> · <a href="/tags/now/">Now</a></p>
+</footer>

@@ -179,13 +179,13 @@ h3 {
     float: left;}
 
 h4 {
-    font: 400 .85em / 1 var(--bold);
+    font: 700 1em / 1 Piazzolla;
     padding: 5px 0;
     float: left;
     width: 100%;
     margin: 20px 0;
-    color: #78909C;
-    border-bottom: 1px solid #CFD8DC;
+    color: #C85B60;
+    text-transform: uppercase;
 }
 
 h5,
