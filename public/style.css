@@ -3,7 +3,7 @@
     --grey: #48575e;
     --blue: #0277bd;
     --yellow: #FFD800;
-    --font: "Darby Sans", sans-serif;
+    --font: "Darby Sans Web", sans-serif;
     --bold: "Inter Tight", sans-serif;
 }
 
@@ -580,9 +580,17 @@ input {
 
 
 @font-face {
-    font-family: "Darby Sans";
-    src: url("/DarbySans-Light-Web.woff");
-  }
+	font-family: 'Darby Sans Web';
+	src: url('/DarbySans-Light-Web.woff2') format('woff2'),
+		 url('/DarbySans-Light-Web.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
+	}
+
+.DarbySans-Light-Web {
+	font-family: 'Darby Sans Web';
+	font-weight: 300;
+	font-sty
 
   @font-face {
     font-family: "Bold";
