@@ -706,6 +706,8 @@ input {
         display: none !important;
     }
 
+    footer{float:left; width:100%;}
+
 
     hr.mobile {
         display: block;
@@ -721,4 +723,7 @@ input {
         padding: 0px 20px 50px;
         margin: 0;
     }
+
+    article{float: left;
+        width: calc(100% - 40px);}
 }
