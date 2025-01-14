@@ -581,7 +581,7 @@ input {
 
 @font-face {
     font-family: "Darby Sans";
-    src: url("/DarbySans-Light-Web.woff.ttf");
+    src: url("/DarbySans-Light-Web.woff");
   }
 
   @font-face {
