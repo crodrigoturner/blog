@@ -88,7 +88,7 @@ main {
 .notes{float:left; width:60%;}
 .projects{float:left; width:40%;}
 
-
+footer{width:100%; float:left; border-top:1px solid #EEE;}
 
 .clear {
     width: 100%;
@@ -160,7 +160,7 @@ h2 {
     margin: 0px 0 20px;
 }
 
-.intro h2{ font: 700 3em/1 "Piazzolla", serif;width:100%; margin:30px 0 0;}
+.intro h2{ font: 700 3em/1.5 "Piazzolla", serif;width:100%; margin:30px 0;}
 .red{color:#C85B60;}
 
 h3 {
