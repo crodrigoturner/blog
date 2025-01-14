@@ -37,9 +37,11 @@ I live in Madrid with Mar, Lucas, Nicolás and <a href="/blog/pancho.md">Pancho<
 <p><a href="/about/">About</a> · <a href="/notes/">Notes</a> · <a href="/tags/work/">Work</a> · <a href="mailto:rodrigoturner.carlos@gmail.com" target="_blank">Email</a> · <a href="https://carlosrodrigo.com/feed/feed.xml" target="_blank">RSS</a></p>
 
 <h4>Notes</h4>
-{% set postslist = collections.posts | head(-1 * numberOfLatestPostsToShow) %}
-{% set postslistCounter = postsCount %}
-{% include "postslist.njk" %}
+<ul>
+{%- for notes in collections.notes -%}
+  <li><a href="{{notes.url}}">{{ notes.data.title }}</a></li>
+{%- endfor -%}
+</ul>
 
 <h4>Projects</h4>
 <ul>
