@@ -85,7 +85,8 @@ main {
     z-index: 10;
 }
 
-
+.notes{float:left; width:60%;}
+.projects{float:left; width:40%;}
 
 
 
