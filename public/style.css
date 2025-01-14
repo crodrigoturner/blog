@@ -158,6 +158,8 @@ h2 {
     text-transform: lowercase;
 }
 
+.intro{line-height:2;}
+
 h3 {
     font: 700 1.2em/1.5 var(--bold);
     padding: 0;
