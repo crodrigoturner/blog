@@ -18,7 +18,9 @@ const eleventyComputed = {
 };
 ---
 
-<span class="postnav"><a href="/">home</a> › {{ tag }} › </span>
+<span class="postnav"><a href="/">home</a> › <a href="/notes">notes</a> › </span>
+
+<h2>{{ tag }} </h2>
 
 {% set postslist = collections[ tag ] %}
 <ul>
