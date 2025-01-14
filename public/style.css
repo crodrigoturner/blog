@@ -11,7 +11,7 @@ html {
     text-rendering: optimizeLegibility;
     height: 101%;
     margin: 0px !important;
-    
+
 }
 
 body {
@@ -40,12 +40,12 @@ header {
 nav {
     float: right;
     margin: 0;
-    font: 600 1.5em / 1.6 var(--font);
+    font: 300 1.5em / 1.6 var(--font);
     z-index: 9999;
     position: fixed;
     top: 50px;
-   right: 50px;
-   text-align:right;
+    right: 50px;
+    text-align: right;
 }
 
 nav svg {
@@ -65,7 +65,7 @@ nav svg {
 nav a {
     text-decoration: none;
     color: var(--black);
-border:none;
+    border: none;
     padding: 0;
 }
 
@@ -76,7 +76,11 @@ nav a:hover {
     opacity: .7;
 }
 
-a.big{float:left;    font: 700 1.5em/1 var(--bold); color: #bf360c;}
+a.big {
+    float: left;
+    font: 700 1.5em/1 var(--bold);
+    color: #bf360c;
+}
 
 main {
     padding: 0px 30% 50px;
@@ -87,12 +91,37 @@ main {
     margin: 0 0 -100px;
 }
 
-article.notes{float:left; width:60%;}
-article.projects{float:left; width:40%;}
-article.updates {margin:40px 0; padding:0;    float: left;}
-article.updates li p{margin:0; padding:0;}
+article.notes {
+    float: left;
+    width: 60%;
+}
 
-footer{position:fixed; bottom:0; left:0; width:calc(30% - 40px); float:left; margin:0px; padding:20px;font: 400 1em/1 var(--font);}
+article.projects {
+    float: left;
+    width: 40%;
+}
+
+article.updates {
+    margin: 40px 0;
+    padding: 0;
+    float: left;
+}
+
+article.updates li p {
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: calc(30% - 40px);
+    float: left;
+    margin: 0px;
+    padding: 20px;
+    font: 400 1em/1 var(--font);
+}
 
 
 
@@ -118,8 +147,11 @@ p {
     margin: 7.5px 0;
 }
 
-.spark-img{color:var(--blue);
-width:100%; float:left;}
+.spark-img {
+    color: var(--blue);
+    width: 100%;
+    float: left;
+}
 
 h1 {
 
@@ -133,15 +165,20 @@ h1 {
     left: 50px;
 }
 
-h1 img{width:100px; height:100px; border-radius:50%;}
+h1 img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
 
 h1 a {
     text-transform: lowercase;
     color: var(--black);
     text-decoration: none;
-    border:none;
+    border: none;
 
 }
+
 /*
 h1 a::before {
     content: '';
@@ -157,7 +194,7 @@ h1 a::before {
 */
 
 h2 {
-    font: 700 2em/1 "Piazzolla";
+    font: 600 2em/1 "Piazzolla";
     padding: 0;
     text-align: left;
     float: left;
@@ -166,8 +203,15 @@ h2 {
     margin: 0px 0 20px;
 }
 
-.intro h2{ font: 700 3em/1.5 "Piazzolla", serif;width:100%; margin:30px 0;}
-.red{color:#C85B60;}
+.intro h2 {
+    font: 600 3em/1.5 "Piazzolla", serif;
+    width: 100%;
+    margin: 30px 0;
+}
+
+.red {
+    color: #C85B60;
+}
 
 h3 {
     font: 700 1.2em/1.5 var(--bold);
@@ -180,13 +224,15 @@ h3 {
 
 }
 
-.postnav{    font: 600 .8em / 1.5 var(--bold);
+.postnav {
+    font: 600 .8em / 1.5 var(--bold);
 
     margin: 15px 0;
-    float: left;}
+    float: left;
+}
 
 h4 {
-    font: 700 1em / 1 Piazzolla;
+    font: 600 1em / 1 Piazzolla;
     padding: 5px 0;
     float: left;
     width: 100%;
@@ -262,6 +308,7 @@ tr {
 
     opacity: .75;
 }
+
 /*
 .postlist-item a:before {
     float: left;
@@ -324,7 +371,7 @@ blockquote,
 
 .postlist-item {
     float: left;
-    width:100%;
+    width: 100%;
 
     margin: 0 0 5px 0;
 
@@ -422,7 +469,7 @@ hr {
     width: 100%;
     margin: 20px 0;
     content: '';
-  
+
     height: 2px;
 }
 
@@ -500,7 +547,7 @@ ul ol {
 
 li {
     float: left;
-    width:100%;
+    width: 100%;
 }
 
 nav ul {
@@ -589,16 +636,16 @@ input {
 
 
 @font-face {
-	font-family: "Darby";
-	src: url("/Darby.woff");
-	font-weight: 300;
-	font-style: normal;
-	}
+    font-family: "Darby";
+    src: url("/Darby.woff");
+    font-weight: 300;
+    font-style: normal;
+}
 
-  @font-face {
+@font-face {
     font-family: "Bold";
     src: url("/bold.ttf");
-  }
+}
 
 @media (max-width: 1360px) {
     body {
@@ -624,7 +671,8 @@ input {
     }
 
     h1 {
-font-size:1px; visibility:hidden;
+        font-size: 1px;
+        visibility: hidden;
     }
 
     h1 a::before {
