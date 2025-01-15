@@ -654,7 +654,8 @@ input {
     footer {
         padding: 20px;
         width: calc(100% - 40px);
-float:left;}
+float:left;
+position:relative;}
 
 
     h2 {
