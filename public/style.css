@@ -381,7 +381,7 @@ a {
     border-bottom: 1px solid #E0E0E0;
 }
 
-.posts a{color: var(--black);}
+.posts a{color: var(--black);border:none;}
 
 a:hover {
     opacity: .75;
@@ -447,12 +447,7 @@ a.button:hover,
     opacity: .7;
 }
 
-.posts a {
-    width: 100%;
-    float: left;
-    border-bottom: 1px solid var(--grey);
-    padding: 5px 0;
-}
+
 
 .attachment-post-thumbnail {
     position: relative;
