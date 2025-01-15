@@ -665,23 +665,9 @@ input {
     }
 
     footer {
-        padding: 40px 20px;
+        padding: 20px;
         width: calc(100% - 40px);
-        font-size: 1.5em;
-    }
-
-    h1 {
-        font-size: 1px;
-        visibility: hidden;
-    }
-
-    h1 a::before {
-        left: 30px;
-    }
-
-    .bio {
-        display: none
-    }
+float:left;}
 
 
     h2 {
@@ -702,16 +688,7 @@ input {
         font-size: .9em;
     }
 
-    .welcome {
-        display: none !important;
-    }
-
-    footer{float:left; width:100%;}
-
-
-    hr.mobile {
-        display: block;
-    }
+    article{float:left; width:100%;}
 
     ul {
         margin: 0;
