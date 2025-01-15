@@ -6,7 +6,7 @@ layout: layouts/base.njk
 
 {{ content | safe }}
 
-<h4>More about</h4>
+<h4>More about me</h4>
 <ul>
 {%- for personal in collections.personal -%}
 <li><a href="{{personal.url}}">{{ personal.data.title }}</a></li>

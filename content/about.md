@@ -2,9 +2,6 @@
 layout: layouts/about.njk
 title: About
 ---
-<span class="postnav"><a href="/">home</a> ›</span>
-
-## About
 
 My full name is Carlos Roberto Rodrigo Turner
 
