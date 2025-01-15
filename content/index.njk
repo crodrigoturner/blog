@@ -52,7 +52,7 @@ document.write(
 <h4>Updates</h4>
 <ul>
 {%- for updates in collections.updates -%}
-  <li>{{post.data.date}}{{updates.templateContent | safe }}</li>
+  <li>{{updates.data.date}}{{updates.templateContent | safe }}</li>
 {%- endfor -%}
 </ul>
 </article>
