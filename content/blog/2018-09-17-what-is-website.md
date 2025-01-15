@@ -1,7 +1,6 @@
 ---
 title: What is a website?
 tags: 
-- notes
 - internet
 ---
 
