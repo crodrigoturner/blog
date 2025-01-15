@@ -1,14 +1,14 @@
 ---
 layout: layouts/base.njk
 ---
-<span class="postnav"><a href="/">home</a> › 
-</span><h2> {{title}}</h2>
+<p><span class="postnav"><a href="/">home</a> › </span></p>
+<h2> {{title}}</h2>
 
 {{ content | safe }}
 
 <h4>Related content</h4>
 <ul>
 {%- for work in collections.work -%}
-  <li><a href="{{work.url}}">{{ work.data.title }}</a></li>
+<li><a href="{{work.url}}">{{ work.data.title }}</a></li>
 {%- endfor -%}
 </ul>
