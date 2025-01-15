@@ -1,7 +1,7 @@
 :root {
     --black: #2b2b2b;
     --grey: #48575e;
-    --blue: #0277bd;
+    --blue: #01579B;
     --yellow: #FFD800;
     --font: 'Darby Sans Web', sans-serif;
     --bold: "Inter", sans-serif;
@@ -144,8 +144,10 @@ footer {
 p {
     float: left;
     width: 100%;
-    margin: 7.5px 0;
+    margin: 5px 0;
 }
+
+.posts a{}
 
 .spark-img {
     color: var(--blue);
@@ -214,15 +216,16 @@ h2 {
 }
 
 h3 {
-    font: 700 1.2em/1.5 var(--bold);
+    font: 600 1.2em/1.5 var(--font);
     padding: 0;
     text-align: left;
     float: left;
     width: 100%;
     color: var(--black);
-    margin: 10px 0px;
+    margin: 10px 0px 0;
 
 }
+
 
 .postnav {
     font: 600 .8em / 1.5 var(--bold);
@@ -379,10 +382,12 @@ blockquote,
 }
 
 a {
-    color: #01579B;
+    color: var(--blue);
     text-decoration: none;
     border-bottom: 1px solid #E0E0E0;
 }
+
+.posts a{color: var(--black);}
 
 a:hover {
     opacity: .75;
