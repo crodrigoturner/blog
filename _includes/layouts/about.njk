@@ -1,0 +1,14 @@
+---
+layout: layouts/base.njk
+---
+<p><span class="postnav"><a href="/">home</a> › </span></p>
+<h2> {{title}}</h2>
+
+{{ content | safe }}
+
+<h4>More about</h4>
+<ul>
+{%- for personal in collections.personal -%}
+<li><a href="{{personal.url}}">{{ personal.data.title }}</a></li>
+{%- endfor -%}
+</ul>
