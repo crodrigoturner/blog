@@ -28,40 +28,41 @@ My philosophy and values at work are the following:
 **Nothing is “not my job”** If I see a pressing problem, I gather context and fix it.  
 
 #### Skills
-
-Understanding of data   
-Analytical skills   
-Attention to detail   
-Research abilities   
-Adaptability   
-Proactiveness   
-Critical thinking   
-Customer service   
-English · Spanish · French   
-Windows / MAC OS   
-Office   
-Filemaker   
-HTML   
-CSS   
-JS   
-Wordpress   
-Accessibility   
-Competitive analysis   
-Cross-organizational collaboration   
-Customer research & discovery   
-Data analysis   
-Data-driven decision making   
-Experimentation   
-Market research   
-Open source   
-Product metrics   
-Product vision & strategy   
-Project management   
-Public speaking   
-Risk management   
-Roadmap development   
-Stakeholder management   
-Technical writing   
-UX/UI design   
-Web development   
-Web standards   
+<ul class="col-2">
+- Understanding of data   
+- Analytical skills   
+- Attention to detail   
+- Research abilities   
+- Adaptability   
+- Proactiveness   
+- Critical thinking   
+- Customer service   
+- English · Spanish · French   
+- Windows / MAC OS   
+- Office   
+- Filemaker   
+- HTML   
+- CSS   
+- JS   
+- Wordpress   
+- Accessibility   
+- Competitive analysis   
+- Cross-organizational collaboration   
+- Customer research & discovery   
+- Data analysis   
+- Data-driven decision making   
+- Experimentation   
+- Market research   
+- Open source   
+- Product metrics   
+- Product vision & strategy   
+- Project management   
+- Public speaking   
+- Risk management   
+- Roadmap development   
+- Stakeholder management   
+- Technical writing   
+- UX/UI design   
+- Web development   
+- Web standards   
+</ul>

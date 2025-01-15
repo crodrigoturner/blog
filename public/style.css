@@ -555,6 +555,11 @@ nav ul {
     padding: 0;
 }
 
+.col-2 li{
+float:left; 
+width:50%;
+}
+
 img {
     vertical-align: middle;
     max-width: 100%;

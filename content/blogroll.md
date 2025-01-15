@@ -10,7 +10,7 @@ tags: likes
 
 These are the blogs that I frequently visit:
 
-<ul>
+<ul class="col-2">
 <li><a href="https://marginalrevolution.com/" target="_blank" rel="noopener">Marginal Revolution</a></li>
 <li><a href="https://waitbutwhy.com/" target="_blank" rel="noopener">Waitbutwhy</a></li>
 <li><a href="https://fs.blog/" target="_blank" rel="noopener">Farnam Street</a></li>
