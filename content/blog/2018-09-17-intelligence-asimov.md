@@ -1,12 +1,10 @@
 ---
 title: What Is Intelligence, Anyway?
-excerpt: A short history by Isaas Asimov
+excerpt: A short history by Isaac Asimov
 tags: 
 - notes
 - intelligence
 ---
-
-<p>A short story from Isaac Asimov</p>
 
 <p>When I was in the army, I received the kind of aptitude test that all soldiers took and, against a normal of 100, scored 160. No one at the base had ever seen a figure like that, and for two hours they made a big fuss over me. (It didn't mean anything. The next day I was still a buck private with KP - kitchen police - as my highest duty.)</p>
 <br/>
