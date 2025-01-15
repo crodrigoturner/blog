@@ -634,19 +634,6 @@ input {
     border: 1px solid var(--grey);
 }
 
-
-@font-face {
-    font-family: "Darby";
-    src: url("/Darby.woff");
-    font-weight: 300;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "Bold";
-    src: url("/bold.ttf");
-}
-
 @media (max-width: 1360px) {
     body {
         padding: 0;
@@ -661,8 +648,10 @@ input {
         left: 0px;
         z-index: 99999;
         position: relative;
-
     }
+
+    h1{position: relative; 
+    width:50%; height:50px; top:5px; left:5px;}
 
     footer {
         padding: 20px;
