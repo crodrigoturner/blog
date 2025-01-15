@@ -4,10 +4,10 @@ layout: layouts/base.njk
 <p><span class="postnav"><a href="/">home</a> › </span></p>
 
 <h2>Blog</h2>
-<ul>
+<ul class="tags">
 {% for tag in collections | getKeys | filterTagList %}
 	{% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
-	<li><a href="{{ tagUrl }}" class="post-tag tag">{{ tag }}</a></li>
+	<li><a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a></li>
 {% endfor %}
 </ul>
 {% set postslist = collections.posts %}
