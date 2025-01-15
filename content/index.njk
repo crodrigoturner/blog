@@ -52,7 +52,8 @@ document.write(
 <h4>Updates</h4>
 <ul>
 {%- for updates in collections.updates -%}
-  <li>{{page.date}}{{updates.templateContent | safe }}</li>
+  <li>{{page.date.toLocaleString( undefined, { year: 'numeric',
+      month: 'long', day: 'numeric' })}}{{updates.templateContent | safe }}</li>
 {%- endfor -%}
 </ul>
 </article>
