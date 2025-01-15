@@ -1,5 +1,6 @@
 ---
 title: What Is Intelligence, Anyway?
+excerpt: A short history by Isaas Asimov
 tags: 
 - notes
 - intelligence
