@@ -23,7 +23,7 @@ body {
     word-wrap: break-word;
     margin: 0;
     position: relative;
-background:#f7f7f7;
+
     padding: 0;
     min-height: 100%;
 
@@ -321,6 +321,8 @@ a:hover {
     background: none;
 }
 
+.posts{margin:30px 0; float:left; width:100%;}
+
 .posts a
 {color: var(--black);border:none;
  
@@ -328,15 +330,14 @@ a:hover {
   
 width:calc(100% - 42px);
     float: left;
-    padding: 1px 20px;
+    padding: 0px 0 1px 0;
     margin:0 10px 10px 0
 }
 
 .posts a:hover{
-    background: #c0c0c057;
-    border: 1px solid #CFD8DC;
-    border-radius: 4px;
-    padding: 0px 19px;
+    border-bottom: 1px solid #FFC107;
+
+    padding: 0px;
 }
 
 .more {
