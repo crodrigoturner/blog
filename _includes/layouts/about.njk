@@ -8,7 +8,7 @@ layout: layouts/base.njk
 
 <h4>More about me</h4>
 <ul>
-{%- for personal in collections.personal -%}
-<li><a href="{{personal.url}}">{{ personal.data.title }}</a></li>
+{%- for Personal in collections.Personal -%}
+<li><a href="{{Personal.url}}">{{ Personal.data.title }}</a></li>
 {%- endfor -%}
 </ul>

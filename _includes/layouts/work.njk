@@ -8,7 +8,7 @@ layout: layouts/base.njk
 
 <h4>Related content</h4>
 <ul>
-{%- for work in collections.work -%}
-<li><a href="{{work.url}}">{{ work.data.title }}</a></li>
+{%- for Work in collections.Work -%}
+<li><a href="{{Work.url}}">{{ Work.data.title }}</a></li>
 {%- endfor -%}
 </ul>
