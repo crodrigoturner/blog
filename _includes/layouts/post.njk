@@ -2,12 +2,12 @@
 layout: layouts/base.njk
 ---
 
-<span class="postnav"><a href="/">home</a> › <a href="/blog/">blog</a> ›
+<p><span class="postnav"><a href="/">Home</a> › <a href="/blog/">Blog</a> ›
 {%- for tag in tags | filterTagList %}
 {%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
 <a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a>{%- if not loop.last %}, {% endif %}
 {%- endfor %} ›
-</span><h2> {{title}}</h2>
+</span></p><h2> {{title}}</h2>
 <p>{{excerpt}}</p>
 {{ content | safe }}
 
