@@ -34,25 +34,25 @@ document.write(
 <article class="notes">
 <h4>Notes</h4>
 <ul>
-{%- for notes in collections.notes -%}
-  <li><a href="{{notes.url}}">{{ notes.data.title }}</a></li>
+{%- for Notes in collections.Notes -%}
+  <li><a href="{{Notes.url}}">{{ Notes.data.title }}</a></li>
 {%- endfor -%}
 </ul>
 </article>
 <article class="projects">
 <h4>Projects</h4>
 <ul>
-{%- for projects in collections.projects -%}
+{%- for Projects in collections.Projects -%}
 
-  <li><a href="{{projects.url}}">{{ projects.data.title }}</a></li>
+  <li><a href="{{Projects.url}}">{{ Projects.data.title }}</a></li>
 {%- endfor -%}
 </ul>
 </article>
 <article class="updates">
 <h4>Updates</h4>
 <ul>
-{%- for updates in collections.updates -%}
-  <li>{{updates.templateContent | safe }}</li>
+{%- for Updates in collections.Updates -%}
+  <li>{{Updates.templateContent | safe }}</li>
 {%- endfor -%}
 </ul>
 </article>

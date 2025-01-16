@@ -1,6 +1,6 @@
 ---
 title: Favourites
-tags: likes
+tags: Likes
 ---
 
 These are my favourite "things". There may be others, but these are mine...
