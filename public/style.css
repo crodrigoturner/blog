@@ -312,7 +312,7 @@ a {
     border-bottom: 1px solid #E0E0E0;
 }
 
-.posts a{color: var(--black);border:none;}
+.posts a{
 
 a:hover {
     opacity: .75;
@@ -322,7 +322,7 @@ a:hover {
 }
 
 .posts a
-{opacity: .75;
+{color: var(--black);border:none;
  
     box-shadow: none;
   
@@ -335,6 +335,7 @@ a:hover {
     background: #FFF;
     border: 1px solid #EEE;
     border-radius: 4px;
+    padding: 9px 19px;
 }
 
 .more {
