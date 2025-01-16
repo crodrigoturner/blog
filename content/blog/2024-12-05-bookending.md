@@ -1,6 +1,6 @@
 ---
 title: Bookending
-tags: notes
+tags: Notes
 ---
 
 I recently read a <a href="https://everythingchanges.us/blog/bookending/">post</a> by Mandy Brown about a best practice that she incorporated into her routine. 
