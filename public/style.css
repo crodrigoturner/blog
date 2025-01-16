@@ -312,7 +312,7 @@ a {
     border-bottom: 1px solid #E0E0E0;
 }
 
-.posts a{
+
 
 a:hover {
     opacity: .75;
@@ -326,7 +326,7 @@ a:hover {
  
     box-shadow: none;
   
-
+width:100%;
     float: left;
     padding: 10px 20px;
 }
