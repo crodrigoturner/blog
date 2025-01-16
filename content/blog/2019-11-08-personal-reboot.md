@@ -1,7 +1,8 @@
 ---
-title: Personal Reboot
+title: Personal reboot
 tags: 
 - Notes
+excerpt: sometimes, stop to go faster, further...
 ---
 
 A person is very much like a computer, with a hardware (i.e: body) and a software (i.e: mind).

@@ -1,7 +1,7 @@
 ---
 title: Life in squares
 tags: Projects
-
+excerpt: A timeline of events
 ---
 
 This is a timeline of the most important events I have experienced. 
