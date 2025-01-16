@@ -163,13 +163,13 @@ h1 a {
 
 
 h2 {
-    font: 600 2em/1 "Piazzolla";
+    font: 600 2.3em/1 "Piazzolla";
     padding: 0;
     text-align: left;
     float: left;
     width: 100%;
     color: var(--black);
-    margin: 0px 0 20px;
+    margin: 20px 0;
 }
 
 .intro h2 {
