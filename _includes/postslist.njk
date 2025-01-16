@@ -2,7 +2,7 @@
 {%- for post in postslist | reverse %}
 <li class="postlist-item{% if post.url == url %} postlist-item-active{% endif %}">
 <a href="{{ post.url }}"> 
-<h3>{{ post.data.title }}</h3>
+{{ post.data.title }}
 <p class="excerpt">{{post.data.excerpt}}</p>
 </a>
 </li>

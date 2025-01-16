@@ -329,11 +329,12 @@ a:hover {
 width:calc(100% - 42px);
     float: left;
     padding: 10px 20px;
+    margin:0 10px 10px 0
 }
 
 .posts a:hover{
     background: #FFF;
-    border: 1px solid #EEE;
+    border: 1px solid #ffe0b2;
     border-radius: 4px;
     padding: 9px 19px;
 }
