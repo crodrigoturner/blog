@@ -321,7 +321,21 @@ a:hover {
     background: none;
 }
 
+.posts a
+{opacity: .75;
+ 
+    box-shadow: none;
+  
 
+    float: left;
+    padding: 10px 20px;
+}
+
+.posts a:hover{
+    background: #FFF;
+    border: 1px solid #EEE;
+    border-radius: 4px;
+}
 
 .more {
     float: left;
