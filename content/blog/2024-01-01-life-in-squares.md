@@ -1,6 +1,6 @@
 ---
 title: Life in squares
-tags: projects
+tags: Projects
 
 ---
 
