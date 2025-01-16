@@ -633,6 +633,28 @@ input {
     border: 1px solid var(--grey);
 }
 
+
+@font-face {
+	font-family: 'Darby Sans Web';
+	src: url('/fonts/DarbySans-Light-Web.woff2') format('woff2'),
+		 url('/fonts/DarbySans-Light-Web.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
+	}
+
+.DarbySans-Light-Web {
+	font-family: 'Darby Sans Web';
+	font-weight: 300;
+	font-style: normal;
+	}
+
+    @font-face {
+        font-family: 'Piazzolla';
+        src: url('/fonts/Piazzolla-VariableFont_opsz,wght.ttf') format('ttf');
+        font-weight: 400;
+        font-style: normal;
+        }  
+
 @media (max-width: 1360px) {
     body {
         padding: 0;
