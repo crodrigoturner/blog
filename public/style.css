@@ -340,6 +340,7 @@ tr {
 .tags a {
     float: left;
     padding: 0 5px 0 0;
+    border:none; font-size:.9em;
 }
 
 .tags a::after {

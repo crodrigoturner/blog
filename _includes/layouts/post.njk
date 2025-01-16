@@ -8,7 +8,7 @@ layout: layouts/base.njk
 <a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a>{%- if not loop.last %}, {% endif %}
 {%- endfor %} ›
 </span><h2> {{title}}</h2>
-
+<p>{{excerpt}}</p>
 {{ content | safe }}
 
 <!--
