@@ -48,19 +48,9 @@ nav {
     text-align: right;
 }
 
-nav svg {
-    margin: 0 5px 0 0;
-    position: relative;
-    top: 3px;
-    padding: 0;
-    width: 28px;
-    height: 28px;
-    stroke-width: 4px;
-}
 
-.home nav {
-    display: none;
-}
+
+
 
 nav a {
     text-decoration: none;
@@ -69,18 +59,14 @@ nav a {
     padding: 0;
 }
 
-nav a:hover {
+nav a:hover, .cuurent {
     text-decoration: none;
     color: var(--black);
 
     opacity: .7;
 }
 
-a.big {
-    float: left;
-    font: 700 1.5em/1 var(--bold);
-    color: #bf360c;
-}
+
 
 main {
     padding: 0px 30% 50px;
@@ -175,19 +161,6 @@ h1 a {
 
 }
 
-/*
-h1 a::before {
-    content: '';
-    border-radius: 50%;
-    height: .9em;
-    width: .9em;
-    background: #FFD800;
-    float: left;
-    top: 3px;
-    position: relative;
-    margin: 0 15px 0 0;
-}
-*/
 
 h2 {
     font: 600 2em/1 "Piazzolla";
@@ -246,43 +219,6 @@ h6 {
     width: 100%;
 }
 
-table {
-    width: 100%;
-    float: left;
-    font: 500 13px / 1 var(--font);
-}
-
-th {
-    float: left;
-    width: 100%;
-    font-weight: bold;
-    padding: 5px 0;
-    text-align: left;
-}
-
-td,
-th {
-    width: calc(25%/3);
-}
-
-td:first-child,
-th:first-child {
-    width: 40%
-}
-
-td:nth-child(2),
-th:nth-child(2),
-td:nth-child(3),
-th:nth-child(3) {
-    width: calc(35%/2);
-}
-
-tr {
-    display: flex;
-    width: 100%;
-    padding: 5px 0;
-    border-bottom: 1px solid #EEE;
-}
 
 .postlist-item .title {
     float: left;
@@ -361,10 +297,6 @@ blockquote,
     color:var(--grey);
 }
 
-.breadcrumbs a {
-    color: var(--black);
-    font-size: .9em;
-}
 
 .postlist-item {
     float: left;
@@ -389,16 +321,7 @@ a:hover {
     background: none;
 }
 
-/*a[target=_blank]:after {
-    content: '┓' / ', external';
-    font-family: var(--sansserif);
-    font-size: 0.5em;
-    line-height: 0;
-    text-decoration: none;
-    position: absolute;
-    margin-top: calc(1rem - 1.7em);
-    line-height: 1em;
-}*/
+
 
 .more {
     float: left;
@@ -444,15 +367,6 @@ h3 a:hover {
 a.button:hover,
 .posts a:hover {
     opacity: .7;
-}
-
-
-
-.attachment-post-thumbnail {
-    position: relative;
-    float: right;
-    max-width: 70px;
-    max-height: 100px;
 }
 
 
@@ -529,7 +443,7 @@ ol {
 
 ol {
     list-style-type: decimal;
-    padding-left: 30px;
+    padding-left: 20px;
 }
 
 ul ul,
@@ -560,10 +474,6 @@ img {
     height: auto;
 }
 
-img.hero {
-    border-radius: 5px;
-    margin: 0 0 15px;
-}
 
 .image {
     position: relative;
@@ -578,9 +488,7 @@ img.hero {
     width: 100%
 }
 
-.image_container {
-    display: block
-}
+
 
 iframe {
     width: 100%;
@@ -590,22 +498,8 @@ iframe {
     margin: 24px 0 !important;
 }
 
-.has-katex {
-    text-align: center;
-}
 
-.katex {
-    font-size: 1.05em;
-}
 
-.date {
-    margin-top: 10px;
-    text-decoration: none;
-}
-
-.date:empty {
-    display: none;
-}
 
 .pagination {
     text-align: center;
