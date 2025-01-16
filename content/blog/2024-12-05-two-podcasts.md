@@ -1,7 +1,7 @@
 ---
 title: 2 podcasts and reading biographies
 tags: 
-- likes
+- Likes
 ---
 
 While listening to the <a href="https://www.takeoverpod.com/">How to Take Over the World</a> episode of Rasputin, one of the plugs was for another similar podcast that delves into fictional biographies, it's called <a href="https://podcasters.spotify.com/pod/show/jameson-olsen1">Becoming the main character</a>. 
