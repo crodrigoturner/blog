@@ -7,7 +7,7 @@ layout: layouts/base.njk
 
 Built with Eleventy and deployed on Netlify.
 
-The font are *Darby Sans Light* from Commercial Type and *Piazzolla* served by Google fonts. 
+The font are *Darby Sans Light* from Commercial Type and *Piazzolla* by Huerta tipográfica. 
 
 Inspired by [Melanie Richards](https://melanie-richards.com/), [Maggie Appleton](https://maggieappleton.com/garden), [Andrew Conner](https://andrewconner.com/), [Chris Glass](https://chrisglass.com/) and [V.H. Belvadi](https://vhbelvadi.com/) 
 

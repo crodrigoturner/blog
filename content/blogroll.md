@@ -1,7 +1,6 @@
 ---
 layout: layouts/base.njk
 title: Blogroll
-tags: likes
 ---
 
 <span class="postnav"><a href="/">home</a> ›</span>
