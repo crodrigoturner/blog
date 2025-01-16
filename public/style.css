@@ -326,7 +326,7 @@ a:hover {
  
     box-shadow: none;
   
-width:100%;
+width:calc(100% - 42px);
     float: left;
     padding: 10px 20px;
 }
