@@ -328,7 +328,7 @@ a:hover {
   
 width:calc(100% - 42px);
     float: left;
-    padding: 10px 20px;
+    padding: 1px 20px;
     margin:0 10px 10px 0
 }
 
@@ -336,7 +336,7 @@ width:calc(100% - 42px);
     background: #c0c0c057;
     border: 1px solid #CFD8DC;
     border-radius: 4px;
-    padding: 9px 19px;
+    padding: 0px 19px;
 }
 
 .more {
@@ -380,10 +380,6 @@ h3 a:hover {
     border: 1px solid var(--grey);
 }
 
-a.button:hover,
-.posts a:hover {
-    opacity: .7;
-}
 
 
 hr {
