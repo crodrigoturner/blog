@@ -11,6 +11,6 @@ title: Now
 <ul>
 {%- for Now in collections.Now -%}
 <li><a href="{{Now.url}}">{{ Now.data.title }}</a>
-{{Now.data.content}}</li>
+{{ Now.templateContent }}</li>
 {%- endfor -%}
 </ul>
