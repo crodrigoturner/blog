@@ -4,7 +4,7 @@
 <a href="{{ post.url }}"> 
 <h5>{{ post.data.title }}</h5>
 <p class="excerpt">{{post.data.excerpt}}</p>
-<ul class="post-metadata">
+<ul class="meta">
 	<li><time datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time></li>
 	{%- for tag in tags | filterTagList %}
 	{%- set tagUrl %}/tag/{{ tag | slugify }}/{% endset %}
