@@ -335,7 +335,7 @@ width:calc(100% - 42px);
 }
 
 .posts a:hover{
-    border-bottom: 1px solid #FFC107;
+    opacity:.8;
 
     padding: 0px;
 }
