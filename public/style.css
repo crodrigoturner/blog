@@ -4,7 +4,7 @@
     --blue: #01579B;
     --yellow: #FFD800;
     --serif: 'Darby Sans Web', sans-serif;
-    --sans-serif: var(--sans-serif), sans-serif;
+    --sans-serif:'Piazzolla', sans-serif;
 }
 
 html {
@@ -491,20 +491,6 @@ img {
     display: block;
 }
 
-.image img {
-    width: 100%
-}
-
-
-
-iframe {
-    width: 100%;
-}
-
-.entry>iframe {
-    margin: 24px 0 !important;
-}
-
 
 
 
@@ -516,10 +502,7 @@ iframe {
     float: left;
 }
 
-.pagination a {
-    margin: 0 1em;
-    background: none
-}
+
 
 input {
     font: 400 1em /1.5 var(--serif);
