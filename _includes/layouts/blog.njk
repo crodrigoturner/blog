@@ -2,13 +2,12 @@
 layout: layouts/base.njk
 ---
 <h2>Blog</h2>
-<div id="filters" class="button-group">  <button class="button is-checked" data-filter="*">show all</button>
-<span class="tags">
+<div id="filters" class="button-group">  
+<button class="button is-checked" data-filter="*">show all</button>
 {% for tag in collections | getKeys | filterTagList %}
 {% set tagUrl %}/tag/{{ tag | slugify }}/{% endset %}
- <button class="button" data-filter="{{tag}}">{{ tag }}</button>
+<button class="button" data-filter=".{{tag}}">{{ tag }}</button>
 {% endfor %}
-</span>
 </div>
 
 {% set postslist = collections.posts %}

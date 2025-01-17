@@ -1,17 +1,10 @@
 <ul class="col-2 posts">
 {%- for post in postslist | reverse %}
-<li class="postlist-item{% if post.url == url %} postlist-item-active{% endif %}">
+<li class="postlist-item">
 <a href="{{ post.url }}"> 
 <h5>{{ post.data.title }}</h5>
 <p class="excerpt">{{post.data.excerpt}}</p>
-<ul class="meta">
-	<li><time datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time></li>
-	{%- for tag in tags | filterTagList %}
-	{%- set tagUrl %}/tag/{{ tag | slugify }}/{% endset %}
-	<li><a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a>{%- if not loop.last %}, {% endif %}</li>
-	{%- endfor %}
-</ul>
-
+<p class="meta"><time datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time></p>
 </a>
 </li>
 {%- endfor %}
