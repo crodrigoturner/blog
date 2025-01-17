@@ -328,7 +328,7 @@ a:hover {
  
     box-shadow: none;
   
-width:calc(100% - 42px);
+width:100%;
     float: left;
     padding: 0px 0 1px 0;
     margin:0 10px 10px 0
@@ -336,7 +336,7 @@ width:calc(100% - 42px);
 
 .posts a:hover{
     opacity:.8;
-
+    margin:0 10px 10px 0;
     padding: 0px;
 }
 
