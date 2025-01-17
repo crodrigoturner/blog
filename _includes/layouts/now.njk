@@ -1,15 +1,16 @@
 ---
 layout: layouts/base.njk
+title: Now
 ---
 
 <h2> {{title}}</h2>
 
 {{ content | safe }}
 
-<h4>More about me</h4>
+
 <ul>
 {%- for Now in collections.Now -%}
 <li><a href="{{Now.url}}">{{ Now.data.title }}</a>
-<{{now.data.content}}></li>
+{{now.data.content}}</li>
 {%- endfor -%}
 </ul>
