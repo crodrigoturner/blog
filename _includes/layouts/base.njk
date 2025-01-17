@@ -18,10 +18,10 @@
 </header>
 <nav>
 <ul>
-<li><a href="/">Home</a></li>
-<li><a href="/About">About</a></li>
-<li><a href="/Blog">Blog</a></li>
-<li><a href="/Work">Work</a></li>
+<li><a href="/" {% if page.url == '/' %} active{% endif %} >Home</a></li>
+<li><a href="/About" {% if page.url == '/About/' %} active{% endif %}>About</a></li>
+<li><a href="/Blog" {% if page.url == '/Blog/' %} active{% endif %}>Blog</a></li>
+<li><a href="/Work" {% if page.url == '/Work/' %} active{% endif %}>Work</a></li>
 </ul>
 </nav>
 <main>{{ content | safe }}
