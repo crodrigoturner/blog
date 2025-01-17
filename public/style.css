@@ -3,8 +3,8 @@
     --grey: #48575e;
     --blue: #01579B;
     --yellow: #FFD800;
-    --font: 'Darby Sans Web', sans-serif;
-    --bold: "Inter", sans-serif;
+    --serif: 'Darby Sans Web', sans-serif;
+    --sans-serif: var(--sans-serif), sans-serif;
 }
 
 html {
@@ -15,7 +15,7 @@ html {
 }
 
 body {
-    font: 300 17px/1.6 var(--font);
+    font: 300 17px/1.6 var(--serif);
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
     text-rendering: optimizeLegibility !important;
     -webkit-font-smoothing: antialiased !important;
@@ -40,7 +40,7 @@ header {
 nav {
     float: right;
     margin: 0;
-    font: 300 1.5em / 1.6 var(--font);
+    font: 300 1.5em / 1.6 var(--serif);
     z-index: 9999;
     position: fixed;
     top: 50px;
@@ -59,7 +59,8 @@ nav a {
     padding: 0;
 }
 
-nav a:hover, .cuurent {
+nav a:hover,
+.cuurent {
     text-decoration: none;
     color: var(--black);
 
@@ -106,7 +107,7 @@ footer {
     float: left;
     margin: 0px;
     padding: 20px;
-    font: 400 1em/1 var(--font);
+    font: 400 1em/1 var(--serif);
 }
 
 
@@ -136,11 +137,9 @@ p {
 
 
 h1 {
-
     margin: 0;
     padding: 0;
     float: left;
-    font: 700 2em/1 var(--bold);
 
     position: fixed;
     top: 50px;
@@ -163,7 +162,7 @@ h1 a {
 
 
 h2 {
-    font: 600 2.3em/1 "Piazzolla";
+    font: 600 2.3em/1 var(--sans-serif);
     padding: 0;
     text-align: left;
     float: left;
@@ -173,7 +172,7 @@ h2 {
 }
 
 .intro h2 {
-    font: 600 3em/1.5 "Piazzolla", serif;
+    font: 600 3em/1.5 var(--sans-serif);
     width: 100%;
     margin: 30px 0;
 }
@@ -183,7 +182,7 @@ h2 {
 }
 
 h3 {
-    font: 600 1.2em/1.5 Piazzolla;
+    font: 600 1.2em/1.5 var(--sans-serif);
     padding: 0;
     text-align: left;
     float: left;
@@ -193,16 +192,8 @@ h3 {
 
 }
 
-
-.postnav {
-    font: 600 .8em / 1.5 var(--bold);
-
-    margin: 15px 0;
-    float: left;
-}
-
 h4 {
-    font: 600 1em / 1 Piazzolla;
+    font: 600 1em / 1 var(--sans-serif);
     padding: 5px 0;
     float: left;
     width: 100%;
@@ -213,7 +204,7 @@ h4 {
 
 h5,
 h6 {
-    font: 600 1em/1.5 var(--font);
+    font: 600 1em/1.5 var(--serif);
     margin: 10px 0 0;
     float: left;
     width: 100%;
@@ -271,12 +262,16 @@ h6 {
 }
 */
 
-.tags{float:left; width:100%;}
+.tags {
+    float: left;
+    width: 100%;
+}
 
 .tags a {
     float: left;
     padding: 0 5px 0 0;
-    border:none; font-size:.9em;
+    border: none;
+    font-size: .9em;
 }
 
 .tags a::after {
@@ -294,8 +289,8 @@ blockquote,
     float: left;
     padding: 0;
     font-size: .8em;
-    color:var(--grey);
-} 
+    color: var(--grey);
+}
 
 
 .postlist-item {
@@ -321,20 +316,24 @@ a:hover {
     background: none;
 }
 
-.posts{margin:30px 0; float:left; width:100%;}
-
-.posts a
-{border:none;
-box-shadow: none;
-width:100%;
+.posts {
+    margin: 30px 0;
     float: left;
-    padding:0;
-    margin:0 10px 10px 0
+    width: 100%;
 }
 
-.posts a:hover{
-    opacity:.8;
-    margin:0 10px 10px 0;
+.posts a {
+    border: none;
+    box-shadow: none;
+    width: 100%;
+    float: left;
+    padding: 0;
+    margin: 0 10px 10px 0
+}
+
+.posts a:hover {
+    opacity: .8;
+    margin: 0 10px 10px 0;
     padding: 0px;
 }
 
@@ -347,15 +346,12 @@ h3 a:hover {
     color: var(--black);
     opacity: .75;
     margin: 10px 0px;
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-image: linear-gradient(35deg, var(--yellow), var(--blue));
 }
 
 .description,
 .small,
-.caption, .excerpt {
+.caption,
+.excerpt {
     color: var(--black);
     width: 100%;
     margin: 0;
@@ -370,7 +366,7 @@ h3 a:hover {
     margin: 0;
     padding: 10px;
     margin: 10px 0px;
-    font: 400 .9em / 1 var(--font);
+    font: 400 .9em / 1 var(--serif);
     z-index: 9999;
     background: #FFF;
     border-radius: 7px;
@@ -474,9 +470,9 @@ nav ul {
     padding: 0;
 }
 
-.col-2 li{
-float:left; 
-width:50%;
+.col-2 li {
+    float: left;
+    width: 50%;
 }
 
 img {
@@ -526,7 +522,7 @@ iframe {
 }
 
 input {
-    font: 400 1em /1.5 var(--font);
+    font: 400 1em /1.5 var(--serif);
     padding: 10px;
     width: 100%;
     box-sizing: border-box;
@@ -540,25 +536,25 @@ input {
 
 
 @font-face {
-	font-family: 'Darby Sans Web';
-	src: url('/fonts/DarbySans-Light-Web.woff2') format('woff2'),
-		 url('/fonts/DarbySans-Light-Web.woff') format('woff');
-	font-weight: 300;
-	font-style: normal;
-	}
+    font-family: 'Darby Sans Web';
+    src: url('/fonts/DarbySans-Light-Web.woff2') format('woff2'),
+        url('/fonts/DarbySans-Light-Web.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
 
 .DarbySans-Light-Web {
-	font-family: 'Darby Sans Web';
-	font-weight: 300;
-	font-style: normal;
-	}
+    font-family: 'Darby Sans Web';
+    font-weight: 300;
+    font-style: normal;
+}
 
-    @font-face {
-        font-family: 'Piazzolla';
-        src: url('/fonts/Piazzolla-VariableFont_opsz,wght.ttf') format('ttf');
-        font-weight: 400;
-        font-style: normal;
-        }  
+@font-face {
+    font-family: 'Piazzolla';
+    src: url('/fonts/Piazzolla-VariableFont_opsz,wght.ttf') format('ttf');
+    font-weight: 400;
+    font-style: normal;
+}
 
 @media (max-width: 1360px) {
     body {
@@ -576,18 +572,24 @@ input {
         position: relative;
     }
 
-    h1{position: relative; 
-   top:20px; left:20px;}
+    h1 {
+        position: relative;
+        top: 20px;
+        left: 20px;
+    }
 
-    h1 img{ 
-        width:50px; height:50px;}
+    h1 img {
+        width: 50px;
+        height: 50px;
+    }
 
 
     footer {
         padding: 20px;
         width: calc(100% - 40px);
-float:left;
-position:relative;}
+        float: left;
+        position: relative;
+    }
 
 
     h2 {
@@ -595,7 +597,9 @@ position:relative;}
 
     }
 
-    .intro h2{        font-size:2em;}
+    .intro h2 {
+        font-size: 2em;
+    }
 
     #posts a h3 {
         width: 100%;
@@ -611,7 +615,12 @@ position:relative;}
         font-size: .9em;
     }
 
-    article, article.notes, article.projects{float:left; width:100%;}
+    article,
+    article.notes,
+    article.projects {
+        float: left;
+        width: 100%;
+    }
 
     ul {
         margin: 0;
@@ -624,6 +633,8 @@ position:relative;}
         margin: 0;
     }
 
-    article{float: left;
-        width: calc(100% - 40px);}
+    article {
+        float: left;
+        width: calc(100% - 40px);
+    }
 }
