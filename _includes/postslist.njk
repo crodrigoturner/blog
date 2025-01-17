@@ -1,7 +1,7 @@
 <ul class="col-2 posts">
 {%- for post in postslist | reverse %}
 <li class="postlist-item">
-<a class="{{tag}}" href="{{ post.url }}" data-category="{{tag}}"> 
+<a class="{{post.tag}}" href="{{ post.url }}" data-category="{{post.tag}}"> 
 <h5>{{ post.data.title }}</h5>
 <p class="excerpt">{{post.data.excerpt}}</p>
 <p class="meta"><time datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time></p>
