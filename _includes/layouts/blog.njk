@@ -13,8 +13,14 @@ layout: layouts/base.njk
 <ul class="col-2 posts">
 {% set postslist = collections.posts %}
 {%- for post in postslist | reverse %}
-<li class="postlist-item {{post.tag}}{{tag}}">
-<a class="{{ post.data.tag }}" href="{{ post.url }}"> 
+<li class="postlist-item {% for tag in tags %}
+    {% if tag != "posts" %}
+
+        {{ tag }}
+
+    {% endif %}
+  {% endfor %}">">
+<a  href="{{ post.url }}"> 
 <h5>{{ post.data.title }}</h5>
 <p class="excerpt">{{post.data.excerpt}}</p>
 <p class="meta"><time datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time></p>
