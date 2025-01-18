@@ -53,12 +53,4 @@ document.write(
 {%- endfor -%}
 </ul>
 </article>
-<article class="updates">
-<h4>Updates</h4>
-<ul>
-{%- for Updates in collections.Updates | reverse -%}
-  <li>{{Updates.templateContent | safe }}</li>
-{%- endfor -%}
-</ul>
-</article>
 
