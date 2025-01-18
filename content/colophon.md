@@ -4,7 +4,7 @@ layout: layouts/base.njk
 
 ## Colophon
 
-### Specs
+#### Specs
 
 Built with Eleventy.
 
@@ -20,5 +20,9 @@ There is no tracking in this website.
 
 #### Purpose
 
-The purpose of this blog is to learn publicly, share with others, care and own my bit of the internet, and be a member of a cool group, those of us that have a personal site.
-
+The purpose of this website is to:   
+- learn publicly (some of my writing may be raw or unfinished)
+- share with others (some of my writing may be interesting, other may be very boring)
+- claim, care and own my bit of the internet. This is my website, [*there are many like it, but this one is mine*](https://en.wikipedia.org/wiki/Rifleman%27s_Creed).)
+- be a member of a cool group (people with a personal site)
+- present myself, my thoughts and work in my own terms
