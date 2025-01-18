@@ -6,7 +6,7 @@ layout: layouts/base.njk
 <button class="button is-checked" data-filter="*">show all</button>
 {% for tag in collections | getKeys | filterTagList %}
 {% set tagUrl %}/tag/{{ tag | slugify }}/{% endset %}
-<button class="button" data-filter=".{{tag}}">{{ tag }}</button>
+<button class="button" data-filter=".posts,{{tag}}">{{ tag }}</button>
 {% endfor %}
 </div>
 
