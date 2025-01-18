@@ -11,7 +11,17 @@ layout: layouts/base.njk
 </div>
 
 {% set postslist = collections.posts %}
-{% include "postslist.njk" %}
+<ul class="col-2 posts">
+{%- for post in postslist | reverse %}
+<li class="postlist-item {{post.data.tag}}">
+<a href="{{ post.url }}"> 
+<h5>{{ post.data.title }}</h5>
+<p class="excerpt">{{post.data.excerpt}}</p>
+<p class="meta"><time datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time></p>
+</a>
+</li>
+{%- endfor %}
+</ul>
 
 <script>
 // init Isotope
