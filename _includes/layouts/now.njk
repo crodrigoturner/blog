@@ -8,7 +8,7 @@ layout: layouts/base.njk
 
 
 <ul>
-{%- for Now in collections.Now -%}
+{%- for Now in collections.Now | reverse -%}
 <li><h3>{{ Now.data.title }}</h3>
 {{ Now.templateContent | safe }}</li>
 {%- endfor -%}
