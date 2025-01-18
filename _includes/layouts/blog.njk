@@ -10,11 +10,11 @@ layout: layouts/base.njk
 {% endfor %}
 </div>
 
-{% set postslist = collections.posts %}
 <ul class="col-2 posts">
+{% set postslist = collections.posts %}
 {%- for post in postslist | reverse %}
 <li class="postlist-item {{post.tag}}{{tag}}">
-<a class="postlist-item {{post.data.tag}}" href="{{ post.url }}"> 
+<a class="{{post.data.tag}}" href="{{ post.url }}"> 
 <h5>{{ post.data.title }}</h5>
 <p class="excerpt">{{post.data.excerpt}}</p>
 <p class="meta"><time datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time></p>
