@@ -3,6 +3,8 @@ layout: layouts/base.njk
 title: Work
 ---
 
+## Work
+
 #### Where I've been
 
 <ul>
