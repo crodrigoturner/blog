@@ -13,7 +13,7 @@ layout: layouts/base.njk
 {% set postslist = collections.posts %}
 <ul class="col-2 posts">
 {%- for post in postslist | reverse %}
-<li class="postlist-item {{post.data.tag}}">
+<li class="postlist-item {{post.data.tag}}{{tag}}">
 <a href="{{ post.url }}"> 
 <h5>{{ post.data.title }}</h5>
 <p class="excerpt">{{post.data.excerpt}}</p>
