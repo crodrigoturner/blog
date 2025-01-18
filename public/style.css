@@ -3,7 +3,7 @@
     --grey: #48575e;
     --blue: #01579B;
     --yellow: #FFD800;
-    --serif: 'Darby Sans Web', sans-serif;
+    --serif: 'Encode','Darby Sans Web', sans-serif;
     --sans-serif:'Piazzolla', sans-serif;
 }
 
@@ -548,6 +548,12 @@ input {
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Encode';
+    src: url('/fonts/EncodeSans-Regular.ttf') format('ttf');
+    font-weight: 400;
+    font-style: normal;
+}
 
 @media (max-width: 1360px) {
     body {
