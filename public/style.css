@@ -3,7 +3,7 @@
     --grey: #48575e;
     --blue: #01579B;
     --yellow: #FFD800;
-    --serif: 'Darby Sans Web', sans-serif;
+    --serif: 'Alegreya','Darby Sans Web', sans-serif;
     --sans-serif:'Piazzolla', sans-serif;
 }
 
@@ -538,6 +538,14 @@ input {
     font-weight: 400;
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'Alegreya';
+    src: url('/fonts/AlegreyaSans-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
 
 @media (max-width: 1360px) {
     body {
