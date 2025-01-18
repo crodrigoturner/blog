@@ -24,32 +24,20 @@ layout: layouts/base.njk
 </ul>
 
 <script>
-// init Isotope
-var $grid = $('.posts').isotope({
-  itemSelector: '.postlist-item',
-  layoutMode: 'fitRows'
+
+ $(document).ready( function() {   
+
+$('.posts').isotope({
+ itemSelector: '.postlist-item',
 });
 
-// bind filter button click
-var filtersElem = document.querySelector('.filters-button-group');
-filtersElem.addEventListener( 'click', function( event ) {
-  // only work with buttons
-  if ( !matchesSelector( event.target, 'button' ) ) {
-    return;
-  }
-  var filterValue = event.target.getAttribute('data-filter');
-  // use matching filter function
-  filterValue = filterFns[ filterValue ] || filterValue;
-  iso.arrange({ filter: filterValue });
+// filter items on button click
+$('.button-group').on( 'click', 'button', function() {
+  var filterValue = $(this).attr('data-filter');
+  $('.posts').isotope({ filter: filterValue });
+  $('button').removeClass('active');
+  $(this).addClass('active');
 });
-
-// change is-checked class on buttons
-$('.button-group').each( function( i, buttonGroup ) {
-  var $buttonGroup = $( buttonGroup );
-  $buttonGroup.on( 'click', 'button', function() {
-    $buttonGroup.find('.is-checked').removeClass('is-checked');
-    $( this ).addClass('is-checked');
-  });
-});
+    })
   
 </script>
