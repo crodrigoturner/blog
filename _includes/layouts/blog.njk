@@ -14,11 +14,9 @@ layout: layouts/base.njk
 {% set postslist = collections.posts %}
 {%- for post in postslist | reverse %}
 <li class="postlist-item {{post.tag}}{{tag}}">
-<a class="{% for tag in tags -%}
-    {% if tag !== 'posts' %}
+<a class="
         {{ tag }}
-    {% endif %}
-{%- endfor %}" href="{{ post.url }}"> 
+" href="{{ post.url }}"> 
 <h5>{{ post.data.title }}</h5>
 <p class="excerpt">{{post.data.excerpt}}</p>
 <p class="meta"><time datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time></p>
