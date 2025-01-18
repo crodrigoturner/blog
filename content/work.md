@@ -1,5 +1,5 @@
 ---
-layout: layouts/work.njk
+layout: layouts/base.njk
 title: Work
 ---
 
