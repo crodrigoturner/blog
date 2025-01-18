@@ -4,7 +4,11 @@ layout: layouts/base.njk
 
 ## Colophon
 
-Built with Eleventy and deployed on Netlify.
+### Specs
+
+Built with Eleventy.
+
+Deployed on Netlify.
 
 The font are *Darby Sans Light* from Commercial Type and *Piazzolla* by Huerta tipográfica. 
 
@@ -13,3 +17,8 @@ Inspired by [Melanie Richards](https://melanie-richards.com/), [Maggie Appleton]
 This website is climate friendly. Cleaner than 98% of all web pages globally according to [Website carbon calculator](https://www.websitecarbon.com/website/carlosrodrigo-com/) and [Ecograder](https://ecograder.com/report/ui51eop7QVAu1piHLdKCnYav).
 
 There is no tracking in this website.
+
+#### Purpose
+
+The purpose of this blog is to learn publicly, share with others, care and own my bit of the internet, and be a member of a cool group, those of us that have a personal site.
+
