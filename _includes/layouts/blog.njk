@@ -31,13 +31,11 @@ $('.posts').isotope({
  itemSelector: '.postlist-item',
 });
 
-// filter items on button click
-$('.button-group').on( 'click', 'button', function() {
-  var filterValue = $(this).attr('data-filter');
-  $('.posts').isotope({ filter: filterValue });
-  $('button').removeClass('active');
-  $(this).addClass('active');
-});
-    })
+ var selector = $(this).attr('data-filter');
+      $('.postlist-item').isotope({
+        filter: selector
+      })
+      return false;
+  });
   
 </script>
