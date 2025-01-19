@@ -6,14 +6,14 @@ layout: layouts/base.njk
 <button class="button is-checked" data-filter="*">All</button>
 {% for tag in collections | getKeys | filterTagList %}
 {% set tagUrl %}/tag/{{ tag | slugify }}/{% endset %}
-<button class="button" data-filter="posts,{{tag}}">{{ tag }}</button>
+<button class="button" data-filter="{{tag}}">{{ tag }}</button>
 {% endfor %}
 </div>
 
 <ul class="col-2 posts">
 {% set postslist = collections.posts %}
 {%- for post in postslist | reverse %}
-<li class="postlist-item" data-filter="{{post.data.tags}}">
+<li class="postlist-item" data-filter="{{post.data.category}}">
 <a href="{{ post.url }}"> 
 <h5>{{ post.data.title }}</h5>
 <p class="excerpt">{{post.data.excerpt}}</p>
