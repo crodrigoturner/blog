@@ -1,8 +1,8 @@
 ---
 title: Personal reboot
-category: A better life
+category: Life
 tags: 
-- A better life
+- Life
 excerpt: Sometimes, take a pause to go faster, further...
 ---
 

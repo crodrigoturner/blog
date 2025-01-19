@@ -1,8 +1,8 @@
 ---
 title: Bookending
-category: A better life
+category: Life
 tags: 
-- A better life
+- Life
 excerpt: how to start and finish the workday
 ---
 

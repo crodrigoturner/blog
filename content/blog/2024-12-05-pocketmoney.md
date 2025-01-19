@@ -1,7 +1,8 @@
 ---
 title: Pocketmoney
-category: A better life
-tags: A better life
+category: Life
+tags: 
+- Life
 excerpt: Lessons for teaching children about money
 ---
 

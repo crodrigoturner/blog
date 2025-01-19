@@ -1,6 +1,6 @@
 ---
 title: Life in squares
-category: Intelligence
+category: Projects
 tags: Projects
 excerpt: A timeline of events
 ---
