@@ -364,7 +364,7 @@ h3 a:hover {
 .button
  {
     float: left;
-    padding: 7px 10px;
+    padding: 7px 10px 7px 0;
     margin: 10px 5px 5px 0;
     font: 400 .9em / 1 var(--serif);
     z-index: 9999;
@@ -372,11 +372,11 @@ h3 a:hover {
         background:none;
     cursor: pointer;
     border: none;
-    opacity:.8;
+    opacity:.3;
 }
 
 
-.button:hover{opacity:.7;}
+.button:hover{opacity:1;}
 
 
 hr {
