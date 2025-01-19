@@ -295,7 +295,8 @@ blockquote,
 .postlist-item {
     float: left;
     width: 100%;
-
+background:#FFF; border:1px solid #EEE;
+border-radius:4px;
     margin: 0 0 5px 0;
 
 }
@@ -452,6 +453,7 @@ ol {
 ol {
     list-style-type: decimal;
     padding-left: 20px;
+    width:calcÇ(100% - 20px);
 }
 
 ul ul,
