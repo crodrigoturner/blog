@@ -1,6 +1,6 @@
 ---
 title: What is a website?
-category: Intelligence
+category: Internet
 tags: 
 - Internet
 excerpt: The internet is a book made of pages

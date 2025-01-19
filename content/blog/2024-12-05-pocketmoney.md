@@ -1,7 +1,7 @@
 ---
 title: Pocketmoney
-category: Intelligence
-tags: Notes
+category: A better life
+tags: A better life
 excerpt: Lessons for teaching children about money
 ---
 
