@@ -296,9 +296,9 @@ blockquote,
     background: #FFF;
     border: 1px solid #EEE;
     border-radius: 4px;
-    margin: 0 0 10px 0;
+    margin: 0 10px 10px 0;
     padding: 10px 20px;
-    width: calc(50% - 42px);
+    width: calc(50% - 62px);
     float:left;
 
 }
