@@ -3,7 +3,7 @@
     --grey: #48575e;
     --blue: #01579B;
     --yellow: #FFD800;
-    --serif: 'Darby Sans Web','Encode', sans-serif;
+    --serif: 'Inter','Darby Sans Web','Encode', sans-serif;
     --sans-serif:'Piazzolla', sans-serif;
 }
 
@@ -22,7 +22,7 @@ body {
     word-wrap: break-word;
     margin: 0;
     position: relative;
-
+background:#e8e8e8;
     padding: 0;
     min-height: 100%;
 
@@ -366,14 +366,14 @@ h3 a:hover {
     margin: 10px 5px 5px 0;
     font: 400 .9em / 1 var(--serif);
     z-index: 9999;
-    background: #FFCDD2;
-    border-radius: 4px;
+        border-radius: 4px;
     cursor: pointer;
     border: none;
+    opacity:.8;
 }
 
 
-.button:hover{opacity:.9;background: #EEE;}
+.button:hover{opacity:.7;}
 
 
 hr {
