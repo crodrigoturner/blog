@@ -295,7 +295,7 @@ blockquote,
 .postlist-item {
     background: #FFF;
     border: 1px solid #EEE;
-    border-radius: 4px;
+    border-radius: 10px;
     margin: 0 150px 15px 0;
     padding: 10px 20px;
     width: calc(50% - 72px);
@@ -350,7 +350,7 @@ h3 a:hover {
 .small,
 .caption,
 .excerpt {
-    color: var(--black);
+    color: #607d8b;
     width: 100%;
     margin: 0;
     background: none;
