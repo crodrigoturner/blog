@@ -1,5 +1,6 @@
 ---
 title: Pocketmoney
+category: Intelligence
 tags: Notes
 excerpt: Lessons for teaching children about money
 ---

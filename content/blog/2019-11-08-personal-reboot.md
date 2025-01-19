@@ -1,5 +1,6 @@
 ---
 title: Personal reboot
+category: Intelligence
 tags: 
 - Notes
 excerpt: Sometimes, take a pause to go faster, further...

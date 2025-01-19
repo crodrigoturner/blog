@@ -1,5 +1,6 @@
 ---
 title: 2 podcasts and reading biographies
+category: Intelligence
 tags:
 - Likes
 excerpt: Getting inspiration from the lives of others

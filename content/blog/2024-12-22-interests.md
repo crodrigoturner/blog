@@ -1,5 +1,6 @@
 ---
 title: Interests
+category: Intelligence
 tags: Personal
 excerpt: An un-thorough list of interests
 ---
