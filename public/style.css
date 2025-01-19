@@ -296,9 +296,9 @@ blockquote,
     background: #FFF;
     border: 1px solid #EEE;
     border-radius: 4px;
-    margin: 0 10px 10px 0;
+    margin: 0 150px 15px 0;
     padding: 10px 20px;
-    width: calc(50% - 62px);
+    width: calc(50% - 72px);
     float:left;
 
 }
@@ -330,14 +330,10 @@ a:hover {
     width: 100%;
     float: left;
     padding: 0;
-    margin: 0 10px 10px 0
+
 }
 
-.posts a:hover {
-    opacity: .8;
-    margin: 0 10px 10px 0;
-    padding: 0px;
-}
+
 
 .more {
     float: left;
