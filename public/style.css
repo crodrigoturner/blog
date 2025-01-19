@@ -293,11 +293,12 @@ blockquote,
 
 
 .postlist-item {
-    float: left;
-    width: 100%;
-background:#FFF; border:1px solid #EEE;
-border-radius:4px;
-    margin: 0 0 5px 0;
+    background: #FFF;
+    border: 1px solid #EEE;
+    border-radius: 4px;
+    margin: 0 0 10px 0;
+    padding: 10px 20px;
+    width: calc(50% - 42px);
 
 }
 
@@ -368,6 +369,7 @@ h3 a:hover {
     font: 400 .9em / 1 var(--serif);
     z-index: 9999;
         border-radius: 4px;
+        background:none;
     cursor: pointer;
     border: none;
     opacity:.8;
