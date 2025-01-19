@@ -364,7 +364,7 @@ h3 a:hover {
     float: left;
     padding: 7px 10px;
     margin: 10px 5px 5px 0;
-    font: 400 1em / 1 var(--serif);
+    font: 400 .9em / 1 var(--serif);
     z-index: 9999;
     background: #FFCDD2;
     border-radius: 4px;
