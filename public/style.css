@@ -302,6 +302,9 @@ blockquote,
     float:left;
 
 }
+.postlist-item:hover{
+transform: scale(1.25);
+}
 
 a {
     color: var(--blue);
@@ -319,7 +322,7 @@ a:hover {
 }
 
 .posts {
-    margin: 30px 0;
+    margin: 10px 0;
     float: left;
     width: 100%;
 }
