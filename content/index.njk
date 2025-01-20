@@ -27,7 +27,7 @@ weekday[6] = " Saturday"
 var currentDate = new Date()
 weekdayValue = currentDate.getDay()
 document.write(
- "</span>I'm Carlos, I <a href='/blog/'>write</a> about data, the internet and the future. I hope you're having a great " + weekday[weekdayValue] + ".</h2>"
+ "</span>I'm Carlos, I write about data, the internet and the future. I hope you're having a great " + weekday[weekdayValue] + ".</h2>"
 )
 </script></div>
 
@@ -41,6 +41,18 @@ document.write(
 {%- endfor -%}
 </ul>
 </article>
+<article class="projects">
+<h4>Now</h4>
+<ul>
+{%- for Now in collections.Now -%}
+<li>
+<h5>{{ Now.data.title }}</h5>
+<p>{{Now.templateContent | Safe}}</p>
+</li>
+{%- endfor -%}
+</ul>
+</article>
+
 <article class="projects">
 <h4>Projects</h4>
 <ul>
