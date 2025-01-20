@@ -585,6 +585,9 @@ input {
         height: 50px;
     }
 
+    nav{float:right; position:fixed; top:10px; right:10px; width:calc(100% -70px);}
+
+    nav li{width:20%; float:left;}
 
     footer {
         padding: 20px;
