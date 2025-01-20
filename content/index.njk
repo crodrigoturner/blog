@@ -46,8 +46,7 @@ document.write(
 <ul>
 {%- for Now in collections.Now -%}
 <li>
-<h5>{{ Now.data.title }}</h5>
-<p>{{Now.templateContent | Safe}}</p>
+<p>{{Now.templateContent | safe }}</p>
 </li>
 {%- endfor -%}
 </ul>
@@ -65,4 +64,6 @@ document.write(
 {%- endfor -%}
 </ul>
 </article>
+
+
 
