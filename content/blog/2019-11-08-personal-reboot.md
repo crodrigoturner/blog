@@ -3,7 +3,7 @@ title: Personal reboot
 category: Life
 tags: 
 - Life
-- Notes
+
 excerpt: Sometimes, take a pause to go faster, further...
 ---
 

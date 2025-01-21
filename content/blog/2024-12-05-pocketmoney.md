@@ -3,7 +3,6 @@ title: Pocketmoney
 category: Life
 tags: 
 - Life
-- Notes
 excerpt: Lessons for teaching children about money
 ---
 

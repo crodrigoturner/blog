@@ -34,9 +34,9 @@ document.write(
 <article class="notes">
 <h4>Notes</h4>
 <ul>
-{%- for Notes in collections.Notes -%}
-  <li><a href="{{Notes.url}}"> <h5>{{ Notes.data.title }}</h5>
-<p class="excerpt">{{Notes.data.excerpt}}</p>
+{%- for Posts in collections.posts -%}
+  <li><a href="{{Posts.url}}"> <h5>{{ Posts.data.title }}</h5>
+<p class="excerpt">{{Posts.data.excerpt}}</p>
 </a>
 {%- endfor -%}
 </ul>
