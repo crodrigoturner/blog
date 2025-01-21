@@ -3,8 +3,9 @@
     --grey: #48575e;
     --blue: #01579B;
     --yellow: #FFD800;
-    --serif: 'Inter','Darby Sans Web','Encode', sans-serif;
-    --sans-serif:'Piazzolla', sans-serif;
+    --soft-grey:#ECEFF1;
+ --red: #C85B60;
+ 
 }
 
 html {
@@ -15,14 +16,14 @@ html {
 }
 
 body {
-    font: 400 16px/1.6 var(--serif);
+    font: 400 16px/1.6 'Inter', sans-serif;
     text-rendering: optimizeLegibility !important;
     -webkit-font-smoothing: antialiased !important;
     color: var(--black);
     word-wrap: break-word;
     margin: 0;
     position: relative;
-background:#ECEFF1;
+background:var(--soft-grey);
     padding: 0;
     min-height: 100%;
 
@@ -39,17 +40,19 @@ header {
 nav {
     float: right;
     margin: 0;
-    font: 300 1.5em / 1.6 var(--serif);
+    font: 300 1.5em / 1.6 'Inter', sans-serif;
     z-index: 9999;
     position: fixed;
     top: 50px;
     right: 50px;
     text-align: right;
+
+
 }
 
 
-
-
+.red{color:var(--red);}
+.square{float: left; content:''; width:25px; height:25px; margin: 0 5px 0 0;}
 
 nav a {
     text-decoration: none;
@@ -106,7 +109,7 @@ footer {
     float: left;
     margin: 0px;
     padding: 20px;
-    font: 400 1em/1 var(--serif);
+    font: 400 1em/1 'Inter', sans-serif;
 }
 
 
@@ -161,7 +164,7 @@ h1 a {
 
 
 h2 {
-    font: 600 2.3em/1 var(--sans-serif);
+    font: 600 2.3em/1 'Piazzolla', sans-serif;
     padding: 0;
     text-align: left;
     float: left;
@@ -171,17 +174,15 @@ h2 {
 }
 
 .intro h2 {
-    font: 600 3em/1.5 var(--sans-serif);
+    font: 600 3em/1.5 'Piazzolla', sans-serif;
     width: 100%;
     margin: 30px 0;
 }
 
-.red {
-    color: #C85B60;
-}
+
 
 h3 {
-    font: 600 1.2em/1.5 var(--sans-serif);
+    font: 600 1.2em/1.5 'Piazzolla', sans-serif;
     padding: 0;
     text-align: left;
     float: left;
@@ -192,7 +193,7 @@ h3 {
 }
 
 h4 {
-    font: 600 1em / 1 var(--sans-serif);
+    font: 600 1em / 1 'Piazzolla', sans-serif;
     padding: 5px 0;
     float: left;
     width: 100%;
@@ -203,7 +204,7 @@ h4 {
 
 h5,
 h6 {
-    font: 600 1em/1 var(--serif);
+    font: 600 1em/1 'Inter', sans-serif;
     margin: 7px 0;
     float: left;
     width: 100%;
@@ -366,7 +367,7 @@ h3 a:hover {
     float: left;
     padding: 7px 10px 7px 0;
     margin: 10px 5px 5px 0;
-    font: 400 .9em / 1 var(--serif);
+    font: 400 .9em / 1 'Inter', sans-serif;
     z-index: 9999;
         border-radius: 4px;
         background:none;
@@ -510,7 +511,7 @@ img {
 
 
 input {
-    font: 400 1em /1.5 var(--serif);
+    font: 400 1em /1.5 'Inter', sans-serif;
     padding: 10px;
     width: 100%;
     box-sizing: border-box;
@@ -523,40 +524,6 @@ input {
 }
 
 
-@font-face {
-    font-family: 'Darby Sans Web';
-    src: url('/fonts/DarbySans-Light-Web.woff2') format('woff2'),
-        url('/fonts/DarbySans-Light-Web.woff') format('woff');
-    font-weight: 300;
-    font-style: normal;
-}
-
-.DarbySans-Light-Web {
-    font-family: 'Darby Sans Web';
-    font-weight: 300;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Piazzolla';
-    src: url('/fonts/Piazzolla-Bold.woff2') format('woff2');
-    font-weight: 400;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Alegreya';
-    src: url('/fonts/AlegreyaSans-Regular.woff2') format('woff2');
-    font-weight: 400;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Encode';
-    src: url('/fonts/EncodeSansExpanded-Regular.woff2') format('woff2');
-    font-weight: 400;
-    font-style: normal;
-}
 
 @media (max-width: 1360px) {
     body {
