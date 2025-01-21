@@ -22,7 +22,7 @@ body {
     word-wrap: break-word;
     margin: 0;
     position: relative;
-background:#e8e8e8;
+background:#ECEFF1;
     padding: 0;
     min-height: 100%;
 
@@ -204,7 +204,7 @@ h4 {
 h5,
 h6 {
     font: 600 1em/1 var(--serif);
-    margin: 10px 0;
+    margin: 7px 0;
     float: left;
     width: 100%;
 }
@@ -296,9 +296,9 @@ blockquote,
     background: #FFF;
     border: 1px solid #EEE;
     border-radius: 10px;
-    margin: 0 15px 15px 0;
-    padding: 10px 20px;
-    width: calc(50% - 82px);
+    margin: 0 10px 5px 0;
+    padding: 7px 15px;
+    width: calc(50% - 67px);
     float:left;
 
 }
