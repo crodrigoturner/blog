@@ -31,12 +31,12 @@ Deployed on Netlify.
 
 #### Colours
 
-<span class="square" style="background:var(--red);"> #C85B60 </span>   
-<span class="square" style="background:var(--black);"></span>    
-<span class="square" style="background:var(--blue);"></span>   
-<span class="square" style=""></span>
-<span class="square" style=""></span>
-<span class="square" style=""></span>
+<span class="square" style="background:var(--red);"></span> #C85B60   
+<span class="square" style="background:var(--black);"></span> #2b2b2b   
+<span class="square" style="background:var(--blue);"></span> #01579B  
+<span class="square" style="background:var(--soft-grey);"></span> #ECEFF1    
+<span class="square" style="background:var(--grey);"></span>#48575e   
+
 
 #### Inspiration
 
