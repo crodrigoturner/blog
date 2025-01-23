@@ -86,7 +86,7 @@ article.notes {
     width: 60%;
 }
 
-article.projects {
+article.projects, article.now {
     float: left;
     width: 40%;
 }
