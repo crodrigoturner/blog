@@ -17,7 +17,7 @@ html {
 }
 
 body {
-    font: 400 16px/1.6 'Inter', sans-serif;
+    font: 400 16px/1.6 'Piazzolla', sans-serif;
     text-rendering: optimizeLegibility !important;
     -webkit-font-smoothing: antialiased !important;
     color: var(--black);
@@ -231,37 +231,6 @@ h6 {
     opacity: .75;
 }
 
-/*
-.postlist-item a:before {
-    float: left;
-    height: 8px;
-    width: 8px;
-    margin-right: 10px;
-    border-radius: 50%;
-    content:'';
-    position:relative; 
-    top:6px;
-    border: 1px solid #607D8B;
-}
-
-.postlist-item a.likes::before {
-  background: #ffab91;
-}
-.postlist-item a.work::before{
-    background: #b0bec5;
-}
-.postlist-item a.about::before {
-    background: #ffecb3;
-}
-
-.postlist-item a.notes::before {
-    background: #a1887f;
-}
-
-.postlist-item a.projects::before {
-    background: #b2dfdb;
-}
-*/
 
 .tags {
     float: left;
@@ -595,6 +564,8 @@ input {
         float: left;
         width: 100%;
     }
+
+    article.now p{margin:0;}
 
     ul {
         margin: 0;

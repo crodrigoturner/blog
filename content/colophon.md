@@ -35,7 +35,7 @@ Deployed on Netlify.
 <span class="square" style="background:var(--black);"></span> #2b2b2b   
 <span class="square" style="background:var(--blue);"></span> #01579B  
 <span class="square" style="background:var(--soft-grey);"></span> #ECEFF1    
-<span class="square" style="background:var(--grey);"></span>#48575e   
+<span class="square" style="background:var(--grey);"></span> #48575e   
 
 
 #### Inspiration
