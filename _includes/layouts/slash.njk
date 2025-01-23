@@ -6,6 +6,9 @@ layout: layouts/base.njk
 
 <ul>
 	{%- for entry in collections.all %}
-	<li><a href="{{ entry.url }}">/{{ entry.data.title }}</a></li>
+	<li><a href="{{ entry.url }}">/{{ entry.data.title }}</a>: {{entry.data.excerpt}}</li>
 	{%- endfor %}
 </ul>
+
+
+* Inspired by <a href="https://slashpages.net/">slashpages.net</a>
