@@ -91,16 +91,10 @@ article.projects {
     width: 40%;
 }
 
-article.updates {
-    margin: 40px 0;
-    padding: 0;
-    float: left;
-}
 
-article.updates li p {
-    margin: 0;
-    padding: 0;
-}
+
+article.now p{margin:0;}
+
 
 footer {
     position: fixed;
@@ -218,9 +212,7 @@ h6 {
     margin: 0;
 }
 
-.postlist-item:last-child {
-    border-bottom: none;
-}
+
 
 .tag {
     float: left;
@@ -264,12 +256,11 @@ blockquote,
 
 
 .postlist-item {
-    background: #FFF;
-    border: 1px solid #E0E0E0;
-    border-radius: 10px;
+
+    
     margin: 0 10px 10px 0;
-    padding: 7px 15px;
-    width: calc(50% - 67px);
+
+    width: calc(50% - 20px);
     float:left;
 
 }
@@ -565,8 +556,7 @@ input {
         width: 100%;
     }
 
-    article.now p{margin:0;}
-
+  
     ul {
         margin: 0;
     }
