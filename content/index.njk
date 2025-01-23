@@ -32,14 +32,11 @@ document.write(
 </script></div>
 
 <article class="notes">
-{% set postsCount = collections.posts | length %}
-{% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
 <h4>Notes</h4>
-
 {% set postslist = collections.posts | head(-1 * numberOfLatestPostsToShow) %}
 {% set postslistCounter = postsCount %}
-<ul>  <li><a href="{{Posts.url}}"> <h5>{{ Posts.data.title }}</h5>
-<p class="excerpt">{{Posts.data.excerpt}}</p>
+<ul>  <li><a href="{{posts.url}}"> <h5>{{ posts.data.title }}</h5>
+<p class="excerpt">{{posts.data.excerpt}}</p>
 </a></ul>
 {% set morePosts = postsCount - numberOfLatestPostsToShow %}
 {% if morePosts > 0 %}
