@@ -39,9 +39,13 @@ document.write(
 <h4>Notes</h4>
 {% set postslist = collections.posts | head(-1 * numberOfLatestPostsToShow) %}
 {% set postslistCounter = postsCount %}
-<ul>  <li><a href="{{posts.url}}"> <h5>{{ posts.data.title }}</h5>
+<ul> 
+<li><a href="{{posts.url}}"> 
+<h5>{{ posts.data.title }}</h5>
 <p class="excerpt">{{posts.data.excerpt}}</p>
-</a></ul>
+</a>
+</li>
+</ul>
 
 <p><a href="/blog">More</a>.</p>
 
