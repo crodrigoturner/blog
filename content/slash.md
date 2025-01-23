@@ -1,5 +1,5 @@
 ---
-layout: layouts/more.njk
-title: More
+layout: layouts/slash.njk
+title: Slash pages
 ---
 
