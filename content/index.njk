@@ -37,14 +37,15 @@ document.write(
 
 <article class="notes">
 <h4>Notes</h4>
-{% set postslist = collections.posts | head(-1 * numberOfLatestPostsToShow) %}
-{% set postslistCounter = postsCount %}
+{% set postslist = collections.posts %}
 <ul> 
+{%- for post in postslist | reverse %}
 <li><a href="{{posts.url}}"> 
 <h5>{{ posts.data.title }}</h5>
 <p class="excerpt">{{posts.data.excerpt}}</p>
 </a>
 </li>
+{%- endfor %}
 </ul>
 
 <p><a href="/blog">More</a>.</p>
@@ -75,6 +76,19 @@ document.write(
 </ul>
 </article>
 
+
+{% set postsCount = collections.posts | length %}
+{% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
+<h1>Latest {{ latestPostsCount }} Post{% if latestPostsCount != 1 %}s{% endif %}</h1>
+
+{% set postslist = collections.posts | head(-1 * numberOfLatestPostsToShow) %}
+{% set postslistCounter = postsCount %}
+{% include "postslist.njk" %}
+
+{% set morePosts = postsCount - numberOfLatestPostsToShow %}
+{% if morePosts > 0 %}
+<p>{{ morePosts }} more post{% if morePosts != 1 %}s{% endif %} can be found in <a href="blog.njk">the archive</a>.</p>
+{% endif %}
 
 
 
