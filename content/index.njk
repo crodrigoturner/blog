@@ -1,5 +1,5 @@
 ---js
-const numberOfLatestPostsToShow = 6;
+const numberOfLatestPostsToShow = 5;
 
 ---
 <div class="intro"><h2><span class="red">
@@ -32,14 +32,20 @@ document.write(
 </script></div>
 
 <article class="notes">
+{% set postsCount = collections.posts | length %}
+{% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
 <h4>Notes</h4>
-<ul>
-{%- for Posts in collections.posts -%}
-  <li><a href="{{Posts.url}}"> <h5>{{ Posts.data.title }}</h5>
+
+{% set postslist = collections.posts | head(-1 * numberOfLatestPostsToShow) %}
+{% set postslistCounter = postsCount %}
+<ul>  <li><a href="{{Posts.url}}"> <h5>{{ Posts.data.title }}</h5>
 <p class="excerpt">{{Posts.data.excerpt}}</p>
-</a>
-{%- endfor -%}
-</ul>
+</a></ul>
+{% set morePosts = postsCount - numberOfLatestPostsToShow %}
+{% if morePosts > 0 %}
+<p>{{ morePosts }} more post{% if morePosts != 1 %}s{% endif %} in  the <a href="/blog">the blog</a>.</p>
+
+
 </article>
 <article class="now">
 <h4>Now</h4>
