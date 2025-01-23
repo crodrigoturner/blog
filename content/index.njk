@@ -1,6 +1,10 @@
 ---js
-const numberOfLatestPostsToShow = 5;
+const eleventyNavigation = {
+	key: "Home",
+	order: 1
+};
 
+const numberOfLatestPostsToShow = 3;
 ---
 <div class="intro"><h2><span class="red">
 <script>
@@ -38,9 +42,8 @@ document.write(
 <ul>  <li><a href="{{posts.url}}"> <h5>{{ posts.data.title }}</h5>
 <p class="excerpt">{{posts.data.excerpt}}</p>
 </a></ul>
-{% set morePosts = postsCount - numberOfLatestPostsToShow %}
-{% if morePosts > 0 %}
-<p>{{ morePosts }} more post{% if morePosts != 1 %}s{% endif %} in  the <a href="/blog">the blog</a>.</p>
+
+<p><a href="/blog">More</a>.</p>
 
 
 </article>
