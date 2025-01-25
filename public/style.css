@@ -500,6 +500,7 @@ input {
         z-index: 99999;
         position: fixed;
         top:0; left:0;
+        display:none;
     }
 
     h1 {
@@ -529,16 +530,10 @@ input {
         margin: 10px;
     }
 
-    nav li{width:20%; float:left;}
+    nav li{        padding: 10px 0;
+        text-align: center;}
 
-    footer {
-        padding: 20px;
-        width: calc(100% - 40px);
-        float: left;
-        position: relative;
-        font-size:.8em;
-    }
-
+  
 
     h2 {
         line-height: 1.6em;
