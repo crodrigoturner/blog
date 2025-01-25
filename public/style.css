@@ -83,15 +83,13 @@ main {
 
 article.notes {
     float: left;
-    width: 60%;
-}
-
-article.projects, article.now {
-    float: left;
     width: 40%;
 }
 
-
+article.now {
+    float: left;
+    width: 60%;
+}
 
 article.now p{margin:0;}
 

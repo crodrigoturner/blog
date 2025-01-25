@@ -35,6 +35,18 @@ document.write(
 )
 </script></div>
 
+<article class="now">
+<h4>Now</h4>
+<ul>
+{%- for Now in collections.Now -%}
+<li>
+<p>{{Now.templateContent | safe }}</p>
+</li>
+{%- endfor -%}
+</ul>
+</article>
+
+
 <article class="notes">
 {% set postsCount = collections.posts | length %}
 {% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
@@ -49,29 +61,4 @@ document.write(
 <p>{{ morePosts }} more post{% if morePosts != 1 %}s{% endif %} can be found in <a href="blog.njk">the blog</a>.</p>
 {% endif %}
 
-
-
-</article>
-<article class="now">
-<h4>Now</h4>
-<ul>
-{%- for Now in collections.Now -%}
-<li>
-<p>{{Now.templateContent | safe }}</p>
-</li>
-{%- endfor -%}
-</ul>
-</article>
-
-<article class="projects">
-<h4>Projects</h4>
-<ul>
-{%- for Projects in collections.Projects -%}
-
-  <li><a href="{{Projects.url}}">
-  <h5>{{ Projects.data.title }}</h5>
-<p class="excerpt">{{Projects.data.excerpt}}</p>
-</a></li>
-{%- endfor -%}
-</ul>
 </article>
