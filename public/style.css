@@ -416,7 +416,7 @@ ol {
 ol {
     list-style-type: decimal;
     padding-left: 20px;
-    width:calcÇ(100% - 20px);
+    width:calc(100% - 20px);
 }
 
 ul ul,
