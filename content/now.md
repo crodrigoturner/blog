@@ -4,15 +4,12 @@ title: Now
 tags: Now
 ---
 
-
-
-
 ### Listening
 - The The Misty Isle books by JM Dalgleish   
 - Why am I taller by Dr. Dave Williams
 
 ### Reading
-Rebuilding the blog    
+- [Artemis – The Fra Mauro Job](https://unrealizedreality.wordpress.com/2022/04/25/artemis-the-fra-mauro-job/)
 
 ### Watching
 - Prime target on Apple TV
