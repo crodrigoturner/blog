@@ -4,7 +4,19 @@ title: Now
 tags: Now
 ---
 
-Listening to the The Misty Isle by JM Dalgleish   
+
+
+
+### Listening
+- The The Misty Isle books by JM Dalgleish   
+- Why am I taller by Dr. Dave Williams
+
+### Reading
 Rebuilding the blog    
-Compiling notes   
-Watching Tacoma FD   
+
+### Watching
+- Prime target on Apple TV
+
+### Doing
+- Compiling all my writing   
+- Life style design, making a life audit...
