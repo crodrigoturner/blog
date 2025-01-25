@@ -56,7 +56,7 @@ document.write(
 {% set postslistCounter = postsCount %}
 <ul class="posts">
 {%- for post in postslist | reverse %}
-<li class="postlist-item">
+<li>
 <a href="{{ post.url }}"> 
 <h5>{{ post.data.title }}</h5>
 <p class="excerpt">{{post.data.excerpt}}</p>
