@@ -1,7 +1,7 @@
 ---
 layout: layouts/now.njk
 title: Now
-tags: now
+tags: Now
 ---
 
 Listening to the The Misty Isle by JM Dalgleish   

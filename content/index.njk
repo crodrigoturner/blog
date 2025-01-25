@@ -54,7 +54,16 @@ document.write(
 
 {% set postslist = collections.posts | head(-1 * numberOfLatestPostsToShow) %}
 {% set postslistCounter = postsCount %}
-{% include "postslist.njk" %}
+<ul class="posts">
+{%- for post in postslist | reverse %}
+<li class="postlist-item">
+<a href="{{ post.url }}"> 
+<h5>{{ post.data.title }}</h5>
+<p class="excerpt">{{post.data.excerpt}}</p>
+</a>
+</li>
+{%- endfor %}
+</ul>
 
 {% set morePosts = postsCount - numberOfLatestPostsToShow %}
 {% if morePosts > 0 %}
