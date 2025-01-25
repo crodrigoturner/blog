@@ -1,7 +1,9 @@
 ---
 layout: layouts/base.njk
-title: Slash pages
+title: More
 ---
+
+## More
 
 <ul>
 <li><a href="/">Home</a>  -><li>
