@@ -519,6 +519,7 @@ input {
         border-radius: 20px;
         margin: 10px;
         font-weight:bold;
+        height:40px;
     }
 
     nav li{width:20%; float:left;        padding: 10px 0;
@@ -559,8 +560,8 @@ input {
     main {
         float: left;
         width: calc(100% - 40px);
-        padding: 0px 20px 100px;
-        margin: 20px 0 100px;
+        padding: 0px 20px;
+        margin: 20px 0 0;
     }
 
     article, .postlist-item {
