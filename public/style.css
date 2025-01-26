@@ -509,7 +509,7 @@ input {
 
     nav{                 float: left;
         position: fixed;
-        bottom: 10px;
+        top:90vh;
         left: 0px;
         width: calc(100% - 62px);
         font-size: 1em;
@@ -562,7 +562,7 @@ input {
     main {
         float: left;
         width: calc(100% - 40px);
-        padding: 0px 20px;
+        padding: 0px 20px 100px;
         margin: 20px 0 0;
     }
 
