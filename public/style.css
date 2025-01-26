@@ -508,7 +508,7 @@ input {
 
     nav{         float: left;
         position: fixed;
-        top: calc(100vh - 66px);
+        top: calc(100vh - 106px);
         left: 0px;
         width: calc(100% - 62px);
         font-size: 1em;       
