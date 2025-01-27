@@ -1,10 +1,9 @@
 ---
 layout: layouts/base.njk
 title: Blogroll
+excerpt: These are the blogs that I frequently visit
 ---
 ## Blogroll
-
-These are the blogs that I frequently visit:
 
 <ul class="col-2">
 <li><a href="https://marginalrevolution.com/" target="_blank" rel="noopener">Marginal Revolution</a></li>
@@ -33,5 +32,3 @@ These are the blogs that I frequently visit:
 <li><a href="https://cassidoo.co/" target="_blank" rel="noopener">Cassidy Williams</a></li>
 <li><a href="https://maggieappleton.com/" target="_blank" rel="noopener">Maggie Appleton</a></li>
 </ul>
-
-I also subscribe with [Readwise's Reader](https://readwise.io/i/carlos864) to other blogs and newsletters.

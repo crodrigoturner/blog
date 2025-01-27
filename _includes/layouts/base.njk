@@ -28,11 +28,9 @@
 <li><a href="/more" class="{% if page.url == '/more' %} active{% endif %}">More</a></li>
 </ul>
 </nav>
-<main>{{ content | safe }}
-
+<main>
+{{ content | safe }}
 </main>
 <script type="module" src="{% getBundleFileUrl "js" %}"></script>
-
-
 </body>
 </html>
