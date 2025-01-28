@@ -264,9 +264,7 @@ blockquote,
     float:left;
 
 }
-.postlist-item:hover{
-transform: scale(1.03);
-}
+
 
 a {
     color: var(--blue);

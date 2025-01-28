@@ -24,6 +24,8 @@ Built with Eleventy.
 
 Deployed on Netlify.
 
+Isotope from David DeSandro for filtering the blog.
+
 #### Fonts
 
 [*Inter*](https://fonts.google.com/specimen/Inter) by Rasmus Andersson
