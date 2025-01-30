@@ -15,6 +15,6 @@ title: More
 <li><a href="/blogroll">Blogroll</a>: Blogs and websites I visit frequently.<li>
 <li><a href="/work">Work</a>: What I've done.<li>
 <li><a href="/now">Now</a>: What I'm doing.<li>
-<li><a href="/uses">Now</a>: What I use.<li>
+<li><a href="/uses">Uses</a>: What I use.<li>
 <li><a href="/feed">Feed</a>: How to subscribe.<li>
 </ul>
