@@ -3,16 +3,35 @@ layout: layouts/uses.njk
 title: What I use
 ---
 
-**Listening**
-- * The The Misty Isle books by JM Dalgleish   
-- * Why am I taller by Dr. Dave Williams
+As of January 2025 these are tha apps and services I use:
 
-**Reading**
-- [Artemis – The Fra Mauro Job](https://unrealizedreality.wordpress.com/2022/04/25/artemis-the-fra-mauro-job/)
+📨 Mail Client: Gmail / [Em Client ](https://www.emclient.com/)   
+📮 Mail Server: Google   
+📝 Notes: Keep + [Obsidian](https://obsidian.md/)   
+✅ To-Do: .txt files  
+📷 Photo Shooting: Android phone  
+🎨 Photo Editing: [paint.net](https://www.getpaint.net/) / [Midjourney](https://www.midjourney.com/imagine)   
+📆 Calendar: Google Calendar  
+📁 Cloud File Storage: Google Drive  
+📖 RSS: [Inoreader](https://www.inoreader.com/)   
+🙍🏻‍♂️ Contacts: Google Contacts  
+🌐 Browser: Chrome   
+💬 Chat: Whatsapp   
+🔖 Bookmarks: [Raindrop](https://app.raindrop.io/)   
+📑 Read It Later: [Raindrop](https://app.raindrop.io/)  
+📜 Word Processing: Google Docs / Word   
+📈 Spreadsheets: Google Sheets / Excel   
+📊 Presentations: Google Slides / Powerpoint   
+🛒 Shopping Lists: Google keep   
+💰 Budgeting and Personal Finance: Google spreadsheets   
+📰 News: bluesky   
+🎵 Music: Spotify   
+🎤 Podcasts: [Pocketcasts](https://play.pocketcasts.com/)   
+🎧 Audiobooks: Audible + Smart audiobook Player app  
+🔐 Password Management: [1Password ](https://my.1password.eu/)   
+🧑‍💻 Code Editor: [VS Code](https://code.visualstudio.com/)   
+✈️ VPN: [Windscribe](https://windscribe.com/)   
 
-**Watching**
-- Prime target on Apple TV
+Other tools: github desktop, renamer, pdf gear, VLC...
 
-**Doing**
-- Compiling all my writing   
-- Life style design, making a life audit...
+Check out <a href="https://uses.tech/" target="_blank" rel="noopener"><em>/uses</em></a> or <a href="https://usesthis.com/" target="_blank" rel="noopener"><em>uses this</em></a> for more posts like this one.
