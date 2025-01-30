@@ -1,6 +1,6 @@
 ---
-layout: layouts/now.njk
-title: Now
+layout: layouts/uses.njk
+title: What I use
 ---
 
 **Listening**
