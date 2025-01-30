@@ -4,7 +4,7 @@ const eleventyNavigation = {
 	order: 1
 };
 
-const numberOfLatestPostsToShow = 5;
+const numberOfLatestPostsToShow = 3;
 ---
 <div class="intro"><h2><span class="red">
 <script>
@@ -34,18 +34,6 @@ document.write(
  "</span>I'm Carlos, this is my home on the Internet. I hope you're having a great " + weekday[weekdayValue] + ".</h2>"
 )
 </script></div>
-
-<article class="now">
-<h4>What's new</h4>
-<ul>
-{%- for Now in collections.Now -%}
-<li>
-<p>{{Now.templateContent | safe }}</p>
-</li>
-{%- endfor -%}
-</ul>
-</article>
-
 
 <article class="notes">
 {% set postsCount = collections.posts | length %}

@@ -183,13 +183,13 @@ h3 {
 }
 
 h4 {
-	font: 600 1em / 1 "Inter", sans-serif;
-	padding: 5px 0;
-	float: left;
-	width: 100%;
-	margin: 20px 0;
-	color: #c85b60;
-	text-transform: uppercase;
+	font: 400 .9em / 1 "Inter", sans-serif;
+    padding: 5px 0;
+    float: left;
+    width: 100%;
+    margin: 20px 0 5px;
+    color: #c85b60;
+    text-transform: uppercase;
 }
 
 h5,
