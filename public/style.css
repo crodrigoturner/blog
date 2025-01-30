@@ -15,7 +15,7 @@ html {
 }
 
 body {
-	font: 400 14px/1.6 "Inter", sans-serif;
+	font: 400 15px/1.6 "Inter", sans-serif;
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
 	color: var(--black);
