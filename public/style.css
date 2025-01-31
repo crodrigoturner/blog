@@ -128,7 +128,6 @@ p {
 	margin: 5px 0;
 }
 
-.nav-pages li{float:left; padding:10px; margin: 0 10px 0 0; background:#EEE; border-radius:5px;}
 
 
 h1 {
@@ -406,6 +405,9 @@ li {
 	float: left;
 	width: 100%;
 }
+
+.nav-pages li{float:left; padding:10px; margin: 0 10px 0 0; background:#EEE; border-radius:5px; width:auto;}
+
 
 nav ul {
 	list-style-type: none;
