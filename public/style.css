@@ -402,7 +402,7 @@ ul ol {
 	margin-bottom: 0;
 }
 
-li {
+li, .nav-pages {
 	float: left;
 	width: 100%;
 }
