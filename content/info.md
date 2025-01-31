@@ -1,7 +1,9 @@
 ---
-layout: layouts/about.njk
-title: About
+layout: layouts/info.njk
+title: Info
 ---
+
+#### About me
 
 My full name is Carlos Roberto Rodrigo Turner
 
@@ -13,8 +15,6 @@ I live in Madrid with Mar, Lucas, Nicolás and <a href="/blog/pancho.md">Pancho<
 
 #### Contact
 
+<p><a href="mailto:rodrigoturner.carlos@gmail.com">Send email -></a></p>
+
 Though I have accounts in different platforms, email is always best.
-
-<p><a href="mailto:email@carlosrodrigo.com">email@carlosrodrigo.com</a></p>
-
-
