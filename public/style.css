@@ -329,6 +329,8 @@ hr {
 	height: 2px;
 }
 
+.middle{width:50%; margin:20px 25%;}
+
 .sq {
 	font-size: 0.9em;
 	float: left;
