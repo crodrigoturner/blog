@@ -407,7 +407,7 @@ li, .nav-pages {
 	width: 100%;
 }
 
-.nav-pages a{float:left; padding:6px 10px; margin: 0 10px 10px 0; background:#EEE; border-radius:5px; width:auto;}
+.nav-pages a{float:left; padding:6px 10px; margin: 0 10px 10px 0; background:#EEE; border-radius:5px; width:auto;border:none;}
 
 
 nav ul {
