@@ -5,8 +5,7 @@ title: More
 
 ## More
 
-<ul>
-<li><a href="/">Home</a>: Main page.<li>
+<ul class="nav-pages">
 <li><a href="/about">About</a>: Who I am<li>
 <li><a href="/blog">Blog</a>: Thoughts, ideas, concepts...<li>
 <li><a href="/tag/projects">Projects</a>: What I've done.<li>
