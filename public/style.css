@@ -407,7 +407,13 @@ li, .nav-pages {
 	width: 100%;
 }
 
-.nav-pages a{float:left; padding:6px 10px; margin: 0 10px 10px 0; background:#EEE; border-radius:5px; width:auto;border:none;}
+.nav-pages a{    float: left;
+    padding: 6px 10px;
+    margin: 0 10px 10px 0;
+    background: #cfd8dc2b;
+    border-radius: 5px;
+    /* width: auto; */
+    border: 1px solid #eeeeeea3;}
 
 
 nav ul {
@@ -480,7 +486,7 @@ input {
 	nav {
 		float: left;
 		position: fixed;
-		top: 93vh;
+		top: 93dvh;
 		left: 0px;
 		width: 100%;
 		font-size: 1em;
