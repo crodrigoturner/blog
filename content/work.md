@@ -5,7 +5,7 @@ title: Work
 
 ## Work
 <details>
-  <summary><h4> Where I've been</h4></summary>
+  <summary>Where I've been</summary>
 <ul>
 <li><p><b>2015-Now › Técnica y Avance</b > -> Sparepart co-manager</p></li>
 <li><p><b>2014-2015 › Repsol</b > -> International lubricant sales department. Backoffice.</p></li>
@@ -17,60 +17,62 @@ title: Work
 </details>
 
 
-#### Work values
+<details>
+  <summary>Work values</summary>
 
 My philosophy and values at work are the following:
 
-##### Win/win/win    
-I always aim to find a win for the customer, a win for the company, and a win for myself.   
-##### Solutions    
-I find solutions, I fix problems.   
-##### Communicate early and often    
-My stakeholders and collaborators should know what’s going on continuously.   
-##### Nothing is “not my job”     
-If I see a pressing problem, I gather context and fix it.  
+<b>Win/win/win</b > -> I always aim to find a win for the customer, a win for the company, and a win for myself.
+<b>Solutions </b > -> I find solutions, I fix problems.
+<b>Communicate early and often</b > -> My stakeholders and collaborators should know what’s going on continuously.
+<b>Nothing is “not my job”</b > -> If I see a pressing problem, I gather context and fix it.
 
-#### What I do best
+</details>
+
+<details>
+  <summary> What I do best</summary>
 <ul class="col-2">
-- Understanding of data   
-- Analytical skills   
-- Attention to detail   
-- Research abilities   
-- Adaptability   
-- Proactiveness   
-- Critical thinking   
-- Customer service   
-- English · Spanish · French   
-- Windows / MAC OS   
-- Office   
-- Filemaker   
-- HTML   
-- CSS   
-- JS   
-- Wordpress   
-- Accessibility   
-- Competitive analysis   
-- Cross-organizational collaboration   
-- Customer research & discovery   
-- Data analysis   
-- Data-driven decision making   
-- Experimentation   
-- Market research   
-- Open source   
-- Product metrics   
-- Product vision & strategy   
-- Project management   
-- Public speaking   
-- Risk management   
-- Roadmap development   
-- Stakeholder management   
-- Technical writing   
-- UX/UI design   
-- Web development   
-- Web standards   
+<li>Understanding of data</li>
+<li>Analytical skills</li>
+<li>Attention to detail</li>
+<li>Research abilities</li>
+<li>Adaptability</li>
+<li>Proactiveness</li>
+<li>Critical thinking</li>
+<li>Customer service</li>
+<li>English · Spanish · French</li>
+<li>Windows / MAC OS</li>
+<li>Office</li>
+<li>Filemaker</li>
+<li>HTML</li>
+<li>CSS</li>
+<li>JS</li>
+<li>Wordpress</li>
+<li>Accessibility</li>
+<li>Competitive analysis</li>
+<li>Cross-organizational collaboration</li>
+<li>Customer research & discovery</li>
+<li>Data analysis</li>
+<li>Data-driven decision making</li>
+<li>Experimentation</li>
+<li>Market research</li>
+<li>Open source</li>
+<li>Product metrics</li>
+<li>Product vision & strategy</li>
+<li>Project management</li>
+<li>Public speaking</li>
+<li>Risk management</li>
+<li>Roadmap development</li>
+<li>Stakeholder management</li>
+<li>Technical writing</li>
+<li>UX/UI design</li>
+<li>Web development</li>
+<li>Web standards</li>
 </ul>
+</details>
 
-#### How I work
+<details>
+  <summary>How I work</summary>
 
 I believe everyone should state how to work and share it with co-workers and stakeholders.
 
@@ -78,6 +80,7 @@ I believe everyone should state how to work and share it with co-workers and sta
 2. I work M-F, 09.30-17.30. <em>(Sometimes more, if needed).</em>
 3. If you need anything from me, please clearly let me know <strong>what is needed and when.</strong>
 4. I prefer meetings after 10 am, and before 16 pm.
-5. My time zone is GMT+2.(Madrid, Spain)   
+5. My time zone is GMT+2.(Madrid, Spain)
 
-<p class="meta">Inspired by <a href="https://manual.jvt.me/">Jamie Tana</a> and <a href="https://melanie-richards.com/product/how-i-work/">Melanie Richards</a></p>
+
+</details>
