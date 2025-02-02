@@ -5,13 +5,13 @@ title: Work
 
 ## Work
 <details>
-  <summary>#### Where I've been</summary>
+  <summary><h4> Where I've been</h4></summary>
 <ul>
-<li><p>**2015-Now › Técnica y Avance** -> Sparepart co-manager</p></li>
-<li><p>**2014-2015 › Repsol** ->International lubricant sales department. Backoffice.</p></li>
-<li><p>**2012-2013 › Louis Vuitton** ->Warehouse assistant manager.</p></li>
-<li><p>**2011-2012 › EME Arquitectos** ->Quantity surveyor / webdesigner.</p></li>
-<li><p>**2011-2011 › JMJ** ->Lodging manager during the Pope's visit in 2011.</p>
+<li><p><b>2015-Now › Técnica y Avance</b > -> Sparepart co-manager</p></li>
+<li><p><b>2014-2015 › Repsol</b > -> International lubricant sales department. Backoffice.</p></li>
+<li><p><b>2012-2013 › Louis Vuitton</b > -> Warehouse assistant manager.</p></li>
+<li><p><b>2011-2012 › EME Arquitectos</b > -> Quantity surveyor / webdesigner.</p></li>
+<li><p><b>2011-2011 › JMJ</b > -> Lodging manager during the Pope's visit in 2011.</p>
 </li>
 </ul>
 </details>
