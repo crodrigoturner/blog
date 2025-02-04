@@ -5,15 +5,15 @@ title: More
 
 ## More
 
-<div class="nav-pages">
-<a href="/info/">Info<span class="description">Who I am</span></a>
-<a href="/blog">Blog<span class="description">Thoughts, ideas, concepts...</span></a>
-<a href="/tag/projects">Projects<span class="description">What I've done.</span></a>
-<a href="/info/#contact">Contact<span class="description">How to get in touch.</span></a>
-<a href="/colophon">Colophon<span class="description">How this website is made.</span></a>
-<a href="/blogroll">Blogroll<span class="description">Blogs and websites I visit frequently.</span></a>
-<a href="/work">Work<span class="description">What I've done.</span></a>
-<a href="/now">Now<span class="description">What I'm doing.</span></a>
-<a href="/uses">Uses<span class="description">What I use.</span></a>
-<a href="/feed">Feed<span class="description">How to subscribe.</span></a>
-</div>
+<ul class="nav-pages">
+<li><a href="/info/"><h5>Info</h5><p class="excerpt">Who I am</p></a></li>
+<li><a href="/blog"><h5>Blog</h5><p>Thoughts, ideas, concepts...</p></a></li>
+<li><a href="/tag/projects"><h5>Projects</h5><p>What I've done.</p></a></li>
+<li><a href="/info/#contact"><h5>Contact</h5><p>How to get in touch.</p></a></li>
+<li><a href="/colophon"><h5>Colophon</h5><p>How this website is made.</p></a></li>
+<li><a href="/blogroll"><h5>Blogroll</h5><p>Blogs and websites I visit frequently.</p></a></li>
+<li><a href="/work"><h5>Work</h5><p>What I've done.</p></a></li>
+<li><a href="/now"><h5>Now</h5><p>What I'm doing.</p></a></li>
+<li><a href="/uses"><h5>Uses</h5><p>What I use.</p></a></li>
+<li><a href="/feed"><h5>Feed</h5><p>How to subscribe.</p></a></li>
+</ul>

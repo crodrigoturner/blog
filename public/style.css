@@ -241,7 +241,7 @@ blockquote,
 	color: var(--black);
 }
 
-.postlist-item {
+.postlist-item, .nav-pages li {
 	margin: 0 10px 10px 0;
 
 	width: calc(50% - 20px);
@@ -261,7 +261,7 @@ a:hover {
 	background: none;
 }
 
-.posts {
+.posts, .nav-pages {
 	margin: 10px 0;
 	float: left;
 	width: 100%;
