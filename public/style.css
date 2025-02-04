@@ -408,7 +408,7 @@ li, .nav-pages {
 	width: 100%;
 }
 
-details{float:left; margin:20px 0; width:100%;}
+details[open]{float:left; margin:20px 0; width:100%;}
 
 details[open] summary ~ * {
 	animation: open 0.3s ease-in-out;
