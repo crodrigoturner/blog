@@ -427,7 +427,7 @@ details[open] summary ~ * {
   details summary {
 	width: 100%;
 	padding: 0.5rem 0;
-	border-bottom: 1px solid var(--grey);
+	border-bottom: 1px solid var(--soft-grey);
 	position: relative;
 	cursor: pointer;
 	font-weight: 400;
@@ -452,12 +452,9 @@ details[open] summary ~ * {
   }
   details summary {
 	outline: 0;
+	padding:20px 0;
   }
-  details p {
-	font-size: 0.95rem;
-	margin: 0 0 1rem;
-	padding-top: 1rem;
-  }
+
 
 nav ul {
 	list-style-type: none;
