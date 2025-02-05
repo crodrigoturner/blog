@@ -435,7 +435,7 @@ details[open] summary ~ * {
   
   details summary {
 	width: 100%;
-	padding: 17px 0;
+	padding: 16.5px 0;
 	float:left;
 	position: relative;
 	cursor: pointer;
