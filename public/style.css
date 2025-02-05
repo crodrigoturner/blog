@@ -409,7 +409,7 @@ li, .nav-pages {
 }
 
 
-details{float:left; width:100%;}
+details{float:left; width:100%;border-bottom: 1px solid var(--soft-grey);}
 details[open]{margin:0px 0 20px;}
 
 details[open] summary ~ * {
@@ -431,10 +431,9 @@ details[open] summary ~ * {
   details summary {
 	width: 100%;
 	padding: 0.5rem 0;
-	border-bottom: 1px solid var(--soft-grey);
+	
 	position: relative;
 	cursor: pointer;
-	font-weight: 400;
 	list-style: none;
   }
   
