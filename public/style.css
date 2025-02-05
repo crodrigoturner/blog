@@ -258,11 +258,11 @@ blockquote,
 }
 .post-info{width:95%; float:left;}
 
-.arrow{
+.arrow{content:'->';
 float:right; width:5%; font-size:1.2em;position: relative;
 top: 10px;}
 
-.postlist-item:hover .arrow{left:5px;}
+.postlist-item:hover .arrow{content:'-->';}
 
 a {
 	color: var(--blue);
