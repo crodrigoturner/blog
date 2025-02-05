@@ -246,6 +246,9 @@ blockquote,
 	padding:10px 0;
 }
 
+.postlist-item a::after{content:'->';
+float:right; position:relative; top:-2px; font-size:1.2em; opacity:0.5;}
+
 a {
 	color: var(--blue);
 	text-decoration: none;
