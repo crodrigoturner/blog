@@ -155,12 +155,7 @@ h1 a {
 	font:600 0px/1.5  "Inter", sans-serif;
 }
 
-h1 a:hover{content:'<- Home';width: 100px;
-	height: 100px;
-	border-radius: 50%;
-background:#FFF;
-font:600 1.5em/1.5  "Inter", sans-serif;
-float:left;}
+h1 a:hover{opacity:.7;}
 
 h2 {
 	font: 600 3.1em/1.5 "Piazzolla", sans-serif;
