@@ -18,7 +18,7 @@ title: Work
 
 
 <details>
-  <summary>Work values</summary>
+  <summary><h5>Work values</h5></summary>
 
 My philosophy and values at work are the following:
 
@@ -30,7 +30,7 @@ My philosophy and values at work are the following:
 </details>
 
 <details>
-  <summary> What I do best</summary>
+  <summary><h5> What I do best</h5></summary>
 <ul class="col-2">
 <li>Understanding of data</li>
 <li>Analytical skills</li>
@@ -72,7 +72,7 @@ My philosophy and values at work are the following:
 </details>
 
 <details>
-  <summary>How I work</summary>
+  <summary><h5>How I work</h5></summary>
 
 I believe everyone should state how to work and share it with co-workers and stakeholders.
 
