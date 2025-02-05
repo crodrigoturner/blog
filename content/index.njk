@@ -49,11 +49,10 @@ document.write(
 {% set postslist = collections.posts %}
 {%- for post in postslist | reverse %}
 <li class="postlist-item {{post.data.category}}" data-filter="{{post.data.category}}">
-<a href="{{ post.url }}"> 
+<a href="{{ post.url }}"> <span class="post-info">
 <h5>{{ post.data.title }}</h5>
-<p class="excerpt">{{post.data.excerpt}}</p>
-
-
+<p class="excerpt">{{post.data.excerpt}}</p></span>
+<span class="arrow">-></a>
 </a>
 {%- endfor %}
 </ul>

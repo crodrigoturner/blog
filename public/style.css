@@ -245,9 +245,10 @@ blockquote,
 	float:left; width:100%;border-bottom: 1px solid var(--soft-grey);
 	padding:10px 0;
 }
+.post-info{width:95%; float:left;}
 
-.postlist-item a::after{content:'->';
-float:right; position:relative; top:-2px; font-size:1.2em; opacity:0.5;}
+.arrow{
+float:right; width:5%; font-size:1.2em; opacity:0.5;}
 
 a {
 	color: var(--blue);
