@@ -248,7 +248,10 @@ blockquote,
 .post-info{width:95%; float:left;}
 
 .arrow{
-float:right; width:5%; font-size:1.2em;}
+float:right; width:5%; font-size:1.2em;position: relative;
+top: 10px;}
+
+.postlist-item:hover .arrow{left:5px;}
 
 a {
 	color: var(--blue);
