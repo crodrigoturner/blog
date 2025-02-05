@@ -410,7 +410,7 @@ li, .nav-pages {
 
 
 details{float:left; width:100%;border-bottom: 1px solid var(--soft-grey);}
-details[open]{margin:0px 0 20px;}
+details[open]{margin:0px 0 20px;padding:0 0 20px;}
 
 details[open] summary ~ * {
 	animation: open 0.3s ease-in-out;
