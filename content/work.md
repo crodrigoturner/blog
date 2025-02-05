@@ -5,7 +5,7 @@ title: Work
 
 ## Work
 <details>
-  <summary>Where I've been</summary>
+  <summary><h5>Where I've been</h5></summary>
 <ul>
 <li><p><b>2015-Now › Técnica y Avance</b > -> Sparepart co-manager</p></li>
 <li><p><b>2014-2015 › Repsol</b > -> International lubricant sales department. Backoffice.</p></li>
