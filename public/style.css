@@ -243,12 +243,12 @@ blockquote,
 
 .postlist-item, .nav-pages li  {
 	float:left; width:100%;border-bottom: 1px solid var(--soft-grey);
-	padding:10px 0;
+	padding:5px 0;
 }
 .post-info{width:95%; float:left;}
 
 .arrow{
-float:right; width:5%; font-size:1.2em; opacity:0.5;}
+float:right; width:5%; font-size:1.2em;}
 
 a {
 	color: var(--blue);
