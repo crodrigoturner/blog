@@ -241,11 +241,9 @@ blockquote,
 	color: var(--black);
 }
 
-.postlist-item, .nav-pages li {
-	margin: 0 10px 10px 0;
-
-	width: calc(50% - 20px);
-	float: left;
+.postlist-item, .nav-pages li  {
+	float:left; width:100%;border-bottom: 1px solid var(--soft-grey);
+	padding:10px 0;
 }
 
 a {
