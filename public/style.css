@@ -232,7 +232,7 @@ blockquote,
 	border-bottom: 1px solid var(--soft-grey);
 	padding: 5px 0;
 }
-.postlist-item h4 {
+.post-info {
 	width: 95%;
 	float: left;
 }
