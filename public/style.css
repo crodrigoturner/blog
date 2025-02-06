@@ -451,7 +451,7 @@ details[open] summary ~ * {
 	margin-top: 0.75rem;
 	right: 0;
 	width:5%;
-	font-weight: 200;
+
 	transform-origin: center;
 	transition: 200ms linear;
   }
@@ -539,9 +539,9 @@ input {
 		background: #fff;
 		z-index: 9999;
 		border: 1px solid #e0e0e0;
-		padding: 3px 20px 10px;
+		padding: 3px 0px 10px;
 		margin: 10px 0 0 0;
-		font-size:1.2em;
+	font-weight:500;
 
 	}
 
@@ -586,6 +586,6 @@ input {
 	article,
 	.postlist-item {
 		float: left;
-		width: calc(100% - 40px);
+		width: 100%;
 	}
 }
