@@ -16,5 +16,3 @@ I live in Madrid with Mar, Lucas, Nicolás and <a href="/blog/pancho.md">Pancho<
 ### Contact
 
 <p id="contact"><a href="mailto:rodrigoturner.carlos@gmail.com">Send me an email -></a></p>
-
-Though I have accounts in different platforms, email is always best.
