@@ -264,6 +264,9 @@ a:hover {
 	background: none;
 }
 
+.postlist-item a,
+.nav-pages li a{color:var(--black);}
+
 .posts,
 .nav-pages {
 	margin: 10px 0;
