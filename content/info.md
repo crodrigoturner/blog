@@ -3,7 +3,7 @@ layout: layouts/info.njk
 title: Info
 ---
 
-#### About me
+### About me
 
 My full name is Carlos Roberto Rodrigo Turner
 
@@ -13,7 +13,7 @@ I have worked in architecture studios, big energy companies, luxury brands, and 
 
 I live in Madrid with Mar, Lucas, Nicolás and <a href="/blog/pancho.md">Pancho</a>.
 
-#### Contact
+### Contact
 
 <p id="contact"><a href="mailto:rodrigoturner.carlos@gmail.com">Send me an email -></a></p>
 

@@ -5,7 +5,7 @@ title: Work
 
 ## Work
 <details>
-  <summary><h5>Where I've been</h5></summary>
+  <summary><h4>Where I've been</h4></summary>
 <ul>
 <li><p><b>2015-Now › Técnica y Avance</b > -> Sparepart co-manager</p></li>
 <li><p><b>2014-2015 › Repsol</b > -> International lubricant sales department. Backoffice.</p></li>
@@ -18,7 +18,7 @@ title: Work
 
 
 <details>
-  <summary><h5>Work values</h5></summary>
+  <summary><h4>Work values</h4></summary>
 
 My philosophy and values at work are the following:
 
@@ -30,7 +30,7 @@ My philosophy and values at work are the following:
 </details>
 
 <details>
-  <summary><h5> What I do best</h5></summary>
+  <summary><h4> What I do best</h4></summary>
 <ul class="col-2">
 <li>Understanding of data</li>
 <li>Analytical skills</li>
@@ -72,7 +72,7 @@ My philosophy and values at work are the following:
 </details>
 
 <details>
-  <summary><h5>How I work</h5></summary>
+  <summary><h4>How I work</h4></summary>
 
 I believe everyone should state how to work and share it with co-workers and stakeholders.
 
