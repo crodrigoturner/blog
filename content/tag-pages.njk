@@ -23,8 +23,11 @@ const eleventyComputed = {
 {% set postslist = collections[ tag ] %}
 <ul>
 	{%- for post in postslist | reverse %}
-<li class="{% if post.url == url %} postlist-item-active{% endif %}">
-<a href="{{ post.url }}" class="title">{{ post.data.title }}</a>
-</li>
+<li class="postlist-item {{post.data.category}}" data-filter="{{post.data.category}}">
+<a href="{{ post.url }}"> <span class="post-info">
+<h4>{{ post.data.title }}</h4>
+<p class="excerpt">{{post.data.excerpt}}</p></span>
+<span class="arrow">-></a>
+</a>
 {%- endfor %}
 </ul>
