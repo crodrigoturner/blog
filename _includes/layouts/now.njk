@@ -6,7 +6,7 @@ layout: layouts/base.njk
 
 {{ content | safe }}
 
-<h4>Related notes</h4>
+<h3>Related notes</h3>
 <ul>
 {%- for Now in collections.Now -%}
 <li><a href="{{Now.url}}">{{ Now.data.title }}</a></li>

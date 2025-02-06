@@ -6,7 +6,7 @@ layout: layouts/base.njk
 
 {{ content | safe }}
 
-<h4>Related notes</h4>
+<h3>Related notes</h3>
 <ul>
 {%- for Uses in collections.Uses -%}
 <li><a href="{{Uses.url}}">{{ Uses.data.title }}</a></li>
