@@ -232,7 +232,7 @@ blockquote,
 	border-bottom: 1px solid var(--soft-grey);
 	padding: 5px 0;
 }
-.post-info {
+.postlist-item h4 {
 	width: 95%;
 	float: left;
 }
@@ -316,7 +316,7 @@ h3 a:hover {
 	background: none;
 	cursor: pointer;
 	border: none;
-	opacity: 0.3;
+	opacity: 0.6;
 	text-transform: uppercase;
 }
 
