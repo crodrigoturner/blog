@@ -131,15 +131,15 @@ h1 a:hover {
 }
 
 h2 {
-	font: 300 1.7em / 1 "Plus Jakarta Sans", sans-serif;
+	font: 800 1.7em / 1 "Plus Jakarta Sans", sans-serif;
     text-align: left;
     float: left;
     width: calc(100% - 20px);
-    color: var(--black);
+    color: #BF360C;
     margin: 30px 0;
     background: var(--yellow);
-	background:url(/img/astronaut_bg.png);
-    padding: 10px 20px;
+    background: url(/img/astronaut_bg.png);
+    padding: 160px 20px 10px;
     position: relative;
     left: -20px;
 
