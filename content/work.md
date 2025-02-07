@@ -4,8 +4,8 @@ title: Work
 ---
 
 ## Work
-<details>
-  <summary><h4>Where I've been</h4></summary>
+
+<h4>Where I've been</h4>
 <ul>
 <li><p><b>2015-Now › Técnica y Avance</b > -> Sparepart co-manager</p></li>
 <li><p><b>2014-2015 › Repsol</b > -> International lubricant sales department. Backoffice.</p></li>
@@ -14,11 +14,8 @@ title: Work
 <li><p><b>2011-2011 › JMJ</b > -> Lodging manager during the Pope's visit in 2011.</p>
 </li>
 </ul>
-</details>
 
-
-<details>
-  <summary><h4>Work values</h4></summary>
+<h4>Work values</h4>
 
 My philosophy and values at work are the following:
 
@@ -26,11 +23,7 @@ My philosophy and values at work are the following:
 <b>Solutions </b > -> I find solutions, I fix problems.
 <b>Communicate early and often</b > -> My stakeholders and collaborators should know what’s going on continuously.
 <b>Nothing is “not my job”</b > -> If I see a pressing problem, I gather context and fix it.
-
-</details>
-
-<details>
-  <summary><h4> What I do best</h4></summary>
+<h4> What I do best</h4>
 <ul class="col-2">
 <li>Understanding of data</li>
 <li>Analytical skills</li>
@@ -69,10 +62,7 @@ My philosophy and values at work are the following:
 <li>Web development</li>
 <li>Web standards</li>
 </ul>
-</details>
-
-<details>
-  <summary><h4>How I work</h4></summary>
+<h4>How I work</h4>
 
 I believe everyone should state how to work and share it with co-workers and stakeholders.
 
@@ -81,6 +71,3 @@ I believe everyone should state how to work and share it with co-workers and sta
 3. If you need anything from me, please clearly let me know <strong>what is needed and when.</strong>
 4. I prefer meetings after 10 am, and before 16 pm.
 5. My time zone is GMT+2.(Madrid, Spain)
-
-
-</details>
