@@ -1,6 +1,7 @@
 ---
 layout: layouts/base.njk
 title: Work
+tags: work
 ---
 
 ## Work
