@@ -14,7 +14,7 @@ html {
 }
 
 body {
-	font: 300 17px/1.6 "Inter", sans-serif;
+	font: 300 16px/1.6 "Inter", sans-serif;
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
 	color: var(--black);
@@ -138,7 +138,7 @@ h2 {
     width: calc(100% - 20px);
     color: var(--black);
     margin: 30px 0;
-    background: #FFEB3B;
+    background: #fdd835;
     padding: 10px 20px;
     position: relative;
     left: -20px;
