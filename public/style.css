@@ -221,7 +221,7 @@ blockquote,
 	position: relative;
 	top: 7px;
 	text-align:right;
-	font-family:'Inter;'
+	font-family:'Inter';
 }
 
 .postlist-item:hover .arrow,
@@ -250,7 +250,7 @@ a:hover {
 	width: 100%;
 }
 
-.posts a, .nav-pages li a {
+.postlist-item, .posts a, .nav-pages li a {
 	border: none;
 	box-shadow: none;
 	width: 100%;
