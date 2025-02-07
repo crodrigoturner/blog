@@ -231,9 +231,9 @@ blockquote,
 }
 
 a {
-	color: var(--blue);
+	color: var(--black);
 	text-decoration: none;
-	border-bottom: 1px solid #e0e0e0;
+	border-bottom: 1px solid var(--soft-grey);
 }
 
 a:hover {
