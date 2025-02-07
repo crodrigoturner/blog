@@ -220,7 +220,8 @@ blockquote,
 	font-size: 1.2em;
 	position: relative;
 	top: 7px;
-	text-align:right
+	text-align:right;
+	font-family:'Inter;'
 }
 
 .postlist-item:hover .arrow,
@@ -380,58 +381,6 @@ li,
 	width: 100%;
 }
 
-details {
-	float: left;
-	width: 100%;
-	border-bottom: 1px solid var(--soft-grey);
-}
-details[open] {
-	margin: 0px 0 20px;
-	padding: 0 0 20px;
-}
-
-details[open] summary ~ * {
-	animation: open 0.3s ease-in-out;
-}
-
-@keyframes open {
-	0% {
-		opacity: 0;
-	}
-	100% {
-		opacity: 1;
-	}
-}
-details summary::-webkit-details-marker {
-	display: none;
-}
-
-details summary {
-	width: 100%;
-	padding: 16.5px 0;
-	float: left;
-	position: relative;
-	cursor: pointer;
-	list-style: none;
-}
-
-details summary:after {
-	content: "↓";
-	color: black;
-	position: absolute;
-	font-size: 1.2em;
-	line-height: 0;
-	margin-top: 0.75rem;
-	right: 0;
-	width: 5%;
-
-	transform-origin: center;
-	transition: 200ms linear;
-}
-details[open] summary:after {
-	content: "↑";
-	font-size: 1.2em;
-}
 
 nav ul {
 	list-style-type: none;
