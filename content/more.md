@@ -1,7 +1,7 @@
 ---
 layout: layouts/base.njk
 title: More
-tags: more
+class: more
 ---
 
 ## More
