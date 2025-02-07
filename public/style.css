@@ -227,20 +227,24 @@ blockquote,
 
 .postlist-item,
 .nav-pages li {
-	float: left;
-	width: 100%;
-	border-bottom: 1px solid var(--soft-grey);
-	padding: 5px 0;
+		float: left;
+		width: calc(50% - 52px);
+		border: 1px solid var(--soft-grey);
+		padding: 5px 15px;
+		border-radius: 5px;
+		margin: 0 10px 10px;
+		box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
 }
+
 .post-info {
-	width: 95%;
+	width: 90%;
 	float: left;
 }
 
 .arrow {
 	content: "->";
 	float: right;
-	width: 5%;
+	width: 10%;
 	font-size: 1.2em;
 	position: relative;
 	top: 10px;
