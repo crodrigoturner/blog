@@ -137,13 +137,12 @@ h2 {
 	font: 300 1.7em / 1 "Inter", sans-serif;
     text-align: left;
     float: left;
-
+width:calc(100% - 40px);
     color: var(--black);
     margin: 30px 0;
     background: #FFEB3B;
     padding: 10px 20px;
-    position: relative;
-    left: -20px;
+
 }
 
 .intro{line-height:1.5em;}
