@@ -5,6 +5,7 @@
 	--soft-grey: #eceff1;
 	--red: #c85b60;
 	--white: #fff;
+	--ywllow: #fdd835;
 }
 
 html {
@@ -138,7 +139,7 @@ h2 {
     width: calc(100% - 20px);
     color: var(--black);
     margin: 30px 0;
-    background: #fdd835;
+    background: var(--yellow);
     padding: 10px 20px;
     position: relative;
     left: -20px;
@@ -233,7 +234,7 @@ blockquote,
 a {
 	color: var(--black);
 	text-decoration: none;
-	border-bottom: 1px solid var(--soft-grey);
+	border-bottom: 1px solid var(--yellow);
 }
 
 a:hover {
