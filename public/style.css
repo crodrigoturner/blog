@@ -225,16 +225,7 @@ blockquote,
 	color: var(--black);
 }
 
-.postlist-item,
-.nav-pages li {
-		float: left;
-		width: calc(50% - 52px);
-		border: 1px solid var(--soft-grey);
-		padding: 5px 15px;
-		border-radius: 5px;
-		margin: 0 10px 10px;
-		box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
-}
+
 
 .post-info {
 	width: 90%;
@@ -268,8 +259,6 @@ a:hover {
 	background: none;
 }
 
-.postlist-item a,
-.nav-pages li a{color:var(--black);}
 
 .posts,
 .nav-pages {
