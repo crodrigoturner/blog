@@ -5,7 +5,7 @@ title: Work
 
 ## Work
 
-<h4>Where I've been</h4>
+<h3>Where I've been</h3>
 <ul>
 <li><p><b>2015-Now › Técnica y Avance</b > -> Sparepart co-manager</p></li>
 <li><p><b>2014-2015 › Repsol</b > -> International lubricant sales department. Backoffice.</p></li>
@@ -15,7 +15,7 @@ title: Work
 </li>
 </ul>
 
-<h4>Work values</h4>
+<h3>Work values</h3>
 
 My philosophy and values at work are the following:
 
@@ -23,7 +23,7 @@ My philosophy and values at work are the following:
 <b>Solutions </b > -> I find solutions, I fix problems.
 <b>Communicate early and often</b > -> My stakeholders and collaborators should know what’s going on continuously.
 <b>Nothing is “not my job”</b > -> If I see a pressing problem, I gather context and fix it.
-<h4> What I do best</h4>
+<h3> What I do best</h3>
 <ul class="col-2">
 <li>Understanding of data</li>
 <li>Analytical skills</li>
@@ -62,7 +62,7 @@ My philosophy and values at work are the following:
 <li>Web development</li>
 <li>Web standards</li>
 </ul>
-<h4>How I work</h4>
+<h3>How I work</h3>
 
 I believe everyone should state how to work and share it with co-workers and stakeholders.
 
