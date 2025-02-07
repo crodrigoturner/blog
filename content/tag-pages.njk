@@ -18,7 +18,7 @@ const eleventyComputed = {
 };
 ---
 
-<h2>{{ tag }} </h2>
+<h2><a href="/blog">Blog</a> -> {{ tag }} </h2>
 
 
 <div id="filters" class="button-group filters-button-group">  
@@ -30,7 +30,7 @@ const eleventyComputed = {
 </div>
 
 <div class="posts">
-{% set postslist = collections.posts %}
+{% set postslist = collections[ tag ] %}
 {%- for post in postslist | reverse %}
 <a href="{{ post.url }}" class="postlist-item">
 <span class="post-info">
