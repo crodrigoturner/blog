@@ -234,7 +234,7 @@ blockquote,
 a {
 	color: var(--black);
 	text-decoration: none;
-	border-bottom: 1px solid var(--yellow);
+	border-bottom: 1px solid var(--soft-grey);
 }
 
 a:hover {
@@ -265,8 +265,6 @@ a:hover {
 	float: left;
 	padding: 15px 0 0 0;
 }
-
-h3::before{content:''; float:left; position:relative; left:-20px; width:20%; height:2px; background:var(--yellow); margin:10px 0 0 0;}
 
 h3 a:hover {
 	color: var(--black);
