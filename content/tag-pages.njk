@@ -16,9 +16,10 @@ const eleventyComputed = {
 		return `/tag/${this.slugify(data.tag)}/`;
 	}
 };
+tags: blog
 ---
 
-<h2><a href="/blog">Blog</a> -> {{ tag }} </h2>
+<h2><a href="/blog">Blog</a> · {{ tag }} </h2>
 
 
 <div id="filters" class="button-group filters-button-group">  
