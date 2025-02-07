@@ -1,6 +1,7 @@
 ---
 layout: layouts/base.njk
 title: Info
+tags: info
 ---
 
 ## Info

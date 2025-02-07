@@ -147,7 +147,9 @@ h2 {
   }
 
   .work h2{   background: url(/img/work.png);}
-  
+  .info h2{   background: url(/img/about.png);}
+  .more h2{background: url(/img/sitemap.png);}
+  .blog h2{background: url(/img/contact.png);}
 .intro h2{line-height:1.5em;}
 
 h3 {
