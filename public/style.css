@@ -246,7 +246,7 @@ a:hover {
 
 
 .posts,
-.nav-pages {
+.nav-pages li {
 	margin: 10px 0;
 	float: left;
 	width: 100%;
