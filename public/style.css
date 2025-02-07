@@ -535,12 +535,7 @@ input {
 		line-height: 2;
 	}
 
-	article,
-	article.notes,
-	article.projects {
-		float: left;
-		width: 100%;
-	}
+
 
 	ul {
 		margin: 0;
