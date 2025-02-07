@@ -30,27 +30,8 @@ document.write(
 )
 </script></div>
 
-<div id="filters" class="button-group filters-button-group">  
-<button class="button is-checked" data-filter="*">All</button>
-{% for tag in collections | getKeys | filterTagList %}
-{% set tagUrl %}/tag/{{ tag | slugify }}/{% endset %}
-<button class="button" data-filter=".{{tag}}">{{ tag }}</button>
-{% endfor %}
-</div>
 
-<div class="posts">
-{% set postslist = collections.posts %}
-{%- for post in postslist | reverse %}
-<a href="{{ post.url }}" class="postlist-item {{post.data.category}}" data-filter="{{post.data.category}}">
-<span class="post-info">
-<h4>{{ post.data.title }}</h4>
-<p class="excerpt">{{post.data.excerpt}}</p>
-</span>
-<span class="arrow">-></span>
-</a>
-{%- endfor %}
-</div>
-
+<h3>Latest writing</h3>
 
 {% set postslist = collections.posts | head(-1 * numberOfLatestPostsToShow) %}
 {% set postslistCounter = postsCount %}
