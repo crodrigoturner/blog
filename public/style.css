@@ -149,13 +149,12 @@ h2 {
 .intro h2{line-height:1.5em;}
 
 h3 {
-	font: 400 0.9em / 1 "Inter", sans-serif;
+	font: 400 0.8em / 1 "Inter", sans-serif;
 	padding: 5px 0;
 	float: left;
 	width: 100%;
 	margin: 20px 0 5px;
-	color: #c85b60;
-	text-transform: uppercase;
+		text-transform: uppercase;
 }
 
 h4 {
