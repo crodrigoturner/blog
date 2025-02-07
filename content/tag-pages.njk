@@ -22,15 +22,15 @@ const eleventyComputed = {
 
 
 <div id="filters" class="button-group filters-button-group">  
-<button class="button is-checked" data-filter="*">All</button>
+<a class="button" data-filter=".{{tag}}" href="/blog/">All</a>
 {% for tag in collections | getKeys | filterTagList %}
 {% set tagUrl %}/tag/{{ tag | slugify }}/{% endset %}
-<button class="button" data-filter=".{{tag}}">{{ tag }}</button>
+<a class="button" data-filter=".{{tag}}" href="/tag/{{tag}}">{{ tag }}</a>
 {% endfor %}
 </div>
 
 <div class="posts">
-{% set postslist = collections[ tag ] %}
+{% set postslist = collections.posts %}
 {%- for post in postslist | reverse %}
 <a href="{{ post.url }}" class="postlist-item">
 <span class="post-info">

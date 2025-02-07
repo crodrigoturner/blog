@@ -5,10 +5,9 @@ layout: layouts/base.njk
 
 <div id="filters" class="button-group filters-button-group">  
 <a class="button" data-filter=".{{tag}}" href="/blog/">All</a>
-<button class="button is-checked" data-filter="*">All</button>
 {% for tag in collections | getKeys | filterTagList %}
 {% set tagUrl %}/tag/{{ tag | slugify }}/{% endset %}
-<a class="button" data-filter=".{{tag}}" href="/tags/{{tag}}">{{ tag }}</a>
+<a class="button" data-filter=".{{tag}}" href="/tag/{{tag}}">{{ tag }}</a>
 {% endfor %}
 </div>
 

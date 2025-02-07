@@ -3,6 +3,8 @@ layout: layouts/base.njk
 title: Info
 ---
 
+## Info
+
 My full name is Carlos Roberto Rodrigo Turner
 
 I'm a data specialist with 7+ years of experience in leveraging data to drive businesses forward. I am passionate about helping make data-driven decisions that lead to growth and success. 
