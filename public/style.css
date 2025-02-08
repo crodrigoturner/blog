@@ -138,8 +138,8 @@ h2 {
     color: #BF360C;
     margin: 30px 0;
     background: var(--yellow);
-    background: url(/img/astronaut_bg.png);
-    padding: 160px 20px 10px;
+  
+    padding: 10px 20px 10px;
     position: relative;
     left: -20px;
 	border-radius:3px;
@@ -147,10 +147,6 @@ h2 {
 
   }
 
-  .work h2{   background: url(/img/work.png);}
-  .info h2{   background: url(/img/about.png);}
-  .more h2{background: url(/img/sitemap.png);}
-  .blog h2{background: url(/img/contact.png);}
 .intro h2{line-height:1.5em;}
 
 h3 {
