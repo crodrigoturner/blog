@@ -31,4 +31,5 @@ excerpt: These are the blogs that I frequently visit
 <li><a href="https://tania.dev/" target="_blank" rel="noopener">Tania Rascia</a></li>
 <li><a href="https://cassidoo.co/" target="_blank" rel="noopener">Cassidy Williams</a></li>
 <li><a href="https://maggieappleton.com/" target="_blank" rel="noopener">Maggie Appleton</a></li>
+<li><a href="https://alicebartlett.co.uk/" target="_blank" rel="noopener">Alice Bartlett</a></li>
 </ul>
