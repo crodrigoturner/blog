@@ -224,7 +224,7 @@ blockquote,
 }
 
 a {
-	color: var(--black);
+	color: var(--blue);
 	text-decoration: none;
 	border-bottom: 1px solid var(--soft-grey);
 }
