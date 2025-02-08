@@ -13,7 +13,7 @@ html {
 }
 
 body {
-	font: 300 16px/1.6 "Plus Jakarta Sans", sans-serif;
+	font: 400 16px/1.6 "Plus Jakarta Sans", sans-serif;
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
 	color: var(--black);
@@ -136,9 +136,7 @@ h2 {
     float: left;
     width: calc(100% - 20px);
     margin: 30px 0;
-    background: var(--yellow);
-  
-    padding: 10px 20px 10px;
+        padding: 10px 20px 10px;
     position: relative;
     left: -20px;
 	border-radius:3px;
