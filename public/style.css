@@ -223,7 +223,7 @@ a:hover {
 .cta{border:1px solid var(--blue); float:left; margin:30px 0; border-radius:5px; padding:10px 20px; font-family:'Inter';}
 .cta:hover{border:1px solid var(--blue);}
 
-.postlist-item, .posts a, .nav-pages li a {
+.postlist-item,.nav-pages li a {
 	border-top:1px solid var(--soft-grey);
 	box-shadow: none;
 	width: 100%;
@@ -247,13 +247,13 @@ border-bottom:none;
 .postlist-item::after {
 	content: '\2192';
 	float: right;
-	font: 400 1.2em/1.6 'Inter', sans-serif;
+	font: 400 1.5em/1.6 'Inter', sans-serif;
 }
 
 .postlist-item:hover::after,
 .nav-pages li:hover::after{
 	content:'\27F6';
-	font: 400 1.2em/1.6 'Inter', sans-serif;
+	font: 400 1.5em/1.6 'Inter', sans-serif;
 }
 
 
