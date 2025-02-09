@@ -214,7 +214,7 @@ blockquote,
 	float: left;
 }
 
-.arrow {
+.arrow, .postlist-item::after {
 	content: "\2192";
 	float: right;
 	
