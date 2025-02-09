@@ -210,7 +210,7 @@ blockquote,
 .arrow {
 	content: "->";
 	float: right;
-	width: 10%;
+	
 	font-size: 1.2em;
 	position: relative;
 	top: 3px;
@@ -251,7 +251,9 @@ a:hover {
 	float: left;
 }
 
-
+.postlist-item:hover, .posts a:hover, .nav-pages li:hover a {
+border-bottom:1px solid #EEE;
+}
 
 h3 a:hover {
 	color: var(--black);
