@@ -152,7 +152,7 @@ h3 {
 	font: 600 0.8em / 1 "Libre Franklin", sans-serif;
 		float: left;
 	width: 100%;
-	margin: 10px 0;
+	margin: 30px 0;
 		text-transform: uppercase;
 }
 
@@ -215,7 +215,7 @@ blockquote,
 }
 
 .arrow {
-	content: "→";
+	content: "\2192";
 	float: right;
 	
 	font-size: 1.2em;
@@ -228,7 +228,7 @@ blockquote,
 .postlist-item:hover .arrow,
 .nav-pages li:hover .arrow {
 	right: 5px;
-	contant:'⟶';
+	contant:'\27F6';
 }
 
 a {
