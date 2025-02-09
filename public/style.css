@@ -245,9 +245,9 @@ border-bottom:none;
 }
 
 .postlist-item::after {
-	content: "\2192";
+	content: '\2192';
 	float: right;
-		font-size: 1.2em;
+	
 	position: relative;
 	top: 3px;
 	text-align:left;
