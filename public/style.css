@@ -214,21 +214,21 @@ blockquote,
 	float: left;
 }
 
-.arrow, .postlist-item::after {
+.postlist-item::after {
 	content: "\2192";
 	float: right;
-	
-	font-size: 1.2em;
+		font-size: 1.2em;
 	position: relative;
 	top: 3px;
 	text-align:left;
-	font-family:'Inter';
+	font-family:'Inter', sans-serif;
 }
 
 .postlist-item:hover::after,
 .nav-pages li:hover .arrow {
 	right: 5px;
 	content:'\27F6';
+	font-family:'Inter', sans-serif;
 }
 
 a {
@@ -244,7 +244,7 @@ a:hover {
 	background: none;
 }
 
-.cta{border:1px solid #EEE; float:left; margin:30px; border-radius:5px; padding:10px 20px; font-family:Inter;}
+.cta{border:1px solid #EEE; float:left; margin:30px; border-radius:5px; padding:10px 20px; font-family:'Inter';}
 
 .postlist-item, .posts a, .nav-pages li a {
 	border-top:1px solid #EEE;
