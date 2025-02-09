@@ -209,10 +209,9 @@ blockquote,
 
 
 
-.post-info {
-	width: 90%;
-	float: left;
-}
+.postlist-item{font: 400 15px/1.6 "Libre Franklin", sans-serif;}
+
+
 
 .postlist-item::after {
 	content: "\2192";
@@ -221,14 +220,13 @@ blockquote,
 	position: relative;
 	top: 3px;
 	text-align:left;
-	font-family:'Inter', sans-serif  !important;
+	font: 400 15px/1.6 "Inter", sans-serif;
 }
 
 .postlist-item:hover::after,
 .nav-pages li:hover .arrow {
-	
-	content:'\27F6';
-	font-family:'Inter', sans-serif !important;
+	content:'\1F852';
+	font: 400 15px/1.6 "Inter", sans-serif;
 }
 
 a {
@@ -248,7 +246,7 @@ a:hover {
 .cta:hover{border:1px solid var(--blue);}
 
 .postlist-item, .posts a, .nav-pages li a {
-	border-top:1px solid #EEE;
+	border-top:1px solid var(--soft-grey);
 	box-shadow: none;
 	width: 100%;
 	float: left;
@@ -256,7 +254,7 @@ a:hover {
 }
 
 .postlist-item:hover, .posts a:hover, .nav-pages li:hover a {
-border-top:1px solid #EEE;
+border-top:1px solid var(--soft-grey);
 border-bottom:none;
 }
 

@@ -1,8 +1,5 @@
 {%- for post in postslist | reverse %}
 <a href="{{ post.url }}" class="postlist-item">
-<span class="post-info">
-<p>{{ post.data.title }}</p>
-</span>
-<span class="arrow"></span>
+{{ post.data.title }}
 </a>
 {%- endfor %}
