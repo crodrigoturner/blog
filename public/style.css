@@ -225,10 +225,10 @@ blockquote,
 	font-family:'Inter';
 }
 
-.postlist-item:hover .arrow,
+.postlist-item:hover::after,
 .nav-pages li:hover .arrow {
 	right: 5px;
-	contant:'\27F6';
+	content:'\27F6';
 }
 
 a {
@@ -244,6 +244,7 @@ a:hover {
 	background: none;
 }
 
+.cta{border:1px solid #EEE; border-radius:5px; padding:10px 20px; font-family:Inter;}
 
 .postlist-item, .posts a, .nav-pages li a {
 	border-top:1px solid #EEE;
