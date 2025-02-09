@@ -1,40 +1,7 @@
 ---js
-const numberOfLatestPostsToShow = 5;
+const numberOfLatestPostsToShow = 1000;
 ---
-<div class="intro"><h2>
-<script>
-currentTime=new Date();
-//getHour() function will retrieve the hour from current time
-if(currentTime.getHours()<13)
-document.write("Good morning! ");
-else if(currentTime.getHours()<17)
-document.write("Good afternoon! ");
-else if(currentTime.getHours()<20)
-document.write("Good evening! ");
-else if(currentTime.getHours()<6)
-document.write("Good night! ");
-else 
-document.write("Good night! ");
-var weekday = new Array(7)
-weekday[0] = " Sunday"
-weekday[1] = " Monday"
-weekday[2] = " Tuesday"
-weekday[3] = " Wednesday"
-weekday[4] = " Thursday"
-weekday[5] = " Friday"
-weekday[6] = " Saturday"
-var currentDate = new Date()
-weekdayValue = currentDate.getDay()
-document.write(
- "I'm Carlos, this is my home on the Internet. I hope you're having a great " + weekday[weekdayValue] + ".</h2>"
-)
-</script></div>
 
-<h3>What's new</h3>
-
-- I've been playing with this website, trying to make it modern, and simple, and functional, and good-looking, and responsive...</br>
-- Watching Year of the Rabbit (really enjoy Matt Berry)   </br>
-- Listening to <em>the girl with the spider's web</em> for the nth time   </br>
 
 <h3>Latest writing</h3>
 

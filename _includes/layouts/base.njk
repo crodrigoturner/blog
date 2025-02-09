@@ -21,7 +21,7 @@
 </header>
 <nav>
 <ul>
-<li><a href="/" class="{% if page.url == '/' %} active{% endif %}">Home</a></li>
+<li><a href="/" class="{% if page.url == '/' %} active{% endif %}"><-</a></li>
 <li><a href="/info/" class="{% if page.url == '/info/' %} active{% endif %}">Info</a></li>
 <li><a href="/blog/" class="{% if page.url == '/blog/' %} active{% endif %}">Blog</a></li>
 <li><a href="/work/" class="{% if page.url == '/work/' %} active{% endif %}">Work</a></li>
@@ -31,6 +31,36 @@
 <main>
 {{ content | safe }}
 </main>
+<footer>
+<p>
+<script>
+currentTime=new Date();
+//getHour() function will retrieve the hour from current time
+if(currentTime.getHours()<13)
+document.write("Good morning! ");
+else if(currentTime.getHours()<17)
+document.write("Good afternoon! ");
+else if(currentTime.getHours()<20)
+document.write("Good evening! ");
+else if(currentTime.getHours()<6)
+document.write("Good night! ");
+else 
+document.write("Good night! ");
+var weekday = new Array(7)
+weekday[0] = " Sunday"
+weekday[1] = " Monday"
+weekday[2] = " Tuesday"
+weekday[3] = " Wednesday"
+weekday[4] = " Thursday"
+weekday[5] = " Friday"
+weekday[6] = " Saturday"
+var currentDate = new Date()
+weekdayValue = currentDate.getDay()
+document.write(
+ "I hope you're having a great " + weekday[weekdayValue] + ". This too shall pass."
+)
+</script></p>
+</footer>
 <script type="module" src="{% getBundleFileUrl "js" %}"></script>
 </body>
 </html>

@@ -30,14 +30,11 @@ Isotope from David DeSandro for filtering the blog.
 
 [*Inter*](https://fonts.google.com/specimen/Inter) by Rasmus Andersson
 
-*[Piazzolla](https://fonts.google.com/specimen/Piazzolla)* by Huerta tipográfica. 
-
 ### Colours
 
-<span class="square" style="background:var(--red);"></span> #C85B60   
 <span class="square" style="background:var(--black);"></span> #2b2b2b   
-<span class="square" style="background:var(--blue);"></span> #01579B  
-<span class="square" style="background:var(--soft-grey);"></span> #ECEFF1    
+<span class="square" style="background:var(--blue);"></span> #01579B   
+<span class="square" style="background:var(--soft-grey);"></span> #ECEFF1   
 <span class="square" style="background:var(--grey);"></span> #48575e   
 
 

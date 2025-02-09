@@ -76,7 +76,7 @@ main {
 	margin: 0 0 -100px;
 }
 
-
+footer{width:30%; posisition:fixed; bottom:0; left:0; font:300 .9em /1.8 "Plus Jakarta Sans", sans-serif; color:var(--grey);}
 
 
 
@@ -142,7 +142,7 @@ h2 {
 .intro h2{line-height:1.5em;}
 
 h3 {
-	font: 400 0.8em / 1 "Plus Jakarta Sans", sans-serif;
+	font: 600 0.8em / 1 "Plus Jakarta Sans", sans-serif;
 		float: left;
 	width: 100%;
 	margin: 30px 0;
@@ -213,7 +213,7 @@ blockquote,
 	width: 10%;
 	font-size: 1.2em;
 	position: relative;
-	top: 7px;
+	top: 3px;
 	text-align:right;
 	font-family:'Inter';
 }
