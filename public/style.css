@@ -236,6 +236,19 @@ a:hover {
 }
 
 
+.postlist-item, .posts a, .nav-pages li a {
+	border-top:1px solid #EEE;
+	box-shadow: none;
+	width: 100%;
+	float: left;
+	border-bottom:none;
+}
+
+.postlist-item:hover, .posts a:hover, .nav-pages li:hover a {
+border-top:1px solid #EEE;
+border-bottom:none;
+}
+
 .posts,
 .nav-pages {
 	margin: 10px 0;
@@ -243,22 +256,8 @@ a:hover {
 	width: 100%;
 }
 
-.postlist-item, .posts a, .nav-pages li a {
-	border-bottom:1px solid #EEE;
-	box-shadow: none;
-	width: 100%;
-	float: left;
-}
 
-.postlist-item:hover, .posts a:hover, .nav-pages li:hover a {
-border-bottom:1px solid #EEE;
-}
 
-h3 a:hover {
-	color: var(--black);
-	opacity: 0.75;
-	margin: 10px 0px;
-}
 
 .description,
 .small,
