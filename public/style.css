@@ -76,7 +76,15 @@ main {
 	margin: 0 0 -100px;
 }
 
-footer{width:30%; position:fixed; bottom:0; left:0; font:300 .9em/1.8 "Libre Franklin", sans-serif; color:var(--grey); padding:20px 30px;}
+footer{width: 30%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    font: 500 .9em / 1.8 "Libre Franklin", sans-serif;
+    color: var(--black);
+    opacity: .6;
+	padding: 20px 30px;
+}
 
 
 
@@ -207,7 +215,7 @@ blockquote,
 }
 
 .arrow {
-	content: "->";
+	content: "→";
 	float: right;
 	
 	font-size: 1.2em;
@@ -219,7 +227,8 @@ blockquote,
 
 .postlist-item:hover .arrow,
 .nav-pages li:hover .arrow {
-	left: 5px;
+	right: 5px;
+	contant:'⟶';
 }
 
 a {
