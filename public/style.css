@@ -244,8 +244,6 @@ border-bottom:none;
 	width: 100%;
 }
 
-
-
 .postlist-item::after {
 	content: "\2192";
 	float: right;
@@ -253,13 +251,13 @@ border-bottom:none;
 	position: relative;
 	top: 3px;
 	text-align:left;
-	font: 400 15px/1.6 "Inter", sans-serif;
+	font: 400 1.2em/1.6 "Inter", sans-serif;
 }
 
 .postlist-item:hover::after,
-.nav-pages li:hover .arrow {
+.nav-pages li:hover::after{
 	content:'\1F852';
-	font: 400 15px/1.6 "Inter", sans-serif;
+	font: 400 1.2em/1.6 "Inter", sans-serif;
 }
 
 
