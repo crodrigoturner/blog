@@ -76,7 +76,7 @@ main {
 	margin: 0 0 -100px;
 }
 
-footer{width:30%; posisition:fixed; bottom:0; left:0; font:300 .9em /1.8 "Plus Jakarta Sans", sans-serif; color:var(--grey);}
+footer{width:30%; posisition:fixed; bottom:0; left:0; font:300 .9em /1.8 "Plus Jakarta Sans", sans-serif; color:var(--grey); padding:20px 50px;}
 
 
 
@@ -214,13 +214,13 @@ blockquote,
 	font-size: 1.2em;
 	position: relative;
 	top: 3px;
-	text-align:right;
+	text-align:left;
 	font-family:'Inter';
 }
 
 .postlist-item:hover .arrow,
 .nav-pages li:hover .arrow {
-	right: 5px;
+	left: 5px;
 }
 
 a {

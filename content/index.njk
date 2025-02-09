@@ -2,9 +2,6 @@
 const numberOfLatestPostsToShow = 1000;
 ---
 
-
-<h3>Latest writing</h3>
-
 {% set postslist = collections.posts | head(-1 * numberOfLatestPostsToShow) %}
 {% set postslistCounter = postsCount %}
 {% include "postslist.njk" %}
