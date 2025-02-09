@@ -221,14 +221,14 @@ blockquote,
 	position: relative;
 	top: 3px;
 	text-align:left;
-	font-family:'Inter', sans-serif;
+	font-family:'Inter', sans-serif  !important;
 }
 
 .postlist-item:hover::after,
 .nav-pages li:hover .arrow {
-	right: 5px;
+	
 	content:'\27F6';
-	font-family:'Inter', sans-serif;
+	font-family:'Inter', sans-serif !important;
 }
 
 a {
