@@ -229,7 +229,7 @@ a:hover {
 	width: 100%;
 	float: left;
 	border-bottom:none;
-	font: 400 15px/2.5 "Inter", sans-serif;
+
 }
 
 .postlist-item:hover, .posts a:hover, .nav-pages li:hover a {
@@ -247,13 +247,13 @@ border-bottom:none;
 .postlist-item::after {
 	content: '->';
 	float: right;
-	font: 400 1.5em/1.6 'Inter', sans-serif;
+	font: 300 1.35em/1.6 'Inter', sans-serif;
 }
 
 .postlist-item:hover::after,
 .nav-pages li:hover::after{
 	content:'-->';
-	font: 400 1.5em/1.6 'Inter', sans-serif;
+	font: 300 1.35em/1.6 'Inter', sans-serif;
 }
 
 
