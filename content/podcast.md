@@ -1,4 +1,5 @@
 ---
+layout: layouts/base.njk
 title: El podcast de Carlos Rodrigo
 category: Projects
 tags: Projects

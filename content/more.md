@@ -15,3 +15,7 @@ class: more
 <a class="postlist-item" href="/now">Now</a>
 <a class="postlist-item" href="/uses">Uses</a>
 <a class="postlist-item" href="/feed/feed.xml">Feed</a>
+
+### PROJECTS
+<a class="postlist-item" href="/life">Life in squares</a>
+<a class="postlist-item" href="/podcast">Podcast</a>

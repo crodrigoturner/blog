@@ -1,4 +1,5 @@
 ---
+layout: layouts/base.njk
 title: Life in squares
 category: Projects
 tags: Projects
@@ -485,7 +486,7 @@ Each square is a month.
 <div class="sq alive" title="11/2024"></div>
 <div class="sq alive" title="12/2024"></div>
 <div class="sq alive" title="01/2025"></div>
-<div class="sq " title=""></div>
+<div class="sq alive" title="02/2025"></div>
 <div class="sq " title=""></div>
 <div class="sq " title=""></div>
 <div class="sq " title=""></div>
