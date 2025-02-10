@@ -252,7 +252,7 @@ border-bottom:none;
 
 .postlist-item:hover::after,
 .nav-pages li:hover::after{
-	content:'\27F6';
+	content:'-->';
 	font: 400 1.5em/1.6 'Inter', sans-serif;
 }
 
