@@ -248,13 +248,13 @@ border-bottom:none;
 .postlist-item::after {
 	content: '->';
 	float: right;
-	font: 300 1.35em/1.6 'Inter', sans-serif;
+	font: 300 1.2em/2.0833333 'Inter', sans-serif;
 }
 
 .postlist-item:hover::after,
 .nav-pages li:hover::after{
 	content:'-->';
-	font: 300 1.35em/1.6 'Inter', sans-serif;
+	font: 300 1.2em/2.0833333 'Inter', sans-serif;
 }
 
 
