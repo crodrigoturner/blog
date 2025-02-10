@@ -1,5 +1,6 @@
 ---js
 const numberOfLatestPostsToShow = 1000;
+title: Home
 ---
 
 {% set postslist = collections.posts | head(-1 * numberOfLatestPostsToShow) %}

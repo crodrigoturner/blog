@@ -5,7 +5,7 @@ class: more
 ---
 
 ## More
-<a class="postlist-item" href="/blog/">Blog / home</a>
+<a class="postlist-item" href="/">Blog / home</a>
 <a class="postlist-item" href="/info/">Info</a>
 <a class="postlist-item" href="/info/#contact">Contact</a>
 <a class="postlist-item" href="/colophon">Colophon</a>
