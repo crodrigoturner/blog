@@ -8,10 +8,10 @@ title: AI
 
 As of February 2025, here's how I use AI.
 
-I've used and will continue to use AI to create images, such as the one in the logo, created with Midjourney.
-I've used and will continue to use AI to spellcheck, i.e: Grammarly.
-I've used and will continue to use AI to assist my programming, i.e: Github Copilot in VSCode.
-I will use AI to clear my thoughts, learn about or research topics I am interested on, i.e: PI, Chatgpt, Claude, Gemini...
+1. I've used and will continue to use AI to create images, such as the one in the logo, created with Midjourney.
+2. I've used and will continue to use AI to spellcheck, i.e: Grammarly.
+3. I've used and will continue to use AI to assist my programming, i.e: Github Copilot in VSCode.
+4. I will use AI to clear my thoughts, learn about or research topics I am interested on, i.e: PI, Chatgpt, Claude, Gemini...    
 
 I share Hume's ideas that our ideas and concepts arise from the synthesis of items from our previous experiences:
 
