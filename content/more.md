@@ -13,6 +13,7 @@ class: more
 <a class="postlist-item" href="/work">Work</a>
 <a class="postlist-item" href="/now">Now</a>
 <a class="postlist-item" href="/uses">Uses</a>
+<a class="postlist-item" href="/ai">AI</a>
 <a class="postlist-item" href="/feed/feed.xml">Feed</a>
 
 ### PROJECTS
