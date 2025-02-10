@@ -229,7 +229,7 @@ a:hover {
 	width: 100%;
 	float: left;
 	border-bottom:none;
-	font: 400 15px/2.5 "Libre Franklin", sans-serif;
+	font: 400 15px/2.5 "Inter", sans-serif;
 }
 
 .postlist-item:hover, .posts a:hover, .nav-pages li:hover a {
