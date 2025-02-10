@@ -13,7 +13,7 @@ html {
 }
 
 body {
-	font: 400 15px/1.6 "Libre Franklin", sans-serif;
+	font: 400 15px/1.6 'Inter',"Libre Franklin", sans-serif;
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
 	color: var(--black);
