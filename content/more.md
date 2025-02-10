@@ -20,6 +20,6 @@ class: more
 <a class="postlist-item" href="/podcast">Podcast</a>
 
 ### LISTS
-<a class="postlist-item" href="/life">Favourite places</a>
+<a class="postlist-item" href="https://maps.app.goo.gl/b2qmfe9Q9S2GELv57">Favourite places</a>
 <a class="postlist-item" href="https://docs.google.com/spreadsheets/d/1c5oEbX0dEm2P6ZYOsotnEDncwUg4Jva1y1vjaHv_ikY/edit?usp=sharing">Watchlist</a>
 <a class="postlist-item" href="https://docs.google.com/spreadsheets/d/1Jtd3gT4gG6PQZb37tgnpJ4kcDENaWyuZjo0YFuAgbxU/edit?usp=sharing">Reading list</a>

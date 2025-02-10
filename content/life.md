@@ -6,6 +6,8 @@ tags: Projects
 excerpt: A timeline of events
 ---
 
+## Life in squares
+
 This is a timeline of the most important events I have experienced. 
 
 Each square is a month.
