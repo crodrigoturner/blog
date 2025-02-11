@@ -2,7 +2,7 @@
 const numberOfLatestPostsToShow = 1000;
 title: Home
 ---
-
+<h4>Thoughts, ideas, ramblings...</h4>
 {% set postslist = collections.posts | head(-1 * numberOfLatestPostsToShow) %}
 {% set postslistCounter = postsCount %}
 {% include "postslist.njk" %}
