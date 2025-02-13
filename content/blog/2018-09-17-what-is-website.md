@@ -2,7 +2,7 @@
 title: What is a website?
 category: Internet
 tags: 
-- Internet
+- internet
 excerpt: The internet is a book made of pages
 ---
 

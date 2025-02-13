@@ -3,10 +3,10 @@ const numberOfLatestPostsToShow = 1000;
 title: Home
 ---
 <div id="filters" class="button-group filters-button-group">  
-<a class="button" data-filter=".{{tag}}" href="/blog/">All</a>
+<a class="button" href="/blog/">All</a>
 {% for tag in collections | getKeys | filterTagList %}
 {% set tagUrl %}/tag/{{ tag | slugify }}/{% endset %}
-<a class="button" data-filter=".{{tag}}" href="/tag/{{tag}}">{{ tag }}</a>
+<a class="button {% if page.url == '/tag/{{tag}}' %} active{% endif %}" href="/tag/{{tag}}">{{ tag }}</a>
 {% endfor %}
 </div>
 
