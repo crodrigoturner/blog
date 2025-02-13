@@ -4,7 +4,7 @@ title: AI
 
 ---
 
-## How I use AI
+## AI
 
 As of February 2025, here's how I use AI.
 
