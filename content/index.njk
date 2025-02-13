@@ -2,7 +2,18 @@
 const numberOfLatestPostsToShow = 1000;
 title: Home
 ---
-<h4>Thoughts, ideas, ramblings...</h4>
-{% set postslist = collections.posts | head(-1 * numberOfLatestPostsToShow) %}
-{% set postslistCounter = postsCount %}
-{% include "postslist.njk" %}
+<div id="filters" class="button-group filters-button-group">  
+<a class="button" data-filter=".{{tag}}" href="/blog/">All</a>
+{% for tag in collections | getKeys | filterTagList %}
+{% set tagUrl %}/tag/{{ tag | slugify }}/{% endset %}
+<a class="button" data-filter=".{{tag}}" href="/tag/{{tag}}">{{ tag }}</a>
+{% endfor %}
+</div>
+
+
+{% set postslist = collections.posts %}
+{%- for post in postslist | reverse %}
+<a href="{{ post.url }}" class="postlist-item">
+{{ post.data.title }}
+</a>
+{%- endfor %}
