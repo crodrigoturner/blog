@@ -28,7 +28,9 @@ Isotope from David DeSandro for filtering the blog.
 
 ### Fonts
 
-[*Inter*](https://fonts.google.com/specimen/Inter) by Rasmus Andersson
+[Inter](https://fonts.google.com/specimen/Inter) by Rasmus Andersson
+
+[Libre Franklin](https://fonts.google.com/specimen/Libre+Franklin) by Impallari Type
 
 ### Colours
 
