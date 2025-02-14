@@ -15,6 +15,17 @@ title: Home
 {%- for post in postslist | reverse %}
 <a href="{{ post.url }}" class="postlist-item">
 {{ post.data.title }}
+   {% for tag in post.data.tags %}
+        {% if tag != "posts" %}
+
+          <a href="/tags/{{ tag }}" class="tag">
+            <div class="post-tag">{{ tag }}</div>
+          </a>
+
+        {% endif %}
+      {% endfor %}
+
+      {{ page.date | readableDate("dd.MM.yyyy") }}
 </a>
 {%- endfor %}
 </section>
