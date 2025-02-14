@@ -248,13 +248,11 @@ a:hover {
 
 .postlist-item,.nav-pages li a {
 	color:var(--black);
+	flex: 1;
 
 }
 
-.postlist-item:hover, .posts a:hover, .nav-pages li:hover a {
-border-top:1px solid var(--soft-grey);
-border-bottom:none;
-}
+
 
 .post-meta{opacity:.7; font-size:.8em; float:left;}
 
