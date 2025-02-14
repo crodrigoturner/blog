@@ -27,10 +27,18 @@ const eleventyComputed = {
 {% endfor %}
 </div>
 
+
+<section class="posts">
 {% set postslist = collections[ tag ] %}
 {%- for post in postslist | reverse %}
-
 <a href="{{ post.url }}" class="postlist-item">
-{{ post.data.title }}
+<h4>{{ post.data.title }}</h4>
+<p class="post-meta">{{ page.date | readableDate("dd.MM.yyyy") }} · 
+   {% for tag in post.data.tags %}
+        {% if tag != "posts" %}
+{{ tag }}
+{% endif %}
+      {% endfor %}</p>
 </a>
 {%- endfor %}
+</section>
