@@ -237,13 +237,13 @@ a:hover {
 .cta{border:1px solid var(--blue); float:left; margin:30px 0; border-radius:5px; padding:10px 20px; font-family:'Inter';}
 .cta:hover{border:1px solid var(--blue);}
 
+.posts{
+column-count: 2;
+column-gap: 40px;
+}
+
 .postlist-item,.nav-pages li a {
-	border-top:1px solid var(--soft-grey);
-	box-shadow: none;
-	width: 100%;
-	float: left;
-	border-bottom:none;
-	line-height:2.5;
+	color:var(--black);
 
 }
 
