@@ -1,5 +1,5 @@
 ---
-title: 2 podcasts and reading biographies
+title: 2 podcasts and biographies
 category: Intelligence
 tags:
 - Likes
