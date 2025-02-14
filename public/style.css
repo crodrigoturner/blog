@@ -205,22 +205,6 @@ blockquote,
 	font-style: italic;
 }
 
-
-article p:last-of-type:after {
-    content: "■";
-    float: right;
-    margin-top: 5px;
-    margin-left: calc(var(--spacing)* 1);
-    vertical-align: middle;
-    font-size: var(--text-lg);
-    line-height: var(--tw-leading, var(--text-lg--line-height));
-    font-size: 80%;
-    display: inline-block;
-    font-family: var(--font-default) !important;
-    font-feature-settings: var(--font-default--font-feature-settings) !important;
-}
-
-
 a {
 	color: var(--blue);
 	text-decoration: none;
@@ -237,18 +221,11 @@ a:hover {
 .cta{border:1px solid var(--blue); float:left; margin:30px 0; border-radius:5px; padding:10px 20px; font-family:'Inter';}
 .cta:hover{border:1px solid var(--blue);}
 
-.posts{
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	align-items: normal;
-	align-content: normal;
-}
-
 .postlist-item,.nav-pages li a {
 	color:var(--black);
-	flex: 1;
+	float:left;
+	width:48%;	
+	margin:0 1% 0 0;
 
 }
 
