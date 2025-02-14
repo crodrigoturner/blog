@@ -15,7 +15,7 @@ title: Home
 {%- for post in postslist | reverse %}
 <a href="{{ post.url }}" class="postlist-item">
 <h4>{{ post.data.title }}</h4>
-<p class="post-meta">{{ page.date | readableDate("dd.MM.yyyy") }} · 
+<p class="post-meta">{{ post.date | readableDate("dd.MM.yyyy") }} · 
    {% for tag in post.data.tags %}
         {% if tag != "posts" %}
 {{ tag }}
