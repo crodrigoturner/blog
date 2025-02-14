@@ -15,7 +15,7 @@ title: Home
 {%- for post in postslist | reverse %}
 <a href="{{ post.url }}" class="postlist-item">
 <h4>{{ post.data.title }}</h4>
-<span class="post-meta">
+<p class="post-meta">
    {% for tag in post.data.tags %}
         {% if tag != "posts" %}
 {{ tag }}
@@ -24,7 +24,7 @@ title: Home
       {% endfor %}
 
       {{ page.date | readableDate("dd.MM.yyyy") }}
-      </span>
+      </p>
 </a>
 {%- endfor %}
 </section>
