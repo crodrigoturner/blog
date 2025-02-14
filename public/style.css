@@ -252,6 +252,8 @@ border-top:1px solid var(--soft-grey);
 border-bottom:none;
 }
 
+.post-meta{opacity:.7; font-size:.8em; float:left;}
+
 .posts,
 .nav-pages {
 	margin: 10px 0;
