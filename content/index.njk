@@ -19,11 +19,10 @@ title: Home
    {% for tag in post.data.tags %}
         {% if tag != "posts" %}
 {{ tag }}
-
-        {% endif %}
+{% endif %}
       {% endfor %}
 
-      {{ page.date | readableDate("dd.MM.yyyy") }}
+     · {{ page.date | readableDate("dd.MM.yyyy") }}
       </p>
 </a>
 {%- endfor %}
