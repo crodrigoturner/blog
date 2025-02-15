@@ -68,8 +68,8 @@ nav a:hover, .active{
 
 
 main {
-	padding: 30px 27.5% 50px;
-	width: 45%;
+	padding: 30px 25% 50px;
+	width: 50%;
 	float: left;
 	min-height: 100%;
 	z-index: 10;
@@ -222,7 +222,8 @@ a:hover {
 .cta:hover{border:1px solid var(--blue);}
 
 .posts, .more{  display: grid;
-	grid-auto-columns: auto;width:100%;
+	grid:auto / auto auto auto;
+	width:100%;
 column-gap:20px;}
 
 .postlist-item,.more article {
