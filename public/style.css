@@ -467,7 +467,7 @@ input {
 	}
 
 	nav li {
-		width: 25%;
+		width: 33.3333%;
 		float: left;
 		padding: 10px 0;
 		text-align: center;
@@ -486,9 +486,15 @@ input {
 		line-height: 2;
 	}
 
-	footer {
-		display: none;
-	}
+
+
+	.posts,
+footer section{
+	display: grid;
+	grid: auto / 100%;
+	grid-gap: 2%;
+	width: 100%;
+}
 
 	ul {
 		margin: 0;
