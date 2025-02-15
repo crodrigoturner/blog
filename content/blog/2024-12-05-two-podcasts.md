@@ -1,6 +1,7 @@
 ---
 title: 2 podcasts and biographies
 category: Intelligence
+cover: /img/pancho.jpg
 tags:
 - Likes
 excerpt: Getting inspiration from the lives of others
