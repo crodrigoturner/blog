@@ -68,8 +68,8 @@ nav a:hover, .active{
 
 
 main {
-	padding: 30px 30% 50px;
-	width: 40%;
+	padding: 30px 27.5% 50px;
+	width: 45%;
 	float: left;
 	min-height: 100%;
 	z-index: 10;
@@ -139,7 +139,7 @@ h1 a:hover {
 }
 
 h2 {
-	font: 600 1.7em / 1 "Libre Franklin", sans-serif;
+	font: 800 2.5em / 1 "Libre Franklin", sans-serif;
     text-align: left;
     float: left;
     max-width: 33.3333%;
