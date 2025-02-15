@@ -447,13 +447,14 @@ input {
 	}
 
 	header {
-		display: none;
+float:left;
+border-bottom:1px solid #607d8b1f;
+
 	}
 
 	h1 {
 		position: relative;
-		top: 20px;
-		left: calc(50% - 50px);
+	font-size:1px;
 	}
 
 	h1 img {
@@ -463,9 +464,7 @@ input {
 
 	nav {
 		float: left;
-		position: fixed;
-		top: 93dvh;
-		left: 0px;
+		
 		width: 100%;
 		font-size: 1em;
 		background: #fff;
