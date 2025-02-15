@@ -222,7 +222,7 @@ a:hover {
 .cta:hover{border:1px solid var(--blue);}
 
 .posts, .more{  display: grid;
-	grid-template-columns: auto auto auto;width:100%;
+	grid-auto-columns: auto;width:100%;
 column-gap:20px;}
 
 .postlist-item,.more article {
