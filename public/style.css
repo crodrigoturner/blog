@@ -148,7 +148,7 @@ h3 {
 }
 
 h4 {
-	font: 600 1.5em/2 'Piazzolla',"Libre Franklin", sans-serif;
+	font: 600 1.3em/2 'Piazzolla',"Libre Franklin", sans-serif;
 	margin: 7px 0 3px;
 	float: left;
 	width: 100%;
@@ -262,7 +262,7 @@ footer article a {
 .postlist-item:hover h4::after {
 	content: "->";
 	float: right;
-	font: 300 1em/3 "Inter", sans-serif;
+	font: 300 1.5em/1.3 "Inter", sans-serif;
 }
 
 #filters {
