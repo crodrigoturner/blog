@@ -112,7 +112,7 @@ h1 {
 
 
 
-h1::before {
+h1 a::before {
 	content: '';
     text-transform: lowercase;
     text-decoration: none;
