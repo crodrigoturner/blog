@@ -238,7 +238,7 @@ footer section article {
 	border: none;
 }
 
-footer{padding:50px 0 0 0;}
+footer{margin:50px 0 0 0;float:left; border-top:1px solid #607d8b1f}
 
 footer a {
 	float: left;
