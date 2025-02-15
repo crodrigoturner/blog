@@ -157,7 +157,7 @@ h3 {
 }
 
 h4 {
-	font: 600 1em/1 "Libre Franklin", sans-serif;
+	font: 600 1em/1 'Piazzolla',"Libre Franklin", sans-serif;
 	margin: 7px 0 3px;
 	float: left;
 	width: 100%;
@@ -244,6 +244,8 @@ a:hover {
 	padding: 20px 0 0 0;
 	border: none;
 }
+
+.more{padding:50px 0 0 0;}
 
 .more article a {
 	float: left;
