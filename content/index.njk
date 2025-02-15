@@ -2,6 +2,10 @@
 const numberOfLatestPostsToShow = 1000;
 title: Home
 ---
+
+
+<h2>Blog</h2>
+
 <div id="filters" class="button-group filters-button-group">  
 <a class="button" href="/">All</a>
 {% for tag in collections | getKeys | filterTagList %}
