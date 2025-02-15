@@ -68,8 +68,8 @@ nav a:hover, .active{
 
 
 main {
-	padding: 30px 35% 50px;
-	width: 30%;
+	padding: 30px 30% 50px;
+	width: 40%;
 	float: left;
 	min-height: 100%;
 	z-index: 10;
@@ -224,11 +224,13 @@ a:hover {
 .postlist-item,.nav-pages li a {
 	color:var(--black);
 	float:left;
-	width:45%;	
-	padding:0 5% 0 0;
+	width:30%;	
+	padding:0 3.333% 0 0;
 	border:none;
 
 }
+
+.cover{float:left; width:100%; height:auto; border-radius:5px;}
 
 .post-meta{opacity:.7; font-size:.8em; float:left;}
 
