@@ -232,7 +232,7 @@ a:hover {
 
 .cover{float:left; width:100%; height:auto; border-radius:5px;}
 
-.post-meta{opacity:.7; font-size:.8em; float:left;}
+.post-meta{opacity:.7; font-size:.8em; float:left; line-height:1; margin:0;}
 
 .posts,
 .nav-pages {
