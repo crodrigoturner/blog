@@ -22,7 +22,7 @@ const eleventyComputed = {
 <h2>{{title}}</h2>
 
 <section class="posts">
-{% set postslist = collections.posts %}
+{% set postslist = collections[ tag ] %}
 {%- for post in postslist | reverse %}
 <a href="{{ post.url }}" class="postlist-item">
 <img src="{{post.data.cover}}" alt="cover image" class="cover"/>
