@@ -503,6 +503,8 @@ footer section{
 
 }
 
+ footer section article{padding:0;}
+
 article{float:left; width:100%; margin:20px 0 0 0;}
 
 	ul {
