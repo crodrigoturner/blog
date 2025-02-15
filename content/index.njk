@@ -6,13 +6,7 @@ title: Home
 
 <h2 class="single-c">Blog</h2>
 
-<div id="filters" class="button-group filters-button-group"> 
-<a class="button" href="/">All</a>
-{% for tag in collections | getKeys | filterTagList %}
-{% set tagUrl %}/tag/{{ tag | slugify }}/{% endset %}
-<a class="button {% if page.url == '/tag/{{tag}}' %} active{% endif %}" href="/tag/{{tag}}">{{ tag }}</a>
-{% endfor %}
-</div>
+
 
 <section class="posts">
 {% set postslist = collections.posts %}
