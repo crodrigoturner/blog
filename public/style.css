@@ -26,11 +26,13 @@ body {
 }
 
 header {
+	width:100%;
 	float: left;
 	padding: 20px 0;
 	margin: 0px;
 	z-index: 9999;
 	text-align: center;
+	border-bottom:1px solid #607d8b1f;
 }
 
 nav {
@@ -38,18 +40,7 @@ nav {
 	margin: 0;
 	font: 300 1.7em /1.8 "Libre Franklin", sans-serif;
 	z-index: 9999;
-	position: fixed;
-	top: 30px;
-	right: 30px;
-	text-align: right;
-}
-
-.square {
-	float: left;
-	content: "";
-	width: 25px;
-	height: 25px;
-	margin: 0 5px 0 0;
+width:30%; 
 }
 
 nav a {
@@ -57,6 +48,7 @@ nav a {
 	color: var(--black);
 	border: none;
 	padding: 0;
+	float:left;
 }
 
 nav a:hover,
