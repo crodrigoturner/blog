@@ -144,7 +144,7 @@ h2 {
 	padding: 0 0 30px 0;
 }
 
-.1c {
+.single-c {
 	max-width: 33.3333%;
 }
 
@@ -229,7 +229,7 @@ a:hover {
 }
 
 .posts,
-.more {
+footer {
 	display: grid;
 	grid: auto / 32% 32% 32%;
 	grid-gap: 2%;
@@ -237,7 +237,7 @@ a:hover {
 }
 
 .postlist-item,
-.more article {
+footer article {
 	color: var(--black);
 	float: left;
 
@@ -245,9 +245,9 @@ a:hover {
 	border: none;
 }
 
-.more{padding:50px 0 0 0;}
+footer{padding:50px 0 0 0;}
 
-.more article a {
+footer article a {
 	float: left;
 	width: 100%;
 	border: none;
