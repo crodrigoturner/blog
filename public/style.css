@@ -247,6 +247,8 @@ footer a {
 	color: var(--black);
 }
 
+.arrow{font-family:Inter, sans-serif;}
+
 .cover {
 	float: left;
 	width: 100%;
