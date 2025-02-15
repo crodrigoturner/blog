@@ -75,16 +75,7 @@ main {
 	margin: 0 0 -100px;
 }
 
-footer {
-	width: 30%;
-	position: fixed;
-	bottom: 0;
-	left: 0;
-	font: 500 0.8em / 1.8 "Libre Franklin", sans-serif;
-	color: var(--black);
-	opacity: 0.6;
-	padding: 20px 30px;
-}
+
 
 .clear {
 	width: 100%;
@@ -157,7 +148,7 @@ h3 {
 }
 
 h4 {
-	font: 600 1em/1 'Piazzolla',"Libre Franklin", sans-serif;
+	font: 600 1.5em/2 'Piazzolla',"Libre Franklin", sans-serif;
 	margin: 7px 0 3px;
 	float: left;
 	width: 100%;
@@ -271,7 +262,7 @@ footer article a {
 .postlist-item:hover h4::after {
 	content: "->";
 	float: right;
-	font: 300 1em/1 "Inter", sans-serif;
+	font: 300 1em/3 "Inter", sans-serif;
 }
 
 #filters {
