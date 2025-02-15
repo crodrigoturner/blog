@@ -142,11 +142,12 @@ h2 {
 	font: 700 3.5em / 1 "Piazzolla", sans-serif;
     text-align: left;
     float: left;
-    max-width: 33.3333%;
+    max-width: 100%;
     margin:0;
         padding:0;
   }
 
+  .1c{max-width: 33.3333%;}
 
 h3 {
 	font: 600 0.8em / 1 "Libre Franklin", sans-serif;
