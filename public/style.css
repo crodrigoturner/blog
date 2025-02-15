@@ -38,7 +38,7 @@ header {
 nav {
 	float: right;
 	margin: 0;
-	font: 300 1.7em /1.8 "Libre Franklin", sans-serif;
+	font: 300 1.3em /1 "Libre Franklin", sans-serif;
 	z-index: 9999;
 width:30%; 
 }
@@ -105,8 +105,8 @@ h1 {
 	float: left;
 	font: 600 1.5em/1.5 "Libre Franklin", sans-serif;
 	position: fixed;
-	top: 30px;
-	left: 30px;
+	top: 20px;
+	left: 20px;
 }
 
 h1 a::before {
@@ -120,6 +120,8 @@ h1 a::before {
 	height: 50px;
 	width: 50px;
 	border-radius: 50%;
+	color:var(--black);
+	border:none;
 }
 
 h1 a:hover {
