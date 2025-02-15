@@ -19,26 +19,22 @@ const eleventyComputed = {
 
 ---
 
-<div id="filters" class="button-group filters-button-group">  
-<a class="button" href="/">All</a>
-{% for tag in collections | getKeys | filterTagList %}
-{% set tagUrl %}/tag/{{ tag | slugify }}/{% endset %}
-<a class="button {% if page.url == '/tag/{{tag}}' %} active{% endif %}" href="/tag/{{tag}}">{{ tag }}</a>
-{% endfor %}
-</div>
-
+<h2>{{title}}</h2>
 
 <section class="posts">
-{% set postslist = collections[ tag ] %}
+{% set postslist = collections.posts %}
 {%- for post in postslist | reverse %}
 <a href="{{ post.url }}" class="postlist-item">
+<img src="{{post.data.cover}}" alt="cover image" class="cover"/>
 <h4>{{ post.data.title }}</h4>
-<p class="post-meta">{{ post.date | readableDate("dd.MM.yyyy") }} · 
-   {% for tag in post.data.tags %}
-        {% if tag != "posts" %}
+<p class="post-meta">
+{{ post.date | readableDate("dd.MM.yyyy") }} · 
+{% for tag in post.data.tags %}
+{% if tag != "posts" %}
 {{ tag }}
 {% endif %}
-      {% endfor %}</p>
+{% endfor %}
+</p>
 </a>
 {%- endfor %}
 </section>
