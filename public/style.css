@@ -486,7 +486,7 @@ input {
 		line-height: 2;
 	}
 
-
+footer{float:left;	margin:50px 0 0px;}
 
 	.posts,
 footer section{
@@ -494,6 +494,7 @@ footer section{
 	grid: auto / 100%;
 	grid-gap: 2%;
 	width: 100%;
+
 }
 
 	ul {
