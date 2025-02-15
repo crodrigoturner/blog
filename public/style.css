@@ -109,7 +109,9 @@ h1 {
 	left: 20px;
 }
 
-h1 a::before {
+
+
+h1::before {
 	content:'';
 	text-transform: lowercase;
 	color: var(--black);
@@ -122,11 +124,6 @@ h1 a::before {
 	border-radius: 50%;
 	color:var(--black);
 	border:none;
-}
-
-h1 a:hover {
-	opacity: 0.7;
-	background: url(/img/logo.png);
 }
 
 h2 {
@@ -210,6 +207,20 @@ a:hover {
 	border: none;
 	box-shadow: none;
 	background: none;
+}
+
+h1 a {
+
+	text-decoration: none;
+	float: left;
+
+	color:var(--black);
+	border:none;
+}
+
+h1 a:hover {
+	opacity: 0.7;
+
 }
 
 .cta {
