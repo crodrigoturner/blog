@@ -32,7 +32,7 @@ header {
 	margin: 0px;
 	z-index: 9999;
 	text-align: center;
-	border-bottom:1px solid #607d8b1f;
+
 }
 
 nav {
@@ -40,7 +40,7 @@ nav {
 	margin: 0;
 	font: 300 1.3em /1 "Libre Franklin", sans-serif;
 	z-index: 9999;
-width:30%; 
+width:15%; 
 }
 
 nav ul {
@@ -101,29 +101,29 @@ p {
 
 h1 {
 	margin: 0;
-	padding: 0;
-	float: left;
-	font: 600 1.5em/1.5 "Libre Franklin", sans-serif;
-	position: fixed;
-	top: 20px;
-	left: 20px;
+    padding: 0;
+    float: left;
+    font: 800 1.5em / 2 "Libre Franklin", sans-serif;
+    position: fixed;
+    top: 10px;
+    left: 20px;
+    text-transform: lowercase;
 }
 
 
 
 h1::before {
-	content:'';
-	text-transform: lowercase;
-	color: var(--black);
-	text-decoration: none;
-	border: none;
-	background: url(/img/logo.png);
-	float: left;
-	height: 50px;
-	width: 50px;
-	border-radius: 50%;
-	color:var(--black);
-	border:none;
+	content: '';
+    text-transform: lowercase;
+    text-decoration: none;
+    background: url(/img/logo.png);
+    float: left;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    position: relative;
+    margin: 0 20px 0 0;
 }
 
 h2 {
@@ -496,16 +496,15 @@ input {
 		line-height: 2;
 	}
 
-footer{float:left;	margin:50px 0 0px;}
+footer{float:left;	margin:30px 0 0px;}
 
 	.posts,
 footer section{
-	display: grid;
-	grid: auto / 100%;
-	grid-gap: 2%;
-	width: 100%;
+	float:left;
 
 }
+
+article{float:left; width:100%; margin:20px 0 0 0;}
 
 	ul {
 		margin: 0;
@@ -523,4 +522,6 @@ footer section{
 		float: left;
 		width: 100%;
 	}
+
+	footer .meta{margin:50px 0 0 0;}
 }
