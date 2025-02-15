@@ -1,6 +1,6 @@
 ---
 title: Bookending
-category: Life
+cover: '/img/cover1.png'
 tags: 
 - Life
 excerpt: How to start and finish the workday

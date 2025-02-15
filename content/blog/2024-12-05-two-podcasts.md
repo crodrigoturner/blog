@@ -1,7 +1,6 @@
 ---
 title: 2 podcasts and biographies
-category: Intelligence
-cover: '/img/logo.png'
+cover: '/img/cover4.png'
 tags:
 - Likes
 excerpt: Getting inspiration from the lives of others
