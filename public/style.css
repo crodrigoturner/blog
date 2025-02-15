@@ -222,7 +222,8 @@ a:hover {
 .cta:hover{border:1px solid var(--blue);}
 
 .posts{  display: grid;
-	grid-template-columns: auto auto auto;}
+	grid-template-columns: auto auto auto;width:100%;
+column-gap:20px;}
 
 .postlist-item,.more article {
 	color:var(--black);
