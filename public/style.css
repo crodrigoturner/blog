@@ -454,7 +454,7 @@ border-bottom:1px solid #607d8b1f;
 
 	h1 {
 		position: relative;
-	font-size:1px;
+	
 	}
 
 	h1 img {
@@ -523,4 +523,6 @@ article{float:left; width:100%; margin:20px 0 0 0;}
 	}
 
 	footer .meta{margin:50px 0 0 0;}
+
+	.name{display:none;}
 }
