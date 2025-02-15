@@ -49,7 +49,7 @@ nav ul {
 	float:left;
 }
 
-nav ul li{float:left; width:25%;}
+nav ul li{float:left; width:33.333%; text-align:right;}
 
 nav a {
 	text-decoration: none;
