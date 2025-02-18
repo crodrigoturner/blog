@@ -13,7 +13,7 @@ html {
 }
 
 body {
-	font: 500 15px/1.6 "Libre Franklin", sans-serif;
+	font: 500 15px/1.6 'Newsreader', sans-serif;
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
 	color: var(--black);
@@ -37,7 +37,7 @@ header {
 nav {
 	float: right;
 	margin: 0;
-	font: 500 1.5em /2 "Libre Franklin", sans-serif;
+	font: 500 1.5em /2 'Inter', sans-serif;
 	z-index: 9999;
 	width: 40%;
 }
@@ -105,13 +105,13 @@ h1 {
 	margin: 0;
 	padding: 0;
 	float: left;
-	font: 500 1.5em /2 "Libre Franklin", sans-serif;
+	font: 800 1.5em /2 'Inter', sans-serif;
 
 }
 
 
 h2 {
-	font: 700 3.5em / 1 "Piazzolla", sans-serif;
+	font: 700 3.5em / 1 'Newsreader', sans-serif;
 	text-align: left;
 	float: left;
 	max-width: 100%;
@@ -124,7 +124,7 @@ h2 {
 }
 
 h3 {
-	font: 600 0.8em / 1 "Libre Franklin", sans-serif;
+	font: 600 0.8em / 1 'Newsreader', sans-serif;
 	float: left;
 	width: 100%;
 	margin: 30px 0;
@@ -133,39 +133,12 @@ h3 {
 }
 
 h4 {
-	font: 600 1.3em/2 "Piazzolla", "Libre Franklin", sans-serif;
+	font: 600 1.3em/2 'Newsreader', sans-serif;
 	margin: 7px 0 3px;
 	float: left;
 	width: 100%;
 }
 
-.tag {
-	float: left;
-	margin: 0;
-	padding: 1px 0 0 0;
-
-	opacity: 0.75;
-}
-
-.tags {
-	float: left;
-	width: 100%;
-}
-
-.tags a {
-	float: left;
-	padding: 0 5px 0 0;
-	border: none;
-	font-size: 0.9em;
-}
-
-.tags a::after {
-	content: " · ";
-}
-
-.tags a:last-child::after {
-	content: " ";
-}
 
 blockquote,
 .meta,
@@ -260,7 +233,7 @@ footer a {
 
 .post-meta {
 	opacity: 0.7;
-	font: 500 0.8em / 1 "Libre Franklin", sans-serif;
+	font: 500 0.8em / 1 'Newsreader', sans-serif;
 	float: left;
 	margin: 0;
 }
@@ -293,7 +266,7 @@ footer a {
 	float: left;
 	padding: 7px 10px 7px 0;
 	margin: 10px 5px 5px 0;
-	font: 400 0.75em / 1 "Libre Franklin", sans-serif;
+	font: 400 0.75em / 1 'Newsreader', sans-serif;
 	z-index: 9999;
 	border-radius: 4px;
 	background: none;
@@ -414,7 +387,7 @@ img {
 }
 
 input {
-	font: 400 1em /1.5 "Libre Franklin", sans-serif;
+	font: 400 1em /1.5 'Newsreader', sans-serif;
 	padding: 10px;
 	width: 100%;
 	box-sizing: border-box;
