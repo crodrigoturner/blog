@@ -2,12 +2,6 @@
 const numberOfLatestPostsToShow = 1000;
 title: Home
 ---
-
-
-<h2 class="single-c">Blog</h2>
-
-
-
 <section class="posts">
 {% set postslist = collections.posts %}
 {%- for post in postslist | reverse %}
