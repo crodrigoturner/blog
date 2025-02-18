@@ -414,12 +414,10 @@ input {
 
 	header {
 		float: left;
-		border-bottom: 1px solid #607d8b1f;
+	
 	}
 
-	h1 {
-		position: relative;
-	}
+	
 
 	h1 img {
 		width: 100px;
@@ -431,8 +429,7 @@ input {
 
 		width: 75%;
 		font-size: 1em;
-		background: #fff;
-		z-index: 9999;
+			z-index: 9999;
 
 		padding: 3px 0px 10px;
 		margin: 10px 0 0 0;

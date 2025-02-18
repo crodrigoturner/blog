@@ -18,8 +18,6 @@ class: work
 
 <h3>Work values</h3>
 
-My philosophy and values at work are the following:
-
 1. <b>Win/win/win</b >:  I always aim to find a win for the customer, a win for the company, and a win for myself.   
 2. <b>Solutions </b >:   I find solutions, I fix problems.   
 3. <b>Communicate early and often</b >:   My stakeholders and collaborators should know what’s going on continuously.   
