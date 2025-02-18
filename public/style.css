@@ -413,21 +413,16 @@ input {
 	}
 
 	header {
-		float: left;
+        float: left;
+        width: calc(100% - 80px);
+        margin: 20px;
 	
-	}
-
-	
-
-	h1 img {
-		width: 100px;
-		height: 100px;
 	}
 
 	nav {
 		float: right;
 
-		width: 75%;
+		width: 60%;
 		font-size: 1em;
 			z-index: 9999;
 
@@ -496,9 +491,5 @@ input {
 
 	footer .meta {
 		margin: 50px 0 0 0;
-	}
-
-	.name {
-		display: none;
 	}
 }
