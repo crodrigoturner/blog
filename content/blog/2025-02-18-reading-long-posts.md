@@ -1,7 +1,8 @@
 ---
 title: Reading Long posts
 cover: '/img/20250218elevenlabs.png'
-tags: internet
+tags: 
+- Internet
 excerpt: How I digest longer articles
 ---
 
