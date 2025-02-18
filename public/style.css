@@ -143,7 +143,9 @@ h4 {
 }
 
 
-blockquote,
+blockquote{font-style: italic; padding:0 0px 0 20px; border-right:1px solid var(--soft-grey); }
+
+
 .meta,
 .postlist-date {
 	margin: 20px 0;
