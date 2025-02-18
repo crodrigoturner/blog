@@ -13,7 +13,7 @@ html {
 }
 
 body {
-	font: 400 16px/1.6 'Newsreader', sans-serif;
+	font: 400 18px/1.6 'Newsreader', sans-serif;
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
 	color: var(--black);
@@ -43,7 +43,7 @@ header {
 nav {
 	float: right;
 	margin: 0;
-	font: 500 1.4em /2 'Inter', sans-serif;
+	font: 500 1.3em /2 'Inter', sans-serif;
 	z-index: 9999;
 	width: 40%;
 }
@@ -111,7 +111,7 @@ h1 {
 	margin: 0;
 	padding: 0;
 	float: left;
-	font: 800 1.4em /2 'Inter', sans-serif;
+	font: 800 1.3em /2 'Inter', sans-serif;
 
 }
 
