@@ -104,23 +104,10 @@ h1 {
 	margin: 0;
 	padding: 0;
 	float: left;
-	font: 800 1.5em / 2 "Libre Franklin", sans-serif;
-	text-transform: lowercase;
+	font: 500 1.5em /2 "Libre Franklin", sans-serif;
+
 }
 
-h1 a::before {
-	content: "";
-	text-transform: lowercase;
-	text-decoration: none;
-	background: url(/img/logo.png);
-	float: left;
-	height: 50px;
-	width: 50px;
-	border-radius: 50%;
-	border: none;
-	position: relative;
-	margin: 0 20px 0 0;
-}
 
 h2 {
 	font: 700 3.5em / 1 "Piazzolla", sans-serif;
