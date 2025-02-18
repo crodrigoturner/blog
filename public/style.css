@@ -413,28 +413,29 @@ input {
 	}
 
 	header {
-        float: left;
+		float: left;
         width: calc(100% - 80px);
         margin: 20px;
+        font-size: .8em;
+        line-height: 1;
 	
 	}
 
 	nav {
 		float: right;
-
-		width: 60%;
-		font-size: 1em;
-			z-index: 9999;
-
-		padding: 3px 0px 10px;
-		margin: 10px 0 0 0;
-		font-weight: 500;
+        width: 70%;
+        /* font-size: 1em; */
+        z-index: 9999;
+        /* padding: 3px 0px 10px; */
+        /* margin: 10px 0 0 0; */
+        /* font-weight: 500; */
+        line-height: 1;
 	}
 
 	nav li {
 		width: 33.3333%;
 		float: left;
-		padding: 10px 0;
+		padding: 0;
 		text-align: center;
 	}
 
