@@ -6,6 +6,6 @@ title: Riddles
 ## Riddles
 
 <details>
-<summary>A ball and a bat cost 1.10€, the bat is 1€ more expensive than the ball. What is the price of each item?</summary>
+<summary>A ball and a bat cost $1.10, the bat is $1 more expensive than the ball. What is the price of each item?</summary>
 If the ball costs 10 cents, then the bat would cost $1.10, which would bring the total to $1.20. The correct answer is the ball costs 5 cents and the bat $1.05. 
 </details>
