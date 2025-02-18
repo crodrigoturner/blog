@@ -8,11 +8,11 @@ class: work
 
 <h3>Where I've been</h3>
 <ul>
-<li><p><b>2015-Now › Técnica y Avance</b >  /  Sparepart co-manager</p></li>
-<li><p><b>2014-2015 › Repsol</b >  /  International lubricant sales department. Backoffice.</p></li>
-<li><p><b>2012-2013 › Louis Vuitton</b >  /  Warehouse assistant manager.</p></li>
-<li><p><b>2011-2012 › EME Arquitectos</b >  /  Quantity surveyor / webdesigner.</p></li>
-<li><p><b>2011-2011 › JMJ</b >  /  Lodging manager during the Pope's visit in 2011.</p>
+<li><p><b>2015-Now › Técnica y Avance</b >:    Sparepart co-manager</p></li>
+<li><p><b>2014-2015 › Repsol</b >:  International lubricant sales department. Backoffice.</p></li>
+<li><p><b>2012-2013 › Louis Vuitton</b >:   Warehouse assistant manager.</p></li>
+<li><p><b>2011-2012 › EME Arquitectos</b >:   Quantity surveyor / webdesigner.</p></li>
+<li><p><b>2011-2011 › JMJ</b >:   Lodging manager during the Pope's visit in 2011.</p>
 </li>
 </ul>
 
@@ -20,10 +20,12 @@ class: work
 
 My philosophy and values at work are the following:
 
-<b>Win/win/win</b >  /  I always aim to find a win for the customer, a win for the company, and a win for myself.   
-<b>Solutions </b >  /  I find solutions, I fix problems.   
-<b>Communicate early and often</b >  /  My stakeholders and collaborators should know what’s going on continuously.   
-<b>Nothing is “not my job”</b >  /  If I see a pressing problem, I gather context and fix it.   
+1. <b>Win/win/win</b >:  I always aim to find a win for the customer, a win for the company, and a win for myself.   
+2. <b>Solutions </b >:   I find solutions, I fix problems.   
+3. <b>Communicate early and often</b >:   My stakeholders and collaborators should know what’s going on continuously.   
+4. <b>Nothing is “not my job”</b >:   If I see a pressing problem, I gather context and fix it.   
+
+
 <h3> What I do best</h3>
 <ul class="col-2">
 <li>Understanding of data</li>
@@ -63,6 +65,8 @@ My philosophy and values at work are the following:
 <li>Web development</li>
 <li>Web standards</li>
 </ul>
+
+
 <h3>How I work</h3>
 
 I believe everyone should state how to work and share it with co-workers and stakeholders.
