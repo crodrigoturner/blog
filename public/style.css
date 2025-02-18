@@ -150,6 +150,7 @@ blockquote,
 	color: var(--black);
 	opacity: 0.9;
 	font-style: italic;
+	font-family:'Inter';
 }
 
 a {
