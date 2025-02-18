@@ -1,7 +1,7 @@
 ---
 layout: layouts/base.njk
-title: Info
-class: info
+title: About
+class: about
 ---
 
 ## Information
