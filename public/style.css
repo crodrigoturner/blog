@@ -13,7 +13,7 @@ html {
 }
 
 body {
-	font: 500 15px/1.6 'Newsreader', sans-serif;
+	font: 500 16px/1.6 'Newsreader', sans-serif;
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
 	color: var(--black);
@@ -37,7 +37,7 @@ header {
 nav {
 	float: right;
 	margin: 0;
-	font: 500 1.5em /2 'Inter', sans-serif;
+	font: 500 1.4em /2 'Inter', sans-serif;
 	z-index: 9999;
 	width: 40%;
 }
@@ -105,13 +105,13 @@ h1 {
 	margin: 0;
 	padding: 0;
 	float: left;
-	font: 800 1.5em /2 'Inter', sans-serif;
+	font: 800 1.4em /2 'Inter', sans-serif;
 
 }
 
 
 h2 {
-	font: 700 3.5em / 1 'Newsreader', sans-serif;
+	font: 700 3.4em / 1 'Newsreader', sans-serif;
 	text-align: left;
 	float: left;
 	max-width: 100%;
