@@ -189,7 +189,7 @@ h1 a:hover {
 	height: 200px; /* adjust to control the size  */
 	aspect-ratio: cos(30deg);
 	clip-path: polygon(-50% 50%,50% 100%,150% 50%,50% 0);
-	background: url '/img/logo.png';
+	background: url('/img/logo.png');
 	border-radius:5px;
   }
 
