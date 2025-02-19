@@ -183,6 +183,16 @@ h1 a:hover {
 	opacity: 0.7;
 }
 
+
+.mask-Hexagon {
+    mask-image: url(/img/hexagon.svg);
+    mask-repeat: no-repeat;
+    mask-position: center center;
+    -webkit-mask-image: url(/img/hexagon.svg);
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-position: center center;
+    overflow: hidden;}
+
 .cta {
 	border: 1px solid var(--blue);
 	float: left;
