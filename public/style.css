@@ -1,5 +1,5 @@
 :root {
-	--black: #333;
+	--black: #161d2d;
 	--blue: #01579b;
 	--soft-grey: #eceff1;
 	--white: #fff;
@@ -259,7 +259,7 @@ footer a {
 
 .post-meta {
 	opacity: 0.7;
-	font: 500 0.8em / 1 'Inter', sans-serif;
+	font: 500 0.7em / 1 'Inter', sans-serif;
 	float: left;
 	margin: 0;
 }
