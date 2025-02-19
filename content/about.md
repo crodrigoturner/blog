@@ -6,12 +6,6 @@ class: about
 
 ## About
 
-<svg class="hexagon" viewBox="0 0 360 416.84">
-                  <defs id="defs4"><style id="style2">.cls-1{fill:#1a1f1f;}</style></defs>
-                  <polygon class="cls-1" points="0 104.21 0 312.63 180 416.84 360 312.63 360 104.21 180 0 0 104.21" id="polygon6"></polygon>
-                </svg>
-                <img width="549" height="606" src="/img/logo.png" class="mask-Hexagon" alt="Mike Schroepfer" decoding="async">
-
 <div class="hexagon"></div>
                 
 

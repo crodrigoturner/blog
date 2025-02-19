@@ -184,21 +184,12 @@ h1 a:hover {
 }
 
 
-.mask-Hexagon {
-    mask-image: url(/img/hexagon.svg);
-    mask-repeat: no-repeat;
-    mask-position: center center;
-    -webkit-mask-image: url(/img/hexagon.svg);
-    -webkit-mask-repeat: no-repeat;
-    -webkit-mask-position: center center;
-    overflow: hidden;}
 
-	/* HTML: <img class="hexagon" src="" alt=""> */
 .hexagon {
 	height: 200px; /* adjust to control the size  */
 	aspect-ratio: cos(30deg);
 	clip-path: polygon(-50% 50%,50% 100%,150% 50%,50% 0);
-	background: url'/img/logo.png';
+	background: url '/img/logo.png';
 	border-radius:5px;
   }
 
