@@ -14,7 +14,7 @@ title: Home
 {% if tag != "posts" %}
 {{ tag }}
 {% endif %}
-{% endfor %}
+{% endfor %} · {{ content | readingTime }}
 </p>
 </a>
 {%- endfor %}
