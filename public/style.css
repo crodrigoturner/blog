@@ -432,11 +432,12 @@ input {
         line-height: 2;
 	}
 
-	nav li {
-		width: 33.3333%;
-		float: left;
+	nav ul li {
+		width: auto;
+		float: right;
 		padding: 0;
-		text-align: center;
+		text-align: right;
+		margin: 0 0 0 30px;
 	}
 
 	h2 {
