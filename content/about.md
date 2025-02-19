@@ -6,8 +6,7 @@ class: about
 
 ## About
 
-<div class="hexagon"></div>
-                
+              
 
 I'm a data specialist with 7+ years of experience in leveraging data to drive businesses forward. I am passionate about helping make data-driven decisions that lead to growth and success. 
 
