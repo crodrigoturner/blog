@@ -4,6 +4,7 @@ layout: layouts/base.njk
 
 <h2> {{title}}</h2>
 <article>
+<img src="{{post.data.cover}}" alt="cover image" class="cover"/>
 {{ content | safe }}
 <span class="meta"><a href="mailto:rodrigoturner.carlos@gmail.com">Reply by email</a> · <time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate("dd.MM.yyyy") }}</time></span>
 </article>

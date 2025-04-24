@@ -5,9 +5,10 @@ title: Home
 <section class="posts">
 {% set postslist = collections.posts %}
 {%- for post in postslist | reverse %}
-<a href="{{ post.url }}" class="postlist-item">
-<img src="{{post.data.cover}}" alt="cover image" class="cover"/>
-<h4>{{ post.data.title }}</h4>
+<article>
+<a href="{{ post.url }}">
+
+<h4>{{ post.data.title }}</h4></a>
 <p class="post-meta">
 {{ post.date | readableDate("dd.MM.yyyy") }} · 
 {% for tag in post.data.tags %}
@@ -17,7 +18,8 @@ title: Home
 {% endfor %}
 </p>
 {{ post.content | safe}}
-</a>
+
+</article>
 {%- endfor %}
 </section>
 

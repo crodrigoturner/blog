@@ -215,7 +215,7 @@ footer section {
 	width: 100%;
 }
 
-.postlist-item,
+article,
 footer section article {
 	color: var(--black);
 	float: left;
@@ -224,7 +224,7 @@ footer section article {
 	border: none;
 }
 
-.postlist-item{background:#FFF;
+article{background:#FFF;
 padding:20px;}
 
 footer {
