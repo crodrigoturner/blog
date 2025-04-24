@@ -26,10 +26,10 @@ body {
 }
 
 header {
-	width: 50%;
+	width: 30%;
 	float: left;
 	padding: 10px 20px;
-	margin: 20px calc(25% - 20px);
+	margin: 20px calc(35% - 20px);
 	z-index: 9999;
 	text-align: center;
 	-webkit-backdrop-filter: blur(10px);
@@ -77,8 +77,8 @@ nav a:hover,
 }
 
 main {
-	padding: 120px 25% 50px;
-	width: 50%;
+	padding: 120px 35% 50px;
+	width: 30%;
 	float: left;
 	min-height: 100%;
 	z-index: 10;
@@ -185,14 +185,7 @@ h1 a:hover {
 
 
 
-.hexagon {
-	height: 200px; /* adjust to control the size  */
-	aspect-ratio: cos(30deg);
-	clip-path: polygon(-50% 50%,50% 100%,150% 50%,50% 0);
-	background: url('/img/logo.png');
-	border-radius:5px;
-	float:right;
-  }
+
 
 .cta {
 	border: 1px solid var(--blue);
@@ -209,8 +202,8 @@ h1 a:hover {
 .posts,
 footer section {
 	display: grid;
-	grid: auto / 32% 32% 32%;
-	grid-gap: 2%;
+	grid: auto / 100%;
+	grid-gap: 0%;
 	width: 100%;
 }
 
@@ -256,11 +249,7 @@ footer a {
 	margin: 0;
 }
 
-.postlist-item:hover h4::after {
-	content: "->";
-	float: right;
-	font: 300 1.2em/1.2 "Inter", sans-serif;
-}
+
 
 #filters {
 	float: right;
