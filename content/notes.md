@@ -10,14 +10,7 @@ title: Notes
 <a href="{{ post.url }}">
 <img src="{{post.data.cover}}" alt="cover image" class="cover"/>
 <h4>{{ post.data.title }}</h4></a>
-<p class="post-meta">
-{{ post.date | readableDate("dd.MM.yyyy") }} · 
-{% for tag in post.data.tags %}
-{% if tag != "posts" %}
-{{ tag }}
-{% endif %}
-{% endfor %}
-</p>
+
 {{ post.content | safe}}
 
 </article>
