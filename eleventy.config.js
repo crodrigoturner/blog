@@ -64,7 +64,7 @@ export default async function(eleventyConfig) {
 		},
 		metadata: {
 			language: "en",
-			title: "carlos rodrigo",
+			title: "Carlos Rodrigo",
 			subtitle: "A personal website.",
 			base: "https://carlosrodrigo.com/",
 			author: {
