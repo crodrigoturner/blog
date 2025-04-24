@@ -16,7 +16,7 @@ title: Home
 {% endif %}
 {% endfor %}
 </p>
-{{ post.content}}
+{{ post.content | safe}}
 </a>
 {%- endfor %}
 </section>
