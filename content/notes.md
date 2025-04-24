@@ -1,5 +1,6 @@
 ---js
 const numberOfLatestPostsToShow = 1000;
+layout: layouts/base.njk
 title: Notes
 ---
 <section class="posts">
