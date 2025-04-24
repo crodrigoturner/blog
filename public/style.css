@@ -45,7 +45,7 @@ nav {
 	margin: 0;
 	font: 500 1.2em /2 'Inter', sans-serif;
 	z-index: 9999;
-	width: 40%;
+	width: 60%;
 }
 
 nav ul {
@@ -111,7 +111,7 @@ h1 {
 	margin: 0;
 	padding: 0;
 	float: left;
-	font: 500 1.2em /2 'Inter', sans-serif;
+	font: 800 1.2em /2 'Inter', sans-serif;
 
 }
 
@@ -199,11 +199,18 @@ h1 a:hover {
 	border: 1px solid var(--blue);
 }
 
-.posts,
-footer section {
+.posts{
 	display: grid;
 	grid: auto / 100%;
 	grid-gap: 0%;
+	width: 100%;
+}
+
+
+footer section {
+	display: grid;
+	grid: auto / 32% 32% 32%;
+	grid-gap: 2%;
 	width: 100%;
 }
 
