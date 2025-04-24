@@ -1,25 +1,8 @@
----js
-const numberOfLatestPostsToShow = 1000;
+---
+layout: layouts/home.njk
 title: Home
 ---
-<section class="posts">
-{% set postslist = collections.posts %}
-{%- for post in postslist | reverse %}
-<article>
-<a href="{{ post.url }}">
-<img src="{{post.data.cover}}" alt="cover image" class="cover"/>
-<h4>{{ post.data.title }}</h4></a>
-<p class="post-meta">
-{{ post.date | readableDate("dd.MM.yyyy") }} · 
-{% for tag in post.data.tags %}
-{% if tag != "posts" %}
-{{ tag }}
-{% endif %}
-{% endfor %}
-</p>
-{{ post.content | safe}}
-
-</article>
-{%- endfor %}
+<section>
+I'm a data specialist with 7+ years of experience in leveraging data to drive businesses forward. I am passionate about helping make data-driven decisions that lead to growth and success.I have worked in architecture studios, big energy companies, luxury brands, and small companies. I currently work at Técnica y Avance.I live in Madrid with Mar, Lucas, Nicolás and Pancho.My interests are Data, data driven decision making, AI, webdesign, internet, biomimicry, spreadsheets, EVs, evolution, industrial design, science, history, biography, speeches, philosophy, poetry (wordsmithing), data visualization, space, cooking...
 </section>
 
