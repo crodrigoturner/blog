@@ -7,7 +7,7 @@ title: Home
 {%- for post in postslist | reverse %}
 <article>
 <a href="{{ post.url }}">
-
+<img src="{{post.data.cover}}" alt="cover image" class="cover"/>
 <h4>{{ post.data.title }}</h4></a>
 <p class="post-meta">
 {{ post.date | readableDate("dd.MM.yyyy") }} · 
