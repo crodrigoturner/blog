@@ -107,7 +107,7 @@ p {
 	margin: 5px 0;
 }
 
-.home-link{float:left;}
+.home-link{float:left;font: 500 1.2em /2 'Inter', sans-serif;color: var(--black);}
 
 
 h1, h2 {
