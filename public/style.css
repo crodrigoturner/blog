@@ -20,7 +20,7 @@ body {
 	word-wrap: break-word;
 	margin: 0;
 	position: relative;
-	background: #fff;
+	background: #f6f6f6;
 	padding: 0;
 	min-height: 100%;
 }
@@ -223,6 +223,9 @@ footer section article {
 	padding: 20px 0 0 0;
 	border: none;
 }
+
+.postlist-item{background:#FFF;
+padding:20px;}
 
 footer {
 	margin: 100px 0 0 0;
