@@ -26,10 +26,10 @@ body {
 }
 
 header {
-	width: 30%;
+	width: calc(30% - 40px);
 	float: left;
 	padding: 10px 20px;
-	margin: 20px calc(35% - 20px);
+	margin: 20px 35%;
 	z-index: 9999;
 	text-align: center;
 	-webkit-backdrop-filter: blur(10px);
@@ -225,7 +225,8 @@ footer section article {
 }
 
 article{background:#FFF;
-padding:20px;}
+padding:20px;
+border-radius: 10px;}
 
 footer {
 	margin: 100px 0 0 0;
