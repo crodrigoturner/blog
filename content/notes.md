@@ -1,7 +1,7 @@
 ---js
 const numberOfLatestPostsToShow = 1000;
-layout: layouts/base.njk
 title: Notes
+layout: layouts/base.njk
 ---
 <section class="posts">
 {% set postslist = collections.posts %}
