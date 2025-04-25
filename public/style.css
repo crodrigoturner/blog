@@ -28,7 +28,7 @@ body {
 header {
 	width: calc(30% - 40px);
 	float: left;
-	padding: 10px 20px;
+	padding: 5px 20px;
 	margin: 20px 35%;
 	z-index: 9999;
 	text-align: center;
@@ -43,7 +43,7 @@ header {
 nav {
 	float: right;
 	margin: 0;
-	font: 500 1.2em /2 'Inter', sans-serif;
+	font: 500 1em /2 'Inter', sans-serif;
 	z-index: 9999;
 	width: 60%;
 }
@@ -77,7 +77,7 @@ nav a:hover,
 }
 
 main {
-	padding: 120px 35% 50px;
+	padding: 100px 35% 50px;
 	width: 30%;
 	float: left;
 	min-height: 100%;
@@ -107,7 +107,7 @@ p {
 	margin: 5px 0;
 }
 
-.home-link{float:left;font: 500 1.2em /2 'Inter', sans-serif;color: var(--black);}
+.home-link{float:left;font: 500 1em /2 'Inter', sans-serif;color: var(--black);}
 
 
 h1, h2 {
@@ -132,8 +132,8 @@ h3 {
 }
 
 h4 {
-	font: 500 1.3em/1.5 'Newsreader', sans-serif;
-	margin: 7px 0 3px;
+	font: 500 1.3em/1 'Newsreader', sans-serif;
+	margin: 20px 0 15px;
 	float: left;
 	width: 100%;
 }

@@ -6,9 +6,9 @@ layout: layouts/base.njk
 {% set postslist = collections.posts %}
 {%- for post in postslist | reverse %}
 <article>
-<a href="{{ post.url }}">
+
 <img src="{{post.data.cover}}" alt="cover image" class="cover"/>
-<h4>{{ post.data.title }}</h4></a>
+<h4><a href="{{ post.url }}">{{ post.data.title }}</a></h4>
 
 {{ post.content | safe}}
 
