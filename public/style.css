@@ -1,5 +1,5 @@
 :root {
-	--black: #161d2d;
+	--black: #071535;
 	--blue: #01579b;
 	--soft-grey: #eceff1;
 	--white: #fff;
@@ -112,7 +112,7 @@ p {
 
 
 h1, h2 {
-	font: 700 3.4em / 1 'Newsreader', sans-serif;
+	font: 700 3.25em / 1 'Newsreader', sans-serif;
 	text-align: left;
 	float: left;
 	width: 100%;
