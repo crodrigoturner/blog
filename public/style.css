@@ -107,7 +107,8 @@ p {
 	margin: 5px 0;
 }
 
-.home-link{float:left;font: 500 1em /2 'Inter', sans-serif;color: var(--black);}
+.home-link{float:left;font: 500 1em /2 'Inter', sans-serif;color: var(--black);text-decoration: none;border: none;}
+.home-link:hover{opacity: 0.6;}
 
 
 h1, h2 {

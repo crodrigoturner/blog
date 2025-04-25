@@ -8,7 +8,7 @@ layout: layouts/base.njk
 <article>
 
 <img src="{{post.data.cover}}" alt="cover image" class="cover"/>
-<h4><a href="{{ post.url }}">{{ post.data.title }}</a></h4>
+<a href="{{ post.url }}"><h4>{{ post.data.title }}</h4></a>
 
 {{ post.content | safe}}
 
