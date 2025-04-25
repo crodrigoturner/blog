@@ -1,0 +1,25 @@
+---
+layout: layouts/base.njk
+title: Watch list
+excerpt: Films and tv series, watched and to watch.
+---
+
+## Watch list
+
+### Watching
+
+<ul class="col-2">
+<li>The Chelsea Detective</li>
+</ul>
+
+### To watch
+
+<ul class="col-2">
+<li>Deli boys</li>
+</ul>
+
+### Watched
+
+<ul class="col-2">
+<li></li>
+</ul>
