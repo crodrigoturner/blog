@@ -227,7 +227,7 @@ footer {
 	width: 100%;
 	border: none;
 	color: var(--black);
-	font: 400 1em / 1 'Inter', sans-serif;
+	font: 400 1em / 1.5 'Inter', sans-serif;
 }
 
 .arrow {
