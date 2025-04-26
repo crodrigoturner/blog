@@ -195,7 +195,7 @@ h1 a:hover {
 }
 
 
-.third article{
+.third{
 	display: grid;
 	grid: auto / 32% 32% 32%;
 	grid-gap: 2%;
