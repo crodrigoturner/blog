@@ -209,6 +209,7 @@ article,
 
 	padding: 20px 0 0 0;
 	border: none;
+	
 }
 
 article{margin:0 0 50px 0;}
@@ -226,6 +227,7 @@ footer {
 	width: 100%;
 	border: none;
 	color: var(--black);
+	font: 400 1em / 1 'Inter', sans-serif;
 }
 
 .arrow {
