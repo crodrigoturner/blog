@@ -498,7 +498,7 @@ input {
 
 @font-face {
 	font-family: 'Darby Sans Web';
-	src:url('/public/Darby.woff') format('woff');
+	src:url('/Darby.woff') format('woff');
 	font-weight: 300;
 	font-style: normal;
 	}
