@@ -2,18 +2,45 @@
 layout: layouts/home.njk
 title: Home
 ---
-<section>
+<section class="third">
 
 <p>I'm a data specialist with 7+ years of experience in leveraging data to drive businesses forward. I am passionate about helping make data-driven decisions that lead to growth and success.</p>
 <p>I have worked in architecture studios, big energy companies, luxury brands, and small companies.</p> 
 <p>I currently work at Técnica y Avance.</p>I live in Madrid with Mar, Lucas, Nicolás and Pancho.</p>
 
-<ul>
-<li><a href="/about/">More about me</a></li>
-<li><a href="/notes/">Thoughts, ideas, reflections...</a></li>
-<li><a href="mailto:rodrigoturner.carlos@gmail.com">Get in touch</a></li>
-<li><a href="/work/">What I do</a></li>
-<li><a href="/more/">More...</a></li>
-</ul>
+
+<article >
+<h3>Main</h3>
+<a href="/about">About</a>
+<a href="/">Writing</a>
+<a href="/work">Work</a>
+
+<h3>Other</h3>
+<a href="/colophon">Colophon</a>
+<a href="/blogroll">Blogroll</a>
+<a href="/now">Now</a>
+<a href="/uses">Uses</a>
+<a href="/ai">AI</a>
+<a href="/feed/feed.xml">Feed</a>
+</article>
+<article>
+<h3>Projects</h3>
+<a href="/life">Life in squares</a>
+<a href="/podcast">Podcast</a>
+<a href="/riddles">Riddles</a>
+<h3>Topics</h3>
+{% for tag in collections | getKeys | filterTagList %}
+{% set tagUrl %}/tag/{{ tag | slugify }}/{% endset %}
+<a href="/tag/{{tag}}">{{ tag }}</a>
+{% endfor %}
+
+</article>
+<article>
+<h3>Lists</h3>
+<a href="https://maps.app.goo.gl/b2qmfe9Q9S2GELv57">Favourite places</a>
+<a href="https://docs.google.com/spreadsheets/d/1c5oEbX0dEm2P6ZYOsotnEDncwUg4Jva1y1vjaHv_ikY/edit?usp=sharing">Watchlist</a>
+<a href="https://docs.google.com/spreadsheets/d/1Jtd3gT4gG6PQZb37tgnpJ4kcDENaWyuZjo0YFuAgbxU/edit?usp=sharing">Reading list</a>
+<a href="https://docs.google.com/spreadsheets/d/1YgW6IK6FAjX-51MzkW90SjE9GOXSTCfrzGgVIfie01E/edit?usp=sharing">Uses Changelog</a>
+</article>
 </section>
 
