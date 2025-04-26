@@ -221,6 +221,7 @@ footer {
 	border-top: 1px solid #607d8b1f;
 	font-size: 0.8em;
 	font-family:'Inter';
+	width: 100%;
 }
 .third article a {
 	float: left;
