@@ -203,7 +203,7 @@ h1 a:hover {
 }
 
 article,
-footer section article {
+.third section article {
 	color: var(--black);
 	float: left;
 
@@ -221,8 +221,7 @@ footer {
 	font-size: 0.8em;
 	font-family:'Inter';
 }
-
-footer a {
+.third article a {
 	float: left;
 	width: 100%;
 	border: none;
