@@ -13,7 +13,7 @@ html {
 }
 
 body {
-	font: 400 18px/1.6 'Darby sans web','Inter', sans-serif;
+	font: 400 18px/1.6 'Darby Sans Web','Inter', sans-serif;
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
 	color: var(--black);
@@ -498,7 +498,7 @@ input {
 
 @font-face {
 	font-family: 'Darby Sans Web';
-	src:url('Darby.woff') format('woff');
+	src:url('/public/Darby.woff') format('woff');
 	font-weight: 300;
 	font-style: normal;
 	}
