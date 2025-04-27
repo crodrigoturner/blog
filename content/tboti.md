@@ -4,7 +4,7 @@ title: The best of the internet
 excerpt: These are some of the best places, sites, blogs, reads I have found on the internet, if you fave any recommendations, please <a href="mailto:rodrigoturner.carlos@gmail.com">send me an email</a>.
 ---
 
-
+## The best of the internet
 
 ### Miscellaneous
 * <a href="http://www.visakanv.com/blog/bookmarks/" target="_blank" rel="noopener noreferrer">@Visakanv's list of bookmarks</a>   

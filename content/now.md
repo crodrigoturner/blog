@@ -1,5 +1,5 @@
 ---
-layout: layouts/now.njk
+layout: layouts/base.njk
 title: Now
 ---
 
