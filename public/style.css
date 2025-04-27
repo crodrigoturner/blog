@@ -13,7 +13,7 @@ html {
 }
 
 body {
-	font: 400 18px/1.6 'Darby Sans Web','Inter', sans-serif;
+	font:300 20px/1.6 'Darby Sans Web','Inter', sans-serif;
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
 	color: var(--black);
@@ -228,7 +228,7 @@ footer {
 	width: 100%;
 	border: none;
 	color: var(--black);
-	font: 400 1em / 1.5 'Inter', sans-serif;
+	font: 400 1em / 1.5 'Darby Sans Web', 'Inter', sans-serif;
 }
 
 .arrow {
