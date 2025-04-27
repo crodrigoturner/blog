@@ -48,6 +48,8 @@ nav {
 	width: 60%;
 }
 
+.home nav. .home footer{display:none;}
+
 nav ul {
 	list-style-type: none;
 	padding: 0;
