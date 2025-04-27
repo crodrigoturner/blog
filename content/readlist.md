@@ -1,26 +1,20 @@
 ---
 layout: layouts/base.njk
-title: Watch list
-excerpt: Films and tv series, watched and to watch.
+title: Read list
+excerpt: books, articles, posts...
 ---
 
-## Watch list
+## Read list
 
-### Watching
+### Reading
 
-<ul class="col-2">
-<li>The Chelsea Detective</li>
-</ul>
+* Muderbot
 
-### To watch
+### To read
 
-<ul class="col-2">
-- Deli boys
-- Murderbot
-</ul>
 
-### Watched
+* There Are Places in the World Where Rules Are Less Important Than Kindness - Carlo Rovelli
 
-<ul class="col-2">
-<li></li>
-</ul>
+
+### Read
+
