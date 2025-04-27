@@ -26,10 +26,10 @@ body {
 }
 
 header {
-	width: calc(30% - 40px);
+	width: calc(25% - 40px);
 	float: left;
 	padding: 5px 20px;
-	margin: 20px 35%;
+	margin: 20px 37.5%;
 	z-index: 9999;
 	text-align: center;
 	-webkit-backdrop-filter: blur(10px);
@@ -77,8 +77,8 @@ nav a:hover,
 }
 
 main {
-	padding: 150px 35% 50px;
-	width: 30%;
+	padding: 150px 37.5% 50px;
+	width: 25%;
 	float: left;
 	min-height: 100%;
 	z-index: 10;
