@@ -5,7 +5,33 @@ class: home
 ---
 <section>
 <h1>Carlos Rodrigo</h1>
-
+<script>
+currentTime=new Date();
+//getHour() function will retrieve the hour from current time
+if(currentTime.getHours()<13)
+document.write("Good morning! I hope you have a great ");
+else if(currentTime.getHours()<17)
+document.write("Good afternoon! I hope you're having a great ");
+else if(currentTime.getHours()<20)
+document.write("Good evening! I hope you're having a great ");
+else if(currentTime.getHours()<6)
+document.write("Good night! I hope you had a great ");
+else 
+document.write("Good night! I hope you had a great ");
+var weekday = new Array(7)
+weekday[0] = " Sunday"
+weekday[1] = " Monday"
+weekday[2] = " Tuesday"
+weekday[3] = " Wednesday"
+weekday[4] = " Thursday"
+weekday[5] = " Friday"
+weekday[6] = " Saturday"
+var currentDate = new Date()
+weekdayValue = currentDate.getDay()
+document.write(
+weekday[weekdayValue] + "."
+)
+</script>
 <p>I'm a data specialist with 7+ years of experience in leveraging data to drive businesses forward. I am passionate about helping make data-driven decisions that lead to growth and success.</p>
 <p>I have worked in architecture studios, big energy companies, luxury brands, and small companies.</p> 
 <p>I currently work at Técnica y Avance.</p>I live in Madrid with Mar, Lucas, Nicolás and Pancho.</p>

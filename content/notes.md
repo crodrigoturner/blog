@@ -14,5 +14,8 @@ layout: layouts/base.njk
 
 </article>
 {%- endfor %}
+
+<p class="meta">
+ <a href="#top">Back to the top <span class="arrow"> ↑ </span></a></p>
 </section>
 

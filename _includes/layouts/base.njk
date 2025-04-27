@@ -31,39 +31,6 @@
 <main>
 {{ content | safe }}
 
-<footer>
-
-
-<p class="meta">
-<script>
-currentTime=new Date();
-//getHour() function will retrieve the hour from current time
-if(currentTime.getHours()<13)
-document.write("Good morning! I hope you have a great ");
-else if(currentTime.getHours()<17)
-document.write("Good afternoon! I hope you're having a great ");
-else if(currentTime.getHours()<20)
-document.write("Good evening! I hope you're having a great ");
-else if(currentTime.getHours()<6)
-document.write("Good night! I hope you had a great ");
-else 
-document.write("Good night! I hope you had a great ");
-var weekday = new Array(7)
-weekday[0] = " Sunday"
-weekday[1] = " Monday"
-weekday[2] = " Tuesday"
-weekday[3] = " Wednesday"
-weekday[4] = " Thursday"
-weekday[5] = " Friday"
-weekday[6] = " Saturday"
-var currentDate = new Date()
-weekdayValue = currentDate.getDay()
-document.write(
-weekday[weekdayValue] + "."
-)
-</script> <a href="#top">Back to the top <span class="arrow"> ↑ </span></a></p>
-
-</footer>
 </main>
 <script type="module" src="{% getBundleFileUrl "js" %}"></script>
 </body>
