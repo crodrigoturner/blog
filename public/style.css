@@ -48,7 +48,7 @@ nav {
 	width: 60%;
 }
 
-.home nav, .home footer{display:none;}
+.home header, .home footer{display:none;}
 
 nav ul {
 	list-style-type: none;
@@ -236,7 +236,7 @@ footer {
 	width: 100%;
 	border: none;
 	color: var(--black);
-	font: 400 1em / 1.5 'Darby Sans Web', 'Inter', sans-serif;
+	font: 400 1em / 1.5  'Inter', sans-serif;
 }
 
 .arrow {
