@@ -223,20 +223,12 @@ article,
 article{margin:0 0 200px 0;}
 
 
-footer {
-	margin: 50px 0 0 0;
-	float: left;
-	border-top: 1px solid #607d8b1f;
-	font-size: 0.8em;
-	font-family:'Inter';
-	width: 100%;
-}
 .third article a {
 	float: left;
 	width: 100%;
 	border: none;
 	color: var(--black);
-	font: 400 1em / 1.5  'Inter', sans-serif;
+	font: 300 1em / 1.5  'Inter', sans-serif;
 }
 
 .arrow {
