@@ -243,6 +243,8 @@ footer {
 	font-family: Inter, sans-serif;
 }
 
+summary{font-weight:bold;}
+
 .cover {
 	float: left;
 	width: 100%;
