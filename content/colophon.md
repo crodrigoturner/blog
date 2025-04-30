@@ -16,15 +16,14 @@ The purpose of this website is to:
 
 ### Climate friendly
 
-This website is climate friendly. Cleaner than 98% of all web pages globally according to [Website carbon calculator](https://www.websitecarbon.com/website/carlosrodrigo-com/) and [Ecograder](https://ecograder.com/report/ui51eop7QVAu1piHLdKCnYav).
+This website is climate friendly. 
+Cleaner than 98% of all web pages globally according to [Website carbon calculator](https://www.websitecarbon.com/website/carlosrodrigo-com/) and [Ecograder](https://ecograder.com/report/ui51eop7QVAu1piHLdKCnYav).
 
 ### Technologies
 
 Built with Eleventy.
 
 Deployed on Netlify.
-
-Isotope from David DeSandro for filtering the blog.
 
 ### Fonts
 
