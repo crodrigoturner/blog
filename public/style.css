@@ -13,7 +13,7 @@ html {
 }
 
 body {
-	font:300 20px/1.6 'Inter', sans-serif;
+	font:300 16px/1.6 'Inter', sans-serif;
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
 	color: var(--black);
@@ -126,14 +126,14 @@ h1, h2 {
 h1::before{float:left; height:50px; width:50px; content:'';background:#FFB511; border-radius:50%;margin:0 20px 0 0;}
 
 h3{
-	font: 500 1.3em/1 'Newsreader', sans-serif;
+	font: 500 1.3em/1 'Inter', sans-serif;
 	margin: 70px 0 15px;
 	float: left;
 	width: 100%;
 }
 
 h4 {
-	font: 700 2em/1 'Newsreader', sans-serif;
+	font: 700 2em/1 'Inter', sans-serif;
 	margin: 20px 0 15px;
 	float: left;
 	width: 100%;
@@ -206,7 +206,7 @@ h1 a:hover {
 
 .third{
 	display: grid;
-	grid: auto / 32% 32% 32%;
+	grid: auto / 48% 48%;
 	grid-gap: 2%;
 	width: 100%;
 }
