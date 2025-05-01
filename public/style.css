@@ -225,7 +225,7 @@ article,
 article{margin:0 0 200px 0;}
 
 .posts article:nth-child(1){
-width:calc(84%/8)*2;
+	grid-column:span 2;
 
 }
 
