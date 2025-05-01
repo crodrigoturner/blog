@@ -79,8 +79,8 @@ nav a:hover,
 }
 
 main {
-	padding: 150px 30% 50px;
-	width: 40%;
+	padding: 150px 20px 50px;
+	width: calc(100% - 40px);
 	float: left;
 	min-height: 100%;
 	z-index: 10;
@@ -223,6 +223,8 @@ article,
 }
 
 article{margin:0 0 200px 0;}
+
+.posts article{width:calc((100% - 160px)/8); float:left;}
 
 
 .third article a {
