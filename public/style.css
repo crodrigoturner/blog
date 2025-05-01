@@ -194,8 +194,7 @@ h1 a:hover {
 
 
 
-
-article {
+.posts article {
 	color: var(--black);
 	float: left;
     border: 1px solid #bbdefb26;
@@ -209,6 +208,8 @@ margin:0;}
 }
 
 
+article {
+	width:30%; padding:50px 35%; float:left; border:none;}
 
 .arrow {
 	font-family: Inter, sans-serif;
