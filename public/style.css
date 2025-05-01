@@ -13,7 +13,7 @@ html {
 }
 
 body {
-	font:300 16px/1.6 'Inter', sans-serif;
+	font:300 16px/1.8 'Inter', sans-serif;
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
 	color: var(--black);
@@ -107,7 +107,7 @@ main {
 p {
 	float: left;
 	width: 100%;
-	margin: 5px 0;
+	margin:0;
 }
 
 .home-link{float:left;font: 500 1em /2 'Inter', sans-serif;color: var(--black);text-decoration: none;border: none;}
