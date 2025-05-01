@@ -139,6 +139,8 @@ h4 {
 	width: 100%;
 }
 
+
+
 blockquote{font-style: italic; padding:0 0px 0 20px; border-right:1px solid #EEE; }
 
 
@@ -179,7 +181,7 @@ h1 a:hover {
 	opacity: 0.7;
 }
 
- h4 a{	color: var(--black);}
+ h4 a{	color: var(--black);text-decoration: none;border: none;}
 
 
 
@@ -189,6 +191,7 @@ h1 a:hover {
 	grid-template-columns: repeat(6, calc(100%/6));
 	grid-gap: 0%;
 	width: 100%;
+	grid-template-rows: masonry;
 	
 }
 
