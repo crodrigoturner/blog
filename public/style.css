@@ -26,18 +26,18 @@ body {
 }
 
 header {
-	width: calc(25% - 40px);
-	float: left;
-	padding: 5px 20px;
-	margin: 20px 37.5%;
-	z-index: 9999;
-	text-align: center;
-	-webkit-backdrop-filter: blur(10px);
+    float: left;
+    padding: 5px 20px;
+    z-index: 9999;
+    text-align: center;
+    -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
     background-color: hsla(0, 0%, 67%, .1);
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, .1);
-	position:fixed;
+    position: fixed;
+    right: 35%;
+    top: 40px;
 }
 
 nav {
