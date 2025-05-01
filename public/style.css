@@ -79,8 +79,8 @@ nav a:hover,
 }
 
 main {
-	padding: 50px 20px;
-	width: calc(100% - 40px);
+	padding: 0;
+	width:100%;
 	float: left;
 	min-height: 100%;
 	z-index: 10;
