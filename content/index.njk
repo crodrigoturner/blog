@@ -34,18 +34,20 @@ document.write(
 weekday[weekdayValue] + "."
 )
 </script></p>
+<b>Work</b></br>
 <p>I'm a data specialist with 7+ years of experience in leveraging data to drive businesses forward. I am passionate about helping make data-driven decisions that lead to growth and success.</p>
 <p>I have worked in architecture studios, big energy companies, luxury brands, and small companies.</p> 
 <p>I currently work at Técnica y Avance.</p>I live in Madrid with Mar, Lucas, Nicolás and Pancho.</p>
 
-Meta: <a href="/about">About</a>, <a href="/notes">Notes</a>, <a href="/work">Work</a>
+<b>Meta</b></br>
+<a href="/about">About</a>, <a href="/notes">Notes</a>, <a href="/work">Work</a>
 <a href="/colophon">Colophon</a>
 <a href="/blogroll">Blogroll</a>
 <a href="/now">Now</a>
 <a href="/uses">Uses</a>
 <a href="/ai">AI</a>
 <a href="/feed/feed.xml">Feed</a>
-tags: {% for tag in collections | getKeys | filterTagList %}
+<b>Subjects/b></br>{% for tag in collections | getKeys | filterTagList %}
 {% set tagUrl %}/tag/{{ tag | slugify }}/{% endset %}
 <a href="/tag/{{tag}}">{{ tag }}</a>
 {% endfor %}
