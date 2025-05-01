@@ -205,7 +205,7 @@ h1 a:hover {
 
 margin:0;}
 
-.posts article:nth-child(1){
+.posts article:nth-child(1), .about{
 	grid-column:span 2;
 
 }
