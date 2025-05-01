@@ -3,7 +3,7 @@ layout: layouts/base.njk
 title: Home
 class: home
 ---
-<section>
+<section class="posts">
 <h1>Carlos Rodrigo</h1>
 <p>
 <script>
@@ -36,9 +36,8 @@ weekday[weekdayValue] + "."
 <p>I'm a data specialist with 7+ years of experience in leveraging data to drive businesses forward. I am passionate about helping make data-driven decisions that lead to growth and success.</p>
 <p>I have worked in architecture studios, big energy companies, luxury brands, and small companies.</p> 
 <p>I currently work at Técnica y Avance.</p>I live in Madrid with Mar, Lucas, Nicolás and Pancho.</p>
-</section>
 
-<section class="third">
+
 <article >
 <h3>Main</h3>
 <a href="/about">About</a>
@@ -72,5 +71,11 @@ weekday[weekdayValue] + "."
 <a href="/watchlist">Watchlist</a>
 <a href="/readlist">Read list</a>
 </article>
+{% set postslist = collections.posts %}
+{%- for post in postslist | reverse %}
+<article>
+<h4><a href="{{ post.url }}">{{ post.data.title }}</a></h4>
+{{ post.data.excerpt | safe}}
+</article>
+{%- endfor %}
 </section>
-
