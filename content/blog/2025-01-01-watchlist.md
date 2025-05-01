@@ -6,8 +6,6 @@ tags:
 - Likes
 ---
 
-## Watch list
-
 ### Watching
 
 <ul class="col-2">
