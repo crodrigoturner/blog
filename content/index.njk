@@ -39,20 +39,13 @@ weekday[weekdayValue] + "."
 <p>I have worked in architecture studios, big energy companies, luxury brands, and small companies.</p> 
 <p>I currently work at Técnica y Avance.</p>I live in Madrid with Mar, Lucas, Nicolás and Pancho.</p>
 
-<b>Meta</b></br>
-<a href="/about">About</a>, <a href="/notes">Notes</a>, <a href="/work">Work</a>
-<a href="/colophon">Colophon</a>
-<a href="/blogroll">Blogroll</a>
-<a href="/now">Now</a>
-<a href="/uses">Uses</a>
-<a href="/ai">AI</a>
-<a href="/feed/feed.xml">Feed</a>
-<b>Subjects/b></br>{% for tag in collections | getKeys | filterTagList %}
+Find out more <a href="/about/">about me</a>, about <a href="/work/">what I do</a> and feel <a href="/contact/">free to get in touch</a>.
+
+Explore the notes in this page (<a href="/feed/feed.xml">subscribe</a>), or browse by subjects:</br>
+{% for tag in collections | getKeys | filterTagList %}
 {% set tagUrl %}/tag/{{ tag | slugify }}/{% endset %}
 <a href="/tag/{{tag}}">{{ tag }}</a>
 {% endfor %}
-
-Favourites: <a href="https://maps.app.goo.gl/b2qmfe9Q9S2GELv57">Favourite places</a>, <a href="/watchlist">Watchlist</a>, <a href="/readlist">Read list</a>
 </article>
 {% set postslist = collections.posts %}
 {%- for post in postslist | reverse %}
