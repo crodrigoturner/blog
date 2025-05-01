@@ -13,7 +13,7 @@ html {
 }
 
 body {
-	font:300 16px/1.6 'Inter', sans-serif;
+	font:300 17px/1.6 'Inter', sans-serif;
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
 	color: var(--black);
@@ -206,7 +206,7 @@ h1 a:hover {
 
 .third{
 	display: grid;
-	grid: auto / 48% 48%;
+	grid-template-columns: repeat(8, calc(84%/8));
 	grid-gap: 2%;
 	width: 100%;
 }
