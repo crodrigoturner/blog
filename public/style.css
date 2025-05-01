@@ -197,7 +197,7 @@ h1 a:hover {
 
 .posts{
 	display: grid;
-	grid: auto / 100%;
+	grid: auto / calc(100%/8);
 	grid-gap: 0%;
 	width: 100%;
 	
@@ -224,7 +224,6 @@ article,
 
 article{margin:0 0 200px 0;}
 
-.posts article{width:calc((100% - 160px)/8); float:left;}
 
 
 .third article a {

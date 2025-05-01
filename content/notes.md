@@ -9,12 +9,11 @@ layout: layouts/base.njk
 
 <h4><a href="{{ post.url }}">{{ post.data.title }}</a></h4>
 
-{{ post.content | safe}}
+{{ post.excerpt | safe}}
 
 </article>
 {%- endfor %}
 
-<p class="meta">
- <a href="#top">Back to the top <span class="arrow"> ↑ </span></a></p>
+
 </section>
 
