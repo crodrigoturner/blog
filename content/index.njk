@@ -34,18 +34,17 @@ document.write(
 weekday[weekdayValue] + "."
 )
 </script></p>
-<b>Work</b></br>
 <p>I'm a data specialist with 7+ years of experience in leveraging data to drive businesses forward. I am passionate about helping make data-driven decisions that lead to growth and success.</p>
 <p>I have worked in architecture studios, big energy companies, luxury brands, and small companies.</p> 
 <p>I currently work at Técnica y Avance.</p>I live in Madrid with Mar, Lucas, Nicolás and Pancho.</p>
 
-Find out more <a href="/about/">about me</a>, about <a href="/work/">what I do</a> and feel <a href="/contact/">free to get in touch</a>.
+<p>Find out more <a href="/about/">about me</a>, about <a href="/work/">what I do</a> and feel <a href="/contact/">free to get in touch</a>.</p>
 
-Explore the notes in this page (<a href="/feed/feed.xml">subscribe</a>), or browse by subjects:</br>
+<p>Explore the notes in this page (<a href="/feed/feed.xml">subscribe</a>), or browse by subjects:</br>
 {% for tag in collections | getKeys | filterTagList %}
 {% set tagUrl %}/tag/{{ tag | slugify }}/{% endset %}
 <a href="/tag/{{tag}}">{{ tag }}</a>
-{% endfor %}
+{% endfor %}</p>
 </article>
 {% set postslist = collections.posts %}
 {%- for post in postslist | reverse %}

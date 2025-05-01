@@ -79,7 +79,7 @@ nav a:hover,
 }
 
 main {
-	padding: 150px 20px 50px;
+	padding: 50px 20px;
 	width: calc(100% - 40px);
 	float: left;
 	min-height: 100%;
