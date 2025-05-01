@@ -1,5 +1,4 @@
 ---
-layout: layouts/base.njk
 title: Watch list
 excerpt: Films and tv series, watched and to watch.
 tags:
