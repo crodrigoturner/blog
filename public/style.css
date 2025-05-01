@@ -183,21 +183,10 @@ h1 a:hover {
 
 
 
-.cta {
-	border: 1px solid var(--blue);
-	float: left;
-	margin: 30px 0;
-	border-radius: 5px;
-	padding: 10px 20px;
-	font-family: "Inter";
-}
-.cta:hover {
-	border: 1px solid var(--blue);
-}
 
 .posts{
 	display: grid;
-	grid-template-columns: repeat(8, calc(84%/8));
+	grid-template-columns: repeat(6, calc(88%/6));
 	grid-gap: 2%;
 	width: 100%;
 	
@@ -211,31 +200,20 @@ h1 a:hover {
 	width: 100%;
 }
 
-article,
-.third section article {
+article {
 	color: var(--black);
 	float: left;
 
 	padding: 20px 0 0 0;
 	border: none;
-	font-size:.9em;
-	
-}
-
-article{margin:0 0 200px 0;}
+margin:0 0 50px 0;}
 
 .posts article:nth-child(1){
 	grid-column:span 2;
 
 }
 
-.third article a {
-	float: left;
-	width: 100%;
-	border: none;
-	color: var(--black);
-	font: 300 1em / 1.5  'Inter', sans-serif;
-}
+
 
 .arrow {
 	font-family: Inter, sans-serif;
