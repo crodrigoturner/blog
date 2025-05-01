@@ -25,7 +25,6 @@ const eleventyComputed = {
 {% set postslist = collections[ tag ] %}
 {%- for post in postslist | reverse %}
 <a href="{{ post.url }}" class="postlist-item">
-<img src="{{post.data.cover}}" alt="cover image" class="cover"/>
 <h4>{{ post.data.title }}</h4>
 <p class="post-meta">
 {{ post.date | readableDate("dd.MM.yyyy") }} · 
