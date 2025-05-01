@@ -38,36 +38,19 @@ weekday[weekdayValue] + "."
 <p>I have worked in architecture studios, big energy companies, luxury brands, and small companies.</p> 
 <p>I currently work at Técnica y Avance.</p>I live in Madrid with Mar, Lucas, Nicolás and Pancho.</p>
 
-
-<h3>Main</h3>
-<a href="/about">About</a>
-<a href="/notes">Notes</a>
-<a href="/work">Work</a>
-
-<h3>Other</h3>
+Meta: <a href="/about">About</a>, <a href="/notes">Notes</a>, <a href="/work">Work</a>
 <a href="/colophon">Colophon</a>
 <a href="/blogroll">Blogroll</a>
 <a href="/now">Now</a>
 <a href="/uses">Uses</a>
 <a href="/ai">AI</a>
 <a href="/feed/feed.xml">Feed</a>
-
-<h3>Projects</h3>
-<a href="/life">Life in squares</a>
-<a href="/podcast">Podcast</a>
-<a href="/riddles">Riddles</a>
-<a href="/tboti">The best of the internet</a>
-<h3>Topics</h3>
-{% for tag in collections | getKeys | filterTagList %}
+tags: {% for tag in collections | getKeys | filterTagList %}
 {% set tagUrl %}/tag/{{ tag | slugify }}/{% endset %}
 <a href="/tag/{{tag}}">{{ tag }}</a>
 {% endfor %}
 
-
-<h3>Lists</h3>
-<a href="https://maps.app.goo.gl/b2qmfe9Q9S2GELv57">Favourite places</a>
-<a href="/watchlist">Watchlist</a>
-<a href="/readlist">Read list</a>
+Favourites: <a href="https://maps.app.goo.gl/b2qmfe9Q9S2GELv57">Favourite places</a>, <a href="/watchlist">Watchlist</a>, <a href="/readlist">Read list</a>
 </article>
 {% set postslist = collections.posts %}
 {%- for post in postslist | reverse %}
