@@ -186,27 +186,22 @@ h1 a:hover {
 
 .posts{
 	display: grid;
-	grid-template-columns: repeat(6, calc(88%/6));
-	grid-gap: 2%;
+	grid-template-columns: repeat(6, calc(100%/6));
+	grid-gap: 0%;
 	width: 100%;
 	
 }
 
 
-.third{
-	display: grid;
-	grid-template-columns: repeat(8, calc(84%/8));
-	grid-gap: 2%;
-	width: 100%;
-}
+
 
 article {
 	color: var(--black);
 	float: left;
-
-	padding: 20px 0 0 0;
+    border: 1px solid #bbdefb26;
+	padding: 20px;
 	border: none;
-margin:0 0 50px 0;}
+margin:0;}
 
 .posts article:nth-child(1){
 	grid-column:span 2;
