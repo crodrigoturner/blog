@@ -190,13 +190,13 @@ h1 a:hover {
 }
 
 .grid-sizer,
-.posts article {
+article {
 
-    width: calc((100%/6) - 42px) !important;
+    width: 20%;
 
 }
 
-.posts article {
+article {
 	color: var(--black);
 	margin:0;
 	padding: 20px;
@@ -204,7 +204,7 @@ float:left;
     border: 1px solid #bbdefb26;
 }
 
-.posts article:nth-child(1), .wide{
+article:nth-child(1), .wide{
 	width: calc((100%/3) - 42px) !important;
 
 }
