@@ -188,7 +188,7 @@ h1 a:hover {
 
 .posts{
 	columns: 6;
-	width: 100%;
+	width: calc(100% - 240px);
 	
 	
 }
