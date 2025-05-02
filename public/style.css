@@ -194,13 +194,13 @@ h1 a:hover {
 }
 
 
-
+.grid-sizer,
 .posts article {
 	color: var(--black);
     border: 1px solid #bbdefb26;
 	padding: 20px;
 
-    width: 100%;
+    width: calc(100%/6);
 
 margin:0;}
 

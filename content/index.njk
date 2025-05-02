@@ -65,7 +65,8 @@ weekday[weekdayValue] + "."
 <script>
 $('.posts').masonry({
   itemSelector: 'article',
-  columnWidth: calc(100%/6)
+ columnWidth: '.grid-sizer',
+  percentPosition: true
 });
 
 </script>
