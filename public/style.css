@@ -204,10 +204,7 @@ float:left;
     border: 1px solid #bbdefb26;
 }
 
-article:nth-child(1), .wide{
-	width: calc((100%/3) - 42px) !important;
 
-}
 
 
 .single {
