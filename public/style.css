@@ -187,11 +187,11 @@ h1 a:hover {
 
 
 .posts{
-	display: grid;
-	grid-template-columns: repeat(6, calc(100%/6));
-	grid-gap: 0%;
+	columns: 6 200px;
+  column-gap: 1rem;
+
 	width: 100%;
-	grid-template-rows: masonry;
+	
 	
 }
 
@@ -202,11 +202,13 @@ h1 a:hover {
 	float: left;
     border: 1px solid #bbdefb26;
 	padding: 20px;
+	display: inline-block;
+    width: 100%;
 
 margin:0;}
 
 .posts article:nth-child(1), .wide{
-	grid-column:span 2;
+	column-span:  2;
 
 }
 
