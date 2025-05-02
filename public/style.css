@@ -199,13 +199,13 @@ h1 a:hover {
 	color: var(--black);
     border: 1px solid #bbdefb26;
 	padding: 20px;
-	display: inline-block;
+
     width: 100%;
 
 margin:0;}
 
 .posts article:nth-child(1), .wide{
-	column-span:  2;
+	width:calc((100%/6)*2);
 
 }
 
