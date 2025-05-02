@@ -2,7 +2,6 @@
 title: Watch list
 excerpt: Films and tv series, watched and to watch.
 tags:
-- About
 - Likes
 ---
 
