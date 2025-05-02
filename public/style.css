@@ -195,12 +195,17 @@ h1 a:hover {
 .grid-sizer,
 .posts article {
 	color: var(--black);
-    border: 1px solid #bbdefb26;
-	padding: 20px;
+   
+	padding: 19px;
 float:left;
     width: calc((100% + 240px)/6);
 
 margin:0;}
+
+.posts article {
+
+    border: 1px solid #bbdefb26;
+}
 
 .posts article:nth-child(1), .wide{
 	width:33.333% !important;
