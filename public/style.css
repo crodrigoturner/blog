@@ -187,14 +187,12 @@ h1 a:hover {
 .posts{
 		width: 100%;
 		float:left;
-}
+		display: grid;
+		height: 100px;
+		grid-template-columns: repeat(6, calc(100% / 6));
+		grid-template-rows: masonry;
+	  }
 
-.grid-sizer,
-article {
-
-    width: 20%;
-
-}
 
 article {
 	color: var(--black);
