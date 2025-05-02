@@ -189,14 +189,12 @@ h1 a:hover {
 .posts{
 		width: 100%;
 		float:left;
-}
-
 
 .grid-sizer,
 .posts article {
 	color: var(--black);
    
-	padding: 19px;
+	padding: 20px;
 float:left;
     width: calc(100%/6);
 
@@ -216,9 +214,7 @@ margin:0;}
 .single {
 	width:30%; padding:50px 35%; float:left; border:none;}
 
-.arrow {
-	font-family: Inter, sans-serif;
-}
+
 
 summary{font-weight:bold;}
 
@@ -483,10 +479,3 @@ input {
 		margin: 50px 0 0 0;
 	}
 }
-
-@font-face {
-	font-family: 'Darby Sans Web';
-	src:url('/Darby.woff') format('woff');
-	font-weight: 300;
-	font-style: normal;
-	}
