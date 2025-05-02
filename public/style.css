@@ -204,7 +204,7 @@ float:left;
 }
 
 .single {
-	width:30%; padding:50px 35%; float:left; border:none;}
+	width:calc(33.333% - 84px); padding:50px 33.3333%; float:left; border:none;}
 
 
 
