@@ -230,10 +230,10 @@ summary{font-weight:bold;}
 
 .post-meta {
 	opacity: 0.7;
-	font: 500 0.7em / 1 'Inter', sans-serif;
+	font: 300 0.9em / 2 'Inter', sans-serif;
 	float: left;
 	margin: 0;
-	position:absolute; bottom:left; left:0
+
 }
 
 
