@@ -218,6 +218,11 @@ content:url('/img/draft.png');
 float:left;
 }
 
+.working .post-meta::before{
+	content:url('/img/working.png');
+	float:left;
+	}
+
 article {
 	color: var(--black);
 	margin: 0;
