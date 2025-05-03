@@ -1,9 +1,8 @@
 ---
 title: Reading long posts
-cover: '/img/20250218elevenlabs.png'
 tags: 
 - Internet
-excerpt: How I digest longer articles
+excerpt: How I digest "longish" articles
 ---
 
 My reading list is quite extensive, 600+ articles, some of them will not be read. Ever. Some are not even articles, more like apps or services that I want to try. And others are very interesting but very long articles that I want to read/listen. 

@@ -1,6 +1,5 @@
 ---
 title: Pocketmoney
-cover: '/img/cover2.png'
 tags: 
 - Life
 excerpt: Lessons for teaching children about money

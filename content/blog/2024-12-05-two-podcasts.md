@@ -1,6 +1,5 @@
 ---
 title: 2 podcasts and biographies
-cover: '/img/cover4.png'
 tags:
 - Likes
 excerpt: Getting inspiration from the lives of others

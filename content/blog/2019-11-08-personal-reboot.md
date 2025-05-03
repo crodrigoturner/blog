@@ -1,6 +1,5 @@
 ---
 title: Personal reboot
-cover: '/img/cover3.png'
 tags: 
 - Life
 

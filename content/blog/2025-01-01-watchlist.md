@@ -1,5 +1,5 @@
 ---
-title: Watch list
+title: Watching
 excerpt: Films and tv series, watched and to watch.
 tags:
 - Likes
