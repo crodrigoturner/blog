@@ -1,5 +1,6 @@
 ---
 title: What is a website?
+status: stock
 tags: 
 - Notes
 excerpt: The internet is a book made of pages

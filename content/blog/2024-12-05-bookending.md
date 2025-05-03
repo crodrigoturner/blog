@@ -1,5 +1,6 @@
 ---
 title: Bookending
+status: stock
 tags: 
 - Notes
 excerpt: How to start and finish the workday

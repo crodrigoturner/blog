@@ -1,5 +1,6 @@
 ---
 title: Personal reboot
+status: stock
 tags: 
 - Notes
 

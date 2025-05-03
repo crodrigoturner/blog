@@ -1,5 +1,6 @@
 ---
 title: 2 podcasts and biographies
+status: flow
 tags:
 - Notes
 excerpt: Getting inspiration from the lives of others

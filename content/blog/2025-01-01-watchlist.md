@@ -1,6 +1,7 @@
 ---
 title: Watching
 excerpt: Films and tv series, watched and to watch.
+status: stock
 tags:
 - Likes
 ---

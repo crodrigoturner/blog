@@ -1,5 +1,6 @@
 ---
 title: Reading long posts
+status: flow
 tags: 
 - Notes
 excerpt: How I digest "longish" articles
