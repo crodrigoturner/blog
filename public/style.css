@@ -135,12 +135,12 @@ h2 {
 
 h1::before {
 	float: left;
-	height: 45px;
-	width: 45px;
+	height: 35px;
+	width: 3cm;
 	content: "";
-	background: #ffb511;
+	background: var(--yellow);
 	border-radius: 50%;
-	margin: 0 15px 0 0;
+	margin: 7px 15px 0 0;
 }
 
 h3 {
