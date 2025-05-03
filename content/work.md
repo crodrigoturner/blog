@@ -1,10 +1,8 @@
 ---
-layout: layouts/base.njk
+layout: layouts/post.njk
 title: Work
 class: work
 ---
-
-## Work
 
 <h3>Where I've been</h3>
 <ul>
