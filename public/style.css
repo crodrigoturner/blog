@@ -3,6 +3,7 @@
 	--blue: #009DA5;
 	--yellow: #FFb511;
 	--white:#FFF;
+	--orange:#FF7477
 }
 
 html {
@@ -181,7 +182,7 @@ a {
 }
 
 a:hover {
-	opacity: 0.75;
+	color: var(--orange);
 	border: none;
 	box-shadow: none;
 	background: none;
