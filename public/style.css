@@ -208,6 +208,17 @@ float:left;
 .single {
 	width:calc(33.333% - 84px); padding:50px 33.3333%; float:left; border:none;}
 
+.tag-item::after {
+	content: ', ';
+	float: left;
+}
+.tag-item:last-child::after {
+	content: '';
+}
+ .tag-item::nth-last-child(2)::after {
+	content: ' and ';
+	float: left;
+}
 
 
 summary{font-weight:bold;}
