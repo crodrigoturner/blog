@@ -207,12 +207,13 @@ h4 a {
 }
 
 .posts {
-	width: 100%;
-	float: left;
-	display: grid;
-	height: 100px;
-	grid-template-columns: repeat(8, calc(100% / 8));
-	grid-template-rows: masonry;
+    width: 50%;
+    padding: 100px 25%;
+    float: left;
+    display: grid;
+    height: 100px;
+    grid-template-columns: repeat(4, calc(100% / 4));
+    grid-template-rows: masonry;
 }
 
 article {
