@@ -222,7 +222,7 @@ article {
 	color: var(--black);
 	margin: 0;
 	padding: 20px;
-	float: left;
+	display:inline-block;
 }
 
 .single {
