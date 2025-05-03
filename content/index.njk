@@ -40,7 +40,7 @@ weekday[weekdayValue] + "."
 
 <p>Explore the notes in this page (<a href="/feed/feed.xml">subscribe</a>) or browse by subjects:{% for tag in collections | getKeys | filterTagList %}
 {% set tagUrl %}/tag/{{ tag | slugify }}/{% endset %}
-<a href="/tag/{{tag}}" class="tag-item">{{ tag }}</a>
+<span class="tag-item"><a href="/tag/{{tag}}" >{{ tag }}</a></span>
 {% endfor %}</p>
 </article>
 {% set postslist = collections.posts %}
