@@ -213,14 +213,19 @@ h4 a {
    column-rule: 1px solid #EEE;
 }
 
-.draft .post-meta::before{
-content:url('/img/draft.png');
+.stock .post-meta::before{
+content:'';
 float:left;
+width:11px; height:11px; border-radius:50%; border:1px solid #b0bec5;
+margin: 0 5px 0 0;
 }
 
-.working .post-meta::before{
-	content:url('/img/working.png');
+.flow .post-meta::before{
+	content:'';
 	float:left;
+	width:11px; height:11px; border-radius:50%; border:1px solid #b0bec5;
+	margin: 0 5px 0 0;
+	background: #b0bec5;
 	}
 
 article {
