@@ -209,9 +209,13 @@ h4 a {
 .posts {
     width: 50%;
     padding: 100px 25%;
-  
    column-count:3;
    column-rule: 1px solid #EEE;
+}
+
+.draft .post-meta::before{
+content:'url(/img/draft.png)';
+float:left;
 }
 
 article {
