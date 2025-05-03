@@ -212,7 +212,7 @@ h4 a {
     float: left;
     display: grid;
     height: 100px;
-    grid-template-columns: repeat(4, calc(100% / 4));
+    grid-template-columns: repeat(3, calc(100% / 3));
     grid-template-rows: masonry;
 }
 
