@@ -19,21 +19,59 @@ const eleventyComputed = {
 
 ---
 
-<h2>{{title}}</h2>
-
 <section class="posts">
-{% set postslist = collections[ tag ] %}
+<article >
+<h1>Carlos Rodrigo</h1>
+<p>
+<script>
+currentTime=new Date();
+//getHour() function will retrieve the hour from current time
+if(currentTime.getHours()<13)
+document.write("Good morning!</br> I hope you're having a great ");
+else if(currentTime.getHours()<17)
+document.write("Good afternoon!</br> I hope you're having a great ");
+else if(currentTime.getHours()<20)
+document.write("Good evening!</br> I hope you're having a great ");
+else if(currentTime.getHours()<6)
+document.write("Good night!</br> I hope you had a great ");
+else 
+document.write("Good night!</br> I hope you had a great ");
+var weekday = new Array(7)
+weekday[0] = " Sunday"
+weekday[1] = " Monday"
+weekday[2] = " Tuesday"
+weekday[3] = " Wednesday"
+weekday[4] = " Thursday"
+weekday[5] = " Friday"
+weekday[6] = " Saturday"
+var currentDate = new Date()
+weekdayValue = currentDate.getDay()
+document.write(
+weekday[weekdayValue] + "."
+)
+</script></p>
+
+
+<p>Find out more <a href="/about/">about me</a>, about <a href="/work/">what I do</a> and feel <a href="/contact/">free to get in touch</a>.</p>
+
+<p>Explore the notes in this page or browse by subjects:{% for tag in collections | getKeys | filterTagList %}
+{% set tagUrl %}/tag/{{ tag | slugify }}/{% endset %}
+<span class="tag-item"><a href="/tag/{{tag}}" >{{ tag }}</a></span>
+{% endfor %}</p>
+</article>
+{% set postslist = collections.posts %}
 {%- for post in postslist | reverse %}
-<a href="{{ post.url }}" class="postlist-item">
-<h4>{{ post.data.title }}</h4>
-<p class="post-meta">
-{{ post.date | readableDate("dd.MM.yyyy") }} · 
+<article class="{{post.data.type}}">
+<h4><a href="{{post.url}}">{{ post.data.title }}</a></h4>
+<img src="{{post.data.cover}}" alt="">
+<p>{{ post.data.excerpt | safe }}</p>
+<span class="post-meta">
 {% for tag in post.data.tags %}
 {% if tag != "posts" %}
-{{ tag }}
+{{ tag }}</span>
 {% endif %}
 {% endfor %}
-</p>
-</a>
+</span>
+</article>
 {%- endfor %}
 </section>
