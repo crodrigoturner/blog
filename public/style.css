@@ -182,7 +182,7 @@ a {
 }
 
 a:hover {
-	color: var(--orange);
+	opacity:.7;
 	border: none;
 	box-shadow: none;
 	background: none;
