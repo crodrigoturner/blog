@@ -6,8 +6,6 @@ class: about
 
 ## About
 
-              
-
 I'm a data specialist with 7+ years of experience in leveraging data to drive businesses forward. I am passionate about helping make data-driven decisions that lead to growth and success. 
 
 I have worked in architecture studios, big energy companies, luxury brands, and small companies. I currently work at <a href="http://tecnicayavance.com">Técnica y Avance</a>.
