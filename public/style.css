@@ -151,7 +151,7 @@ h3 {
 }
 
 h4 {
-	font: 700 1.4em/1.4 "Inter", sans-serif;
+	font: 700 1.3em/1.4 "Inter", sans-serif;
 	margin: 0px;
 	float: left;
 	width: 100%;
@@ -214,17 +214,23 @@ h4 a {
 }
 
 .stock .post-meta::before{
-content:'';
-float:left;
-width:11px; height:11px; border-radius:50%; border:1px solid #b0bec5;
-margin: 0 5px 0 0;
+    content: '';
+    float: left;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1px solid #b0bec5;
+    margin: 8px 5px 0 0;
 }
 
 .flow .post-meta::before{
-	content:'';
-	float:left;
-	width:11px; height:11px; border-radius:50%; border:1px solid #b0bec5;
-	margin: 0 5px 0 0;
+    content: '';
+    float: left;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1px solid #b0bec5;
+    margin: 8px 5px 0 0;
 	background: #b0bec5;
 	}
 
