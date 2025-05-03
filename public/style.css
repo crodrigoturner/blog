@@ -214,7 +214,7 @@ h4 a {
 }
 
 .draft .post-meta::before{
-content:"url(/img/draft.png)";
+content:url('/img/draft.png');
 float:left;
 }
 
