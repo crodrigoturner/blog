@@ -1,9 +1,8 @@
 :root {
-	--black: #071535;
-	--blue: #01579b;
-	--soft-grey: #eceff1;
-	--white: #fff;
-	--yellow: #fdd835;
+	--black: #000;
+	--blue: #009DA5;
+	--yellow: #FFb511;
+	--white:#FFF;
 }
 
 html {
@@ -20,7 +19,7 @@ body {
 	word-wrap: break-word;
 	margin: 0;
 	position: relative;
-	background: #f7f7f7;
+	background: var(--white);
 	padding: 0;
 	min-height: 100%;
 }
