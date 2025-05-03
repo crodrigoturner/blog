@@ -1,7 +1,7 @@
 ---
 title: Bookending
 tags: 
-- Life
+- Notes
 excerpt: How to start and finish the workday
 ---
 

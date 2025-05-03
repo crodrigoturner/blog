@@ -1,7 +1,7 @@
 ---
 title: Pocketmoney
 tags: 
-- Life
+- Notes
 excerpt: Lessons for teaching children about money
 ---
 

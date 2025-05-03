@@ -1,7 +1,7 @@
 ---
 title: Reading long posts
 tags: 
-- Internet
+- Notes
 excerpt: How I digest "longish" articles
 ---
 
