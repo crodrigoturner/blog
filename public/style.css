@@ -39,7 +39,7 @@ header {
 nav {
 	float: right;
 	margin: 0;
-	font: 700 1.3em /2 "Inter", sans-serif;
+	font: 700 1.3em /1.4 "Inter", sans-serif;
 	z-index: 9999;
 	width: 50%;
 padding:20px 0;
