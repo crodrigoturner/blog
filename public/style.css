@@ -30,7 +30,7 @@ header {
 	padding: 5px 20px;
 	z-index: 9999;
 	text-align: center;
-	width:40%;
+	width:calc(33.333% - 41px);
 	margin:0;
 	border-right:1px solid #EEE;
 	min-height:100vh;
@@ -76,7 +76,7 @@ nav a:hover,
 
 main {
 	padding: 0;
-	width: 60%;
+	width: 66.666%;
 	float: right;
 	min-height: 100%;
 	z-index: 10;
