@@ -211,11 +211,11 @@ float:left;
 .stock .post-meta::before, .flow .post-meta::before{
     content: '';
     float: left;
-    width: 10px;
-    height: 10px;
+    width: 8px;
+    height: 8px;
     border-radius: 50%;
     border: 1px solid #b0bec5;
-    margin: 9px 5px 0 0;
+    margin: 8px 5px 0 0;
 }
 
 .flow .post-meta::before{
