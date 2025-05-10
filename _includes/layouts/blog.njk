@@ -7,6 +7,11 @@ layout: layouts/base.njk
 {% set tagUrl %}/tag/{{ tag | slugify }}/{% endset %}
 <a class="button" data-filter=".{{tag}}" href="/tag/{{tag}}">{{ tag }}</a>
 {% endfor %}
+
+<p>{% for tag in collections | getKeys | filterTagList %}
+{% set tagUrl %}/tag/{{ tag | slugify }}/{% endset %}
+<span class="tag-item"><a href="/tag/{{tag}}" >{{ tag }}</a></span>
+{% endfor %}</p>
 </div>
 
 <div class="posts">
