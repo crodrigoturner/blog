@@ -56,9 +56,9 @@ nav ul {
 
 nav ul li {
 	float: right;
-	width: auto;
+	
 	text-align: right;
-	margin: 0 0 20px 0px;
+	margin: 0 0 5px 0px;
 	width:100%;
 }
 
@@ -67,7 +67,7 @@ nav a {
 	color: var(--black);
 	border: none;
 	padding: 0;
-	float: left;
+
 }
 
 nav a:hover,
