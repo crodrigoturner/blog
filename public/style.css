@@ -33,6 +33,7 @@ header {
 	width:40%;
 	margin:0;
 	border-right:1px solid #EEE;
+	min-height:100vh;
 }
 
 nav {
@@ -189,9 +190,8 @@ h4 a {
 }
 
 .posts {
-    width: 80%;
-    padding: 100px 20px;
-   column-count:1;
+    width: 50%;
+float:left;
    
 }
 
@@ -213,8 +213,9 @@ article {
 	color: var(--black);
 	margin: 0 20px;
 	padding: 20px 0;
-	display:inline-block;
-	border-bottom:1px solid #EEE;
+	float:left;
+	border-bottom:1px solid #EEEEEE85;
+	width:100%;
 }
 
 .single {
