@@ -13,7 +13,7 @@ html {
 }
 
 body {
-	font: 300 16px/1.8 "Inter", sans-serif;
+	font: 300 17px/1.8 "Inter", sans-serif;
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
 	color: var(--black);
@@ -232,7 +232,7 @@ article {
 }
 
 .single {
-	width: 33.333%;
+	width: 50%;
 	padding: 20px 0;
 	float: left;
 	border: none;
