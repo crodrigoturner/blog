@@ -177,7 +177,7 @@ a {
 	border-bottom: 1px solid var(--soft-grey);
 }
 
-a:hover {
+a:hover, .active {
 	opacity:.7;
 	border: none;
 	box-shadow: none;
