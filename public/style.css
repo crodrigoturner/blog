@@ -42,7 +42,7 @@ nav {
 	font: 600 1.15em /2 "Inter", sans-serif;
 	z-index: 9999;
 	width: 50%;
-	text-transform:uppercase;
+
 text-align:right;
 }
 
@@ -51,14 +51,15 @@ text-align:right;
 nav ul {
 	list-style-type: none;
 	padding: 0;
-	float: left;
+	float: right;
 }
 
 nav ul li {
 	float: right;
 	width: auto;
 	text-align: right;
-	margin: 0 0 0 50px;
+	margin: 0 0 20px 0px;
+	width:100%;
 }
 
 nav a {
