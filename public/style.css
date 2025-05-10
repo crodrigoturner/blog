@@ -233,7 +233,7 @@ article {
 
 .single {
 	width: 33.333%;
-	padding: 20px;
+	padding: 20px 0;
 	float: left;
 	border: none;
 }
