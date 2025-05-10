@@ -82,7 +82,7 @@ main {
 	float: left;
 	min-height: 100%;
 	z-index: 10;
-	margin: 0 0 -100px;
+	margin: 0 auto -100px;
 }
 
 .clear {
@@ -195,7 +195,7 @@ h4 a {
     width: 80%;
     padding: 100px 20px;
    column-count:1;
-   column-rule: 1px solid #EEE;
+   
 }
 
 .stock .post-meta::before, .flow .post-meta::before{
