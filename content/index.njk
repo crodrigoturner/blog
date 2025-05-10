@@ -5,14 +5,7 @@ class: home
 ---
 
 <section class="posts">
-<article >
 
-
-
-
-
-
-</article>
 {% set postslist = collections.posts %}
 {%- for post in postslist | reverse %}
 <article class="{{post.data.status}}">
