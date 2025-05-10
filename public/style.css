@@ -37,11 +37,13 @@ header {
 }
 
 nav {
-	float: left;
+	float: right;
 	margin: 0;
-	font: 500 1em /2 "Inter", sans-serif;
+	font: 500 1.25em /2 "Inter", sans-serif;
 	z-index: 9999;
 	width: 20%;
+	text-trasnform:uppercase;
+text-align:left;
 }
 
 
