@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/page.njk
 title: More
 class: more
 ---
@@ -9,3 +9,14 @@ class: more
 <li>Colophon</li>
 <li>Blogroll</li>
 </ul>
+
+{% set postslist = collections.posts %}
+{%- for post in postslist | reverse %}
+<article>
+
+<h4><a href="{{ post.url }}">{{ post.data.title }}</a></h4>
+
+{{ post.data.excerpt | safe}}
+
+</article>
+{%- endfor %}
