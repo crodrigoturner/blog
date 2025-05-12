@@ -439,8 +439,9 @@ header,nav, main{
     padding: 50px 2%; 
 	float:left;
 	position:relative;
+	height:auto;
 	}
-
+.posts{width:100%;}
 
 
 	article {
