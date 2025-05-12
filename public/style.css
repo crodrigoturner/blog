@@ -437,6 +437,8 @@ input {
 header,nav, main{
 	    width: 96%;
     padding: 50px 2%; 
+	float:left;
+	position:relative;
 	}
 
 
