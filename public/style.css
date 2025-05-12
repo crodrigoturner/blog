@@ -434,11 +434,9 @@ input {
 
 
 
-	.posts{
+header,nav, main{
 	    width: 96%;
-    padding: 50px 2%;
-   column-count:1;
-  
+    padding: 50px 2%; 
 	}
 
 
