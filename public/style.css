@@ -429,16 +429,18 @@ input {
 	}
 
 header,nav, main{
-	    width: 96%;
-    padding: 10px 2%; 
+	    width: 90%;
+    padding: 10px 5%; 
 	float:left;
 	position:relative;
 	height:auto;
 	min-height:0%
 	}
-.posts, h1{ width:100%;}
+.posts{ width:100%;}
 
-nav{padding:0;}
+h1 a{tex-align:center;}
+
+
 article{margin:10px 0;}
 nav ul li{width:25%; text-align:center;float:left;}
 
