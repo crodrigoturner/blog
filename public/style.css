@@ -440,9 +440,12 @@ header,nav, main{
 	float:left;
 	position:relative;
 	height:auto;
+	min-height:0%
 	}
 .posts, h1{ width:100%;}
 
+nav{padding:0;}
+article{margin:10px 0;}
 nav ul li{width:25%; text-align:center;
 
 	article {
