@@ -428,12 +428,6 @@ input {
 		font-size: 16px;
 	}
 
-
-
-
-
-
-
 header,nav, main{
 	    width: 96%;
     padding: 10px 2%; 
@@ -446,7 +440,7 @@ header,nav, main{
 
 nav{padding:0;}
 article{margin:10px 0;}
-nav ul li{width:25%; text-align:center;
+nav ul li{width:25%; text-align:center;float:left;}
 
 	article {
 		float: left;
