@@ -436,13 +436,14 @@ input {
 
 header,nav, main{
 	    width: 96%;
-    padding: 50px 2%; 
+    padding: 10px 2%; 
 	float:left;
 	position:relative;
 	height:auto;
 	}
-.posts{width:100%;}
+.posts, h1{ width:100%;}
 
+nav ul li{width:25%; text-align:center;
 
 	article {
 		float: left;
