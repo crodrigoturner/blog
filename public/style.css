@@ -200,7 +200,7 @@ h1:hover span, h1 span::before  {
 	color: var(--black);
 	text-decoration: none;
 	border: none;
-}}
+}
 
 h1 a:hover {
 	opacity: 0.7;
