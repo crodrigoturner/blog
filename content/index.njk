@@ -46,9 +46,15 @@ I live in Madrid with Mar, Lucas, Nicolás and Pancho.
 
 {% set postslist = collections.posts | head(-1 * numberOfLatestPostsToShow) %}
 {% set postslistCounter = postsCount %}
-{% include "postslist.njk" %}
+{%- for post in postslist | reverse %}
+<p><a href="{{post.url}}">{{ post.data.title }}</a>
+<img src="{{post.data.cover}}" alt="">
+{{ post.data.excerpt | safe }}</p>
+</hr>
+
+{%- endfor %}
 
 {% set morePosts = postsCount - numberOfLatestPostsToShow %}
 {% if morePosts > 0 %}
-<p>{{ morePosts }} more post{% if morePosts != 1 %}s{% endif %} can be found in <a href="blog.njk">the archive</a>.</p>
+<p>{{ morePosts }} more post{% if morePosts != 1 %}s{% endif %} can be found in <a href="/notes/">the notes</a>.</p>
 {% endif %}

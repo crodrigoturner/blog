@@ -79,11 +79,11 @@ nav a:hover,
 
 main {
 	padding: 0;
-	width: 66.666%;
+	width: 33.3333%;
 	float: right;
 	min-height: 100vh;
 	z-index: 10;
-	margin: 0 auto -100px;
+	margin: 0 33.333 0 0;
 	
 }
 
@@ -210,11 +210,7 @@ h4 a {
 	border: none;
 }
 
-.posts {
-    width: 50%;
-float:left;
-   
-}
+
 
 .stock .post-meta::before, .flow .post-meta::before{
     content: '';
@@ -239,12 +235,7 @@ article {
 	width:100%;
 }
 
-.single {
-	width: 50%;
-	padding:32px 0;
-	float: left;
-	border: none;
-}
+
 
 .tag-item::after {
 	content: ", ";
