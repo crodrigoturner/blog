@@ -27,7 +27,7 @@ body {
 
 header {
 	float: left;
-	padding: 0px 50px;
+	padding: 50px;
 	z-index: 9999;
 	text-align: center;
 	width:calc(33.333% - 100px);
@@ -39,11 +39,11 @@ header {
 nav {
 	float: left;
 	margin: 0;
-	font: 700 1.3em /1.4 "Inter", sans-serif;
+	font: 600 1.15em /1.9 "Inter", sans-serif;
 	z-index: 9999;
 	width: 50%;
 padding:32px 0;
-text-align:right;
+
 }
 
 
@@ -51,20 +51,19 @@ text-align:right;
 nav ul {
 	list-style-type: none;
 	padding: 0;
-	float: right;
+	float: left;
 }
 
 nav ul li {
-	float: right;
-	
-	text-align: right;
-	margin: 0 0 10px 0px;
+	float: left;
+
+	margin: 0;
 	width:100%;
 }
 
 nav a {
 	text-decoration: none;
-	color: var(--black);
+
 	border: none;
 	padding: 0;
 
@@ -73,7 +72,7 @@ nav a {
 nav a:hover,
 .active {
 	text-decoration: none;
-	color: var(--black);
+
 	opacity: 0.6;
 }
 
