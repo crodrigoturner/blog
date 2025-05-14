@@ -15,7 +15,6 @@ layout: layouts/base.njk
 </div>
 
 <div class="posts">
-{% set postslist = collections.posts %}
 {%- for post in postslist | reverse %}
 <a href="{{ post.url }}" class="postlist-item">
 {{ post.data.title }}
