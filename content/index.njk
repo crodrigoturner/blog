@@ -3,34 +3,7 @@ const numberOfLatestPostsToShow = 3;
 ---
 
 
-<h2>
-<script>
-currentTime=new Date();
-//getHour() function will retrieve the hour from current time
-if(currentTime.getHours()<13)
-document.write("Good morning!</br> I hope you're having a great ");
-else if(currentTime.getHours()<17)
-document.write("Good afternoon!</br> I hope you're having a great ");
-else if(currentTime.getHours()<20)
-document.write("Good evening!</br> I hope you're having a great ");
-else if(currentTime.getHours()<6)
-document.write("Good night!</br> I hope you had a great ");
-else 
-document.write("Good night!</br> I hope you had a great ");
-var weekday = new Array(7)
-weekday[0] = " Sunday"
-weekday[1] = " Monday"
-weekday[2] = " Tuesday"
-weekday[3] = " Wednesday"
-weekday[4] = " Thursday"
-weekday[5] = " Friday"
-weekday[6] = " Saturday"
-var currentDate = new Date()
-weekdayValue = currentDate.getDay()
-document.write(
-weekday[weekdayValue] + "."
-)
-</script></h2>
+
 
 <section class="posts">
 
