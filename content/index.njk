@@ -7,8 +7,7 @@ const eleventyNavigation = {
 const numberOfLatestPostsToShow = 3;
 ---
 
-
-<h2>
+<p>
 <script>
 currentTime=new Date();
 //getHour() function will retrieve the hour from current time
@@ -35,9 +34,13 @@ weekdayValue = currentDate.getDay()
 document.write(
 weekday[weekdayValue] + "."
 )
-</script></h2>
+</script></p>
+<p>
+I'm a data specialist with 7+ years of experience in leveraging data to drive businesses forward. I am passionate about helping make data-driven decisions that lead to growth and success. 
+I live in Madrid with Mar, Lucas, Nicolás and Pancho.
+</p>
 
-<section class="posts">
+
 
 {% set postsCount = collections.posts | length %}
 
