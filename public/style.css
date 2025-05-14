@@ -83,7 +83,7 @@ main {
 	float: right;
 	min-height: 100vh;
 	z-index: 10;
-	margin: 0 33.333% 0 0;
+	margin: 50px 33.333% 0 0;
 	
 }
 
@@ -156,11 +156,12 @@ h4 {
 	width: 100%;
 }
 
-h5{	font: 700 .8em/1.4 "Inter", sans-serif;
-	margin: 0px;
-	float: left;
-	width: 100%;
-text-transform: uppercase;}
+h5{	    font: 600 .8em / 1.4 "Inter", sans-serif;
+    margin: 20px 0px;
+    float: left;
+    width: 100%;
+    text-transform: uppercase;
+    opacity: .3;}
 
 blockquote {
 	font-style: italic;
