@@ -1,13 +1,26 @@
 ---
 layout: layouts/base.njk
 ---
+<div id="filters" class="button-group filters-button-group">  
+<a class="button" data-filter=".{{tag}}" href="/blog/">All</a>
+{% for tag in collections | getKeys | filterTagList %}
+{% set tagUrl %}/tag/{{ tag | slugify }}/{% endset %}
+<a class="button" data-filter=".{{tag}}" href="/tag/{{tag}}">{{ tag }}</a>
+{% endfor %}
+
+<p>{% for tag in collections | getKeys | filterTagList %}
+{% set tagUrl %}/tag/{{ tag | slugify }}/{% endset %}
+<span class="tag-item"><a href="/tag/{{tag}}" >{{ tag }}</a></span>
+{% endfor %}</p>
+</div>
 
 
 {%- for post in postslist | reverse %}
-<article class="{{post.data.status}}">
-<p><a href="{{post.url}}">{{ post.data.title }}</a>
-<img src="{{post.data.cover}}" alt="">
-{{ post.data.excerpt | safe }}</p>
-</hr>
-</article>
+<a href="{{ post.url }}" class="postlist-item">
+{{ post.data.title }}
+<span class="post-meta">
+{% for tag in post.data.tags %}
+{% if tag != "posts" %}
+{{ tag }}</span>
+</a>
 {%- endfor %}
