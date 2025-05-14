@@ -1,37 +1,12 @@
 ---js
+const eleventyNavigation = {
+	key: "Home",
+	order: 1
+};
+
 const numberOfLatestPostsToShow = 3;
 ---
-<!doctype html>
-<html lang="{{ metadata.language }}">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>carlos rodrigo · {{ title }}</title>
-<meta name="description" content="{{ description or metadata.description }}">
-<link rel="alternate" href="feed/feed.xml" type="application/atom+xml" title="{{ metadata.title }}">
-<link rel="shortcut icon" href="/favicon.png">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
-{%- css %}{% include "public/style.css" %}{% endcss %}
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Piazzolla:ital,opsz,wght@0,8..30,100..900;1,8..30,100..900&display=swap" rel="stylesheet">
-<style>{% getBundle "css" %}</style>
-</head>
-<body class="{%- if classes and classes.body %} {{ classes.body }}{% endif -%}">
-<header>
-<h1><a href="/"></a></h1>
-</header>
-<nav>
-<ul>
-<li><a href="/" class="home-link"><- Home</a></li>
-<li><a href="/info/" class="{% if page.url == '/info/' %} active{% endif %}">Info</a></li>
-<li><a href="/notes" class="{% if page.url == '/notes/' %} active{% endif %}">Blog</a></li>
-<li><a href="/work/" class="{% if page.url == '/work/' %} active{% endif %}">Work</a></li>
-<li><a href="/more" class="{% if page.url == '/more' %} active{% endif %}">More</a></li>
-</ul>
-</nav>
-<main>
+
 
 <h2>
 <script>
