@@ -19,6 +19,10 @@ layout: layouts/base.njk
 {%- for post in postslist | reverse %}
 <a href="{{ post.url }}" class="postlist-item">
 {{ post.data.title }}
+<span class="post-meta">
+{% for tag in post.data.tags %}
+{% if tag != "posts" %}
+{{ tag }}</span>
 </a>
 {%- endfor %}
 </div>
