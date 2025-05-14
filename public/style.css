@@ -119,6 +119,14 @@ h1
     margin: 20px 0;;
 }
 
+h1 a {display:none;}
+h1:hover a {
+	display:block;
+	color: var(--black);
+	text-decoration: none;
+	border: none;
+}
+
 
 h2 {
     font: 700 1.3em / 1.4 "Inter", sans-serif;
