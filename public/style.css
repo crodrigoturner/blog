@@ -103,6 +103,8 @@ main {
 	float: left;
 }
 
+hr{float:left; background:#EEEEEE85; margin:20px 0; height:1px; width:100%; border:none;}
+
 p {
 	float: left;
 	width: 100%;
@@ -236,7 +238,7 @@ h4 a {
 article {
 	color: var(--black);
 	margin: 0;
-	padding: 32px 0 0;
+	padding: 20px 0 0;
 	float:left;
 	border-bottom:1px solid #EEEEEE85;
 	width:100%;
