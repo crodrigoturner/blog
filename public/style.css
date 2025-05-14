@@ -27,17 +27,17 @@ body {
 
 header {
 	float: left;
-	padding: 0px 40px;
+	padding: 0px 50px;
 	z-index: 9999;
 	text-align: center;
-	width:calc(33.333% - 81px);
+	width:calc(33.333% - 100px);
 	margin:0;
 	position:fixed;
 	min-height:100vh;
 }
 
 nav {
-	float: right;
+	float: left;
 	margin: 0;
 	font: 700 1.3em /1.4 "Inter", sans-serif;
 	z-index: 9999;
@@ -84,7 +84,7 @@ main {
 	min-height: 100vh;
 	z-index: 10;
 	margin: 0 auto -100px;
-	border-left:1px solid #cfd8dca6;
+	
 }
 
 .clear {
@@ -201,12 +201,7 @@ h1 a:hover {
 }
 
 
-h1:hover a {
-	display:block;
-	color: var(--black);
-	text-decoration: none;
-	border: none;
-}
+
 
 h4 a {
 	color: var(--black);
