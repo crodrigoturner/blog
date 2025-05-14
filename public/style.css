@@ -103,7 +103,12 @@ main {
 	float: left;
 }
 
-hr{float:left; background:#EEEEEE85; margin:20px 0; height:1px; width:100%; border:none;}
+hr{    float: left;
+    background: #CFD8DC;
+    margin: 10px 0;
+    height: 1px;
+    width: 100%;
+    border: none;}
 
 p {
 	float: left;
