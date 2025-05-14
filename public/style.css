@@ -123,11 +123,12 @@ h1
 
 
 h2 {
-    font: 700 3em / 1.4 "Inter", sans-serif;
+    font: 700 2em / 1.4 "Inter", sans-serif;
     text-align: left;
     float: left;
     width: 100%;
     margin: 0 0 20px;
+	color: #ff7447;
 }
 
 
@@ -231,7 +232,7 @@ float:left;
 
 article {
 	color: var(--black);
-	margin: 0 40px;
+	margin: 0;
 	padding: 32px 0 0;
 	float:left;
 	border-bottom:1px solid #EEEEEE85;
