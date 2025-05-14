@@ -2,10 +2,12 @@
 layout: layouts/base.njk
 title: Home
 class: home
+
+const numberOfLatestPostsToShow = 3;
 ---
 
 
-<p>
+<h2>
 <script>
 currentTime=new Date();
 //getHour() function will retrieve the hour from current time
@@ -32,24 +34,22 @@ weekdayValue = currentDate.getDay()
 document.write(
 weekday[weekdayValue] + "."
 )
-</script></p>
+</script></h2>
 
 <section class="posts">
 
-{% set postslist = collections.posts %}
-{%- for post in postslist | reverse %}
-<article class="{{post.data.status}}">
-<h4><a href="{{post.url}}">{{ post.data.title }}</a></h4>
-<img src="{{post.data.cover}}" alt="">
-<p>{{ post.data.excerpt | safe }}</p>
-<span class="post-meta">
-{% for tag in post.data.tags %}
-{% if tag != "posts" %}
-{{ tag }}</span>
+{% set postsCount = collections.posts | length %}
+{% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
+<h1>Latest {{ latestPostsCount }} Post{% if latestPostsCount != 1 %}s{% endif %}</h1>
+
+{% set postslist = collections.posts | head(-1 * numberOfLatestPostsToShow) %}
+{% set postslistCounter = postsCount %}
+{% include "postslist.njk" %}
+
+{% set morePosts = postsCount - numberOfLatestPostsToShow %}
+{% if morePosts > 0 %}
+<p>{{ morePosts }} more post{% if morePosts != 1 %}s{% endif %} can be found in <a href="blog.njk">the archive</a>.</p>
 {% endif %}
-{% endfor %}
-</span>
-</article>
-{%- endfor %}
-</section>
+
+
 
