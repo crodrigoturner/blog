@@ -104,7 +104,7 @@ main {
 }
 
 hr{    float: left;
-    background: #CFD8DC;
+    background: #b0bec533;
     margin: 10px 0;
     height: 1px;
     width: 100%;
@@ -116,7 +116,7 @@ p {
 	margin: 0;
 }
 
-.home .home-link{display:none;}
+.home .home-link{visibility:hidden;}
 
 h1
 {
