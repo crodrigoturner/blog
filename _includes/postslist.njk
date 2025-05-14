@@ -1,10 +1,8 @@
+{%- for post in postslist | reverse %}
 <article class="{{post.data.status}}">
 <h4><a href="{{post.url}}">{{ post.data.title }}</a></h4>
 <img src="{{post.data.cover}}" alt="">
 <p>{{ post.data.excerpt | safe }}</p>
-
-{% endif %}
-{% endfor %}
 </span>
 </article>
 {%- endfor %}
