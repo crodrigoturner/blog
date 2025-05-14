@@ -13,7 +13,7 @@ html {
 }
 
 body {
-	font: 400 17px/1.8 "Newsreader", "Inter", sans-serif;
+	font: 400 17px/1.8 "Inter", sans-serif;
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
 	color: var(--black);
