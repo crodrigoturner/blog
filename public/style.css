@@ -156,6 +156,12 @@ h4 {
 	width: 100%;
 }
 
+h5{	font: 700 .8em/1.4 "Inter", sans-serif;
+	margin: 0px;
+	float: left;
+	width: 100%;
+text-transform: uppercase;}
+
 blockquote {
 	font-style: italic;
 	padding: 0 0px 0 20px;
