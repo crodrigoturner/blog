@@ -1,5 +1,5 @@
 ---
-laytou: layouts/blog.njk
+layout: layouts/blog.njk
 title: Notes
 
 ---
