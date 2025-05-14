@@ -9,6 +9,11 @@ class: more
 <li>Colophon</li>
 <li>Blogroll</li>
 </ul>
+<ul>
+	{%- for entry in collections.all %}
+	<li><a href="{{ entry.url }}"><code>{{ entry.url }}</code></a></li>
+	{%- endfor %}
+</ul>
 
 </ul>
 {% set postslist = collections.posts %}
