@@ -131,7 +131,7 @@ h2 {
 }
 
 
-h1 span::before {
+h1:before {
 	float: left;
 	height: 35px;
 	width: 35px;
@@ -194,13 +194,7 @@ h1 a {
 	border: none;
 }
 
-h1 span{visibility: hidden;}
-h1:hover span, h1 span::before  {
-	visibility: visible;
-	color: var(--black);
-	text-decoration: none;
-	border: none;
-}
+
 
 h1 a:hover {
 	opacity: 0.7;
@@ -456,7 +450,7 @@ header,nav, main{
 	}
 .posts{ width:100%;}
 
-h1 a{tex-align:center;}
+
 
 
 article{margin:10px 0;}
