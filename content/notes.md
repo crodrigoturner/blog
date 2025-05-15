@@ -3,12 +3,13 @@ layout: layouts/base.njk
 title: Notes
 ---
 
-
 ## Notes
+{% set postsCount = collections.posts | length %}
 
+{% set postslist = collections.posts | head(-1 * numberOfLatestPostsToShow) %}
+{% set postslistCounter = postsCount %}
 {%- for post in postslist | reverse %}
-	<div class="postlist-item{% if post.url == url %} postlist-item-active{% endif %}">
-		<a href="{{ post.url }}" class="postlist-link">{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</a>
-		<time class="postlist-date" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate("LLLL yyyy") }}</time>
-	</div>
+<p><a href="{{post.url}}">{{ post.data.title }}</a> › {{ post.data.excerpt | safe }}</p>
+<hr/>
+
 {%- endfor %}
