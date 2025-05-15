@@ -1,5 +1,5 @@
 ---
-title: Notes
+title: Archive
 layout: layouts/base.njk
 ---
 <section class="posts">
@@ -7,7 +7,7 @@ layout: layouts/base.njk
 {%- for post in postslist | reverse %}
 <article>
 
-<h4><a href="{{ post.url }}">{{ post.data.title }}</a></h4>
+<h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
 
 {{ post.data.excerpt | safe}}
 

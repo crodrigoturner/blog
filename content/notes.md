@@ -1,6 +1,7 @@
 ---
 layout: layouts/base.njk
 title: Notes
+const numberOfLatestPostsToShow = 1000;
 ---
 
 ## Notes
