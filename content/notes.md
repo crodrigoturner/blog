@@ -1,5 +1,14 @@
 ---
-layout: layouts/blog.njk
+layout: layouts/base.njk
 title: Notes
-
 ---
+
+
+## Notes
+
+{%- for post in postslist | reverse %}
+	<div class="postlist-item{% if post.url == url %} postlist-item-active{% endif %}">
+		<a href="{{ post.url }}" class="postlist-link">{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</a>
+		<time class="postlist-date" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate("LLLL yyyy") }}</time>
+	</div>
+{%- endfor %}
