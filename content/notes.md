@@ -1,14 +1,11 @@
 ---
 title: Notes
-const numberOfLatestPostsToShow = 1000;
+layout: layouts/page.njk
+class: notes
 ---
-
-{% set postsCount = collections.posts | length %}
-
-{% set postslist = collections.posts | head(-1 * numberOfLatestPostsToShow) %}
-{% set postslistCounter = postsCount %}
+<ul>
+{% set postslist = collections.posts %}
 {%- for post in postslist | reverse %}
-<p><a href="{{post.url}}">{{ post.data.title }}</a> › {{ post.data.excerpt | safe }}</p>
-<hr/>
-
+<li><a href="{{ post.url }}">{{ post.data.title }}</a> {{ post.data.excerpt | safe}}</li>
 {%- endfor %}
+</ul>
