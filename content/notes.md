@@ -1,10 +1,8 @@
 ---
-layout: layouts/base.njk
 title: Notes
 const numberOfLatestPostsToShow = 1000;
 ---
 
-## Notes
 {% set postsCount = collections.posts | length %}
 
 {% set postslist = collections.posts | head(-1 * numberOfLatestPostsToShow) %}
