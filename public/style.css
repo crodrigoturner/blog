@@ -118,6 +118,8 @@ p {
 
 .home .home-link{visibility:hidden;}
 
+.home-link{font-zise:.9em;}
+
 h1
 {
     font: 700 2em / 1.4 "Inter", sans-serif;
