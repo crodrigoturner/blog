@@ -19,6 +19,10 @@ const eleventyComputed = {
 
 layout: layouts/page.njk
 ---
+
+<h2>Notes: {{ tag }}</h2>
+
+
 <p>{% for tag in collections | getKeys | filterTagList %}
 {% set tagUrl %}/tag/{{ tag | slugify }}/{% endset %}
 <span class="tag-item"><a href="/tag/{{tag}}" >{{ tag }}</a></span>
