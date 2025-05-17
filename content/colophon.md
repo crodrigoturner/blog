@@ -2,9 +2,6 @@
 layout: layouts/page.njk
 title: Colophon
 excerpt: What this website is made of
-status: stock
-tags:
-- About
 ---
 
 ### Purpose
