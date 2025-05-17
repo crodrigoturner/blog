@@ -1,22 +1,4 @@
----js
-// <script>
-const pagination = {
-	data: "collections",
-	size: 1,
-	alias: "tag",
-	filter: ["all"],
-	// addAllPagesToCollections: true,
-};
-
-const eleventyExcludeFromCollections = true;
-
-const eleventyComputed = {
-	title: "{{ tag }}",
-	permalink: function(data) {
-		return `/tag/${this.slugify(data.tag)}/`;
-	}
-};
-
+---
 layout: layouts/page.njk
 ---
 
