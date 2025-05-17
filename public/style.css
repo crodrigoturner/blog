@@ -454,7 +454,7 @@ header,nav, main{
 	height:auto;
 	min-height:0%
 	}
-.posts{ width:100%;}
+.posts, h1{ width:100%;}
 
 
 
