@@ -113,13 +113,15 @@ hr{    float: left;
 p {
 	float: left;
 	width: 100%;
-	margin: 0 0 10px 0;
+	margin: 0;
 }
 
 
-	.hidden {visibility:hidden;}
+	
 
 .home-link{font-size:.8em;opacity:.6;visibility:visible;}
+.hidden {visibility:hidden;}
+
 
 h1
 {
