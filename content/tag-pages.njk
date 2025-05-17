@@ -18,9 +18,10 @@ const eleventyComputed = {
 };
 
 layout: layouts/page.njk
+class: "page"
 ---
 
-<h2>Notes: {{ tag }}</h2>
+<h2>Notes · {{ tag }}</h2>
 
 
 <p>{% for tag in collections | getKeys | filterTagList %}
