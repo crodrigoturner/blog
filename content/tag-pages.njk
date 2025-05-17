@@ -18,8 +18,6 @@ const eleventyComputed = {
 };
 
 layout: layouts/page.njk
-class: tagpage
-
 ---
 <p>{% for tag in collections | getKeys | filterTagList %}
 {% set tagUrl %}/tag/{{ tag | slugify }}/{% endset %}
