@@ -19,28 +19,18 @@ const eleventyComputed = {
 
 layout: layouts/page.njk
 ---
-## Notes
+<h2>Notes</h2>
 
 <p>{% for tag in collections | getKeys | filterTagList %}
 {% set tagUrl %}/tag/{{ tag | slugify }}/{% endset %}
 <span class="tag-item"><a href="/tag/{{tag}}" >{{ tag }}</a></span>
 {% endfor %}</p>
-</article>
+
+
 {% set postslist = collections[ tag ] %}
 {%- for post in postslist | reverse %}
-<article class="{{post.data.type}}">
-<h4><a href="{{post.url}}">{{ post.data.title }}</a></h4>
-<img src="{{post.data.cover}}" alt="">
-<p>{{ post.data.excerpt | safe }}</p>
-<span class="post-meta">
-{% for tag in post.data.tags %}
-{% if tag != "posts" %}
-{{ tag }}</span>
-{% endif %}
-{% endfor %}
-</span>
+<article>
+<h3><a href="{{ post.url }}">{{ post.data.title }}</a></h3> 
+{{ post.data.excerpt | safe}}
 </article>
 {%- endfor %}
-</section>
-
-
