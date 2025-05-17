@@ -457,7 +457,7 @@ header,nav, main{
 	}
 .posts, h1{ width:100%;}
 
-
+.home-link{display:none;}
 
 
 article{margin:10px 0;}

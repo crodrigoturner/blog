@@ -7,8 +7,7 @@ const eleventyNavigation = {
 const numberOfLatestPostsToShow = 3;
 
 ---
-
-<p>
+<h5>
 <script>
 currentTime=new Date();
 //getHour() function will retrieve the hour from current time
@@ -21,7 +20,7 @@ document.write("Good evening! I hope you're having a great ");
 else if(currentTime.getHours()<6)
 document.write("Good night! I hope you had a great ");
 else 
-document.write("Good night!</br> I hope you had a great ");
+document.write("Good night! I hope you had a great ");
 var weekday = new Array(7)
 weekday[0] = " Sunday"
 weekday[1] = " Monday"
@@ -35,7 +34,7 @@ weekdayValue = currentDate.getDay()
 document.write(
 weekday[weekdayValue] + "."
 )
-</script></p>
+</script></h5>
 <p>
 I'm a data specialist with 7+ years of experience in leveraging data to drive businesses forward. 
 </p><p>
