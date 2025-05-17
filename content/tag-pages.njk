@@ -20,7 +20,7 @@ const eleventyComputed = {
 ---
 
 
-<p>Explore the notes in this page or browse by subjects:{% for tag in collections | getKeys | filterTagList %}
+<p>{% for tag in collections | getKeys | filterTagList %}
 {% set tagUrl %}/tag/{{ tag | slugify }}/{% endset %}
 <span class="tag-item"><a href="/tag/{{tag}}" >{{ tag }}</a></span>
 {% endfor %}</p>
