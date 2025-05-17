@@ -116,12 +116,11 @@ p {
 	margin: 0 0 10px 0;
 }
 
-@document url("/") {
-	.home-link
- {visibility:hidden;}
+@document url("https://carlosrodrigo.com") {
+	.home-link {visibility:hidden;}
 }
 
-.home-link{font-size:.8em;opacity:.6;}
+.home-link{font-size:.8em;opacity:.6;visibility:visible;}
 
 h1
 {
