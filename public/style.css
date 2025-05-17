@@ -116,7 +116,10 @@ p {
 	margin: 0 0 10px 0;
 }
 
-.home .home-link{visibility:hidden;}
+@document url("/") {
+	.home-link
+ {visibility:hidden;}
+}
 
 .home-link{font-size:.8em;opacity:.6;}
 
