@@ -149,7 +149,7 @@ h1:before {
 	content: "";
 	background: var(--yellow);
 	border-radius: 50%;
-	margin: 10px 15px 0 0;
+	margin: 12px 15px 0 0;
 }
 
 h3 {
