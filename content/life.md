@@ -1,4 +1,5 @@
 ---
+layout: layouts/page.njk
 title: Life in squares
 category: Projects
 status: stock
