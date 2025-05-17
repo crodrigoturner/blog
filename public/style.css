@@ -116,9 +116,8 @@ p {
 	margin: 0 0 10px 0;
 }
 
-@document url("https://carlosrodrigo.com") {
-	.home-link {visibility:hidden;}
-}
+
+	.hidden {visibility:hidden;}
 
 .home-link{font-size:.8em;opacity:.6;visibility:visible;}
 

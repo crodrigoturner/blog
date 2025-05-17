@@ -22,7 +22,7 @@
 
 <nav>
 <ul>
-<li><a href="/" class="home-link"><- Home</a></li>
+<li><a href="/" class=" home-link {% if page.url == '/' %} hidden{% endif %}><- Home</a></li>
 <li><a href="/about/" class="{% if page.url == '/about/' %} active{% endif %}">About</a></li>
 <li><a href="/notes/" class="{% if page.url == '/notes/' %} active{% endif %}">Notes</a></li>
 <li><a href="/work/" class="{% if page.url == '/work/' %} active{% endif %}">Work</a></li>
