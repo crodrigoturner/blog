@@ -1,4 +1,5 @@
 ---
+layout: layouts/page.njk
 title: Blogroll
 excerpt: These are the blogs that I frequently visit
 status: stock
