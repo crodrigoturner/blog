@@ -4,6 +4,11 @@ layout: layouts/page.njk
 class: notes
 ---
 
+<p>{% for tag in collections | getKeys | filterTagList %}
+{% set tagUrl %}/tag/{{ tag | slugify }}/{% endset %}
+<span class="tag-item"><a href="/tag/{{tag}}" >{{ tag }}</a></span>
+{% endfor %}</p>
+
 {% set postslist = collections.posts %}
 {%- for post in postslist | reverse %}
 <article>
