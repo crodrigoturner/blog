@@ -16,12 +16,10 @@ const eleventyComputed = {
 		return `/tag/${this.slugify(data.tag)}/`;
 	}
 };
-
+class: tagpage
 layout: layouts/page.njk
+title: {{ tag }}
 ---
-
-<h2>Notes</h2>
-
 <p>{% for tag in collections | getKeys | filterTagList %}
 {% set tagUrl %}/tag/{{ tag | slugify }}/{% endset %}
 <span class="tag-item"><a href="/tag/{{tag}}" >{{ tag }}</a></span>
