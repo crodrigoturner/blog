@@ -141,7 +141,7 @@ h2 {
     float: left;
     width: 100%;
     margin: 0 0 20px;
-	color: #b71c1c;
+
 }
 
 
@@ -197,7 +197,7 @@ blockquote {
 a {
 	color: var(--blue);
 	text-decoration: none;
-	border-bottom: 1px solid var(--soft-grey);
+	border-bottom: 1px solid #EEE;
 }
 
 a:hover {
