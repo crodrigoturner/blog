@@ -73,7 +73,6 @@ nav a {
 nav a:hover,
 .active {
 	text-decoration: none;
-
 	opacity: 0.6;
 }
 
@@ -119,7 +118,7 @@ p {
 
 	
 
-.home-link{font-size:.8em;opacity:.6;visibility:visible;}
+.home-link{font-size:.8em;visibility:visible;}
 .hidden {visibility:hidden;}
 
 
@@ -205,9 +204,7 @@ a:hover {
 	border: none;
 	box-shadow: none;
 	background: none;}
-	 .active{
-	color: #b71c1c
-}
+
 
 h1 a {
 	text-decoration: none;
