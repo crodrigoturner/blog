@@ -3,10 +3,12 @@ layout: layouts/base.njk
 ---
 
 <h2> {{title}}</h2>
-<p>{% for tag in collections | getKeys | filterTagList %}
+<ul class="tagcloud">
+<li><a href="/notes/">all</a></li>
+{% for tag in collections | getKeys | filterTagList %}
 {% set tagUrl %}/tag/{{ tag | slugify }}/{% endset %}
-<span class="tag-item"><a href="/tag/{{tag}}" >{{ tag }}</a></span>
-{% endfor %}</p>
+<li><a href="/tag/{{tag}}" >{{ tag }}</a></li>
+{% endfor %}</ul>
 
 {% set postslist = collections.posts %}
 {%- for post in postslist | reverse %}
