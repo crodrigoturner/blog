@@ -259,14 +259,20 @@ article {
 
 
 
-.tag-item::after {
-	content: ", ";
+.tag-item {
+	float: left;
+	width: auto;
+	margin: 0 5px 5px 0;
+	padding: 5px 10px;
+	border-radius: 4px;
+	background: #b0bec533;
+	color: #607d8b;
+	font-size: 0.9em;
+	text-align: center;
 }
-.tag-item:last-child::after {
-	content: "";
-}
-.tag-item:nth-last-child(2)::after {
-	content: " and ";
+.tag-item:hover {
+	background: #b0bec5;
+	color: #607d8b;
 }
 
 summary {
