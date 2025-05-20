@@ -1,19 +1,10 @@
----js
-const numberOfLatestPostsToShow = 1;
+---
 layout: layouts/base.njk
 ---
 
 <h2>{{title}}</h2>
 
 {{ content | safe }}
-
-{% set postsCount = collections.posts | length %}
-
-{% set postslist = collections.now | head(-1 * numberOfLatestPostsToShow) %}
-{% set postslistCounter = postsCount %}
-{%- for post in postslist | reverse %}
-<p> {{ now.content | safe }}</p>
-{%- endfor %}
 
 <h5>Previous Nows</h5>
 <ul>
