@@ -1,4 +1,5 @@
 ---
+const numberOfLatestPostsToShow = 1;
 layout: layouts/base.njk
 ---
 
@@ -6,7 +7,15 @@ layout: layouts/base.njk
 
 {{ content | safe }}
 
-<h3>Related notes</h3>
+{% set postsCount = collections.posts | length %}
+
+{% set postslist = collections.now | head(-1 * numberOfLatestPostsToShow) %}
+{% set postslistCounter = postsCount %}
+{%- for post in postslist | reverse %}
+<p> {{ now.content | safe }}</p>
+{%- endfor %}
+
+<h5>Previous Nows</h5>
 <ul>
 {%- for Now in collections.Now -%}
 <li><a href="{{Now.url}}">{{ Now.data.title }}</a></li>
