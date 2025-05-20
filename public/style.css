@@ -257,9 +257,9 @@ article {
 	width:100%;
 }
 
+.tagcloud{float:left;width:100%;margin:0 0 20px 0;}
 
-
-.tag-item {
+.tagcloud li a {
 	float: left;
 	width: auto;
 	margin: 0 5px 5px 0;
@@ -270,7 +270,7 @@ article {
 	font-size: 0.9em;
 	text-align: center;
 }
-.tag-item:hover {
+.tagcloud li a:hover {
 	background: #b0bec5;
 	color: #607d8b;
 }
