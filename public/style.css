@@ -248,7 +248,7 @@ h4 a {
 article {
 	color: var(--black);
 	margin: 0;
-	padding: 20px 0 0;
+	padding:0;
 	float:left;
 	border-bottom:1px solid #EEEEEE85;
 	width:100%;
