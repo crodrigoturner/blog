@@ -197,7 +197,7 @@ blockquote {
 a {
 	color: var(--blue);
 	text-decoration: none;
-	border-bottom: 1px solid #EEE;
+	border:none;
 }
 
 a:hover {
