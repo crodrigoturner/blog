@@ -1,5 +1,5 @@
 ---
-layout: layouts/Now.njk
+layout: layouts/now.njk
 title: Now
 class: now
 ---
