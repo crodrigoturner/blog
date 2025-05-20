@@ -24,7 +24,7 @@ const eleventyComputed = {
 
 <ul class="tagcloud">
 <li><a href="/notes/">all</a></li>
-{	% for tag in collections | getKeys | filterTagList %}
+{% for tag in collections | getKeys | filterTagList %}
 {% set tagUrl %}/tag/{{ tag | slugify }}/{% endset %}
 <li><a href="/tag/{{tag}}" class="{% if page.url == '/tag/{{ tag }}/' %} active{% endif %}" >{{ tag }}</a></li>
 {% endfor %}</ul>
