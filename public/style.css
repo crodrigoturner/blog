@@ -256,6 +256,10 @@ article {
 
 .tagcloud{float:left;width:100%;margin:0 0 20px 0;}
 
+.tagcloud li {
+		display:inline;
+}
+
 .tagcloud li a {
 
 	width: auto;
@@ -266,7 +270,7 @@ article {
 	color: #607d8b;
 	font-size: 0.9em;
 	text-align: center;
-	display:inline;
+
 }
 .tagcloud li a:hover {
 	background: #b0bec5;
