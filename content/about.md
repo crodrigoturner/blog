@@ -14,4 +14,4 @@ I have worked in architecture studios, big energy companies, luxury brands, and 
 My interests are Data, data driven decision making, AI, webdesign, internet, biomimicry, spreadsheets, EVs, evolution, industrial design, science, history, biography, speeches, philosophy, poetry (wordsmithing), data visualization, space, cooking...  
 </p>
 <p>My full name is Carlos Roberto Rodrigo Turner.</p>
-<p><a class="cta" href="mailto:rodrigoturner.carlos@gmail.com">Send me an email &rarr;</a></p>
+<p><a class="cta" href="mailto:rodrigoturner.carlos@gmail.com">Send me an email <span class="arrow">&rarr;</span></a></p>

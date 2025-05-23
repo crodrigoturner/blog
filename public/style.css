@@ -102,12 +102,13 @@ main {
 	float: left;
 }
 
-hr{    float: left;
-    background: #b0bec533;
+hr{     float: left;
+    background: #ffe0b28a;
     margin: 10px 0;
-    height: 1px;
+    height: 2px;
     width: 100%;
-    border: none;}
+    border: none;
+}
 
 p {
 	float: left;
@@ -115,7 +116,7 @@ p {
 	margin: 0;
 }
 
-
+.arrow{font-family: "Inter", sans-serif;}
 	
 
 .home-link{font-size:.8em;visibility:visible;}
