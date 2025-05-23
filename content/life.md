@@ -1,10 +1,7 @@
 ---
 layout: layouts/page.njk
 title: Life in squares
-category: Projects
-status: stock
-tags: 
-- Projects
+tags: projects
 excerpt: A timeline of events
 ---
 
