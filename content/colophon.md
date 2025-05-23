@@ -13,6 +13,4 @@ The purpose of this website is to:
 
 This website is climate friendly. Cleaner than 98% of all web pages globally according to [Website carbon calculator](https://www.websitecarbon.com/website/carlosrodrigo-com/) and [Ecograder](https://ecograder.com/report/ui51eop7QVAu1piHLdKCnYav).
 
-Built with Eleventy, deployed on Netlify from Github. The font is [Inter](https://fonts.google.com/specimen/Inter) by Rasmus Andersson
-
-There is no tracking in this website.
+Built with Eleventy, deployed on Netlify from Github. The font is Outfit. There is no tracking in this website.

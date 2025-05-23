@@ -2,7 +2,7 @@
 title: Reading long posts
 status: flow
 tags: 
-- Notes
+- notes
 excerpt: How I digest "longish" articles
 ---
 

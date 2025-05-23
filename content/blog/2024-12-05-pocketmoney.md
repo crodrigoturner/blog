@@ -1,8 +1,6 @@
 ---
 title: Pocketmoney
-status: stock
-tags: 
-- Notes
+tags: notes
 excerpt: Lessons for teaching children about money
 ---
 
