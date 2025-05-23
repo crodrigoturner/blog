@@ -13,14 +13,14 @@ html {
 }
 
 body {
-	font: 400 18px/2 "PT Serif", sans-serif;
+	font: 400 18px/2 "Outfit", sans-serif;
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
 	color: var(--black);
 	word-wrap: break-word;
 	margin: 0;
 	position: relative;
-	background: #f7f8e3;
+	background: #ffecb359;
 	padding: 0;
 	min-height: 100%;
 }
