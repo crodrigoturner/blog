@@ -116,7 +116,7 @@ p {
 	margin: 0;
 }
 
-.arrow{font-family: "Inter", sans-serif;}
+.arrow{font: 400 1em / 2 "Inter", sans-serif;}
 	
 
 .home-link{font-size:.8em;visibility:visible;}
