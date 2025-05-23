@@ -469,13 +469,15 @@ header,nav, main{
 	height:auto;
 	min-height:0%
 	}
+
+
 .posts, h1{ width:100%;}
 
 .home-link{display:none;}
 
 
 article{margin:10px 0;}
-nav ul li{width:25%; text-align:center;float:left;}
+nav ul li{width:25%; text-align:left;float:left;}
 
 	article {
 		float: left;
