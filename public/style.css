@@ -1,5 +1,5 @@
 :root {
-	--black: #032456;
+	--black: #263238;
 	--blue: #0068a5;
 	--yellow: #FFb511;
 	--white:#FFF;
@@ -124,7 +124,7 @@ p {
 
 h1
 {
-    font: 700 2em / 1.4 "Inter", sans-serif;
+    font: 700 2em / 1.4 'Outfit',"Inter", sans-serif;
     text-align: left;
     float: left;
     width: 100%;
@@ -135,7 +135,7 @@ h1
 
 
 h2 {
-    font: 700 2em / 1.4 "Inter", sans-serif;
+    font: 700 2em / 1.4 'Outfit',"Inter", sans-serif;
     text-align: left;
     float: left;
     width: 100%;
@@ -155,25 +155,26 @@ h1:before {
 }
 
 h3 {
-	font: 700 1.3em/1 "Inter", sans-serif;
+	font: 700 1.3em/1 'Outfit',"Inter", sans-serif;
 	margin: 30px 0 15px;
 	float: left;
 	width: 100%;
 }
 
 h4 {
-	font: 700 1.3em/1.4 "Inter", sans-serif;
+	font: 700 1.3em/1.4 'Outfit',"Inter", sans-serif;
 	margin: 0px;
 	float: left;
 	width: 100%;
 }
 
-h5{	    font: 600 .8em / 1.4 "Inter", sans-serif;
+h5{	    font: 600 .8em / 1.4 'Outfit',"Inter", sans-serif;
     margin: 20px 0px;
     float: left;
     width: 100%;
     text-transform: uppercase;
-    opacity: .3;}
+    opacity: .3;
+}
 
 blockquote {
 	font-style: italic;
