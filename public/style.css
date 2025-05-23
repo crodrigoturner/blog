@@ -470,6 +470,15 @@ header,nav, main{
 	min-height:0%
 	}
 
+nav{
+	    width: 90%;
+    padding: 0; 
+	float:left;
+	position:relative;
+	height:auto;
+	min-height:0%
+	}
+
 
 .posts, h1{ width:100%;}
 
@@ -488,6 +497,7 @@ nav ul li{width:25%; text-align:left;float:left;}
 	ul {
 		margin: 0;
 	}
+
 
 main{margin:20px 0;}
 
