@@ -71,7 +71,7 @@ nav a:hover,
 }
 
 main {
-    padding: 0;
+    padding: 0 0 100px 0;
     width: 33.3333%;
     float: right;
     min-height: 100vh;
