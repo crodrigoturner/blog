@@ -251,7 +251,7 @@ article {
     margin: 0 0 20px 0;
 }
 
-.tagcloud li a {
+.tagcloud li a, .tag {
     width: auto;
     margin: 0 5px 5px 0;
     padding: 3px 7px;
@@ -267,19 +267,6 @@ article {
     color: #607d8b;
 }
 
-.tag{
-    float: left;
-
-    margin:30px 10px 10px 0;
-    border:1px solid #b0bec5;
-    padding: 0px 5px;
-    border-radius: 4px;
-    color: #607d8b; 
-    font-size: 0.7em;
-    text-align: center;
-    width: auto;
-    text-transform: uppercase;
-}
 
 summary {
     font-weight: bold;
