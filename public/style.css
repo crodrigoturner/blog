@@ -252,6 +252,7 @@ article {
 }
 
 .tagcloud li a, .tag {
+    float:left;
     width: auto;
     margin: 0 5px 5px 0;
     padding: 3px 7px;
