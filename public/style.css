@@ -25,6 +25,8 @@ body {
     min-height: 100%;
 }
 
+.bg{position:absolute; right:0; top:20vh;float:right;}
+
 header {
     float: left;
     padding: 50px;

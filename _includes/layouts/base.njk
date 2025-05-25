@@ -16,7 +16,7 @@
 
 <style>{% getBundle "css" %}</style>
 </head>
-<body :class="{{class}} {{tags}}{%- if classes and classes.body %} {{ classes.body }}{% endif -%}">
+<body class="{{class}} {{tags}}{%- if classes and classes.body %} {{ classes.body }}{% endif -%}">
 <header>
 <a href="/"><h1><span>carlos rodrigo</span></h1></a>
 
@@ -28,7 +28,7 @@
 <li><a href="/work/" class="{% if page.url == '/work/' %} active{% endif %}">Work</a></li>
 <li><a href="/more/" class="{% if page.url == '/more/' %} active{% endif %}">More</a></li>
 </ul>
-</nav>
+</nav><img class="bg" src="/img/bg.png">
 </header>
 <main>
 
