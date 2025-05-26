@@ -14,7 +14,6 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
 
-<style>{% getBundle "css" %}</style>
 </head>
 <body class="{{class}} {{tags}}{%- if classes and classes.body %} {{ classes.body }}{% endif -%}">
 <header>
@@ -33,6 +32,8 @@
 <main>
 {{ content | safe }}
 </main>
+
 <script type="module" src="{% getBundleFileUrl "js" %}"></script>
+
 </body>
 </html>
