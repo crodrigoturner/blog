@@ -1,7 +1,9 @@
 ---
 layout: layouts/page.njk
 title: Work
-class: work
+excerpt:
+tags:
+- page
 ---
 
 <h3>Where I've been</h3>

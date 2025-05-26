@@ -1,8 +1,10 @@
 ---
 layout: layouts/page.njk
 title: Life in squares
-tags: projects
 excerpt: A timeline of events
+tags:
+- projects
+- page
 ---
 
 This is a timeline of the most important events I have experienced. 

@@ -3,8 +3,7 @@
 layout: layouts/page.njk
 title: Quotes
 tags:
-  - resources
-  - quotes
+  - page
 ---
 
 

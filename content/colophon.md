@@ -2,6 +2,8 @@
 layout: layouts/page.njk
 title: Colophon
 excerpt: What this website is made of
+tags:
+  - page
 ---
 
 The purpose of this website is to:   

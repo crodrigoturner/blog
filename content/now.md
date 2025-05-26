@@ -1,7 +1,8 @@
 ---
 layout: layouts/now.njk
 title: Now
-class: now
+tags:
+- page
 ---
 
 **Listening**

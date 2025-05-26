@@ -1,6 +1,7 @@
 ---
 layout: layouts/page.njk
 title: Contact
-class: contact
+tags:
+  - page
 ---
 <a href="mailto:rodrigoturner.carlos@gmail.com">Send me an email -></a>

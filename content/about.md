@@ -1,7 +1,8 @@
 ---
 layout: layouts/page.njk
 title: About
-class: about
+tags:
+  - page
 ---
 
 <h3>Personal</h3>
