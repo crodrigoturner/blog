@@ -2,6 +2,7 @@
 layout: layouts/page.njk
 title: More
 class: more
+eleventyExcludeFromCollections: true
 ---
 
 <ul>
