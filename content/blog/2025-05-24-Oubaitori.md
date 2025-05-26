@@ -3,7 +3,7 @@ title: Oubaitori
 tags: 
 - inspiration
 excerpt: Cherry, plum, peach, and apricot...
-eleventyExcludeFromCollections: ["All"]
+eleventyExcludeFromCollections: ["all"]
 ---
 
 Oubaitori (桜梅桃李) is a Japanese idiom that translates to "cherry, plum, peach, and apricot".    
