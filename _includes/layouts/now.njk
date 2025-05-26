@@ -8,7 +8,7 @@ layout: layouts/base.njk
 
 <h5>Previous Nows</h5>
 <ul>
-{%- for Now in collections.now -%}
+{%- for now in collections.now -%}
 <li><a href="{{now.url}}">{{ now.data.title }}</a></li>
 {%- endfor -%}
 </ul>
