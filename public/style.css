@@ -113,7 +113,11 @@ p {
 }
 
 .arrow {
-    font: 400 1em/2 "Inter", sans-serif;
+    font: 400 1em/2 "Inter", sans-serif !important;
+}
+
+a:hover .arrow {
+    position:relative; left:5px;
 }
 
 .home-link {
