@@ -1,6 +1,7 @@
 ---
 layout: layouts/page.njk
 title: About
+excerpt: Who I am
 tags:
   - page
 ---

@@ -1,7 +1,7 @@
 ---
 layout: layouts/page.njk
 title: Work
-excerpt:
+excerpt: What I do
 tags:
 - page
 ---

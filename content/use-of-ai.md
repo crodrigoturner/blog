@@ -4,7 +4,6 @@ title: My use of AI
 excerpt: How I use AI chatbots
 tags: 
 - page
-- AI
 ---
 
 As of February 2025, here's how I use AI.
