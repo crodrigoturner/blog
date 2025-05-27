@@ -429,6 +429,8 @@ img {
     height: auto;
 }
 
+ img.banner{margin:0  calc(50% - 180px);}
+
 .image {
     position: relative;
     height: 0;
