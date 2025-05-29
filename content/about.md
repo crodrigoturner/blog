@@ -7,9 +7,9 @@ tags:
 ---
 
 <h3>Personal</h3>
-<p>I live in Madrid with Mar, Lucas, Nicolás and Pancho.</p>
-<p>
-My interests are Data, data driven decision making, AI, webdesign, internet, biomimicry, spreadsheets, EVs, evolution, industrial design, science, history, biography, speeches, philosophy, poetry (wordsmithing), data visualization, space, cooking...  
+<p>I am a husband to Mar, a father to Lucas and Nico, and Pancho's human.</p>
+
+<p>My interests are Data, data driven decision making, AI, webdesign, internet, biomimicry, spreadsheets, EVs, evolution, industrial design, science, history, biography, speeches, philosophy, poetry (wordsmithing), data visualization, space, cooking...  
 </p>
 
 <h3>Professional</h3>

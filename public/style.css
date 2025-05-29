@@ -429,7 +429,7 @@ img {
     height: auto;
 }
 
- img.banner{margin:0  calc(50% - 180px);}
+ img.banner{margin:0  calc(50% - 115px);}
 
 .image {
     position: relative;
