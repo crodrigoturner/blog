@@ -40,6 +40,8 @@ weekday[weekdayValue] + "."
 <li><a href="{{note.url}}">{{ note.data.title }}</a> › {{ note.data.excerpt | safe }}</li>
 {%- endfor -%}
 
+
+
 {% set postsCount = collections.posts | length %}
 
 {% set postslist = collections.posts | head(-1 * numberOfLatestPostsToShow) %}
