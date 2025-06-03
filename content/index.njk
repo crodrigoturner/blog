@@ -35,6 +35,11 @@ weekday[weekdayValue] + "."
 
 <h5>Latest notes</h5>
 
+
+{%- for note in collections.note -%}
+<li><a href="{{note.url}}">{{ note.data.title }}</a> › {{ note.data.excerpt | safe }}</li>
+{%- endfor -%}
+
 {% set postsCount = collections.posts | length %}
 
 {% set postslist = collections.posts | head(-1 * numberOfLatestPostsToShow) %}
