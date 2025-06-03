@@ -1,6 +1,6 @@
 ---
 title: Pocketmoney
-tags: notes
+tags: note
 excerpt: Lessons for teaching children about money
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: What is a website?
-tags: notes
+tags: note
 excerpt: The internet is a book made of pages
 ---
 

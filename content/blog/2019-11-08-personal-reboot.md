@@ -1,6 +1,6 @@
 ---
 title: Personal reboot
-tags: notes
+tags: note
 excerpt: Sometimes, take a pause to go faster, further...
 ---
 

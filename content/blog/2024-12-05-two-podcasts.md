@@ -1,6 +1,6 @@
 ---
 title: 2 podcasts and biographies
-tags: notes
+tags: note
 excerpt: Getting inspiration from the lives of others
 ---
 
