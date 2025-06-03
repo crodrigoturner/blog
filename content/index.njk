@@ -37,7 +37,8 @@ weekday[weekdayValue] + "."
 
 
 {%- for note in collections.note -%}
-<li><a href="{{note.url}}">{{ note.data.title }}</a> › {{ note.data.excerpt | safe }}</li>
+<p><a href="{{note.url}}">{{ note.data.title }}</a> › {{ note.data.excerpt | safe }}</p>
+<hr/>
 {%- endfor -%}
 
 
