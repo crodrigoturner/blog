@@ -3,6 +3,9 @@ layout: layouts/base.njk
 ---
 
 <h2> {{title}}</h2>
+
+{{ content | safe }}
+
 <ul class="tagcloud">
 <li><a href="/notes/">all</a></li>
 {% for tag in collections | getKeys | filterTagList %}
