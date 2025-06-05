@@ -33,6 +33,14 @@ weekday[weekdayValue] + "."
 <p>I'm a data specialist with 7+ years of experience in making data-driven decisions that drive businesses forward.</p>
 <p>Read more <a href="/about/">about me</a>, take a look at my <a href="/work/">work and background</a>, or <a href="/contact/">get in touch</a>.<p>
 
+<h5>SITEMAP</h5>
+
+{%- for page in collections.page -%}
+<a href="{{page.url}}">{{ page.data.title }}</a> · 
+{%- endfor -%}
+
+
+
 <h5>NEWSLETTER (coming soon)</h5>
 <iframe src="https://crodrigoturner.substack.com/embed" width="480" height="150" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
 
