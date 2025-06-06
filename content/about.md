@@ -2,6 +2,7 @@
 layout: layouts/page.njk
 title: About
 excerpt: Who I am
+eleventyExcludeFromCollections: true
 tags:
   - page
 ---

@@ -2,6 +2,7 @@
 layout: layouts/page.njk
 title: Work
 excerpt: What I do
+eleventyExcludeFromCollections: true
 tags:
 - page
 ---
