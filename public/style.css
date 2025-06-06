@@ -184,6 +184,7 @@ h5 {
     width: 100%;
     text-transform: uppercase;
     opacity: 0.3;
+    float:left;
 }
 
 blockquote {
