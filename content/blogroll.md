@@ -34,4 +34,6 @@ tags:
 <li><a href="https://maggieappleton.com/" target="_blank" rel="noopener">Maggie Appleton</a></li>
 <li><a href="https://alicebartlett.co.uk/" target="_blank" rel="noopener">Alice Bartlett</a></li>
 <li><a href="https://html-chunder.neocities.org/" target="_blank" rel="noopener">zkbro</a></li>
+<li><a href="https://hicks.design/" target="_blank" rel="noopener">Jon Hicks</a></li>
+<li><a href="https://colly.org/" target="_blank" rel="noopener">Simon Collison</a></li>
 </ul>
