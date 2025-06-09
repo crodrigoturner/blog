@@ -9,7 +9,7 @@ tags:
 
 <h3>Where I've been</h3>
 <ul>
-<li><p><b>2015-Now › Técnica y Avance</b >:    Sparepart co-manager</p></li>
+<li><p><b>2015-Now › Técnica y Avance</b >:    Aftersales</p></li>
 <li><p><b>2014-2015 › Repsol</b >:  International lubricant sales department. Backoffice.</p></li>
 <li><p><b>2012-2013 › Louis Vuitton</b >:   Warehouse assistant manager.</p></li>
 <li><p><b>2011-2012 › EME Arquitectos</b >:   Quantity surveyor / webdesigner.</p></li>
@@ -25,7 +25,10 @@ tags:
 4. <b>Nothing is “not my job”</b >:   If I see a pressing problem, I gather context and fix it.   
 
 
-<h3> What I do best</h3>
+<h3>Skills, capabilities & tools</h3>
+
+<h5>Skills & capabilities</h5>
+
 <ul class="col-2">
 <li>Understanding of data</li>
 <li>Analytical skills</li>
@@ -35,14 +38,6 @@ tags:
 <li>Proactiveness</li>
 <li>Critical thinking</li>
 <li>Customer service</li>
-<li>English · Spanish · French</li>
-<li>Windows / MAC OS</li>
-<li>Office</li>
-<li>Filemaker</li>
-<li>HTML</li>
-<li>CSS</li>
-<li>JS</li>
-<li>Wordpress</li>
 <li>Accessibility</li>
 <li>Competitive analysis</li>
 <li>Cross-organizational collaboration</li>
@@ -51,7 +46,6 @@ tags:
 <li>Data-driven decision making</li>
 <li>Experimentation</li>
 <li>Market research</li>
-<li>Open source</li>
 <li>Product metrics</li>
 <li>Product vision & strategy</li>
 <li>Project management</li>
@@ -63,6 +57,18 @@ tags:
 <li>UX/UI design</li>
 <li>Web development</li>
 <li>Web standards</li>
+</ul>
+
+<h5>Tools</h5>
+<ul class="col-2">
+<li>English · Spanish · French</li>
+<li>Windows / MAC OS</li>
+<li>Office</li>
+<li>Filemaker</li>
+<li>HTML</li>
+<li>CSS</li>
+<li>JS</li>
+<li>Wordpress</li>
 </ul>
 
 

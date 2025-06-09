@@ -22,8 +22,5 @@ I have worked in architecture studios, big energy companies, luxury brands, and 
 </p>
 
 
-<h3>Contact</h3>
-<p><a class="cta" href="mailto:rodrigoturner.carlos@gmail.com">Send me an email <span class="arrow">-></span></a></p>
-
 <h3>Facts</h3>
 <p>My full name is Carlos Roberto Rodrigo Turner.</p>
