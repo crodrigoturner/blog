@@ -75,7 +75,7 @@ nav a:hover,
 }
 
 nav a:hover::after{content:'->';
-float:left;
+float:right;
 margin-right: 10px;
     font: 400 1em/1 "Inter", sans-serif !important;
 }
@@ -84,7 +84,7 @@ main {
     padding: 0 0 100px 0;
     width: 33.3333%;
     float: right;
-    min-height: 100vh;
+    min-height: 70vh;
     z-index: 10;
     margin: 70px 33.333% 0 0;
 }
