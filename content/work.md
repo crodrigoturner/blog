@@ -81,3 +81,9 @@ I believe everyone should state how to work and share it with co-workers and sta
 3. If you need anything from me, please clearly let me know <strong>what is needed and when.</strong>
 4. I prefer meetings after 10 am, and before 16 pm.
 5. My time zone is GMT+2.(Madrid, Spain)
+
+<h3>Get in touch</h3>
+
+If you think I can help with your project or bring value to your team, or if you have an interesting suggestion, please email rodrigoturner.carlos@gmail.com.
+
+Resume and references available on request.
