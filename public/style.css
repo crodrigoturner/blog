@@ -70,6 +70,12 @@ nav a:hover,
 .active {
     text-decoration: none;
     opacity: 0.6;
+   
+}
+
+nav a:hover::after{content:'->';
+float:right;
+margin-right: 10px;
 }
 
 main {

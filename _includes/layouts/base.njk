@@ -36,6 +36,22 @@
 {{ content | safe }}
 </main>
 
+<footer>
+<div class="left ot">
+<h5>CONTACT</h5>
+<p><a href="mailto:rodrigoturner.carlos@gmail.com">Send me an email <span class="arrow">-></span></a></p>
+</div>
+<div class="right tt">
+<h5>SITEMAP</h5>
+<ul>
+{%- for page in collections.page -%}
+<li><a href="{{page.url}}">{{ page.data.title }}</a></li>
+{%- endfor -%}
+</ul>
+</div>
+
+</footer>
+
 <script type="module" src="{% getBundleFileUrl "js" %}"></script>
 
 </body>
