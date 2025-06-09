@@ -87,6 +87,13 @@ main {
     margin: 70px 33.333% 0 0;
 }
 
+.footer{   padding: 0;
+    width: 33.3333%;
+    float: right;
+  
+    z-index: 10;
+    margin: 70px 33.333% 0 0;}
+
 .clear {
     width: 100%;
     clear: both;
