@@ -86,7 +86,7 @@ nav a:hover::after{    content: '->';
     position: relative;
     margin-left: 10px;
     font: 400 1em / 1 "Inter", sans-serif !important;
-    top: 10px;
+    top: 12px;
 }
 
 
