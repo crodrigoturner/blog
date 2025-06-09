@@ -81,7 +81,7 @@ nav a:hover::after{    content: '->';
     font: 400 1em / 1 "Inter", sans-serif !important;
     top: 10px;
 }
-.active::after{    content: '●';
+.active::after{    content: '✺';
     float: right;
     position: relative;
     margin-left: 10px;
