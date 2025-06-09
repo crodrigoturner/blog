@@ -74,7 +74,7 @@ nav a:hover,
 }
 
 nav a:hover::after{content:'->';
-float:left;
+float:right;
 margin-right: 10px;
     font: 400 1em/2 "Inter", sans-serif !important;
 }
