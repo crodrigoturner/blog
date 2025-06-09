@@ -81,7 +81,7 @@ nav a:hover::after{    content: '->';
     font: 400 1em / 1 "Inter", sans-serif !important;
     top: 10px;
 }
-.active::after{    content: '○';
+.active::after{    content: '●';
     float: right;
     position: relative;
     margin-left: 10px;
@@ -99,12 +99,14 @@ main {
     margin: 70px 33.333% 0 0;
 }
 
-footer{   padding: 0;
+footer{   padding: 0 0 50px 0;
     width: 33.3333%;
     float: right;
   
     z-index: 10;
-    margin: 70px 33.333% 0 0;}
+    margin: 0px 33.333% 0 0;}
+
+footer ul li{float:left; width:50%;}
 
 .clear {
     width: 100%;
@@ -160,6 +162,8 @@ a:hover .arrow {
     font-size: 0.8em;
     visibility: visible;
 }
+
+.home-link::after, .home-link:hover::after{content:'';}
 
 .hidden {
     visibility: hidden;
