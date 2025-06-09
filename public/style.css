@@ -97,6 +97,9 @@ main {
     float: left;
 }
 
+.ot{width:33.3333%;}
+.tt{width:66.6666%;}
+
 hr {
     float: left;
     background: #ffe0b28a;
