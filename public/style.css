@@ -74,10 +74,12 @@ nav a:hover,
    
 }
 
-nav a:hover::after{content:'->';
-float:right;
-margin-right: 10px;
-    font: 400 1em/1 "Inter", sans-serif !important;
+nav a:hover::after, .active::after{    content: '->';
+    float: right;
+    position: relative;
+    margin-left: 10px;
+    font: 400 1em / 1 "Inter", sans-serif !important;
+    top: 10px;
 }
 
 main {
