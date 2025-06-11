@@ -1,5 +1,8 @@
 ---js
-const numberOfLatestPostsToShow = 10;
+pagination:
+  data: collections.note
+  size: 5
+  alias: posts
 ---
 <h5>
 <script>
@@ -36,6 +39,15 @@ weekday[weekdayValue] + "."
 
 
 <h5>Notes</h5>
+
+<nav aria-labelledby="my-pagination">
+  <h2 id="my-pagination">This is my Pagination</h2>
+  <ol>
+{%- for pageEntry in pagination.pages %}
+    <li><a href="{{ pagination.hrefs[ forloop.index0 ] }}"{% if page.url == pagination.hrefs[ forloop.index0 ] %} aria-current="page"{% endif %}>Page {{ forloop.index }}</a></li>
+{%- endfor %}
+  </ol>
+</nav>
 
 {%- for note in collections.note -%}
 <p><a href="{{note.url}}">{{ note.data.title }}</a> › {{ note.data.excerpt | safe }}</p>
