@@ -50,6 +50,6 @@ weekday[weekdayValue] + "."
 </nav>
 
 {%- for post in collections.post -%}
-<p><a href="{{post.url}}">{{ post.data.title }}</a> › {{ post.data.excerpt | safe }}</p>
+<p><a href="{{post.url}}">{{ post.title }}</a> › {{ post.excerpt | safe }}</p>
 <hr/>
 {%- endfor -%}
