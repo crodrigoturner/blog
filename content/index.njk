@@ -43,11 +43,7 @@ weekday[weekdayValue] + "."
 <h5>Notes</h5>
 
 
-  <ol>
-{%- for pageEntry in pagination.pages %}
-    <li><a href="{{ pagination.hrefs[ forloop.index0 ] }}"{% if page.url == pagination.hrefs[ forloop.index0 ] %} aria-current="page"{% endif %}>Page {{ forloop.index }}</a></li>
-{%- endfor %}
-  </ol>
+
 
 
 {%- for post in postslist | reverse %}
