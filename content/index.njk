@@ -1,5 +1,8 @@
 ---
-
+pagination:
+  data: collections.posts
+  size: 5
+  alias: posts
 ---
 <h5>
 <script>
@@ -45,8 +48,8 @@ weekday[weekdayValue] + "."
 {% endif %}
 
 
-
+{% set postslist = collections.posts %}
 {%- for post in postslist | reverse %}
-<p><a href="{{post.url}}">{{ post.title }}</a> › {{ post.excerpt | safe }}</p>
+<p><a href="{{post.url}}">{{ post.data.title }}</a> › {{ post.data.excerpt | safe }}</p>
 <hr/>
-{%- endfor -%}
+{%- endfor %}
