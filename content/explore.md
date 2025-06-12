@@ -1,6 +1,6 @@
 ---
 layout: layouts/page.njk
-title: More
+title: Explore
 eleventyExcludeFromCollections: true
 ---
 
