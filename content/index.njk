@@ -36,9 +36,11 @@ weekday[weekdayValue] + "."
 <p>I'm a data specialist with 7+ years of experience in making data-driven decisions that drive businesses forward.</p>
 <p>Read more <a href="/about/">about me</a>, take a look at my <a href="/work/">work and background</a>, or <a href="/contact/">get in touch</a>.<p>
 
+<h5>CONTACT</h5>
+<p><a href="mailto:rodrigoturner.carlos@gmail.com">Send me an email <span class="arrow">-></span></a></p>
 
 
-<h5>Notes</h5>
+<h5>WRITING</h5>
 
 {% if pagination.href.previous %}
   <a class="arrow left" href="{{pagination.href.previous}}"><-</a>
@@ -54,15 +56,4 @@ weekday[weekdayValue] + "."
 {%- endfor %}
 
 
-<div class="left ot">
-<h5>CONTACT</h5>
-<p><a href="mailto:rodrigoturner.carlos@gmail.com">Send me an email <span class="arrow">-></span></a></p>
-</div>
-<div class="right tt">
-<h5>SITEMAP</h5>
-<ul>
-{%- for page in collections.page -%}
-<li><a href="{{page.url}}">{{ page.data.title }}</a></li>
-{%- endfor -%}
-</ul>
-</div>
+
