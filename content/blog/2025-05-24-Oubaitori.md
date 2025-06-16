@@ -1,5 +1,6 @@
 ---
 title: Oubaitori
+date: 2025-05-24
 tags: 
 - inspiration
 excerpt: Cherry, plum, peach, and apricot...

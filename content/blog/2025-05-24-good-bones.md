@@ -1,5 +1,6 @@
 ---
 title: Good Bones
+date: 2025-05-24
 tags: 
 - inspiration
 - poetry
