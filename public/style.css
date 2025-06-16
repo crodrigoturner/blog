@@ -69,12 +69,18 @@ nav a {
 
 nav a i{padding:0 10px 0 0;}
 
+
+
 nav a:hover,
 .active {
     text-decoration: none;
     opacity: 0.6;
    
 }
+
+
+
+.active i{color:var(--yellow);}
 
 .intro{padding:20px; background:#EEE;}
 
