@@ -1,6 +1,5 @@
 ---
-title: Notes
+title: Blog
 layout: layouts/blog.njk
-class: notes
 ---
 
