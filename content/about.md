@@ -7,13 +7,21 @@ tags:
   - page
 ---
 
-<h3>Personal</h3>
+<ol class="toc">
+<li>Personal</li>
+<li><a href="/#professional/">Professional</a></li>
+<li><a href="/#colophon/">Colophon</a></li>
+</ol>
+
+<h3>1. Personal</h3>
 <p>I am a husband to Mar, a father to Lucas and Nico, and Pancho's human.</p>
 
-<p>My interests are Data, data driven decision making, AI, webdesign, internet, biomimicry, spreadsheets, EVs, evolution, industrial design, science, history, biography, speeches, philosophy, poetry (wordsmithing), data visualization, space, cooking...  
+<p>My interests are data, data driven decision making, AI, webdesign, internet, biomimicry, spreadsheets, EVs, evolution, industrial design, science, history, speeches, philosophy, poetry (wordsmithing), data visualization, space, sci-fi and cooking...  
 </p>
 
-<h3>Professional</h3>
+<p>My full name is Carlos Roberto Rodrigo Turner.</p>
+
+<h3 id="professional">2. Professional</h3>
 <p>
 I'm a data specialist with 7+ years of experience in leveraging data to drive businesses forward. I am passionate about helping make data-driven decisions that lead to growth and success. 
 </p>
@@ -23,9 +31,9 @@ I have worked in architecture studios, big energy companies, luxury brands, and 
 
 
 <h3>Facts</h3>
-<p>My full name is Carlos Roberto Rodrigo Turner.</p>
 
-<h3>Colophon</h3>
+
+<h3 id="colophon">3. Colophon / About this website</h3>
 <h5>Technical details</h5>
 This website is climate friendly. Cleaner than 98% of all web pages globally according to [Website carbon calculator](https://www.websitecarbon.com/website/carlosrodrigo-com/) and [Ecograder](https://ecograder.com/report/ui51eop7QVAu1piHLdKCnYav).
 
