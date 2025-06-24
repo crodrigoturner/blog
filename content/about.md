@@ -9,8 +9,8 @@ tags:
 
 <ol class="toc">
 <li>Personal</li>
-<li><a href="/#professional/">Professional</a></li>
-<li><a href="/#colophon/">Colophon</a></li>
+<li><a href="/about/#professional/">Professional</a></li>
+<li><a href="/about/#colophon/">Colophon</a></li>
 </ol>
 
 <h3>1. Personal</h3>
