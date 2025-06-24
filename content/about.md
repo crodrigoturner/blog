@@ -2,7 +2,6 @@
 layout: layouts/page.njk
 title: About
 excerpt: Who I am
-eleventyExcludeFromCollections: true
 tags:
   - page
 ---
@@ -32,6 +31,7 @@ I have worked in architecture studios, big energy companies, luxury brands, and 
 
 <h3 id="colophon">3. Colophon / About this website</h3>
 <h5>Technical details</h5>
+
 This website is climate friendly. Cleaner than 98% of all web pages globally according to [Website carbon calculator](https://www.websitecarbon.com/website/carlosrodrigo-com/) and [Ecograder](https://ecograder.com/report/ui51eop7QVAu1piHLdKCnYav).
 
 Built with [Eleventy](https://eleventy.com), deployed on [Netlify](https://netlify.com) from [Github](https://github.com). The font is [Outfit](https://fonts.google.com/specimen/Outfit). 
