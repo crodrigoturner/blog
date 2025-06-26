@@ -3,7 +3,7 @@ title: Reading long posts
 date: 2025-02-18
 status: flow
 tags: 
-- note
+- post
 excerpt: How I digest "longish" articles
 ---
 
