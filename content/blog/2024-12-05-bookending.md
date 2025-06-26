@@ -1,6 +1,8 @@
 ---
 title: Bookending
-tags: note
+tags: 
+- post
+- lifechack
 excerpt: How to start and finish the workday
 ---
 

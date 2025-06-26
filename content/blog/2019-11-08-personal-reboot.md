@@ -1,6 +1,8 @@
 ---
 title: Personal reboot
-tags: note
+tags: -
+- post
+- lifehack
 excerpt: Sometimes, take a pause to go faster, further...
 ---
 
