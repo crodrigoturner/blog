@@ -12,7 +12,7 @@ This is a timeline of the most important events I have experienced.
 Each square is a month.
 
 <div class="vidagrid">
-<div class="sq alive" title="07/1985">0</div>
+<div class="sq alive" title="07/1985">0 - 14/07/1985 - Hello World!</div>
 <div class="sq alive" title="08/1985"></div>
 <div class="sq alive" title="09/1985"></div>
 <div class="sq alive" title="10/1985"></div>
@@ -488,10 +488,10 @@ Each square is a month.
 <div class="sq alive" title="12/2024"></div>
 <div class="sq alive" title="01/2025"></div>
 <div class="sq alive" title="02/2025"></div>
-<div class="sq " title=""></div>
-<div class="sq " title=""></div>
-<div class="sq " title=""></div>
-<div class="sq " title=""></div>
+<div class="sq alive" title=""></div>
+<div class="sq alive" title=""></div>
+<div class="sq alive" title=""></div>
+<div class="sq alive" title=""></div>
 <div class="sq " title="">40</div>
 <div class="sq " title=""></div>
 <div class="sq " title=""></div>
