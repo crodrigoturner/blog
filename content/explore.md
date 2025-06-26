@@ -28,6 +28,6 @@ eleventyExcludeFromCollections: true
 
 <ol>
 <li><a href="https://www.imdb.com/user/ur178111487/?ref_=ext_shr_lnk">Imdb</a> </li>
-<li><a href="https://github.com/crodrigoturner"></a>Github </li>
+<li><a href="https://github.com/crodrigoturner">Github</a> </li>
 <li><a href="https://www.goodreads.com/user/show/190088576-carlos-rodrigo-turner">Goodreads</a> </li>
 </ol>
