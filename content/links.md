@@ -1,5 +1,5 @@
 ---
-title: The best of the internet
+title: Links
 excerpt: Some of the best things I have found on the internet.
 tags:
 - internet
@@ -28,25 +28,9 @@ tags:
 * <a href="https://nymag.com/intelligencer/2018/12/how-much-of-the-internet-is-fake.html" target="_blank" rel="noopener noreferrer">How much of the internet is fake</a>   
 * <a href="https://www.petelambert.com/journal/html-is-the-web" target="_blank" rel="noopener noreferrer">HTML is the web</a> by Pete Lambert   
 * <a href="http://www.lettersofnote.com/2011/07/internet-tidal-wave.html" rel="noopener noreferrer" target="_blank">The Internet Tidal Wave</a> by Bill Gates  
-* <a href="https://godly.website/" target="_blank" rel="noopener">Godly</a>
-* <a href="https://onepagelove.com/" target="_blank" rel="noopener">Onepagelove</a>
-* <a href="https://speckyboy.com/" target="_blank" rel="noopener">speckyboy</a>
-* <a href="https://www.awwwards.com/blog/" target="_blank" rel="noopener">awwwards</a>
-* <a href="https://www.smashingmagazine.com/" target="_blank" rel="noopener">Smashingmagazine</a>
-* <a href="https://css-tricks.com/" target="_blank" rel="noopener">CSS tricks</a>
-* <a href="https://dribbble.com/stories" target="_blank" rel="noopener">Dribbble courtside</a>
-* <a href="https://www.dezeen.com/" target="_blank" rel="noopener">Dezeen</a>
 
-### Interior design
 
-* <a href="https://www.huntingforgeorge.com/" target="_blank" rel="noopener">Hunting for George</a>
-* <a href="https://www.houseandgarden.co.uk/" target="_blank" rel="noopener">House and Garden</a>
-* <a href="https://www.itsnicethat.com/" target="_blank" rel="noopener">It's nice that</a>
 
-### News
-
-* <a href="https://unherd.com/" target="_blank" rel="noopener">Unherd</a>
-* <a href="https://news.ycombinator.com/" target="_blank" rel="noopener">Hacker News</a>
 
 ### Useful
 * [Markdown basics by Daring fireball](https://daringfireball.net/projects/markdown/basics)
