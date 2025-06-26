@@ -19,11 +19,11 @@ const eleventyComputed = {
 
 ---
 
-<h2>Notes › <em>{{ tag }}</em></h2>
+<h2>Posts tagged <em>{{ tag }}</em></h2>
 
 
 <ul class="tagcloud">
-<li><a href="/notes/">all</a></li>
+<li><a href="/blog/">all</a></li>
 {% for tag in collections | getKeys | filterTagList %}
 {% set tagUrl %}/tag/{{ tag | slugify }}/{% endset %}
 <li><a href="/tag/{{tag}}" >{{ tag }}</a></li>
