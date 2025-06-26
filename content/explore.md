@@ -15,7 +15,7 @@ eleventyExcludeFromCollections: true
 
 <h5>Tags</h5>
 <ul class="tagcloud">
-<li><a href="/blog">all</a></li>
+<li><a href="/blog/">all</a></li>
 {% for tag in collections | getKeys | filterTagList %}
 {% set tagUrl %}/tag/{{ tag | slugify }}/{% endset %}
 <li><a href="/tag/{{tag}}" >{{ tag }}</a></li>
