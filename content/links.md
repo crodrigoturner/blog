@@ -29,8 +29,5 @@ tags:
 * <a href="https://www.petelambert.com/journal/html-is-the-web" target="_blank" rel="noopener noreferrer">HTML is the web</a> by Pete Lambert   
 * <a href="http://www.lettersofnote.com/2011/07/internet-tidal-wave.html" rel="noopener noreferrer" target="_blank">The Internet Tidal Wave</a> by Bill Gates  
 
-
-
-
 ### Useful
 * [Markdown basics by Daring fireball](https://daringfireball.net/projects/markdown/basics)
