@@ -30,7 +30,7 @@ I have worked in architecture studios, big energy companies, luxury brands, and 
 
 This website is climate friendly. Cleaner than 98% of all web pages globally according to [Website carbon calculator](https://www.websitecarbon.com/website/carlosrodrigo-com/) and [Ecograder](https://ecograder.com/report/ui51eop7QVAu1piHLdKCnYav).
 
-Built with [Eleventy](https://eleventy.com), deployed on [Netlify](https://netlify.com) from [Github](https://github.com). The font is [Outfit](https://fonts.google.com/specimen/Outfit). 
+Built with [Eleventy](https://eleventy.com), deployed on [Netlify](https://netlify.com) from [Github](https://github.com). The font are [Geist](https://fonts.google.com/specimen/Geist), Fontawesome and Inter. 
 
 There is no tracking in this website.
 
