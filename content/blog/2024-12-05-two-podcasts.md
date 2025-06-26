@@ -1,7 +1,8 @@
 ---
 title: 2 podcasts and biographies
 date: 2025-05-24
-tags: note
+tags: 
+- post
 excerpt: Getting inspiration from the lives of others
 ---
 
