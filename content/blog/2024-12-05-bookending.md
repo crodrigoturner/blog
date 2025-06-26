@@ -2,7 +2,7 @@
 title: Bookending
 tags: 
 - post
-- lifechack
+- lifehack
 excerpt: How to start and finish the workday
 ---
 
