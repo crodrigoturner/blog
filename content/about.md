@@ -6,11 +6,7 @@ tags:
   - page
 ---
 
-<ol class="toc">
-<li>Personal</li>
-<li><a href="/about/#professional/">Professional</a></li>
-<li><a href="/about/#colophon/">Colophon</a></li>
-</ol>
+
 
 <h3>1. Personal</h3>
 <p>I am a husband to Mar, a father to Lucas and Nico, and Pancho's human.</p>

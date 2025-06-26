@@ -1,9 +1,11 @@
 ---
 layout: layouts/base.njk
 ---
-<article class="single">
-<h2> {{title}}</h2>
+
+<h2>{{title}}</h2>
 
 {{ content | safe }}
+
+∎
+
 <span class="meta"><a href="mailto:rodrigoturner.carlos@gmail.com">Reply by email</a> · <time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate("dd.MM.yyyy") }}</time></span>
-</article>

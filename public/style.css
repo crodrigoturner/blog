@@ -13,7 +13,7 @@ html {
 }
 
 body {
-    font: 400 17px/2 "Outfit", sans-serif;
+    font: 400 17px/2 "Geist", sans-serif;
     text-rendering: optimizeLegibility !important;
     -webkit-font-smoothing: antialiased !important;
     color: var(--black);
@@ -41,7 +41,7 @@ header {
 nav {
     float: left;
     margin: 0;
-    font: 600 1.15em/1.9 "Outfit", "Inter", sans-serif;
+    font: 600 1.15em/1.9 "Geist", "Inter", sans-serif;
     z-index: 9999;
     width: 100%;
     padding: 32px 0;
@@ -164,7 +164,7 @@ a:hover .arrow {
 }
 
 h1 {
-    font: 700 2em/1.4 "Outfit", "Inter", sans-serif;
+    font: 700 2em/1.4 "Geist", "Inter", sans-serif;
     text-align: left;
     float: left;
     width: 100%;
@@ -172,7 +172,7 @@ h1 {
 }
 
 h2 {
-    font: 700 2em/1.4 "Outfit", "Inter", sans-serif;
+    font: 700 2em/1.4 "Geist", "Inter", sans-serif;
     text-align: left;
     float: left;
     width: 100%;
@@ -190,21 +190,21 @@ h1:before {
 }
 
 h3 {
-    font: 700 1.3em/1 "Outfit", "Inter", sans-serif;
+    font: 700 1.3em/1 "Geist", "Inter", sans-serif;
     margin: 30px 0 15px;
     float: left;
     width: 100%;
 }
 
 h4 {
-    font: 700 1.3em/1.4 "Outfit", "Inter", sans-serif;
+    font: 700 1.3em/1.4 "Geist", "Inter", sans-serif;
     margin: 0px;
     float: left;
     width: 100%;
 }
 
 h5 {
-    font: 600 0.8em/1.4 "Outfit", "Inter", sans-serif;
+    font: 600 0.8em/1.4 "Geist", "Inter", sans-serif;
     margin: 20px 0px;
     float: left;
     width: 100%;
