@@ -36,7 +36,7 @@ weekday[weekdayValue] + "."
 {% set postslist = collections.posts %}
 {%- for post in postslist | reverse %}
 <a href="{{ post.url }}" class="postlist-item">
-<img src="{{post.data.cover}}" alt="cover image" class="cover"/>
+
 <h4>{{ post.data.title }}</h4>
 <p class="post-meta">
 {% for tag in post.data.tags %}
@@ -50,7 +50,8 @@ weekday[weekdayValue] + "."
 </section>
 
 {%- for post in postslist -%}
-<h3><a href="{{post.url}}">{{ post.data.title }}</a> </h3> {{ post.content | safe }}
+<h3><a href="{{post.url}}">{{ post.data.title }}</a> </h3> 
+<img src="{{post.data.cover}}" alt="cover image" class="cover"/> {{ post.data.excerpt | safe }}
 <hr/>
 {%- endfor %}
 <article class="intro">
