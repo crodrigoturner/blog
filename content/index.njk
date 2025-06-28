@@ -33,8 +33,8 @@ weekday[weekdayValue] + "."
 </script></h5>
 
 
-
-{%- for post in postslist -%}
+{% set postslist = collections.posts %}
+{%- for post in postslist | reverse %}
 <h3><a href="{{post.url}}">{{ post.data.title }}</a> </h3> 
 <img src="{{post.data.cover}}" alt="cover image" class="cover"/> {{ post.data.excerpt | safe }}
 <hr/>
