@@ -1,5 +1,6 @@
 ---
 title: Pocketmoney
+cover: /img/cover1.png
 tags: 
 - post
 - parenting
