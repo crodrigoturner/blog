@@ -29,10 +29,10 @@ body {
 
 header {
     float: left;
-    padding: 50px;
+    padding: 50px 150px;
     z-index: 9999;
     text-align: center;
-    width: calc(33.333% - 100px);
+    width: calc(33.333% - 400px);
     margin: 0;
     position: fixed;
     min-height: 100vh;
@@ -81,7 +81,7 @@ nav a:hover,
 .toc{float:left; width:100%; font-size:.8em; margin:0; padding:0 0 0 30px; border-left:1px solid #EEE;}
 
 
-.intro{padding:20px; background:#EEE;}
+.intro{font-size:2em;}
 
 
 main {
