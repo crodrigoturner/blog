@@ -52,12 +52,12 @@ weekday[weekdayValue] + "."
 
 <ul>
 {%- for projects in collections.projects -%}
-<li><a href="{{Project.url}}">{{ Project.data.title }}</a></li>
+<li><a href="{{project.url}}">{{ projects.data.title }}</a></li>
 {%- endfor -%}
 </ul>
 
 <article class="intro">
-<p>Lately my [work](/work/) and interest has revolved around data and data-decision making.</p>
+<p>Lately my <a href="/work/">work</a> and interest has revolved around data and data-decision making.</p>
 </article>
 
 
