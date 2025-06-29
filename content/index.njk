@@ -50,9 +50,16 @@ weekday[weekdayValue] + "."
 <li><a href="/tag/{{tag}}" >{{ tag }}</a></li>
 {% endfor %}</ul>
 
+<ul>
+{%- for Project in collections.project -%}
+<li><a href="{{Project.url}}">{{ Project.data.title }}</a></li>
+{%- endfor -%}
+</ul>
+
 <article class="intro">
 <p>Lately my [work](/work/) and interest has revolved around data and data-decision making.</p>
 </article>
+
 
 
 {%- for likes in likes -%}
