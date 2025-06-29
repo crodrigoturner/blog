@@ -102,10 +102,10 @@ ul.posts {
     width: 100%;
 }
 
-ul.posts li{float:left;  margin:0 5px 20px 0; padding:0; position:relative; display:block;}
+ul.posts li{float:left;  margin:20px; padding:0; position:relative; display:block;}
 
-ul.posts li:first-child,ul.posts li:nth-child(4n) {width:60%;}
-ul.posts li:nth-child(2n),ul.posts li:nth-child(2n+1){width:35%;}   
+ul.posts li:first-child,ul.posts li:nth-child(4) {width:60%;}
+ul.posts li:nth-child(2),ul.posts li:nth-child(3){width:40%;}   
 
 .clear {
     width: 100%;
