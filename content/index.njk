@@ -51,7 +51,7 @@ weekday[weekdayValue] + "."
 {% endfor %}</ul>
 
 <ul>
-{%- for project in collections.project -%}
+{%- for projects in collections.projects -%}
 <li><a href="{{Project.url}}">{{ Project.data.title }}</a></li>
 {%- endfor -%}
 </ul>
