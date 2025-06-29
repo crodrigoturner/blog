@@ -1,5 +1,6 @@
 ---
 title: What is a website?
+cover: /img/cover1.png
 tags: 
 - post
 - internet

@@ -1,5 +1,6 @@
 ---
 title: Bookending
+cover: /img/cover1.png
 tags: 
 - post
 - lifehack
