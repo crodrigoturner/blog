@@ -1,9 +1,6 @@
 ---
 layout: layouts/base.njk
-pagination:
-  data: collections.posts
-  size: 4
-  alias: posts
+const numberOfLatestPostsToShow = 4;
 
 ---
 <h5>
@@ -36,6 +33,7 @@ weekday[weekdayValue] + "."
 </script></h5>
 
 <ul class="posts">
+{% set postslistCounter = postsCount %}
 {% set postslist = collections.posts %}
 {%- for post in postslist | reverse %}
 <li>
