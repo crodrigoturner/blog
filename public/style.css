@@ -102,6 +102,8 @@ main {
     width: 100%;
 }
 
+.post a p{background:#EEE; padding:10px; margin:0; font-size:1.2em; line-height:1.4; border-radius:5px; width:90%; position:relative; top:-10px; left:5px;}
+
 .posts a, ul.projects li{float:left;  margin:20px 20px 20px; padding:0; position:relative; display:block;}
 
 .posts a:first-child,.posts a:nth-child(4) {width:60%;}
