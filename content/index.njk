@@ -47,8 +47,9 @@ weekday[weekdayValue] + "."
 <p>I am very lucky to be a husband to Mar, a father to Lucas and Nico, and a friend to Pancho <img src="/img/pancho.png" alt=pancho" class="pancho">.</p>
 </article>
 
+<h5>TOPICS</h5>
+
 <ul class="tagcloud">
-<li><a href="/blog/">all</a></li>
 {% for tag in collections | getKeys | filterTagList %}
 {% set tagUrl %}/tag/{{ tag | slugify }}/{% endset %}
 <li><a href="/tag/{{tag}}" >{{ tag }}</a></li>
