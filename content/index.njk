@@ -54,10 +54,15 @@ weekday[weekdayValue] + "."
 <li><a href="/tag/{{tag}}" >{{ tag }}</a></li>
 {% endfor %}</ul>
 
-<ul>
+<ul class="projects">
 {%- for projects in collections.projects -%}
-<li><a href="{{project.url}}">{{ projects.data.title }}</a></li>
-{%- endfor -%}
+<li>
+<h3><a href="{{project.url}}">{{ project.data.title }}</a> </h3> 
+<img src="{{project.data.cover}}" alt="cover image" class="cover"/> 
+<p>{{ project.data.excerpt | safe }}</p>
+</li>
+
+{%- endfor %}
 </ul>
 
 <article class="intro">

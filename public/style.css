@@ -102,10 +102,12 @@ ul.posts {
     width: 100%;
 }
 
-ul.posts li{float:left;  margin:20px; padding:0; position:relative; display:block;}
+ul.posts li, ul.projects li{float:left;  margin:20px; padding:0; position:relative; display:block;}
 
 ul.posts li:first-child,ul.posts li:nth-child(4) {width:60%;}
 ul.posts li:nth-child(2),ul.posts li:nth-child(3){width:40%;}   
+
+ul.projects li{width:calc(33.333% - 40px)}
 
 .clear {
     width: 100%;
