@@ -1,5 +1,6 @@
 ---
 layout: layouts/page.njk
+cover: /img/cover2.png
 title: Life in squares
 excerpt: A timeline of events
 tags:
