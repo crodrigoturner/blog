@@ -94,7 +94,7 @@ main {
     margin: 70px 33.333% 70px 0;
 }
 
-ul.posts {
+.posts {
     list-style-type: none;
     padding: 0;
     margin: 0;
@@ -102,10 +102,10 @@ ul.posts {
     width: 100%;
 }
 
-ul.posts li, ul.projects li{float:left;  margin:20px; padding:0; position:relative; display:block;}
+.posts a, ul.projects li{float:left;  margin:20px; padding:0; position:relative; display:block;}
 
-ul.posts li:first-child,ul.posts li:nth-child(4) {width:60%;}
-ul.posts li:nth-child(2),ul.posts li:nth-child(3){width:40%;}   
+.posts a:first-child,.posts a:nth-child(4) {width:60%;}
+.posts a:nth-child(2),.posts a:nth-child(3){width:40%;}   
 
 ul.projects li{width:calc(33.333% - 40px)}
 
