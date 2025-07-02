@@ -33,7 +33,7 @@ header {
     padding: 50px 100px;
     z-index: 9999;
     text-align: center;
-    width: calc(20% - 200px);
+    width: calc(25% - 200px);
     margin: 0;
     position: fixed;
     min-height: 100vh;
@@ -86,11 +86,11 @@ nav a:hover,
 
 main {
     padding: 0 0 100px 0;
-    width: 60%;
+    width: 50%;
     float: right;
     min-height: 100vh;
     z-index: 10;
-    margin: 70px 20% 70px 0;
+    margin: 70px 25% 70px 0;
 }
 
 .posts {
