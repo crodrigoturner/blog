@@ -51,7 +51,7 @@ weekday[weekdayValue] + "."
 {% for tag in collections | getKeys | filterTagList %}
 {% set tagUrl %}/tag/{{ tag | slugify }}/{% endset %}
 <li><a href="/tag/{{tag}}" >{{ tag }}</a></li>
-{% endfor %}</ul>
+{%- endfor -%}</ul>
 
 <ul class="projects">
 {%- for projects in collections.projects -%}
