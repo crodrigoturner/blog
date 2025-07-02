@@ -102,10 +102,10 @@ main {
     width: 100%;
 }
 
-.posts a span{background:#EEE; padding:10px; margin:0;border-radius:5px; width:90%; position:relative; top:-10px; left:5px;float:left; -webkit-backdrop-filter: blur(10px);
+.posts a span{background:#eeeeeed1; padding:10px; margin:0;border-radius:5px; width:90%; position:relative; top:-30px; left:0px;float:left; -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);}
 
-.posts a, ul.projects li{float:left;  margin:20px 20px 20px; padding:0; position:relative; display:block;}
+.posts a, ul.projects li{float:left;  margin:20px 20px 20px 0; padding:0; position:relative; display:block;}
 
 .posts a:first-child,.posts a:nth-child(4) {width:60%;}
 .posts a:nth-child(2),.posts a:nth-child(3){width:40%;}   
