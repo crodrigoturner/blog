@@ -30,10 +30,10 @@ body {
 
 header {
     float: left;
-    padding: 50px 150px;
+    padding: 50px 100px;
     z-index: 9999;
     text-align: center;
-    width: calc(33.333% - 400px);
+    width: calc(20% - 200px);
     margin: 0;
     position: fixed;
     min-height: 100vh;
@@ -86,7 +86,7 @@ nav a:hover,
 
 main {
     padding: 0 0 100px 0;
-    width: 33.3333%;
+    width: 60%;
     float: right;
     min-height: 100vh;
     z-index: 10;
