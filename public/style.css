@@ -82,7 +82,7 @@ nav a:hover,
 .toc{float:left; width:100%; font-size:.8em; margin:0; padding:0 0 0 30px; border-left:1px solid #EEE;}
 
 
-.intro{font-size:2.5em;line-height:1.45; padding:20px 0;}
+.intro{font-size:2.2em;line-height:1.45; padding:20px 0;}
 .pancho{width:50px;}
 
 main {
@@ -102,7 +102,7 @@ main {
     width: 100%;
 }
 
-.posts a, ul.projects li{float:left;  margin:20px; padding:0; position:relative; display:block;}
+.posts a, ul.projects li{float:left;  margin:20px 20px 20px; padding:0; position:relative; display:block;}
 
 .posts a:first-child,.posts a:nth-child(4) {width:60%;}
 .posts a:nth-child(2),.posts a:nth-child(3){width:40%;}   
