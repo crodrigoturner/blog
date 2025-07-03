@@ -1,10 +1,9 @@
-
 ---
-
-numberOfLatestPostsToShow = 4
+pagination:
+  data: collections.post
+  size: 4
+  alias: posts
 ---
-
-
 <h5>
 <script>
 currentTime=new Date();
@@ -35,8 +34,7 @@ weekday[weekdayValue] + "."
 </script></h5>
 
 <section class="posts">
-{% set postslist = collections.posts | head(-1 * numberOfLatestPostsToShow) %}
-{%- for post in postslist -%}
+{% for post in posts %}
 <a href="{{post.url}}">
 <img src="{{post.data.cover}}" alt="cover image" class="cover"/> 
 <span>
