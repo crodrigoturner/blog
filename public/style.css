@@ -81,7 +81,7 @@ nav a:hover,
 
 .toc{float:left; width:100%; font-size:.8em; margin:0; padding:0 0 0 30px; border-left:1px solid #EEE;}
 
-.intro{font-size:2.2em;line-height:1.45; padding:20px 0;}
+.intro{font-size:2.2em;line-height:1.45; padding:20px 0; font-weight:500;}
 .pancho{width:50px;}
 
 main {
@@ -101,7 +101,7 @@ main {
     width: 100%;
 }
 
-.posts a span{background:#eeeeeed1; padding:10px; margin:0;border-radius:0 20px 0 0; width:90%; position:relative; top:-40px; left:0px;float:left; backdrop-filter: blur(12px);}
+.posts a span{background:#eeeeeed1; padding:10px 20px; margin:0;border-radius:0 20px 0 0; width:90%; position:relative; top:-40px; left:0px;float:left; backdrop-filter: blur(12px);}
 
 .posts a, ul.projects li{float:left;  margin:0px 20px 20px 0; padding:0; position:relative; display:block; color:var(--black);}
 .posts a:hover {
