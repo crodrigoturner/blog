@@ -35,7 +35,7 @@ weekday[weekdayValue] + "."
 </script></h5>
 
 <section class="posts">
-{%- for post in collections.post reversed -%}
+{%- for post in posts -%}
 <a href="{{post.url}}">
 <img src="{{post.data.cover}}" alt="cover image" class="cover"/> 
 <span>
