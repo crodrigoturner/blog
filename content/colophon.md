@@ -2,8 +2,6 @@
 layout: layouts/page.njk
 title: Colophon
 excerpt: Details about this website
-tags:
-  - page
 ---
 
 
