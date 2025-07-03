@@ -5,7 +5,6 @@ title: Life in squares
 excerpt: A timeline of events
 tags:
 - projects
-- page
 ---
 
 This is a timeline of the most important events I have experienced. 

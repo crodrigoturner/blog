@@ -3,7 +3,6 @@ layout: layouts/page.njk
 title: My use of AI
 excerpt: How I use AI
 tags: 
-- page
 - AI
 ---
 

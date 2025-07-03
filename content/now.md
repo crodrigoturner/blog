@@ -2,8 +2,6 @@
 layout: layouts/now.njk
 title: Now
 excerpt: Recent activity
-tags:
-- page
 ---
 
 **Listening**
