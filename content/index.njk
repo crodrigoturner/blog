@@ -1,7 +1,14 @@
----
-layout: layouts/base.njk
 
+---js
+const eleventyNavigation = {
+	key: "Home",
+	order: 1
+};
+
+const numberOfLatestPostsToShow = 4;
 ---
+
+
 <h5>
 <script>
 currentTime=new Date();
@@ -32,7 +39,9 @@ weekday[weekdayValue] + "."
 </script></h5>
 
 <section class="posts">
-{%- for post in posts limit:4 -%}
+{% set postslist = collections.posts | head(-1 * numberOfLatestPostsToShow) %}
+{% set postslistCounter = postsCount %}
+{%- for post in postslist -%}
 <a href="{{post.url}}">
 <img src="{{post.data.cover}}" alt="cover image" class="cover"/> 
 <span>
