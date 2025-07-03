@@ -101,8 +101,7 @@ main {
     width: 100%;
 }
 
-.posts a span{background:#eeeeeed1; padding:10px; margin:0;border-radius:5px; width:90%; position:relative; top:-40px; left:0px;float:left; -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(10px);}
+.posts a span{background:#eeeeeed1; padding:10px; margin:0;border-radius-top-right:20px; width:90%; position:relative; top:-40px; left:0px;float:left; backdrop-filter: blur(12px);}
 
 .posts a, ul.projects li{float:left;  margin:0px 20px 20px 0; padding:0; position:relative; display:block;}
 
