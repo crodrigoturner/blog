@@ -1,5 +1,5 @@
 :root {
-    --black: #263238;
+    --black: #374044;
     --blue: #0068a5;
     --yellow: #ffb511;
     --white: #fff;
@@ -104,6 +104,12 @@ main {
 .posts a span{background:#eeeeeed1; padding:10px; margin:0;border-radius:0 20px 0 0; width:90%; position:relative; top:-40px; left:0px;float:left; backdrop-filter: blur(12px);}
 
 .posts a, ul.projects li{float:left;  margin:0px 20px 20px 0; padding:0; position:relative; display:block; color:var(--black);}
+.posts a:hover {
+    opacity: 1;
+    border: none;
+    box-shadow: none;
+    background: none;
+}
 
 .posts a:first-child,.posts a:nth-child(4) {width:calc(60% - 20px);}
 .posts a:nth-child(2),.posts a:nth-child(3){width:calc(40% - 20px);}   
@@ -201,7 +207,7 @@ h1:before {
 
 h3 {
     font: 700 1.3em/1 "PT Serif", sans-serif;
-    margin: 15px 0;
+    margin: 10px 0;
     float: left;
     width: 100%;
 }
