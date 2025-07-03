@@ -3,7 +3,7 @@ pagination:
   data: collections.post
   size: 4
   alias: posts
-   reverse: true
+  reverse: true
 ---
 <h5>
 <script>
@@ -35,7 +35,7 @@ weekday[weekdayValue] + "."
 </script></h5>
 
 <section class="posts">
-{% for post in posts %}
+{%- for post in collections.post reversed -%}
 <a href="{{post.url}}">
 <img src="{{post.data.cover}}" alt="cover image" class="cover"/> 
 <span>
@@ -49,13 +49,7 @@ weekday[weekdayValue] + "."
 <p>I am very lucky to be a husband to Mar, a father to Lucas and Nico, and a friend to Pancho <img src="/img/pancho.png" alt=pancho" class="pancho">.</p>
 </article>
 
-<h5>TOPICS</h5>
 
-<ul class="tagcloud">
-{% for tag in collections | getKeys | filterTagList %}
-{% set tagUrl %}/tag/{{ tag | slugify }}/{% endset %}
-<li><a href="/tag/{{tag}}" >{{ tag }}</a></li>
-{%- endfor -%}</ul>
 
 <h5>PROJECTS</h5>
 <ul class="projects">
@@ -74,4 +68,11 @@ weekday[weekdayValue] + "."
 </article>
 
 
+<h5>TOPICS</h5>
+
+<ul class="tagcloud">
+{% for tag in collections | getKeys | filterTagList %}
+{% set tagUrl %}/tag/{{ tag | slugify }}/{% endset %}
+<li><a href="/tag/{{tag}}" >{{ tag }}</a></li>
+{%- endfor -%}</ul>
 
