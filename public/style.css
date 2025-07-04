@@ -104,7 +104,7 @@ background:#FFF;
   align-items: stretch;
 }
 
-.posts a span{background:#eeeeeed1; padding:10px 20px; margin:0;border-radius:0 20px 0 0; width:90%; position:relative; top:-40px; left:0px;float:left; backdrop-filter: blur(12px);}
+.posts a span{ margin:0;float:left; }
 
 .posts a, ul.projects li{float:left;  margin:0px 20px 20px 0; padding:0; position:relative; display:block; color:var(--black);}
 .posts a:hover {
@@ -209,7 +209,7 @@ h1:before {
 }
 
 h3 {
-    font: 700 1.3em/1 "PT Serif", sans-serif;
+    font: 700 1.3em/1 "Geist", sans-serif;
     margin: 10px 0;
     float: left;
     width: 100%;
@@ -362,7 +362,7 @@ summary {
     padding: 0;
     font-size: 0.9em;
     float: left;
-    font-style: italic;
+
 }
 
 .button {
