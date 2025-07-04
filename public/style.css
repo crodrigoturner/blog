@@ -115,8 +115,8 @@ justify-content: space-evenly;
     background: none;
 }
 
-.posts a:first-child,.posts a:nth-child(4) {flex-grow: 2;}
-.posts a:nth-child(2),.posts a:nth-child(3){flex-grow: 1;}   
+.posts a:first-child {flex-grow: 2;}
+.posts a{flex-grow: 1;}   
 
 
 
