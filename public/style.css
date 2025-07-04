@@ -217,6 +217,17 @@ h3 {
     width: 100%;
 }
 
+.posts h3{ display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.posts h3:after {
+  background: #FFF;
+  height: 1px;
+  flex: 1;
+  content: '';
+}
 
 h4 {
     font: 700 1.3em/1.4 "Geist", "Inter", sans-serif;
