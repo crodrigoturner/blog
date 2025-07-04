@@ -94,7 +94,7 @@ main {
 background:#FFF;
 }
 
-.posts {
+.posts, .projects {
     display: flex;
    gap: 20px;
     padding: 0;
@@ -107,7 +107,7 @@ justify-content: space-evenly;
 
 .posts a span{ margin:0;float:left; }
 
-.posts a, ul.projects li{float:left;  margin:0px 0px 20px 0; padding:0; position:relative; display:block; color:var(--black);}
+.posts a, .projects a{float:left;  margin:0px 0px 20px 0; padding:0; position:relative; display:block; color:var(--black);}
 .posts a:hover {
     opacity: 1;
     border: none;
