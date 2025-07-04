@@ -100,6 +100,8 @@ background:#FFF;
     margin: 0;
     float: left;
     width: 100%;
+     display: flex;
+  align-items: stretch;
 }
 
 .posts a span{background:#eeeeeed1; padding:10px 20px; margin:0;border-radius:0 20px 0 0; width:90%; position:relative; top:-40px; left:0px;float:left; backdrop-filter: blur(12px);}
@@ -112,8 +114,8 @@ background:#FFF;
     background: none;
 }
 
-.posts a:first-child,.posts a:nth-child(4) {width:calc(60% - 20px);}
-.posts a:nth-child(2),.posts a:nth-child(3){width:calc(40% - 20px);}   
+.posts a:first-child,.posts a:nth-child(4) {flex-grow: 2;}
+.posts a:nth-child(2),.posts a:nth-child(3){flex-grow: 1;}   
 
 
 
