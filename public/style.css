@@ -1,5 +1,5 @@
 :root {
-    --black: #374044;
+    --black: #013148;
     --blue: #0068a5;
     --yellow: #ffb511;
     --white: #fff;
@@ -255,14 +255,14 @@ blockquote {
 }
 
 a {
-    color: var(--blue);
+    color: var(--black);
     text-decoration: none;
     border: none;
 }
 
 a:hover {
     opacity: 0.7;
-    border: none;
+    border-bottom:1px solid #01314850;
     box-shadow: none;
     background: none;
 }
