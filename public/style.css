@@ -94,16 +94,16 @@ main {
 background:#FFF;
 }
 
-footer{  padding: 20px 60px;
-    width: calc(40% - 120px); float:left;
+footer{  padding: 20px 0px;
+    width:40%; float:left;
 margin: 0 30%;}
 
     footer ul{width:100%;
     float:left;}
 
-    footer ul li{float:left; width:33.3333%; text-align:center; margin:0 0 10px 0; padding:0;}
+    footer ul li{float:left; width:20%; text-align:left; margin:0 0 10px 0; padding:0;}
 
-    footer ul li a{color:var(--black); border:none; text-decoration:none; font-size:0.8em;}
+    footer ul li a{color:var(--black); border:none; text-decoration:none;}
 
 .posts, .projects {
     display: flex;
