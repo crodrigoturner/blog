@@ -95,7 +95,8 @@ background:#FFF;
 }
 
 footer{  padding: 20px 60px;
-    width: calc(40% - 120px);}
+    width: calc(40% - 120px); float:left;
+margin: 0 30%;}
 
     footer ul{width:100%;
     float:left;}
