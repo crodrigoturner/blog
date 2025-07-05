@@ -108,7 +108,7 @@ justify-content: space-evenly;
 .posts a span{ margin:0;float:left; position:relative; top: -80px;
     left: 20px;}
 
-.posts a, .projects a{float:left;  margin:0px 0px 20px 0; padding:0; position:relative; display:block; color:#FFF;}
+.posts a, .projects a{float:left;  margin:0px 0px 20px 0; padding:0; position:relative; display:block; color:#FFF; border: none;}
 .posts a:hover {
     opacity: 1;
     border: none;
@@ -324,6 +324,7 @@ article {
     color: #607d8b;
     font-size: 0.9em;
     text-align: center;
+     border: none;
 }
 
 .tagcloud li a:hover {
