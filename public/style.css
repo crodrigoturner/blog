@@ -33,14 +33,14 @@ header {
     padding: 50px 100px;
     z-index: 9999;
     text-align: center;
-    width: calc(25% - 200px);
+    width: calc(30% - 200px);
     margin: 0;
     position: fixed;
     min-height: 100vh;
 }
 
 nav {
-    float: left;
+    float: right;
     margin: 0;
     font: 600 1.15em/1.9 "Geist", "Inter", sans-serif;
     z-index: 9999;
@@ -58,7 +58,7 @@ nav ul li {
     float: left;
     margin: 0 0 10px 0;
     width: 100%;
-    text-align: left;
+    text-align: right;
 }
 
 nav a {
@@ -86,11 +86,11 @@ nav a:hover,
 
 main {
     padding: 70px 60px;
-    width: calc(50% - 120px);
+    width: calc(40% - 120px);
     float: right;
     min-height: 100vh;
     z-index: 10;
-    margin: 0px 25% 0px 0;
+    margin: 0px 30% 0px 0;
 background:#FFF;
 }
 
@@ -257,12 +257,12 @@ blockquote {
 a {
     color: var(--black);
     text-decoration: none;
-    border: none;
+    border-bottom:1px solid #01314850;
 }
 
 a:hover {
     opacity: 0.7;
-    border-bottom:1px solid #01314850;
+    border: none;
     box-shadow: none;
     background: none;
 }
