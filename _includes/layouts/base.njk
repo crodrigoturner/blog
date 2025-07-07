@@ -21,29 +21,22 @@
 <header>
 <a href="/"><h1><span>carlos rodrigo</span></h1></a>
 
+
+</header>
 <nav>
 <ul>
 <li><a href="/" class="{% if page.url == '/' %} active{% endif %}"">Home</a></li>
-<li><a href="/about/" class="{% if page.url == '/about/' %} active{% endif %}">About</a></li>
-
+{%- for page in collections.page -%}
+<li><a href="{{page.url}}" class="{% if page.url == '/{{page.data.title}}/' %} active{% endif %}>{{ page.data.title }}</a></li>
+{%- endfor -%}
 </ul>
 </nav>
-</header>
-
 <main>
 {{ content | safe }}
 
 
 </main>
-<footer>
-<ul>
-{%- for page in collections.page -%}
-<li><a href="{{page.url}}">{{ page.data.title }}</a></li>
-{%- endfor -%}
-<li><a href="/tag/uses/">Uses</a></li>
-<li><a href="/tag/projects/">Projects</a></li>
-</ul>
-</footer>
+
 
 <script type="module" src="{% getBundleFileUrl "js" %}"></script>
 
