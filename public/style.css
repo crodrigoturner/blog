@@ -41,12 +41,13 @@ header {
 nav {
     float: right;
     margin: 0;
-    font: 600 1.15em/1.9 "Geist", "Inter", sans-serif;
+    font: 500 1em/1.9 "Geist", "Inter", sans-serif;
     z-index: 9999;
     width: 20%;
-    padding: 32px 0;
+    padding: 0;
     position:fixed; 
     right:60px; top:70px;
+    text-transform:uppercase;
 }
 
 nav ul {
