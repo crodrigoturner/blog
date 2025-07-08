@@ -132,12 +132,9 @@ justify-content: space-evenly;
 border:none;
 }
 .posts a span, .projects a span{ margin:0;float:left;position:relative; width:100%; left:0px; top:-60px; padding:0 0 0 20px; color:#FFF;}
-/* Re-order items into 3 rows */
-.posts a:nth-child(3n+1) { order: 1; }
-.posts a:nth-child(3n+2) { order: 2; }
-.posts a:nth-child(3n)   { order: 3; }
 
-.posts a:nth-child(1){width:50%; height:550px;} 
+
+.posts a:nth-child(1){width:50%; height:470px;} 
 
 /* Force new columns */
 .posts::before,
