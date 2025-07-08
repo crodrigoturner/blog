@@ -128,7 +128,7 @@ justify-content: space-evenly;
 }
 
 .posts a {
-  width: 32%;
+  width: 23%;
   margin-bottom: 2%; /* Optional */
   border-radius:10px;
 }
@@ -137,6 +137,9 @@ justify-content: space-evenly;
 .posts a:nth-child(3n+1) { order: 1; }
 .posts a:nth-child(3n+2) { order: 2; }
 .posts a:nth-child(3n)   { order: 3; }
+
+.posts a:nth-child(1){width:50%; height:600px;} 
+.posts a:nth-child(3){width:23%} 
 
 /* Force new columns */
 .posts::before,
