@@ -1,5 +1,6 @@
 ---
 title: Personal reboot
+cover: /img/cover2.png
 tags: 
 - post
 - lifehack
