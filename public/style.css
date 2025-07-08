@@ -125,6 +125,7 @@ justify-content: space-evenly;
   flex-flow: column wrap;
   align-content: space-between;
   height: 1200px; 
+  width:100%;
 }
 
 .posts a {
