@@ -96,18 +96,8 @@ main {
 
 }
 
-footer{  padding: 20px 0px;
-    width:40%; float:left;
-margin: 0 30%;}
 
-    footer ul{width:100%;
-    float:left;}
-
-    footer ul li{float:left; width:20%; text-align:left; margin:0 0 10px 0; padding:0;}
-
-    footer ul li a{color:var(--black); border:none; text-decoration:none;}
-
-.posts, .projects {
+ .projects {
     display: flex;
    gap: 20px;
     padding: 0;
@@ -118,7 +108,7 @@ justify-content: space-evenly;
   align-items: stretch;
 }
 
-.posts a span, .projects a span{ margin:0;float:left;position:relative; width:100%; left:20px; top:-80px; padding:0 0 0 20px; font-size:1.2em; line-height:1.4; color:#FFF;}
+.posts a span, .projects a span{ margin:0;float:left;position:relative; width:100%; left:20px; top:-60px; padding:0 0 0 20px; color:#FFF;}
 
  .projects a{float:left;  margin:0px 0px 20px 0; padding:0; position:relative; display:block; border: none; }
 .posts a:hover {
@@ -378,6 +368,7 @@ summary {
     float: left;
     width: 100%;
     height: 300px;
+    border-radius:10px;
 }
 
 .post-meta {
