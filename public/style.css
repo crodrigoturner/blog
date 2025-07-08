@@ -122,7 +122,7 @@ justify-content: space-evenly;
   display: flex;
   flex-flow: column wrap;
   align-content: space-between;
-  height: 1200px; 
+  height: 900px; 
   width:100%;
 }
 
@@ -131,14 +131,13 @@ justify-content: space-evenly;
   margin-bottom: 2%; 
 border:none;
 }
-.posts a span, .projects a span{ margin:0;float:left;position:relative; width:100%; left:20px; top:-60px; padding:0 0 0 20px; color:#FFF;}
+.posts a span, .projects a span{ margin:0;float:left;position:relative; width:100%; left:0px; top:-60px; padding:0 0 0 20px; color:#FFF;}
 /* Re-order items into 3 rows */
 .posts a:nth-child(3n+1) { order: 1; }
 .posts a:nth-child(3n+2) { order: 2; }
 .posts a:nth-child(3n)   { order: 3; }
 
-.posts a:nth-child(1){width:50%; height:600px;} 
-.posts a:nth-child(3){width:23%} 
+.posts a:nth-child(1){width:50%; height:550px;} 
 
 /* Force new columns */
 .posts::before,
