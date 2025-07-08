@@ -118,8 +118,6 @@ justify-content: space-evenly;
     background: none;
 }
 
-
-
 .posts {
   display: flex;
   flex-flow: column wrap;
@@ -131,7 +129,7 @@ justify-content: space-evenly;
 .posts a {
   width: 23%;
   margin-bottom: 2%; /* Optional */
-  border-radius:10px;
+border:none;
 }
 .posts a span, .projects a span{ margin:0;float:left;position:relative; width:100%; left:20px; top:-60px; padding:0 0 0 20px; color:#FFF;}
 /* Re-order items into 3 rows */
