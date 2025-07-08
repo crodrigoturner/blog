@@ -118,9 +118,9 @@ justify-content: space-evenly;
   align-items: stretch;
 }
 
-.posts a span, .projects a span{ margin:0;float:left; }
+.posts a span, .projects a span{ margin:0;float:left;position:relative; width:100%; left:20px; top:-80px; padding:0 0 0 20px; font-size:1.2em; line-height:1.4; color:#FFF;}
 
-.posts a, .projects a{float:left;  margin:0px 0px 20px 0; padding:0; position:relative; display:block; border: none; }
+ .projects a{float:left;  margin:0px 0px 20px 0; padding:0; position:relative; display:block; border: none; }
 .posts a:hover {
     opacity: 1;
     border: none;
@@ -128,11 +128,36 @@ justify-content: space-evenly;
     background: none;
 }
 
-.posts a:first-child {flex-grow: 2;}
-.posts a{flex-grow: 1;}   
 
 
+.posts {
+  display: flex;
+  flex-flow: column wrap;
+  align-content: space-between;
+  /* Your container needs a fixed height, and it 
+   * needs to be taller than your tallest column. */
+  height: 600px; 
+}
 
+.posts a {
+  width: 32%;
+  margin-bottom: 2%; /* Optional */
+  border-radius:10px;
+}
+
+/* Re-order items into 3 rows */
+.posts a:nth-child(3n+1) { order: 1; }
+.posts a:nth-child(3n+2) { order: 2; }
+.posts a:nth-child(3n)   { order: 3; }
+
+/* Force new columns */
+.posts::before,
+.posts::after {
+  content: "";
+  flex-basis: 100%;
+  width: 0;
+  order: 2;
+}
 
 
 .clear {
