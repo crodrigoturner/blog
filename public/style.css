@@ -127,7 +127,14 @@ float:left;
 float:left;
 border:none;
 }
-.posts a span, .projects a span{ margin:0;float:left; width:100%;}
+.posts a span, .projects a span{    margin: 0;
+    float: left;
+    width: 100%
+    color: #FFF;
+    left: 20px;
+    top: -40px;
+    position: relative;
+    font-weight: 700;}
 
 
 
