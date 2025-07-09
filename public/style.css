@@ -59,8 +59,8 @@ nav ul {
 nav ul li {
     float: left;
     margin: 0;
-    width: 100%;
-    text-align: right;
+
+
 }
 
 nav a {
@@ -87,12 +87,12 @@ nav a:hover,
 .pancho{width:50px;}
 
 main {
-    padding: 70px 0px;
-    width: 40%;
+    padding: 70px 60px;
+    width: 100%;
     float: right;
     min-height: 100vh;
     z-index: 10;
-    margin: 0px 30%;
+    margin: 0px 0;;
 
 }
 
