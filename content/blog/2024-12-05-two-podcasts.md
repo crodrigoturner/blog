@@ -1,6 +1,6 @@
 ---
 title: 2 podcasts and biographies
-cover: /img/cover1.png
+cover: /img/cover7.png
 date: 2025-05-24
 tags: 
 - post
