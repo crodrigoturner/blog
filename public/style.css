@@ -13,7 +13,7 @@ html {
 }
 
 body {
-	font: 400 16px/2 "Outfit", sans-serif;
+	font: 400 18px/2 "Outfit", sans-serif;
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
 	color: var(--black);
@@ -129,21 +129,18 @@ nav a:hover,
 }
 
 .posts a {
-	width: calc(100% / 8 - 20px);
+	width: calc(100% / 6 - 20px);
 	margin: 0 20px 20px 0;
 	float: left;
 	border: none;
 }
 .posts a span,
 .projects a span {
-	margin: 0;
+	margin: 10px 0 0 0;
 	float: left;
-	width: calc(100% - 20px);
-	color: #fff;
-	left: 20px;
-	top: -40px;
-	position: relative;
+	width: 100%;
 	font-weight: 700;
+	font-size:1.2em;
 }
 
 /* Force new columns */
@@ -377,6 +374,7 @@ summary {
 .cover {
 	float: left;
 	width: 100%;
+	border-radius:20px;
 }
 
 .post-meta {
