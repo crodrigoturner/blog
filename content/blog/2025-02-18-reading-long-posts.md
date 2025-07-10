@@ -1,7 +1,7 @@
 ---
 title: Reading long posts
 date: 2025-02-18
-cover: /img/cover1.png
+cover: /img/cover3.png
 status: flow
 tags: 
 - post
