@@ -33,7 +33,7 @@ header {
 	width: 30%;
 	margin: 0 35%;
 	position: fixed;
-	background: url("/img/overlay.png");
+
 }
 
 nav {
@@ -130,8 +130,8 @@ nav a:hover,
 }
 
 .posts a {
-	width: calc(100% / 6 - 20px);
-	margin: 0 20px 20px 0;
+	width: 100%;
+	margin: 0 0px 20px 0;
 	float: left;
 	border: none;
 }

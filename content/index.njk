@@ -31,6 +31,11 @@ weekday[weekdayValue] + "."
 )
 </script></h5>
 
+</section>
+<article class="intro">
+<p>I am lucky to be a husband to Mar, a father to Lucas and Nico, and a friend to Pancho <img src="/img/pancho.png" alt=pancho" class="pancho">. Find out more <a href="/about/">about me</a>.</p>
+</article>
+
 <section class="posts">
 {% set postsCount = collections.posts | length %}
 {% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
@@ -39,29 +44,10 @@ weekday[weekdayValue] + "."
 {% include "postslist.njk" %}
 
 
-</section>
-<article class="intro">
-<p>I am lucky to be a husband to Mar, a father to Lucas and Nico, and a friend to Pancho <img src="/img/pancho.png" alt=pancho" class="pancho">. Find out more <a href="/about/">about me</a>.</p>
-</article>
 
 
 
-<h5>PROJECTS</h5>
-<section class="projects">
-{%- for projects in collections.projects -%}
-<a href="{{projects.url}}">
-<img src="{{projects.data.cover}}" alt="cover image" class="cover"/>
-<span>
-<h3>{{ projects.data.title }} </h3> 
 
-</span>
-</a>
-{%- endfor %}
-</section>
-
-<article class="intro">
-<p>Lately my <a href="/work/">work</a> and interest has revolved around data and data-decision making.</p>
-</article>
 
 
 <h5>TOPICS</h5>
