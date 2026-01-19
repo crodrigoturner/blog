@@ -30,8 +30,8 @@ header {
 	padding: 0px 60px;
 	z-index: 9999;
 	text-align: center;
-	width: 100%;
-	margin: 0;
+	width: 30%;
+	margin: 0 35%;
 	position: fixed;
 	background: url("/img/overlay.png");
 }
@@ -94,7 +94,7 @@ nav a:hover,
 
  main {
 	width: 30%;
-	margin: 0 70% 0 0;
+	margin: 0 35% 0;
 	padding: 150px 60px;
 }
 
