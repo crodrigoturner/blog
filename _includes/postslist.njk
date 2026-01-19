@@ -1,6 +1,5 @@
 {%- for post in postslist | reverse %}
 <a href="{{post.url}}">
-<img src="{{post.data.cover}}" alt="cover image" class="cover"/> 
 <span>{{ post.data.title }}</span>
 </a>
 {%- endfor %}
