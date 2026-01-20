@@ -13,7 +13,7 @@ html {
 }
 
 body {
-	font: 400 18px/2 "Outfit", sans-serif;
+	font: 400 18px/2 "Inter", sans-serif;
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
 	color: var(--black);
@@ -37,9 +37,9 @@ header {
 }
 
 nav {
-	float: left
+	float: left;
 	margin: 0 35%;
-	font: 500 1em/1.9 "Outfit", "Inter", sans-serif;
+	font: 500 1em/1.9 "Inter", sans-serif;
 	z-index: 9999;
 	width: 30;
 	padding: 28px 0;
