@@ -38,10 +38,10 @@ header {
 
 nav {
 	float: left;
-	margin: 30px 35%;
+	margin: 30px 0;
 	font: 500 1em/1.9 "Inter", sans-serif;
 	z-index: 9999;
-	width: 30%;
+	width: 100%;
 	padding: 28px 0;
 
 }
