@@ -13,7 +13,7 @@ html {
 }
 
 body {
-	font: 400 16px/2 "Inter", sans-serif;
+	font: 400 16px/2 "Regular", sans-serif;
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
 	color: var(--black);
@@ -500,6 +500,13 @@ input {
 	background: #fff;
 	border-radius: 10px;
 	border: 1px solid var(--grey);
+}
+
+@font-face {
+  font-family: "Regular";
+  src:
+ 
+    url("/PPFrama-Regular.woff2") format("woff2");
 }
 
 @media (max-width: 760px) {
