@@ -37,11 +37,11 @@ header {
 }
 
 nav {
-	float: right;
+	float: left
 	margin: 0;
 	font: 500 1em/1.9 "Outfit", "Inter", sans-serif;
 	z-index: 9999;
-	width: 50%;
+	width: 100%;
 	padding: 28px 0;
 	position: fixed;
 	right: 0px;
@@ -74,12 +74,7 @@ nav a:hover,
 	opacity: 0.6;
 }
 
-.intro {
-	font-size: 2.2em;
-	line-height: 1.45;
-	padding: 70px 0;
-	font-weight: 500;
-}
+
 .pancho {
 	width: 50px;
 }
@@ -92,25 +87,7 @@ nav a:hover,
 	padding: 150px 60px;
 }
 
-.projects {
-	display: flex;
-	gap: 20px;
-	padding: 0;
-	margin: 0;
-	justify-content: space-evenly;
-	width: 100%;
 
-	align-items: stretch;
-}
-
-.projects a {
-	float: left;
-	margin: 0px 0px 20px 0;
-	padding: 0;
-	position: relative;
-	display: block;
-	border: none;
-}
 .posts a:hover {
 	opacity: 1;
 	border: none;
@@ -125,26 +102,12 @@ nav a:hover,
 
 .posts a {
 	width: 100%;
-	margin: 0 0px 20px 0;
+	margin: 0 0 10px 0;
 	float: left;
 	border: none;
 }
-.posts a span,
-.projects a span {
-	margin: 10px 0 0 0;
-	float: left;
-	width: 100%;
 
-}
 
-/* Force new columns */
-.posts::before,
-.posts::after {
-	content: "";
-	flex-basis: 100%;
-	width: 0;
-	order: 2;
-}
 
 .clear {
 	width: 100%;

@@ -2,7 +2,7 @@
 
 const numberOfLatestPostsToShow = 6;
 ---
-<h5>
+<article>
 <script>
 currentTime=new Date();
 //getHour() function will retrieve the hour from current time
@@ -29,12 +29,12 @@ weekdayValue = currentDate.getDay()
 document.write(
 weekday[weekdayValue] + "."
 )
-</script></h5>
+</script>
 
-</section>
-<article class="intro">
 <p>I am lucky to be a husband to Mar, a father to Lucas and Nico, and a friend to Pancho <img src="/img/pancho.png" alt=pancho" class="pancho">. Find out more <a href="/about/">about me</a>.</p>
 </article>
+
+<h5>POSTS</h5>
 
 <section class="posts">
 {% set postsCount = collections.posts | length %}
@@ -42,13 +42,6 @@ weekday[weekdayValue] + "."
 {% set postslist = collections.posts | head(-1 * numberOfLatestPostsToShow) %}
 {% set postslistCounter = postsCount %}
 {% include "postslist.njk" %}
-
-
-
-
-
-
-
 
 <h5>TOPICS</h5>
 
