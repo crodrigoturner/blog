@@ -84,13 +84,7 @@ nav a:hover,
 	width: 50px;
 }
 
-.home main {
-	padding: 150px 60px;
-	width: calc(100% - 120px);
-	float: left;
-	z-index: 10;
-	margin: 0px 0;
-}
+
 
  main {
 	width: 30%;
