@@ -13,7 +13,7 @@ html {
 }
 
 body {
-	font: 370 16px/2 "Regular", sans-serif;
+	font: 370 16px/1.4 "Regular", sans-serif;
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
 	color: var(--black);
@@ -23,6 +23,7 @@ body {
 	background: url("/img/overlay.png");
 	padding: 0;
 	min-height: 100%;
+	font-variation-settings: "wght" 370;
 }
 
 header {
@@ -39,10 +40,10 @@ header {
 nav {
 	float: left;
 	margin: 30px 0;
-	font: 500 1em/1.9 "Inter", sans-serif;
+	font: 370 1em/1.9 "Regular", sans-serif;
 	z-index: 9999;
 	width: 100%;
-
+font-variation-settings: "wght" 370;
 
 }
 
