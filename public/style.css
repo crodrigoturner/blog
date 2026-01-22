@@ -507,14 +507,14 @@ input {
   font-family: "Regular";
   src:
  
-    url("/PPFramaText-Regular.woff2") format("woff2");
+    url("/PPMuseum-Regular.woff2") format("woff2");
 }
 
 @font-face {
   font-family: "Bold";
   src:
  
-    url("/PPFramaText-Bold.woff2") format("woff2");
+    url("/PPMuseum-Bold.woff2") format("woff2");
 }
 
 @media (max-width: 760px) {
