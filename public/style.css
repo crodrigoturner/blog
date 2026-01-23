@@ -28,11 +28,11 @@ body {
 
 header {
 	float: left;
-	padding: 0px 60px;
+	padding: 0px 0;
 	z-index: 9999;
 	text-align: center;
-	width: 30%;
-	margin: 0 35%;
+	width: 100%;
+	margin: 0 20px;
 
 
 }
@@ -42,7 +42,7 @@ nav {
 	margin: 30px 0;
 	font: 500 1em/2 "Inter", sans-serif;
 	z-index: 9999;
-	width: 100%;
+	width: 65%;
 
 
 }
@@ -180,7 +180,7 @@ h1 {
 	font: 700 2em/1 "Inter", sans-serif;
 	text-align: left;
 	float: left;
-	width: 100%;
+	width: 35%;
 	margin: 30px 0;
 }
 
