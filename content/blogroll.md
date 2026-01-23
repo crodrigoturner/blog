@@ -2,8 +2,6 @@
 layout: layouts/page.njk
 title: Blogroll
 excerpt: These are the blogs that I frequently visit
-tags:
-  - page
 ---
 
 <ul class="col-2">

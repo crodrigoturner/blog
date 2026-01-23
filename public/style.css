@@ -40,7 +40,7 @@ header {
 nav {
 	float: left;
 	margin: 30px 0;
-	font: 500 1em/2 "Bold", sans-serif;
+	font: 500 1em/2 "Inter", sans-serif;
 	z-index: 9999;
 	width: 100%;
 
@@ -177,7 +177,7 @@ a:hover .arrow {
 }
 
 h1 {
-	font: 700 2em/1 "Bold", sans-serif;
+	font: 700 2em/1 "Inter", sans-serif;
 	text-align: left;
 	float: left;
 	width: 100%;
@@ -185,7 +185,7 @@ h1 {
 }
 
 h2 {
-	font: 700 2em/1.4 "Regular", sans-serif;
+	font: 700 2em/1.4 "Inter", sans-serif;
 	text-align: left;
 	float: left;
 	width: 100%;
@@ -308,7 +308,7 @@ article {
 	float: left;
 	width: auto;
 	margin: 0 5px 5px 0;
-	padding: 0px 7px;
+	padding: 5px 7px;
 	border-radius: 4px;
 	background: #b0bec533;
 	color: #607d8b;
@@ -318,8 +318,7 @@ article {
 }
 
 .tagcloud li a:hover {
-	background: #b0bec5;
-	color: #607d8b;
+opacity:.7;
 }
 
 summary {
