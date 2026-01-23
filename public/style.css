@@ -42,7 +42,7 @@ nav {
 	margin: 30px 0;
 	font: 500 1em/2 "Inter", sans-serif;
 	z-index: 9999;
-	width: 65%;
+	width: calc(65% - 40px);
 
 
 }
