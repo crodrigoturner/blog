@@ -218,6 +218,7 @@ h5 {
 	float: left;
 	    transform: rotate(180deg);
 		position:sticky;
+		width:50px; left:0; 
 }
 
 blockquote {
