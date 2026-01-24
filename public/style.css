@@ -42,7 +42,7 @@ nav {
 	margin: 35px 0;
 	font: 500 1em/2 "Inter", sans-serif;
 	z-index: 9999;
-	width: calc(65% - 60px);
+	width: calc(65% - 0px);
 
 
 }
@@ -82,7 +82,7 @@ nav a:hover,
  main {
 	width: 30%;
 	margin: 0 35% 0;
-	padding: 150px 60px;
+	padding: 150px 0px;
 }
 
 
