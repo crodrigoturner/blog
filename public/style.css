@@ -80,8 +80,8 @@ nav a:hover,
 
 
  main {
-	width: 30%;
-	margin: 0 35% 0;
+	width: 100%;
+	margin: 0;
 	padding: 150px 0px;
 }
 
@@ -162,15 +162,7 @@ a:hover .arrow {
 	left: 5px;
 }
 
-.home-link {
-	font-size: 0.8em;
-	visibility: visible;
-}
 
-.home-link::after,
-.home-link:hover::after {
-	content: "";
-}
 
 .hidden {
 	visibility: hidden;
@@ -290,11 +282,11 @@ h4 a {
 
 article {
 	color: var(--black);
-	margin: 0;
+	margin: 20px 35% 20px calc(35% - 50px);
 	padding: 0;
 	float: left;
 
-	width: 100%;
+	width: 30%;
 }
 
 .tagcloud {
