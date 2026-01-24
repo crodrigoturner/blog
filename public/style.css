@@ -209,13 +209,15 @@ h4 {
 }
 
 h5 {
-	font: 600 0.8em/1.4 "Outfit", "Inter", sans-serif;
+	font: 400 0.8em/1.4 "Inter", sans-serif;
 	margin: 20px 0px;
 	float: left;
 	width: 100%;
 	text-transform: uppercase;
 	opacity: 0.3;
 	float: left;
+	    transform: rotate(180deg);
+		position:sticky;
 }
 
 blockquote {
@@ -285,7 +287,7 @@ article {
 	margin: 20px 35% 20px calc(35% - 50px);
 	padding: 0;
 	float: left;
-
+background:#FFF;
 	width: 30%;
 }
 
