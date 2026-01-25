@@ -24,7 +24,66 @@ I'm a data specialist with 7+ years of experience in leveraging data to drive bu
 I have worked in architecture studios, big energy companies, luxury brands, and small companies. I currently work at <a href="http://tecnicayavance.com">Técnica y Avance</a>.
 </p>
 
-<h3>3. Colophon</h3>
+AboutGood morning! My name is Carlos Rodrigo, I am a husband to Mar, a father to Lucas and Nico, and a friend to Pancho. I hope you're having a great Monday.Lately my work has revolved around data and data-decision making.If you have any thoughts, ideas you'd like to share or want to say hi, send me an email.
+I was born at 345.73 ppm CO2
+
+
+<h3>Some questions to know me better</h3>
+Who do you admire? Why?
+In general, I admire people who are good at any part of life humbly and quietly. It may be parenting, work, treating people well... but more specifically:
+Stephen Hawking: great achievements despite limitations
+Winston S. Churchill: Great orator, nobel prize winner, great leader
+Alan Turing: Code breaking
+Richard Dawkins: scientific "evangelism" ;)
+Elon Musk: though less and less...
+Richard Feynman: Nobel prize, drawing, bongo playing, lock-picking
+Isaac Newton: Calculus, Laws of motion, 3-body problem, philosopher's stone (?)
+Jane Austen: Pride and Prejudice
+Charles Dickens: A Christmas Carol
+Napoleon: Great leader and strategist
+Marie Curie: 2 Nobel prizes in 2 different subjects
+Carl Sagan: great scientist, great writer
+David Hume: great philosopher, great scotsman
+Adam Smith: great economist, great scotsman
+Benjamin Franklin: very proactive, renaissance man
+
+What’s the hardest thing you’ve ever done?
+It probably has to be taking care of 2 toddlers and a dog.
+
+What are you great at? How do you know you’re great at it?
+Finding solutions and quick wit. Compared to others, this is where I believe I excel.
+
+What is the most impactful thing you’ve been responsible for?
+I currently run my department of one, successfully, managing customers and suppliers across multiple countries.
+At my previous work, I created a tool to try to foresee the impact of the price of oil indexes on the future price of downstream derivatives.
+
+What are you proud of?
+The life I've accomplished. Great wife, great boys.
+
+What do you think your friends/coworkers would say about you?
+Though not perfect, I get things done.
+
+What do you do for fun?
+Read, ride my bike, watch films, surf the web...
+
+What have you changed your mind about in the past year?
+The optimal way to view life is as a realist, neither an optimist nor a pessimist. We must see things as they are.What book or essay that you read in the past year had the biggest impact on your life?
+Two books by Matt Haig, The Midnight library and The Humans. 
+
+It has shifted my way of looking at things.What questions do you have for me?
+If you have any more questions, please get in touch.
+
+<h3>Geek Code</h3>
+
+
+\-----BEGIN GEEK CODE BLOCK-----
+Version: 3.1
+GB/CS/E d--(--) s():() a C++ U@ P? L E? W+++ N? o? K--? w+ O? M+ V? PS++ PE+ Y? !PGP t+ 5 X++ !R tv+ b++ DI++ D+ G e++ h--- r+++ y+++
+\------END GEEK CODE BLOCK------
+What does it mean?.
+
+
+<h3>Colophon</h3>
 
 <h5>Technical details</h5>
 
