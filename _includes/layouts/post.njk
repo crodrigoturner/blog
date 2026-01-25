@@ -1,7 +1,7 @@
 ---
 layout: layouts/base.njk
 ---
-
+<article>
 <h2>{{title}}</h2>
 
 {{ content | safe }}
@@ -9,3 +9,4 @@ layout: layouts/base.njk
 <p>∎</p>
 
 <span class="meta"><a href="mailto:rodrigoturner.carlos@gmail.com">Reply by email</a> · <time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate("dd.MM.yyyy") }}</time></span>
+</article>
