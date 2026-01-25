@@ -304,7 +304,8 @@ article:nth-child(3n) h5{background:#f9f9f9;}
 article:nth-child(1n) h5{background:#ffb51129;}
 article:nth-child(2n) h5{background:#0068a529;}
 article:nth-child(3n) h5{background:#EEE;}
-
+footer article{background:#c8e6c9;}
+footer h5{background:#66bb6a;}
 
 
 .tagcloud {
