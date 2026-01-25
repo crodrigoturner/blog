@@ -33,14 +33,16 @@ weekday[weekdayValue] + "."
 <p>I am lucky to be a husband to Mar, a father to Lucas and Nico, and a friend to Pancho.</p>
 </article>
 
-
+<article>
 <ul class="tagcloud">
 {% for tag in collections | getKeys | filterTagList %}
 {% set tagUrl %}/tag/{{ tag | slugify }}/{% endset %}
 <li><a href="/tag/{{tag}}" >{{ tag }}</a></li>
 {%- endfor -%}</ul>
 </article>
+
 <article>
+
 <h5>POSTS</h5>
 
 <section class="posts">
