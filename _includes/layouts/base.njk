@@ -37,7 +37,9 @@
 <footer>
 <article class="footer">
 <h5>Footer</h5>
-
+{%- for page in collections.directory -%}
+<a href="{{page.url}}">{{ page.data.title }}</a>
+{%- endfor -%}
 </article>
 </footer>
 
