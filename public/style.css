@@ -40,7 +40,7 @@ header {
 nav {
 float: left;
     margin: 20px 0;
-    font: 500 1em / 1 "Inter", sans-serif;
+    font: 600 1em / 1 "Bold", sans-serif;
     z-index: 9999;
     width: calc(65% - 0px);
 
