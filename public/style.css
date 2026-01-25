@@ -221,9 +221,6 @@ h5 {
     padding: 10px;
 }
 
-.intro h5{background:#ffb51129;}
-
-
 
 
 blockquote {
@@ -298,7 +295,16 @@ background:#FFF;
 	min-height:150px; position:relative;
 }
 
-.intro{background:#ffe082;}
+
+
+article::nth-child(1n) {background:#ffe082;}
+article::nth-child(2n) {background:#0068a529;}
+article::nth-child(3n) h5{background:#0068a529;}
+article::nth-child(1n) h5{background:#ffb51129;}
+article::nth-child(2n) h5{background:#0068a529;}
+article::nth-child(3n) h5{background:#0068a529;}
+
+
 
 .tagcloud {
 	float: left;
