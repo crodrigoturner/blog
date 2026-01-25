@@ -291,6 +291,8 @@ background:#FFF;
 	min-height:150px; position:relative;
 }
 
+.intro{background:#ffe082;}
+
 .tagcloud {
 	float: left;
 	width: 100%;

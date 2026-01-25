@@ -34,6 +34,7 @@ weekday[weekdayValue] + "."
 </article>
 
 <article>
+<h5>Topics</h5>
 <ul class="tagcloud">
 {% for tag in collections | getKeys | filterTagList %}
 {% set tagUrl %}/tag/{{ tag | slugify }}/{% endset %}
@@ -43,9 +44,9 @@ weekday[weekdayValue] + "."
 
 <article>
 
-<h5>POSTS</h5>
+<h5>Posts</h5>
 
-<section class="posts">
+
 {% set postsCount = collections.posts | length %}
 {% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
 {% set postslist = collections.posts | head(-1 * numberOfLatestPostsToShow) %}
@@ -64,14 +65,8 @@ weekday[weekdayValue] + "."
 
 <article>
 
-<h5>TOPICS</h5>
-<ul class="tagcloud">
-<li><a href="/blog/">all</a></li>
-{% for tag in collections | getKeys | filterTagList %}
-{% set tagUrl %}/tag/{{ tag | slugify }}/{% endset %}
-<li><a href="/tag/{{tag}}" >{{ tag }}</a></li>
-{% endfor %}</ul>
-</article>
+
+
 <article>
 
 {% set postslist = collections.posts %}
@@ -81,5 +76,5 @@ weekday[weekdayValue] + "."
 
 {%- endfor %}
 </article>
-</section>
+
 
