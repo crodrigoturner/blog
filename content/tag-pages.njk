@@ -18,10 +18,11 @@ const eleventyComputed = {
 };
 
 ---
-
+<article>
 <h2>Posts tagged <em>{{ tag }}</em></h2>
 
 
+<h5>Topics</h5>
 <ul class="tagcloud">
 <li><a href="/blog/">all</a></li>
 {% for tag in collections | getKeys | filterTagList %}
@@ -29,6 +30,9 @@ const eleventyComputed = {
 <li><a href="/tag/{{tag}}" >{{ tag }}</a></li>
 {% endfor %}</ul>
 
+</article>
+<article>
+<h5>Posts</h5>
 
 {% set postslist = collections[ tag ] %}
 {%- for post in postslist | reverse %}
@@ -36,3 +40,4 @@ const eleventyComputed = {
 <hr/>
 
 {%- endfor %}
+</article>
