@@ -209,17 +209,14 @@ h4 {
 }
 
 h5 {
-    font: 400 0.8em / 1 "Inter", sans-serif;
+    font: 400 1em / 1 "Inter", sans-serif;
     margin: 0px 0px;
-
-    text-transform: uppercase;
-
 
     transform: rotate(-90deg);
     position: absolute;
     width: 120px;
-    left: 0;
-    bottom: 0;
+    left: -40px;
+    bottom: 80px;
 }
 
 blockquote {
@@ -286,8 +283,8 @@ h4 a {
 
 article {
 	color: var(--black);
-	margin: 20px 35% 20px calc(35% - 50px);
-	padding: 0;
+	padding: 20px 35% 20px calc(35% - 50px);
+
 	float: left;
 background:#FFF;
 	width: 30%;
