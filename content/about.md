@@ -24,9 +24,17 @@ I'm a data specialist with 7+ years of experience in leveraging data to drive bu
 I have worked in architecture studios, big energy companies, luxury brands, and small companies. I currently work at <a href="http://tecnicayavance.com">Técnica y Avance</a>.
 </p>
 
-AboutGood morning! My name is Carlos Rodrigo, I am a husband to Mar, a father to Lucas and Nico, and a friend to Pancho. I hope you're having a great Monday.Lately my work has revolved around data and data-decision making.If you have any thoughts, ideas you'd like to share or want to say hi, send me an email.
-I was born at 345.73 ppm CO2
 
+I was born at 345.73 ppm CO2
+By day, I solve complex problems with data; by night, I’m a husband and a father to two boys. In between, I’m usually being outsmarted by my Spanish Water Dog Pancho.
+
+My mission to shape the life I want.
+
+Professionally, I bring over 10 years of experience transforming raw data into actionable insights.
+
+Currently at Tecnica y Avance, I specialise in business through data-driven decision-making.
+
+My background is intentionally diverse—spanning architecture, energy, luxury brands, and startups—giving me a unique perspective on how data impacts different sectors. Whether I’m optimising back-office operations or resolving intricate inventory issues, I maintain a process-driven approach and a keen eye for detail to ensure every workflow is seamless and results-oriented.
 
 <h3>Some questions to know me better</h3>
 Who do you admire? Why?
