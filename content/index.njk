@@ -1,6 +1,6 @@
 ---
 ---
-<article>
+<article class="intro">
 <h5>Introduction</h5>
 <script>
 currentTime=new Date();
@@ -53,28 +53,10 @@ weekday[weekdayValue] + "."
 {% set postslistCounter = postsCount %}
 {% include "postslist.njk" %}
 
-{%- for post in posts -%}
-<h3><a href="{{post.url}}">{{ post.data.title }}</a> </h3> {{ post.content | safe }}
-{%- endfor %}
-{% if pagination.href.previous %}
-  <a class="arrow left" href="{{pagination.href.previous}}"><- New</a>
-{% endif %}
-{% if pagination.href.next %}
-  <a class="arrow right" href="{{pagination.href.next}}">Old -></a>
-{% endif %}
 
 <article>
 
 
 
-<article>
-
-{% set postslist = collections.posts %}
-{%- for post in postslist | reverse %}
-<p><a href="{{post.url}}">{{ post.data.title }}</a> › {{ post.data.excerpt | safe }}</p>
-<hr/>
-
-{%- endfor %}
-</article>
 
 
