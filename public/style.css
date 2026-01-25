@@ -212,7 +212,8 @@ h5 {
     font: 400 1em / 1 "Inter", sans-serif;
     margin: 0px 0px;
 
-    transform: rotate(-90deg);
+       writing-mode: vertical-rl;
+    transform: rotate(180deg);
     position: absolute;
     width: 120px;
     left: -40px;

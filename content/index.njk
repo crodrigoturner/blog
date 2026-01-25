@@ -47,25 +47,17 @@ weekday[weekdayValue] + "."
 <h5>Posts</h5>
 
 
-{% set postsCount = collections.posts | length %}
-{% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
-{% set postslist = collections.posts | head(-1 * numberOfLatestPostsToShow) %}
-{% set postslistCounter = postsCount %}
-{% include "postslist.njk" %}
 
-{%- for post in posts -%}
-<h3><a href="{{post.url}}">{{ post.data.title }}</a> </h3> {{ post.content | safe }}
+
+
+
+
+{% set postslist = collections.posts %}
+{%- for post in postslist | reverse %}
+<p><a href="{{post.url}}">{{ post.data.title }}</a> › {{ post.data.excerpt | safe }}</p>
+
+
 {%- endfor %}
-{% if pagination.href.previous %}
-  <a class="arrow left" href="{{pagination.href.previous}}"><- New</a>
-{% endif %}
-{% if pagination.href.next %}
-  <a class="arrow right" href="{{pagination.href.next}}">Old -></a>
-{% endif %}
-
-<article>
-
-
-
+</article>
 
 
