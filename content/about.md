@@ -6,7 +6,7 @@ tags:
   - page
 ---
 
-
+<h5>About</h5>
 
 <h3>1. Personal</h3>
 <p>I am a husband to Mar, a father to Lucas and Nico, and Pancho's human.</p>
@@ -93,7 +93,7 @@ What does it mean?.
 
 <h3>Colophon</h3>
 
-<h5>Technical details</h5>
+<h4>Technical details</h4>
 
 This website is climate friendly. 
 Cleaner than 98% of all web pages globally according to [Website carbon calculator](https://www.websitecarbon.com/website/carlosrodrigo-com/) and [Ecograder](https://ecograder.com/report/ui51eop7QVAu1piHLdKCnYav).
@@ -101,7 +101,7 @@ Built with [Eleventy](https://eleventy.com), deployed on [Netlify](https://netli
 The font are [Geist](https://fonts.google.com/specimen/Geist), Fontawesome and Inter. 
 There is no tracking in this website.
 
-<h5>Purpose</h5>
+<h4>Purpose</h4>
 
 The purpose of this website is to:   
 1. learn publicly (some of my writing may be raw or unfinished)
