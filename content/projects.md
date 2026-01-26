@@ -1,6 +1,6 @@
 ---
 layout: layouts/page.njk
-title: Work
+title: Projects
 excerpt: What I do
 tags:
 - page

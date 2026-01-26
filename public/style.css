@@ -299,12 +299,12 @@ background:#FFF;
 
 
 
-article:first-child {background:#ffe082;}
-article:nth-child(2n) {background:#e3f2fd;}
-article:nth-child(3n) h5{background:#f9f9f9;}
-article:nth-child(1n) h5{background:#ffb51129;}
-article:nth-child(2n) h5{background:#0068a529;}
-article:nth-child(3n) h5{background:#EEE;}
+article.intro {background:#ffe082;}
+article.topics {background:#e3f2fd;}
+article{background:#f9f9f9;}
+article.intro h5{background:#ffb51129;}
+article.topics h5{background:#0068a529;}
+article h5{background:#EEE;}
 footer article{background:#c8e6c9;}
 footer h5{background:#66bb6a;}
 
