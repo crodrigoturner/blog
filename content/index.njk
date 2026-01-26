@@ -42,7 +42,7 @@ weekday[weekdayValue] + "."
 <li><a href="/tag/{{tag}}" >{{ tag }}</a></li>
 {%- endfor -%}</ul>
 </article>
-<article>
+<article class="posts">
 <h5>Posts</h5>
 {% set postslist = collections.all %}
 {%- for post in postslist | reverse %}

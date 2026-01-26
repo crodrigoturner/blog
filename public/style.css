@@ -79,8 +79,10 @@ nav a:hover,
  main {
 	width: 100%;
 	margin: 0;
+	min-height:100vh;
+	float:left;
 	padding: 0;
-  margin: 0 0 -50px;
+  margin: 0 0 -250px;
 }
 
 
@@ -123,12 +125,6 @@ nav a:hover,
 	float: left;
 }
 
-.ot {
-	width: 33.3333%;
-}
-.tt {
-	width: 66.6666%;
-}
 
 hr {
 	float: left;
@@ -139,13 +135,7 @@ hr {
 	border: none;
 }
 
-.author {
-	float: left;
-	width: 100%;
-	margin: 0;
-	padding: 0 0 20px 0;
-	font-weight: 600;
-}
+
 
 p {
 	float: left;
