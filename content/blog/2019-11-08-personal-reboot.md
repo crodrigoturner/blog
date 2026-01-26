@@ -2,7 +2,7 @@
 title: Personal reboot
 cover: /img/cover2.png
 tags: 
-- post
+
 - lifehack
 excerpt: Sometimes, take a pause to go faster, further...
 ---

@@ -3,7 +3,7 @@ title: 2 podcasts and biographies
 cover: /img/cover7.png
 date: 2025-05-24
 tags: 
-- post
+
 excerpt: Getting inspiration from the lives of others
 ---
 
