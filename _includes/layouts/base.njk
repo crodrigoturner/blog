@@ -22,7 +22,7 @@
 <ul>
 <li><a href="/" class="{% if page.url == '/' %} active{% endif %}"">Home</a></li>
 {%- for page in collections.page -%}
-<li><a href="{{page.url}}" class="{% if page.url == '/{{page.data.title}}/' %} active{% endif %}">{{ page.data.title }}</a></li>
+<li><a href="{{page.url}}" class="{% if page.url == '/{{page.data.title}}' %} active{% endif %}">{{ page.data.title }}</a></li>
 {%- endfor -%}
 </ul>
 </nav>
