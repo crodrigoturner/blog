@@ -2,8 +2,7 @@
 layout: layouts/page.njk
 title: Projects
 excerpt: What I do
-tags:
-- page
+
 ---
 <h5>Projects</h5>
 <h3>Where I've been</h3>
