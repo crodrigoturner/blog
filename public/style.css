@@ -303,7 +303,7 @@ article{background:#f9f9f9;}
 article.intro h5{background:#ffb51129;}
 article.topics h5{background:#0068a529;}
 article h5{background:#EEE;}
-footer{background:#c8e6c9;}
+footer article, footer{background:#c8e6c9;}
 footer h5{background:#66bb6a;}
 
 

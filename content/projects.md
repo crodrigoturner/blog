@@ -5,7 +5,7 @@ excerpt: What I do
 tags:
 - page
 ---
-
+<h5>Projects</h5>
 <h3>Where I've been</h3>
 <ul>
 <li><p><b>2015-Now › Técnica y Avance</b >:    Aftersales</p></li>
@@ -26,7 +26,7 @@ tags:
 
 <h3>Skills, capabilities & tools</h3>
 
-<h5>Skills & capabilities</h5>
+<h4>Skills & capabilities</h4>
 
 <ul class="col-2">
 <li>Understanding of data</li>
@@ -58,7 +58,7 @@ tags:
 <li>Web standards</li>
 </ul>
 
-<h5>Tools</h5>
+<h4>Tools</h4>
 <ul class="col-2">
 <li>English · Spanish · French</li>
 <li>Windows / MAC OS</li>
