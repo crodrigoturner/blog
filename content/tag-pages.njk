@@ -18,11 +18,11 @@ const eleventyComputed = {
 };
 
 ---
-<article>
+<article class="topics">
 <h2>Posts tagged <em>{{ tag }}</em></h2>
 
 
-<article class="topics">
+
 <h5>Topics</h5>
 <ul class="tagcloud">
 {% for tag in collections | getKeys | filterTagList %}

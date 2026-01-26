@@ -13,7 +13,7 @@ html {
 }
 
 body {
-	font: 400 17px/1.8 "Regular", sans-serif;
+	font: 400 16px/1.8 "Regular", sans-serif;
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
 	color: var(--black);
@@ -40,7 +40,7 @@ header {
 nav {
 float: left;
     margin: 20px 0;
-    font: 600 1em / 1 "Bold", sans-serif;
+    font: 400 1em / 1 "Regular", sans-serif;
     z-index: 9999;
     width: calc(65% - 0px);
 
@@ -201,7 +201,7 @@ h4 {
 }
 
 h5 {
-    font: 400 1em / 1 "Regular", sans-serif;
+    font: 400 .9em / 1 "Regular", sans-serif;
     margin: 0px 0px;
     writing-mode: vertical-rl;
     transform: rotate(180deg);
