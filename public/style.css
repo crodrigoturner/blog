@@ -518,14 +518,14 @@ input {
   font-family: "Regular";
   src:
  
-    url("/PPMuseum-Regular.woff2") format("woff2");
+    url("/PPNeueMontrealMono-Regular.woff2") format("woff2");
 }
 
 @font-face {
   font-family: "Bold";
   src:
  
-    url("/PPMuseum-Bold.woff2") format("woff2");
+    url("/PPNeueMontrealMono-Bold.woff2") format("woff2");
 }
 
 @media (max-width: 760px) {
