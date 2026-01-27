@@ -60,7 +60,7 @@ weekday[weekdayValue] + "."
 <ul class="tagcloud">
 {% for tag in collections | getKeys | filterTagList %}
 {% set tagUrl %}/tag/{{ tag | slugify }}/{% endset %}
-<li><a href="/tag/{{tag}}" class="{% if page.url == '/tag/{{ tag }}/' %} active{% endif %}">{{ tag }}</a></li>
+<li><a href="/tag/{{tag}}" class="{% if page.url == '/tag/{{tag}}/' %} active{% endif %}">{{ tag }}</a></li>
 {%- endfor -%}</ul>
 </article>
 <article class="posts">
