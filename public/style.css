@@ -98,7 +98,8 @@ nav a:hover,
 .posts {
 	float: left;
 
-	height:auto;
+    min-height: 50vh;
+
 }
 
 .posts a {
@@ -303,12 +304,12 @@ article.intro {background:#ffe082;}
 article.topics {background:#e3f2fd;}
 article.topics {background:#0068a529;}
 article.contact {background:#1a425829;}
-article.pages {background:#0068a529;}
+article.pages {background:#E8F5E9;}
 article{background:#f9f9f9;}
 article.intro h5{background:#ffb51129;}
 article.topics h5{background:#0068a529;}
 article.contact h5{background:#0068a529;}
-article.pages h5{background:#0068a529;}
+article.pages h5{background:#c8e6c9;}
 article.newsletter h5{background:#0068a529;}
 article h5{background:#EEE;}
 footer article, footer{background:#c8e6c9;min-height:270px;}
