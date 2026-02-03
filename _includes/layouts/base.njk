@@ -7,43 +7,22 @@
 <meta name="description" content="{{ description or metadata.description }}">
 <link rel="alternate" href="feed/feed.xml" type="application/atom+xml" title="{{ metadata.title }}">
 <link rel="shortcut icon" href="/favicon.png">
-<link rel="stylesheet" href="https://unpkg.com/flexmasonry/dist/flexmasonry.css">
-<script src="https://unpkg.com/flexmasonry/dist/flexmasonry.js"></script>
 {%- css %}{% include "public/style.css" %}{% endcss %}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 <style>{% getBundle "css" %}</style>
 </head>
-<body>
+<body class="{{class}} {{tags}}{%- if classes and classes.body %} {{ classes.body }}{% endif -%}">
 <header>
 <a href="/"><h1><span>carlos rodrigo</span></h1></a>
 <nav>
-<ul>
-
-<li><a href="/" class="{% if page.url == '/' %} active{% endif %}">Home</a></li>
-<li><a href="/about/" class="{% if page.url == '/about/' %} active{% endif %}">About</a></li>
-<li><a href="/projects/" class="{% if page.url == '/projects/' %} active{% endif %}">Projects</a></li>
-
-</ul>
+<a href="/">&larr;Return Home</a>
 </nav>
 </header>
-
-
-
 <main>
 {{ content | safe }}
-
-
 </main>
-
-
-
-
-
 <script type="module" src="{% getBundleFileUrl "js" %}"></script>
-
-
-
 </body>
 </html>
