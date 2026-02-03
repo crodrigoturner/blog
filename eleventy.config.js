@@ -103,12 +103,13 @@ eleventyConfig.addShortcode('excerpt', post => extractExcerpt(post));
 		}
 	});
 
-// Import prior to `module.exports` within `.eleventy.js`
-const { DateTime } = require("luxon");
+import { Date } from "luxon";
 
-eleventyConfig.addFilter("postDate", (dateObj) => {
-  return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_MED);
-});
+export default function(eleventyConfig) {
+	eleventyConfig.addDateParsing(function(dateValue) {
+		return Date.fromFormat(dateValue, "yyyy-MM-dd");
+	});
+};
 
 	// Filters
 	eleventyConfig.addPlugin(pluginFilters);
