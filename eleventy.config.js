@@ -103,13 +103,7 @@ eleventyConfig.addShortcode('excerpt', post => extractExcerpt(post));
 		}
 	});
 
-import { Date } from "luxon";
 
-export default function(eleventyConfig) {
-	eleventyConfig.addDateParsing(function(dateValue) {
-		return Date.fromFormat(dateValue, "yyyy-MM-dd");
-	});
-};
 
 	// Filters
 	eleventyConfig.addPlugin(pluginFilters);
