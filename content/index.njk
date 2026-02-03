@@ -32,7 +32,7 @@ weekday[weekdayValue] + "."
 
 <p>I am lucky to be a husband to Mar, a father to Lucas and Nico, and a friend to Pancho.</p>
 <p>I live in Madrid and work at Técnica y Avance.</p>
-<a href="/about/">More about me &rarr;</a>
+<p><a href="/about/">More about me &rarr;</a></p>
 </article>
 <article class="contact">
 <h5>Email</h5>
@@ -70,7 +70,7 @@ weekday[weekdayValue] + "."
 {% set postslist = collections.posts %}
 {%- for post in postslist | reverse %}
 
-<li><a href="{{post.url}}">{{ post.data.title }}</a></li>
+<li>{{post.data.date}} · <a href="{{post.url}}">{{ post.data.title }}</a></li>
 
 {%- endfor %}</ul>
 </article>

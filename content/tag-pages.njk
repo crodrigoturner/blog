@@ -19,9 +19,10 @@ const eleventyComputed = {
 
 ---
 
-<h1>{{ tag }}</h1>
+
 
 <article class="posts">
+<h2>{{ tag }}</h2>
 <h5>Posts</h5>
 <h4>{{ post.data.title }}</h4><ul>
 {% set postslist = collections[ tag ] %}
