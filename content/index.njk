@@ -67,7 +67,7 @@ weekday[weekdayValue] + "."
 {% set postslist = collections.posts %}
 {%- for post in postslist | reverse %}
 
-<li><a href="{{post.url}}">{{ page.date | postDate}} · {{ post.data.title }}</a></li>
+<li><a href="{{post.url}}">{{ post.date | readableDate("dd.MM.yyyy") }} · {{ post.data.title }}</a></li>
 
 {%- endfor %}</ul>
 </article>
