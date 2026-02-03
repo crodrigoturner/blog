@@ -2,9 +2,8 @@
 title: Reading long posts
 date: 2025-02-18
 cover: /img/cover3.png
-status: flow
 tags: 
-- post
+- thoughts
 excerpt: How I digest "longish" articles
 ---
 
