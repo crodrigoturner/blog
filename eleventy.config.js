@@ -103,7 +103,12 @@ eleventyConfig.addShortcode('excerpt', post => extractExcerpt(post));
 		}
 	});
 
+// Import prior to `module.exports` within `.eleventy.js`
+const { DateTime } = require("luxon");
 
+eleventyConfig.addFilter("postDate", (dateObj) => {
+  return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_MED);
+});
 
 	// Filters
 	eleventyConfig.addPlugin(pluginFilters);
