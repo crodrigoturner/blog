@@ -11,12 +11,7 @@
 <style>{% getBundle "css" %}</style>
 </head>
 <body class="{{class}} {{tags}}{%- if classes and classes.body %} {{ classes.body }}{% endif -%}">
-<header>
-<a href="/"><h1><span>carlos rodrigo</span></h1></a>
-<nav>
-<a href="/">&larr; Return Home</a>
-</nav>
-</header>
+
 <main>
 {{ content | safe }}
 </main>
