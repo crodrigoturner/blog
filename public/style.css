@@ -204,18 +204,7 @@ h5 {
       text-align: right;
     padding: 10px;
 }
-footer{float:left; width:100%; height:250px}
 
-footer ul {float:left; width:100%;}
-
-footer ul li {float:left;  list-style:none; width:25%;}
-footer ul li a{border:none; text-decoration:none; color:var(--black); font:400 0.9em/1.5 "Regular", sans-serif; opacity:0.7;}
-footer ul li ul li{float:left; width:100%; margin:5px 0 0 0;}
-.push {
-    height: 270px;
-    float: left;
-    width: 100%;
-}
 
 blockquote {
 	font-style: italic;
@@ -291,18 +280,17 @@ background:#FFF;
 
 
 
-article.intro {background:#ffe082;}
-article.topics {background:#e3f2fd;}
-article.topics {background:#0068a529;}
-article.contact {background:#1a425829;}
+article.intro {background:#1e609180;}
+article.topics {background:#99d98c80;}
+article.contact {background:#34a0a480;}
 article.pages {background:#E8F5E9;}
-article{background:#f9f9f9;}
-article.intro h5{background:#ffb51129;}
-article.topics h5{background:#0068a529;}
-article.contact h5{background:#0068a529;}
+article{background:#d9ed9280;}
+article.intro h5{background:#1e6091;color:#FFF;}
+article.topics h5{background:#99d98c;}
+article.contact h5{background:#34a0a4;}
 article.pages h5{background:#c8e6c9;}
 article.newsletter h5{background:#0068a529;}
-article h5{background:#EEE;}
+article h5{background:#d9ed92;}
 footer article, footer{background:#c8e6c9;min-height:270px;}
 footer h5{background:#66bb6a;min-height:270px;}
 
