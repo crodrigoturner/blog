@@ -1,6 +1,7 @@
 ---
 title: What is a website?
 cover: /img/cover1.png
+date: 17/09/2018
 tags: 
 - internet
 excerpt: The internet is a book made of pages
