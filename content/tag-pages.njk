@@ -25,6 +25,7 @@ const eleventyComputed = {
 <nav>
 <a href="/">&larr; Return Home</a>
 </nav>
+<h2>{{ tag }}</h2>
 <h5>Posts</h5>
 <h4>{{ post.data.title }}</h4><ul>
 {% set postslist = collections[ tag ] %}
