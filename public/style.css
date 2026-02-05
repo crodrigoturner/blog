@@ -97,9 +97,7 @@ nav a:hover,
 
 .posts {
 	float: left;
-
-    min-height: 50vh;
-
+    min-height: 100vh;
 }
 
 .posts a {
@@ -551,7 +549,17 @@ input {
 
 	article {
 		margin: 10px 0;
+		width:100%;
+
 	}
+
+	h5 {
+    font: 400 .9em / 1 "Regular", sans-serif;
+    margin: 0px 0px;
+float:left; width:100%;
+    padding: 10px;
+	background:none;
+}
 
 	nav ul li {
 		width: 25%;
