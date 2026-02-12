@@ -20,7 +20,7 @@ body {
 	word-wrap: break-word;
 	margin: 0;
 	position: relative;
-
+background:#d9ed9280;
 	padding: 0;
 	min-height: 100%;
 
@@ -82,7 +82,7 @@ nav a:hover,
 	min-height:100vh;
 	float:left;
 	padding: 0;
-  margin: 0 0 -270px;
+  margin: 0;
 }
 
 
@@ -97,7 +97,7 @@ nav a:hover,
 
 .posts {
 	float: left;
-    min-height: 100vh;
+
 }
 
 .posts a {
@@ -194,7 +194,7 @@ h5 {
     font: 400 .9em / 1 "Regular", sans-serif;
     margin: 0px;
  width:100%;
-    padding: 10px 0;
+    padding: 20px 0;
 	float:left;
 
 }
@@ -534,10 +534,7 @@ input {
 		min-height: 0%;
 	}
 
-	.posts,
-	h1 {
-		width: 100%;
-	}
+	
 
 	.home-link {
 		display: none;
@@ -553,7 +550,7 @@ input {
     font: 400 .9em / 1 "Regular", sans-serif;
     margin: 0px 0px;
 float:left; width:100%;
-    padding: 10px;
+    padding: 20px 0;
 	background:none;
 }
 
