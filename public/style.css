@@ -540,11 +540,7 @@ input {
 		display: none;
 	}
 
-	article {
-		margin: 10px 0;
-		width:100%;
-
-	}
+	
 
 	h5 {
     font: 400 .9em / 1 "Regular", sans-serif;
@@ -562,8 +558,9 @@ float:left; width:100%;
 
 	article {
 		float: left;
-		width: 100%;
-		margin: 20px 0 0 0;
+		width: calc(100% - 40px);
+		margin: 0;
+		padding:0 20px;
 	}
 
 	ul {
