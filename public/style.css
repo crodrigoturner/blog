@@ -278,15 +278,13 @@ article.intro {background:#1e609180;}
 article.topics {background:#99d98c80;}
 article.contact {background:#34a0a480;}
 article.pages {background:#E8F5E9;}
-article{background:#d9ed9280;}
 article.intro h5{color:#1e6091;color:#FFF;}
 article.topics h5{color:#99d98c;}
 article.contact h5{color:#34a0a4;}
 article.pages h5{color:#c8e6c9;}
 article.newsletter h5{color:#0068a529;}
 article h5{color:#d9ed92;}
-footer article, footer{background:#c8e6c9;min-height:270px;}
-footer h5{background:#66bb6a;min-height:270px;}
+
 
 
 .tagcloud {
@@ -514,16 +512,7 @@ input {
 		font-size: 16px;
 	}
 
-	header,
-	nav,
-	main {
-		width: 90%;
-		padding: 10px 5%;
-		float: left;
-		position: relative;
-		height: auto;
-		min-height: 0%;
-	}
+	
 
 	nav {
 		width: 90%;
@@ -560,7 +549,7 @@ float:left; width:100%;
 		float: left;
 		width: calc(100% - 40px);
 		margin: 0;
-		padding:0 20px;
+		padding:0 20px 20px;
 	}
 
 	ul {
