@@ -20,11 +20,11 @@ const eleventyComputed = {
 class: tag-page
 ---
 <article class="posts">
-<nav>
+
 <a href="/">&larr; Return Home</a>
-</nav>
-<h2>{{ tag }}</h2>
-<h5>Posts</h5>
+
+<h2>Posts tagged <i>{{ tag }}</i></h2>
+
 <h4>{{ post.data.title }}</h4><ul>
 {% set postslist = collections[ tag ] %}
 {%- for post in postslist | reverse %}
