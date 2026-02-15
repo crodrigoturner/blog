@@ -33,13 +33,14 @@ header {
 	text-align: center;
 	width: 100%;
 	margin: 0;
+	background:#ffeb3b;
 
 
 }
 
 nav {
 float: left;
-    margin: 20px 35%;
+    margin: 20px 35% 20px 0;
     font: 400 1em / 1 "Regular", sans-serif;
     z-index: 9999;
     width: 30%;
@@ -73,7 +74,6 @@ nav a:hover,
 }
 
 
-.home nav{display:none;}
 
 
  main {
