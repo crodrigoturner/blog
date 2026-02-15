@@ -5,8 +5,6 @@ excerpt: Who I am
 
 ---
 
-<h5>About</h5>
-
 <h3>1. Personal</h3>
 <p>By day, I solve complex problems with data; by night, I’m a husband and a father to two boys. In between, I’m usually being outsmarted by my Spanish Water Dog Pancho. My mission to shape the life I want.</p>
 
