@@ -20,7 +20,6 @@ body {
 	word-wrap: break-word;
 	margin: 0;
 	position: relative;
-background:#d9ed9280;
 	padding: 0;
 	min-height: 100%;
 
@@ -271,12 +270,6 @@ article {
 	width: 30%;
 	 position:relative;
 }
-
-
-
-article.intro {background:#1e609180;}
-article.topics {background:#99d98c80;}
-article.contact {background:#34a0a480;}
 
 
 
