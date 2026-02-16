@@ -72,15 +72,17 @@ nav a:hover,
 	opacity: 0.6;
 }
 
-.profile{    height: 300px;
-    width: auto;
-    position: absolute;
-    top: -140px;
-    z-index: 0;
-    right: clamp(-10rem, -3vw, -1rem);
-    mix-blend-mode: var(--mix-blend-mode);
-    opacity: var(--img-opacity);
-    transition: opacity .3s ease-in-out;}
+.intro span{float:left; width:calc(100% - 250px);}
+
+.profile{      height: 250px;
+    width: 250px;
+    position: relative;
+    float: right;
+
+
+    border-radius: 87% 67% 87% 75%;
+}
+
 
 
  main {
