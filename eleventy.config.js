@@ -27,6 +27,7 @@ export default async function(eleventyConfig) {
 	eleventyConfig
 		.addPassthroughCopy({
 			"./public/": "/"
+	
 		})
 		.addPassthroughCopy("./content/feed/pretty-atom-feed.xsl");
 
@@ -130,22 +131,7 @@ eleventyConfig.addShortcode('excerpt', post => extractExcerpt(post));
 };
 
 
-	eleventyConfig.addLiquidFilter("getMonthlyPostCount", (posts, startYear = 1985) => {
-		let counts = {};
-		for(let year = startYear; year <= (new Date()).getFullYear(); year++) {
-			for(let month = 0; month < 12; month++) {
-				if((new Date(year, month, 1)).getTime() > Date.now()) {
-					continue;
-				}
-				counts[`${year}-${month}`] = 0;
-			}
-		}
-		posts.forEach(function(post) {
-			let d = post.data.page.date;
-			counts[`${d.getFullYear()}-${d.getMonth()}`]++;
-		});
-		return Object.values(counts).join(",");
-	});
+
 
 export const config = {
 	// Control which files Eleventy will process
