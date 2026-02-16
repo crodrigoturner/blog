@@ -131,29 +131,6 @@ eleventyConfig.addShortcode('excerpt', post => extractExcerpt(post));
 
 
 	
-			eleventyConfig.addLiquidFilter("getMonthlyPostCount", (posts, startYear = 1985) => {
-				let counts = {};
-				const now = new Date();
-				for(let year = startYear; year <= now.getFullYear(); year++) {
-					for(let month = 0; month < 12; month++) {
-						// Only include months up to the current month in the current year
-						if(year === now.getFullYear() && month > now.getMonth()) {
-							continue;
-						}
-						// Format as YYYY-MM (zero-padded month)
-						const key = `${year}-${String(month + 1).padStart(2, '0')}`;
-						counts[key] = 0;
-					}
-				}
-				posts.forEach(function(post) {
-					let d = post.data.page.date;
-					const key = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}`;
-					if(counts.hasOwnProperty(key)) {
-						counts[key]++;
-					}
-				});
-				return Object.values(counts).join(",");
-			});
 		
 
 export const config = {
