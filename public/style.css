@@ -195,6 +195,7 @@ h5 {
  width:100%;
     padding: 20px 0;
 	float:left;
+	text-transform: uppercase;
 
 }
 
@@ -491,7 +492,7 @@ input {
   font-family: "Bold";
   src:
  
-    url("/PPNeueMontrealMono-Bold.woff2") format("woff2");
+    url("/PPFramaText-Bold.woff2") format("woff2");
 }
 
 @media (max-width: 760px) {
