@@ -161,7 +161,11 @@ excerpt: Books to read, readings and read.
 
 
     <script>
-       
+        function format_link(link) {
+            if (link)
+                return "<a href='" + link + "' target='_blank'>" + link + "</a>";
+            else return "";
+        }
 
         CsvToHtmlTable.init({
             csv_path: "/reading.csv",
