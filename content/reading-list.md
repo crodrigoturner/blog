@@ -168,7 +168,7 @@ excerpt: Books to read, readings and read.
         }
 
         CsvToHtmlTable.init({
-            csv_path: "/reading.csv",
+            csv_path: "public/data/reading.csv",
             element: "table-container",
             allow_download: true,
             csv_options: {
