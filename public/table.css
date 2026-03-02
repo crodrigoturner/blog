@@ -11,6 +11,7 @@ table.dataTable {
 table.dataTable td,
 table.dataTable th {
 float:left; text-align:left;
+width:calc(40%/3);
 }
 
 td:first-child{width:60%;}
