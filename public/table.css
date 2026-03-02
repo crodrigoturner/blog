@@ -8,14 +8,14 @@ table.dataTable {
     font-size:.9em;
 }
 
+table.dataTable td:first-child, table.dataTable th:first-child{width:60%;}
+
 table.dataTable td,
 table.dataTable th {
 float:left; text-align:left;
-width:calc(40%/3);
+width:20%;
+padding:10px 20px 10px 0;
 }
-
-td:first-child{width:60%;}
-
 table.dataTable td.dataTables_empty,
 table.dataTable th.dataTables_empty {
     text-align: center
