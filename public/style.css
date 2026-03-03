@@ -39,10 +39,10 @@ header {
 
 nav {
 float: left;
-    margin: 20px 35% 20px 0;
+    margin: 20px 30% 20px 0;
     font: 400 1em / 1 "Regular", sans-serif;
     z-index: 9999;
-    width: 30%;
+    width: 40%;
 
 
 }
@@ -152,14 +152,6 @@ p {
 	margin: 0;
 }
 
-.arrow {
-	font: 400 1em/2 "Inter", sans-serif !important;
-}
-
-a:hover .arrow {
-	position: relative;
-	left: 5px;
-}
 
 
 
@@ -274,11 +266,11 @@ h4 a {
 
 article {
 	color: var(--black);
-	padding: 20px 35%;
+	padding: 20px 30%;
 
 	float: left;
 
-	width: 30%;
+	width: 40%;
 	 position:relative;
 }
 
