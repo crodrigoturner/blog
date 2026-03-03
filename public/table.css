@@ -9,6 +9,7 @@ table.dataTable {
     float:left;
 }
 
+<<<<<<< HEAD
 table.dataTable td:first-child{width:calc(60% - 20px);float:left;}
 
  table.dataTable th:first-child{width:calc(60% - 50px);float:left;}
@@ -20,6 +21,9 @@ width:calc(20% - 50px);
 padding:5px 20px 5px 0;
 border-bottom: 1px solid #ddd;
 }
+=======
+table.dataTable td:first-child, table.dataTable th:first-child{width:calc(60% - 20px);}
+>>>>>>> parent of f413833 (d)
 
 table.dataTable td {
 float:left; text-align:left;
