@@ -78,10 +78,10 @@ nav a:hover,
 }
 
 .profile {
-	height: 200px;
-	width: 200px;
+	height: 180px;
+	width: 180px;
 	display:block;
-	margin: 0 auto;
+	margin: 0 auto 40px;
 	border-radius: 87% 67% 87% 75%;
 }
 
