@@ -4,8 +4,7 @@ title: About
 excerpt: Who I am
 
 ---
-<article class="intro">
-<h5>Introduction</h5>
+
 <img class="profile" src="/img/profile_250.jpg" alt="profile picture">
 <script>
 currentTime=new Date();
