@@ -1,7 +1,5 @@
 ---
 title: Reading long posts
-date: 2025-02-18
-cover: /img/cover3.png
 tags: 
 - thoughts
 excerpt: How I digest "longish" articles
