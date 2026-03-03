@@ -6,11 +6,12 @@ table.dataTable {
     border-collapse: separate !important;
     border-spacing: 0;
     font-size:.9em;
+    float:left;
 }
 
-table.dataTable td:first-child{width:calc(60% - 20px);}
+table.dataTable td:first-child{width:calc(60% - 20px);float:left;}
 
- table.dataTable th:first-child{width:calc(60% - 50px);}
+ table.dataTable th:first-child{width:calc(60% - 50px);float:left;}
 
 
 table.dataTable th {
