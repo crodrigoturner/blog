@@ -8,7 +8,17 @@ table.dataTable {
     font-size:.9em;
 }
 
-table.dataTable td:first-child, table.dataTable th:first-child{width:calc(60% - 20px);}
+table.dataTable td:first-child{width:calc(60% - 20px);}
+
+ table.dataTable th:first-child{width:calc(60% - 50px);}
+
+
+table.dataTable th {
+float:left; text-align:left;
+width:calc(20% - 50px);
+padding:5px 20px 5px 0;
+border-bottom: 1px solid #ddd;
+}
 
 table.dataTable td,
 table.dataTable th {
