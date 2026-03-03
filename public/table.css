@@ -20,13 +20,13 @@ padding:5px 20px 5px 0;
 border-bottom: 1px solid #ddd;
 }
 
-table.dataTable td,
-table.dataTable th {
+table.dataTable td {
 float:left; text-align:left;
 width:calc(20% - 20px);
 padding:5px 20px 5px 0;
 border-bottom: 1px solid #ddd;
 }
+
 table.dataTable td.dataTables_empty,
 table.dataTable th.dataTables_empty {
     text-align: center
