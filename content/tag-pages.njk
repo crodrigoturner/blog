@@ -24,7 +24,7 @@ const eleventyComputed = {
 <li><a href="/" >all</a></li>
 {% for tag in collections | getKeys | filterTagList %}
 {% set tagUrl %}/tag/{{ tag | slugify }}/{% endset %}
-<li class="{% if page.url == '/tag/{{ tag | slugify }}/' %} active {% endif %}"><a href="/tag/{{tag}}" >{{ tag }}</a></li>
+<li class="{% if page.url == '/tag/{{ tag }}/' %} active {% endif %}"><a href="/tag/{{tag}}" >{{ tag }}</a></li>
 {%- endfor -%}</ul>
 </article>
 <article class="posts">
