@@ -18,10 +18,16 @@ const eleventyComputed = {
 };
 
 ---
+<article class="topics">
+<h5>Topics</h5>
+<ul class="tagcloud">
+{% for tag in collections | getKeys | filterTagList %}
+{% set tagUrl %}/tag/{{ tag | slugify }}/{% endset %}
+<li><a href="/tag/{{tag}}" >{{ tag }}</a></li>
+{%- endfor -%}</ul>
+</article>
 <article class="posts">
-
-
-<h2>Posts tagged <i>{{ tag }}</i></h2>
+<h5>Posts</h5><ul>
 
 <h4>{{ post.data.title }}</h4><ul>
 {% set postslist = collections[ tag ] %}
