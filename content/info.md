@@ -1,6 +1,6 @@
 ---
 layout: layouts/page.njk
-title: About
+title: Information
 excerpt: Who I am
 
 ---
@@ -59,7 +59,7 @@ I'm a data specialist with 7+ years of experience in leveraging data to drive bu
 <p>
 I have worked in architecture studios, big energy companies, luxury brands, and small companies. I currently work at <a href="http://tecnicayavance.com">Técnica y Avance</a> My background is intentionally diverse—spanning architecture, energy, luxury brands, and startups—giving me a unique perspective on how data impacts different sectors. Whether I’m optimising back-office operations or resolving intricate inventory issues, I maintain a process-driven approach and a keen eye for detail to ensure every workflow is seamless and results-oriented.</p>
 
-<h3>3. More about me</h3>
+<h3>4. More about me</h3>
 <ul>
 <li><a href="/blog/2026-02-04-questions-about-me.md">Questions to know me better</a></li>
 <li><a href="/blog/2026-02-04-geek-code.md">Geek code</a></li>
